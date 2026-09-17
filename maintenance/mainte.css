@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	}
+#mainarea{
+	margin:0 auto;
+	width:596px;
+	padding-top:184px;
+	background:url(mainte_img/bg.jpg) no-repeat left 60px;
+	}
+#contents{
+	margin:0 auto;
+	width:348px;
+	text-align:center;
+	}
+p{
+	letter-spacing:0.1em;
+	line-height:130%;
+	margin:10px 0;
+	text-align:center;
+	font-size:12px;
+	}
+p.data{
+	background:#333333;
+	padding:20px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin:20px 0;
+	line-height:150%;
+	}
+#footer{
+	background:url(mainte_img/line.jpg) no-repeat left top;
+	padding:10px 0 10px 0;
+	text-align:center;
+	font-family:Verdana;
+	font-size:11px;
+	color:#666666;
+	margin:20px 0;
+	}

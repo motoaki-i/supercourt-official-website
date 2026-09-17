@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>有料老人ホーム・資料請求 | 株式会社スーパー・コート</title>
+  <meta name="keywords" content="有料,老人ホーム,大阪,介護付,兵庫,京都,奈良,資料請求" />
+  <meta name="description" content="有料老人ホームのスーパー・コートに関する資料請求はこちら。お気軽にお申込みください。" />
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5Q4FCV8');</script>
+  <!-- End Google Tag Manager -->
+  <!-- InstanceEndEditable -->
+  <link href="/common/css/import.css" rel="stylesheet" type="text/css">
+  <link href="/common/css/slidebars.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="(min-width: 640px)" href="/common/css/pc.css">
+  <link rel="stylesheet" media="(max-width: 639px)" href="/common/css/sp.css">
+  <!--[if lte IE 8]>
+<link href="/common/css/pc.css?200120" rel="stylesheet" type="text/css">
+<![endif]-->
+  <script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/common/js/modernizr.js"></script>
+  <script type="text/javascript" src="/common/js/rollover.js"></script>
+  <script type="text/javascript" src="/common/js/smoothScroll.js"></script>
+  <script type="text/javascript" src="/common/js/base.js"></script>
+  <script type="text/javascript" src="/common/js/facilityLIst.js"></script>
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="bodyDataCurrent" type="text" value="default" -->
+</head>
+
+<body data-current="default" id="PAGETOP">
+  <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_header.php'); ?>
+  <div id="sb-site">
+    <!-- InstanceBeginEditable name="contents" -->
+    <div class="mailform data_request">
+      <div class="pt">
+        <h1>資料請求</h1>
+      </div>
+      <div class="content">
+        <div class="container">
+          <ol class="pankuzu">
+            <li><a href="/">ホーム&nbsp;</a></li>
+            <li>資料請求</li>
+          </ol>
+          <div class="lead">
+            <p>
+              詳しい資料をお送りいたします。下記項目をご入力の上、ご送信ください。<br>
+              個人情報については他に流用いたしません。
+            </p>
+          </div>
+          <div class="mailform__inner">
+            <h3>各項目にご記入ください</h3>
+            <form id="mailform" method="post" action="/data_request/mailform/send.cgi"
+              onSubmit="return sendmail(this);">
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <th>お名前<span class="hissu">必須</span></th>
+                    <td><input type="text" id="namae" class="wide100" name="お名前(必須)" size="35" style="width: 50%;" /></td>
+                  </tr>
+                  <tr>
+                    <th>ふりがな<span class="hissu">必須</span></th>
+                    <td><input type="text" id="furigana" name="ふりがな(必須)" size="35" style="width: 50%;"
+                        class="validate[optional,custom[onlyKana]] wide100" data-prompt-position="bottomLeft" pattern="[\u3041-\u3096]*"></td>
+                  </tr>
+                  <tr>
+                    <th>ご住所</th>
+                    <td>郵便番号<span class="hissu">必須</span>
+                      <input type="text" name="郵便番号(必須)" size="10" style="width: 60px;" class="validate[optional,custom[yubin]]" data-prompt-position="bottomLeft" pattern="\d{3}-?\d{4}">
+                      <input onclick="mfpc('mailform','郵便番号(必須)','住所(必須)');" type="button" value="住所検索" id="postinuput" style="cursor: pointer;">
+                      <br>
+                      市区町村・番地<span class="hissu">必須</span>
+                      <input type="text" name="住所(必須)" size="45" style="width: 70%;">
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>希望連絡先<span class="hissu">必須</span></th>
+                    <td><label>
+                        <input type="radio" name="希望連絡先(必須)" id="optionsRadios1" value="お電話" checked="checked" />
+                        お電話</label>
+                      <label>
+                        <input type="radio" name="希望連絡先(必須)" id="optionsRadios2" value="メール" />
+                        メール</label>
+                    </td>
+                  </tr>
+                  <!-- 表示非表示切り替え -->
+
+                  <tr>
+                    <th>電話番号<span class="hissutel ">必須</span></th>
+                    <td><input type="text" id="tel_id" name="電話番号(必須)" size="45" style="width: 60%;"
+                         class="validate[optional,custom[phone]]" data-prompt-position="bottomLeft" pattern="\d{2,4}-?\d{2,4}-?\d{3,4}">
+                      ※0-9の半角数字以外にハイフンのみ使用いただけます
+                    </td>
+                  </tr>
+
+                  <!-- 表示非表示切り替え -->
+
+                  <tr>
+                    <th>メールアドレス<span class="hissumail dispnone">必須</span></th>
+                    <td><input type="text" id="mail_id" name="email" size="45" maxlength="50"
+                        style="width: 60%;" class="validate[optional,custom[email],custom[onlyLetterNumber]]" data-prompt-position="bottomLeft"></td>
+                  </tr>
+                  <tr>
+                    <th>入居予定者様とのご関係</th>
+                    <td>
+                      <ul>
+                        <li>
+                          <input type="radio" name="ご関係" value="ご本人">
+                          ご本人
+                        </li>
+                        <li>
+                          <input type="radio" name="ご関係" value="配偶者">
+                          配偶者
+                        </li>
+                        <li>
+                          <input type="radio" name="ご関係" value="父">
+                          父
+                        </li>
+                        <li>
+                          <input type="radio" name="ご関係" value="母">
+                          母
+                        </li>
+                        <li>
+                          <input type="radio" name="ご関係" value="親族">
+                          親族
+                        </li>
+                        <li>
+                          <input type="radio" name="ご関係" value="友人・知人">
+                          友人・知人
+                        </li>
+                        <li>
+                          <input type="radio" name="ご関係" value="その他">
+                          その他
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>入居予定者様の情報</th>
+                    <td>介護認定
+                      <ul>
+                        <li><input type="radio" name="介護認定" value="自立">自立</li>
+                        <li><input type="radio" name="介護認定" value="介護認定申請中">介護認定申請中</li>
+                        <li><input type="radio" name="介護認定" value="要支援1">要支援1</li>
+                        <li><input type="radio" name="介護認定" value="要支援2">要支援2</li>
+                        <li><input type="radio" name="介護認定" value="要介護1">要介護1</li>
+                        <li><input type="radio" name="介護認定" value="要介護2">要介護2</li>
+                        <li><input type="radio" name="介護認定" value="要介護3">要介護3</li>
+                        <li><input type="radio" name="介護認定" value="要介護4">要介護4</li>
+                        <li><input type="radio" name="介護認定" value="要介護5">要介護5</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>希望ホーム<br class="pcbr">
+                      <span class="hissu">第一希望のみ必須</span>
+                    </th>
+                    <td> ・第一希望<br>
+                      <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_area1-data-request.php'); ?>
+                      <br>
+                      ・第二希望<br>
+                      <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_area2.php'); ?>
+                      <br>
+                      ・第三希望<br>
+                      <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_area3.php'); ?>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>ご入居希望時期</th>
+                    <td>
+                      <ul>
+                        <li>
+                          <input type="radio" name="入居希望時期" value="できるだけ早く">
+                          できるだけ早く
+                        </li>
+                        <li>
+                          <input type="radio" name="入居希望時期" value="1〜2ヶ月以内">
+                          1〜2ヶ月以内
+                        </li>
+                        <li>
+                          <input type="radio" name="入居希望時期" value="2〜3ヶ月以内">
+                          2〜3ヶ月以内
+                        </li>
+                        <li>
+                          <input type="radio" name="入居希望時期" value="3〜6ヶ月以内">
+                          3〜6ヶ月以内
+                        </li>
+                        <li>
+                          <input type="radio" name="入居希望時期" value="将来の為に">
+                          将来の為に
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>スーパー・コートを<br class="br_sp">
+                      お知りになったきっかけ<br>
+                      <span class="hissu">必須</span>
+                    </th>
+                    <td>
+                      <ul>
+                        <li><input type="radio" name="きっかけ(必須)" value="インターネット">インターネット</li>
+                        <li><input type="radio" name="きっかけ(必須)" value="広告">広告</li>
+                        <li><input type="radio" name="きっかけ(必須)" value="看板">看板</li>
+                        <li><input type="radio" name="きっかけ(必須)" value="テレビCM">テレビCM</li>
+                        <li><input type="radio" name="きっかけ(必須)" value="ラジオ">ラジオ</li>
+                        <li><input type="radio" name="きっかけ(必須)" value="事業所">事業所</li>
+                        <li><input type="radio" name="きっかけ(必須)" value="病院">病院</li>
+                        <li><input type="radio" name="きっかけ(必須)" value="役所">役所</li>
+                        <li><input type="radio" name="きっかけ(必須)" id="kikkake_sonota_id" value="その他">その他<span class="hissusonota dispnone">必須</span><input type="text" name="その他内容" id="kikkake_sonotanaiyou_id" size="35" style="width: 50%;" /></li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>スーパー・コートのテレビCMをご覧になられたことはありますか<br><span class="hissu">必須</span></th>
+                    <td>
+                      <ul>
+                        <li>
+                          <input type="radio" name="テレビCM(必須)" value="ある">
+                          ある
+                        </li>
+                        <li>
+                          <input type="radio" name="テレビCM(必須)" value="ない">
+                          ない
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>ご質問・ご意見</th>
+                    <td><textarea name="ご質問・ご意見" rows="10" cols="45" style="height: 120px; width: 80%;"></textarea></td>
+                  </tr>
+                  <tr class="btn__submit">
+                    <td colspan="2" style="text-align:center;"><input type="submit" value="メールを送信する" /></td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+            <!--希望連絡先切り替え-->
+            <style>
+              .dispnone {
+                display: none;
+              }
+            </style>
+            <script>
+              $(function(){
+                var tel_or_mail_radio = $( 'input[name="希望連絡先(必須)"]:radio' );
+                var tel_input = $('#tel_id');
+                var mail_input = $('#mail_id');
+                var tel_hissyu_label = $('.hissutel');
+                var mail_hissu_label = $('.hissumail');
+
+                tel_or_mail_radio.change( function() {
+                  var radioval = $(this).val();
+                    if(radioval == 'メール'){
+                      tel_input.removeAttr('name');
+                      mail_input.attr('name','email(必須)');
+                      mail_hissu_label.removeClass('dispnone');
+                      tel_hissyu_label.addClass('dispnone');
+                    } else {
+                      tel_input.attr('name','電話番号(必須)');
+                      mail_input.removeAttr('name');
+                      mail_hissu_label.addClass('dispnone');
+                      tel_hissyu_label.removeClass('dispnone');
+                    }
+                });
+              });
+            </script>
+            <script>
+      $(function () {
+        var sonota_radio = $('input[name="きっかけ(必須)"]:radio');
+        var sonota_input = $('#kikkake_sonota_id');
+        var sonotanaiyou_input = $('#kikkake_sonotanaiyou_id');
+        var sonotanaiyou_hissyu_label = $('.hissusonota');
+
+        sonota_radio.change(function () {
+          var radioval = $(this).val();
+          if (radioval == 'その他') {
+            sonotanaiyou_input.attr('name', 'その他内容(必須)');
+            sonotanaiyou_hissyu_label.removeClass('dispnone');
+          } else {
+            sonotanaiyou_input.removeAttr('name');
+            sonotanaiyou_hissyu_label.addClass('dispnone');
+          }
+        });
+      });
+    </script>
+            <!--フォームのバリデーション-->
+            <link rel="stylesheet" href="/common/js/validationEngine/validationEngine.jquery.css" type="text/css" />
+    <script src="/common/js/validationEngine/jquery.validationEngine-ja.min.js" type="text/javascript"
+      charset="utf-8"></script>
+    <script src="/common/js/validationEngine/jquery.validationEngine.min.js" type="text/javascript"
+      charset="utf-8"></script>
+            <script type="text/javascript">
+              jQuery(document).ready(function () {
+                jQuery("#mailform").validationEngine();
+              });
+            </script>
+            <script type="text/javascript" src="/inquirys/mailform/mailform.js" charset="utf-8"></script>
+            <script type="text/javascript" src="./mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+            <!-- ふりがな自動入力 -->
+            <script type="text/javascript" src="/inquirys/jquery.autoKana.js" charset="utf-8"></script> 
+            <script>
+              jQuery(function(){
+                jQuery.fn.autoKana('#namae','#furigana',{katakana:false});
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- InstanceEndEditable -->
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_footer.php'); ?>
+  </div>
+</body>
+<!-- InstanceEnd -->
+
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+
+<title>大阪府大阪市の介護付き有料老人ホーム | 在宅介護ステーションせいりょう</title>
+<meta http-equiv="refresh" content="0;url=https://www.supercourt.jp/facility-list/osaka/seiryo/">
+<link rel="canonical" href="https://www.supercourt.jp/facility-list/osaka/seiryo/">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5Q4FCV8');</script>
+<!-- End Google Tag Manager -->
+<meta name="keywords" content="在宅介護デイサービス,大阪,大阪市,東住吉区" />
+<meta name="description" content="大阪市東住吉区の在宅介護ステーションです。質の高いサービスで「安全で清潔、いきいきした生活」をご入居様に提供致します。在宅介護ステーションせいりょうの周辺環境や居室の様子など、施設のご紹介をしています。" />
+<!-- InstanceEndEditable -->
+<link href="/common/css/import.css" rel="stylesheet" type="text/css">
+<link href="/common/css/slidebars.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="(min-width: 640px)" href="/common/css/pc.css">
+<link rel="stylesheet" media="(max-width: 639px)" href="/common/css/sp.css">
+<!--[if lte IE 8]>
+<link href="/common/css/pc.css?200120" rel="stylesheet" type="text/css">
+<![endif]--> 
+<script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script> 
+<script type="text/javascript" src="/common/js/modernizr.js"></script> 
+<script type="text/javascript" src="/common/js/rollover.js"></script> 
+<script type="text/javascript" src="/common/js/smoothScroll.js"></script> 
+<script type="text/javascript" src="/common/js/base.js"></script> 
+<script type="text/javascript" src="/common/js/facilityLIst.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<link href="../common/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="../common/css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/jquery.colorbox-min.js"></script> 
+<script type="text/javascript" src="../common/js/jquery.bxslider.min.js"></script> 
+<script type="text/javascript">
+$(document).ready(function(e){
+  $('.bxslider').bxSlider({
+	  auto: true,
+	  nextSelector: '.slider-next',
+	  prevSelector: '.slider-prev'
+  });
+  $('.bx-rooms').bxSlider({
+	  auto: true,
+	  pagerCustom: '.bx-rooms-pager'
+  }); $(".feature a.modal, .facilityFloor a").colorbox({retinaImage:true,innerWidth:"90%"});
+});
+</script> 
+<!-- 道順表示用 --> 
+<script type="text/javascript">
+function fromhere() {
+  var initialLocation;
+  var defaultLocation = new google.maps.LatLng(34.599039, 135.512740);
+  var url = '//maps.google.co.jp/maps?f=d&source=s_d&saddr=FROMLAT,FROMLNG&daddr=%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E6%9D%B1%E4%BD%8F%E5%90%89%E5%8C%BA%E5%85%AC%E5%9C%92%E5%8D%97%E7%9F%A2%E7%94%B04-10-6'; //
+
+  // 現在地取得
+  // Try W3C Geolocation (Preferred)
+  if(navigator.geolocation) {
+    browserSupportGetlocationFlag = true;
+    navigator.geolocation.getCurrentPosition(function(position) {
+      initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+      jumpMapURL();
+    }, function(error) {
+      handleNoGeolocation(browserSupportGetlocationFlag,error);
+    }, {enableHighAccuracy:true} // androidはこのオプションが必要
+    );
+  }
+  // Try Google Gears Geolocation
+  else if (google.gears) {
+    browserSupportGetlocationFlag = true;
+    var geo = google.gears.factory.create('beta.geolocation');
+    geo.getCurrentPosition(function(position) {
+      initialLocation = new google.maps.LatLng(position.latitude,position.longitude);
+      jumpMapURL();
+    }, function(error) {
+      handleNoGeoLocation(browserSupportGetlocationFlag,error);
+    }, {enableHighAccuracy:true} // androidはこのオプションが必要
+    );
+  }
+  // Browser doesn't support Geolocation
+  else {
+    browserSupportGetlocationFlag = false;
+    handleNoGeolocation(browserSupportGetlocationFlag,false);
+  }
+
+  function jumpMapURL() {
+
+    var lat       = initialLocation.lat();
+    var lng       = initialLocation.lng();
+    url = url.replace(/FROMLAT/, lat);
+    url = url.replace(/FROMLNG/, lng);
+   location.href = url;
+//	window.open( url , "_blank" ) ;
+  }
+
+  function handleNoGeolocation(errorFlag,error) {
+    if (errorFlag == true) {
+      alert("現在位置取得サービスが使用できません。施設付近の駅よりご案内します。\n"+
+          'コード: '    + error.code    + '\n' +
+          'メッセージ: ' + error.message + '\n');
+      initialLocation = defaultLocation;
+    } else {
+      alert("現在位置取得機能がございません。代わりに東京を表示しておきます。");
+      initialLocation = defaultLocation;
+    }
+    jumpMapURL();
+  }
+}
+</script> 
+<!-- /道順表示用 --> 
+<script type="text/javascript" src="/common/js/facilityThumbs.js"></script>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="bodyDataCurrent" type="text" value="default" -->
+</head>
+
+<body data-current="default" id="PAGETOP">
+<?php include( $_SERVER['DOCUMENT_ROOT'] . '/_header.php'); ?>
+<div id="sb-site"> <!-- InstanceBeginEditable name="contents" -->
+  <div class="facility facility__detail">
+    <div class="lead">
+      <div class="container">
+        <div class="left">
+          <p class="heading">在宅介護ステーション</p>
+          <h1><strong>せいりょう</strong></h1>
+          <p class="text">地下鉄御堂筋線あびこ駅から徒歩15分、15年の介護経験を活かして、在宅介護ステーションのサービスを提供しております。安心していきいきした在宅生活を支援します。</p>
+          <ul class="feature">
+            <li><a href="../facility/_tatamiburo.html" class="modal"><img src="../images/facility/feature_icn_05.png" alt="畳風呂設置"/></a></li>
+            <li><img src="../images/facility/feature_icn_03.png" alt="天然温泉のお風呂"/></li>
+            <li><img src="../images/facility/feature_icn_04.png" alt="看護職員常勤"/></li>
+            <li><img src="../images/facility/feature_icn_06.png" alt="駅から近い"/></li>
+            <li><img src="../images/facility/feature_icn_09.png" alt="駐車場あり"/></li>
+          </ul>
+        </div>
+        <div class="right">
+          <div class="visual">
+            <div class="visualInner">
+              <ul class="bxslider">
+                <li><img src="../images/facility/seiryo/shisetsu_1.jpg" alt=""/></li>
+                <li><img src="../images/facility/seiryo/shisetsu_2.jpg" alt=""/></li>
+                <li><img src="../images/facility/seiryo/shisetsu_3.jpg" alt=""/></li>
+                <li><img src="../images/facility/seiryo/shisetsu_4.jpg" alt=""/></li>
+              </ul>
+            </div>
+            <p class="slider-prev"></p>
+            <p class="slider-next"></p>
+          </div>
+          <p class="btnBlog"><a href="/blog/seiryo/" target="_blank"><img src="../images/facility/btn_blog.jpg" alt="施設ブログを見る"/></a></p >
+        </div>
+      </div>
+    </div>
+    <div class="facility__inner">
+      <div class="container">
+        <ol class="pankuzu">
+          <li><a href="/">ホーム&nbsp;</a></li>
+          <li><a href="../facility/#osaka-shinai">施設一覧（大阪市内）&nbsp;</a></li>
+          <li>せいりょう</li>
+        </ol>
+        <div class="wrap outline">
+          <h3>概要</h3>
+          <div class="content">
+            <div class="row">
+              <h4>ご利用料金</h4>
+              <p >利用料は介護保険法に沿って支払う自己負担金です。<br>
+                通所介護のみ昼食1回につき500円ご負担していただきます。</p>
+            </div>
+            <div class="row">
+              <h4>在宅介護ステーションせいりょうの主なサービス</h4>
+              <h5 style="font-size:16px; font-weight:bold; border-bottom:#CCC 1px solid; line-height:1.5em; margin-bottom:10px;">デイサービスセンター(通所介護事業)</h5>
+              <p>体が弱くなったために、外出の機会が少なくなってこられた方や、日常生活が困難になってこられた方などを対象とするサービスです。看護師による健康チェックや安全に入れる入浴サービス、食事（昼食）もついています。 ご利用者様の孤独感の解消や介護者の身体的・精神的負担の軽減にもなります。</p>
+              <h5 style="font-size:16px; font-weight:bold; border-bottom:#CCC 1px solid; line-height:1.5em; margin-bottom:10px;">ケアマネジメントサービス（居宅介護支援事業）</h5>
+              <p>介護支援専門員(ケアマネジャー)が、介護の必要な方の希望や心身の状況、ご家族様の事情等を考慮して、適切なサービスが利用できるようにケアプランを作成いたします。</p>
+              <h5 style="font-size:16px; font-weight:bold; border-bottom:#CCC 1px solid; line-height:1.5em; margin-bottom:10px;">ホームヘルプサービス(訪問介護事業)</h5>
+              <p>ご家庭にヘルパーが訪問し、日常生活のお手伝い(生活援助・身体介護)をいたします。</p>
+              <h5 style="font-size:16px; font-weight:bold; border-bottom:#CCC 1px solid; line-height:1.5em; margin-bottom:10px;">在宅介護支援センター</h5>
+              <p>日常生活上の悩みや介護についてのご相談をお受けし、情報提供や助言を行うほか、各関係機関との連絡調整をいたします。</p>
+            </div>
+            <div class="row">
+              <h4>施設概要</h4>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <th scope="row">施設名</th>
+                    <td scope="col">在宅介護ステーションせいりょう</td>
+                    <th>施設の目的</th>
+                    <td scope="col">在宅介護支援</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">所在地</th>
+                    <td>大阪府大阪市東住吉区公園南矢田4-10-6</td>
+                    <th>最寄駅・バス停</th>
+                    <td>地下鉄御堂筋線
+                      「あびこ」駅下車(3番出口)徒歩15分<br>
+                      大阪市バス
+                      「公園南矢田4丁目」バス停下車徒歩1分</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">規模・構造</th>
+                    <td>RC造地上3階建</td>
+                    <th>開設日</th>
+                    <td>平成9年5月</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">居室面積</th>
+                    <td>&#8212;</td>
+                    <th>延床面積</th>
+                    <td>611.8m<sup>2</sup></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">居室数</th>
+                    <td>居室はございません</td>
+                    <th>定員</th>
+                    <td>通所介護35名</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">共用施設</th>
+                    <td>食堂、浴室、共用トイレ、談話コーナー</td>
+                    <th>入居条件</th>
+                    <td>要介護1～5、要支援1・2の方<br>
+                      ※相談等はどなたでもご利用できます。 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">権利関係</th>
+                    <td>&#8212;</td>
+                    <th>契約期間中退去</th>
+                    <td>可能</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="//www.f-seiryou.com/index.html" target="_blank" ><img src="../images/facility/seiryo_banner.png"></a> </div>
+          </div>
+        </div>
+        <div class="wrap access">
+          <h3>アクセス</h3>
+          <div class="content">
+            <div class="row">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2909077455415!2d135.52223765099092!3d34.59680468036539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dc02b3a8fa19%3A0x5b8e7dcbb181a517!2z5Zyo5a6F5LuL6K2344K544OG44O844K344On44Oz44Gb44GE44KK44KH44GG!5e0!3m2!1sja!2sus!4v1445256186570" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="row">
+              <h4>住所</h4>
+              <p>〒546-0024 <br>
+                大阪府大阪市東住吉区公園南矢田4-10-6<br>
+                TEL:06-6699-9000
+              </p>
+              <h4>アクセス</h4>
+              <p>地下鉄御堂筋線「あびこ」駅下車(3番出口)徒歩15分<br>
+                大阪市バス「公園南矢田4丁目」バス停下車徒歩1分</p>
+              <p class="btnPdf"><a href="../images/facility/seiryo/seiryo.pdf" target="_blank"><img src="../images/facility/btn_pdfmap.jpg" alt="わかりやすいPDF地図"/></a>
+                <a href="//maps.google.com/maps/dir/?api=1&origin=現在地&destination=在宅介護すてーしょんせいりょう" class="visible-sp-block"><img src="../images/facility/btn_routemap.jpg" alt="現在地からのルートを見る"/></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrap inside">
+          <h3>館内紹介</h3>
+          <div class="content">
+            <div class="row">
+              <h4>共有スペース</h4>
+              <p>食堂では、食事・体操・レクリエーション、定期的なイベントを予定し、ご入居者様の憩いの場所として使用していただいております。大浴場では週に1回天然温泉をお楽しみいただいております。各階の廊下には絵画を飾っており、落ち着いた雰囲気でお過ごし頂けます。</p>
+              <div class="facilityGallery">
+                <ul>
+                  <li><img src="../images/facility/seiryo/photo01.jpg" alt=""/><br>
+                    エントランス </li>
+                  <li><img src="../images/facility/seiryo/photo02.jpg" alt=""/><br>
+                    健康管理室</li>
+                  <li><img src="../images/facility/seiryo/photo03.jpg" alt=""/><br>
+                    エレベーター</li>
+                  <li><img src="../images/facility/seiryo/photo04.jpg" alt=""/><br>
+                    浴室入り口 </li>
+                  <li><img src="../images/facility/seiryo/photo05.jpg" alt=""/><br>
+                    脱衣所</li>
+                  <li><img src="../images/facility/seiryo/photo06.jpg" alt=""/><br>
+                    大浴室 </li>
+                  <li><img src="../images/facility/seiryo/photo07.jpg" alt=""/><br>
+                    共用トイレ </li>
+                  <li><img src="../images/facility/seiryo/photo08.jpg" alt=""/><br>
+                    中庭 </li>
+                  <li><img src="../images/facility/seiryo/photo09.jpg" alt=""/><br>
+                    中庭 </li>
+                  <li><img src="../images/facility/seiryo/photo10.jpg" alt=""/><br>
+                    談話室 </li>
+                  <li><img src="../images/facility/seiryo/photo11.jpg" alt=""/><br>
+                    <span class="sub">食堂</span></li>
+                  <li><img src="../images/facility/seiryo/photo12.jpg" alt=""/><br>
+                    駐車場 </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap other">
+          <h3>この施設に近いその他の施設</h3>
+          <div class="content">
+            <div class="row">
+              <div class="facilityOther"> 
+                <script>facilityThumbs('higashisumiyoshi')</script> 
+                <script>facilityThumbs('higashisumiyoshi2')</script> 
+                <script>facilityThumbs('kire')</script> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<?php include( $_SERVER['DOCUMENT_ROOT'] . '/_facilityList.php'); ?>
+  <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_footer.php'); ?>
+</div>
+</body>
+<!-- InstanceEnd -->
+</html>

@@ -1,0 +1,10 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div class="side--menu">
+          <h3>会社案内</h3>
+          <ul>
+            <li id="side--outline"><a href="../company/overview/index.html">会社情報</a></li>
+            <li id="side--greeting"><a href="../company/philosophy/index.html">企業理念・代表挨拶</a></li>
+            <li id="side--history"><a href="../company/history/index.html">会社沿革</a></li>
+            <li id="side--kouhochi"><a href="../company/kouhochi/index.html">土地活用</a></li>
+            <li id="side--kouhochi_inquiry"><a href="../company/kouhochi_inquiry.html">土地活用問い合わせフォーム</a></li>
+          </ul>
+        </div>

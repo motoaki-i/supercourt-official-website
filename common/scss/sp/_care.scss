@@ -1,0 +1,56 @@
+//* ========================================================================== */
+//* care__detail
+//* 認知症ケア詳細
+//* ========================================================================== */
+.care__detail {
+	.care__inner {
+		.wrap {
+			h3 {
+				padding: 40px 0 10px;
+				font-size: 2.4rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				&.small {
+					font-size: 1.8rem;
+				}
+			}
+			h4 {
+				font-size: 1.8rem;
+				font-weight: bold;
+				padding: 10px 0 0 0;
+				margin-bottom: 10px;
+				border-bottom: solid 1px #979797;
+				&.small {
+					font-size: 1.6rem;
+				}
+			}
+			.care--list {
+				margin: 0 -5px;
+				overflow: hidden;
+				li {
+					margin: 0 5px 10px;
+					float: left;
+					width: 47%;
+					background: #073E35;
+					color: #fff;
+					text-align: center;
+					line-height: 28px;
+					-webkit-border-radius: 14px;
+					-moz-border-radius: 14px;
+					-ms-border-radius: 14px;
+					-o-border-radius: 14px;
+					border-radius: 14px;
+				}
+			}
+			.row {
+				div {
+					margin: 10px 0;
+				}
+			}
+			.img--point {
+				margin: 0 auto;
+				width: 60%;
+			}
+		}
+	}
+}

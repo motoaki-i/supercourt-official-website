@@ -1,0 +1,200 @@
+//* ========================================================================== */
+//* index
+//* トップページ
+//* ========================================================================== */
+#index {
+	.visual {
+		background: #315630 url(../../images/index/visual_bg.gif) repeat-x 0 0;
+	}
+	.feature {
+		padding: 50px 0 30px;
+		@include gr-green;
+		h2 {
+			margin-bottom: 40px;
+			text-align: center;
+			font-family: $mincho;
+			font-size: 35px;
+			color: #F3F2CA;
+			line-height: 1.0;
+			-webkit-text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+			-moz-text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+			-ms-text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+			-o-text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+			text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+		}
+		ul {
+			margin: 0 -1.4%;
+			overflow: hidden;
+			li {
+				padding: 0 1.4%;
+				float: left;
+				width: 25%;
+				color: #fff;
+				font-size: 14px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				img {
+					margin-bottom: 5px;
+					display: inline;
+				}
+			}
+		}
+	}
+	.facilityArea {
+		padding: 100px 0;
+		.container {
+			overflow: visible;
+		}
+		.lead {
+			margin-bottom: 20px;
+			text-align: center;
+			h2 {
+				font-size: 35px;
+				font-family: $mincho;
+				color: #09483E;
+			}
+			p {
+				font-size: 18px;
+			}
+		}
+		.facilityArea__map {
+			position: relative;
+			ul {
+				width: 100%;
+				li {
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+				.map_all {
+					z-index: 2;
+				}
+			}
+			map {
+				area {
+					outline: none;
+				}
+			}
+			.badge {
+				width: 21%;
+				position: absolute;
+				top: -30px;
+				left: -30px;
+				z-index: 3;
+			}
+			.map_close {
+				position: absolute;
+				top: 5px;
+				right: 10px;
+				font-size: 30px;
+				line-height: 1.0;
+				z-index: 2;
+				cursor: pointer;
+				color: #999;
+				display: none;
+				&:hover {
+					color: #000;
+				}
+			}
+		}
+	}
+	.information {
+		padding: 50px 0;
+		@include gr-green;
+		h2 {
+			margin-bottom: 50px;
+			font-size: 35px;
+			font-family: $mincho;
+			color: #fff;
+			text-align: center;
+		}
+		.inner {
+			margin: 0 -10px;
+			overflow: hidden;
+			.column {
+				padding: 0 10px;
+				float: left;
+				width: 50%;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				.column--inner {
+					background: #fff;
+					height: 650px;
+					h3 {
+						font-family: $mincho;
+						font-size: 20px;
+						line-height: 80px;
+						text-align: center;
+					}
+					iframe {
+						width: 100%;
+						height: 570px;
+					}
+				}
+			}
+			.information__blog {
+				.column--inner {
+					h3 {
+						color: #09483e;
+					}
+				}
+			}
+		}
+	}
+	.pickup {
+		padding: 50px 0;
+		h2 {
+			margin-bottom: 40px;
+			font-size: 35px;
+			font-family: $mincho;
+			color: #09483E;
+			text-align: center;
+		}
+		ul {
+			margin: 0 -10px;
+			overflow: hidden;
+			li {
+				margin-bottom: 20px;
+				padding: 0 10px;
+				width: 33.3%;
+				float: left;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+		}
+	}
+	.links {
+		padding: 50px 0;
+		background: #eee;
+		.wrap {
+			margin-bottom: 20px;
+			overflow: hidden;
+			border-bottom: 1px solid #ccc;
+			h3 {
+				float: left;
+				font-size: 28px;
+				line-height: 1.0;
+			}
+			ul {
+				float: right;
+				width: 67%;
+				li {
+					margin-bottom: 20px;
+					padding: 0 10px;
+					float: left;
+					width: 33.3%;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+				}
+			}
+		}
+		.wrap--end {
+			margin-bottom: 0;
+			border-bottom: none;
+		}
+	}
+}

@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="有料,老人ホーム,大阪,介護付,兵庫,京都,奈良,パーキンソン病">
+  <meta name="description"
+    content="パーキンソン専門住宅として理学療法士などの専門スタッフがパーキンソン病に特化したリハビリを実施しております。">
+  <title>パーキンソン病特化施設｜株式会社スーパー・コート</title>
+  <link href="../css/common.css" rel="stylesheet">
+  <link href="../css/onlinetour.css" rel="stylesheet">
+  <link href="../css/lbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/facility-region.css">
+  <script src="../common/js/facilities.js"></script>
+  <link rel="icon" href="/favicon.ico" type="image/ico">
+  <link rel="apple-touch-icon" href="/img/common/sc_icon.png" sizes="320x320">
+  <?php include( $_SERVER['DOCUMENT_ROOT'] . '/libs/analyze01.html'); ?>
+</head>
+<body>
+  <div id="wrap">
+    <!-- Header Start -->
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/libs/header.html'); ?>
+    <!-- Header End -->
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a class="breadcrumb-link" href="/">ホーム</a></li>
+      <li class="breadcrumb-item">パーキンソン病専門住宅</li>
+    </ol>
+
+    <!-- Content Start -->
+
+    <div class="onlinetour">
+      <img src="../img/pd/main1.png" alt="パーキンソン病専門住宅">
+    </div>
+
+    <div class="onlinetour">
+      <img src="../img/pd/PD1.png" alt="パーキンソン病専門住宅とは">
+    </div>
+
+    <div class="onlinetour" style="max-width: 800px; margin: 0 auto;">
+      <a href="https://www.supercourt.jp/feature/research/pd_reserch/index.html" target="_blank"><img
+           src="/images/pd/pd_research.jpg" alt="パーキンソン病治療研究所との共同研究"></a><br>
+           <br>
+
+    </div>
+
+    <div class="onlinetour">
+      <img src="../img/pd/PD2.png" alt="パーキンソン病専門住宅の特徴">
+    </div>
+
+    <section class="facility-region">
+      <div class="inner">
+        <a class="g-anchor" id="osaka-city"></a>
+        <h3 class="facility-region__name">パーキンソン病専門住宅</h3>
+        <ul class="facility-list">
+          <script>include(convAreaHTML([
+              facilityData("olive_takarazuka"),
+              facilityData("osakajo"),
+              facilityData("hirano"),
+              facilityData("onobara"),
+              facilityData("takaida"),
+              facilityData("sakai"),
+              facilityData("shirasagi"),
+              facilityData("kamiishi"),
+              facilityData("rokujizo"),
+              facilityData("jr_nara")
+          ]))</script>
+        </ul>
+      </div>
+    </section>
+
+    <section class="facility-region">
+      <div class="inner">
+        <a class="g-anchor" id="osaka-city"></a>
+        <h3 class="facility-region__name">ナーシングホーム</h3>
+        <ul class="facility-list">
+          <script>include(convAreaHTML([
+            facilityData("higashisumiyoshi2"),
+            facilityData("kamiishi"),
+            facilityData("takaishi"),
+            facilityData("nishikyougoku"),
+          ]))</script>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Content End -->
+
+    <!-- Footer Start -->
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/libs/footer.html'); ?>
+    <!-- Footer End -->
+  </div>
+  <!-- /#wrap -->
+
+  <?php include( $_SERVER['DOCUMENT_ROOT'] . '/libs/analyze02.html'); ?>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/lbox.js"></script>
+  <script src="/js/common.js"></script>
+  <link href="//fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+</body>
+</html>

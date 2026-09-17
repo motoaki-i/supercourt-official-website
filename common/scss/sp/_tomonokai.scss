@@ -1,0 +1,48 @@
+//* ========================================================================== */
+//* tomonokai
+//* 友の会
+//* ========================================================================== */
+.tomonokai {
+	margin-bottom: 40px;
+	.title {
+		margin-bottom: 20px;
+	}
+	.amenity {
+		margin-bottom: 40px;
+		p {
+			margin-bottom: 20px;
+		}
+	}
+	.tomonokai_faq {
+		h3 {
+			margin-bottom: 20px;
+			font-size: 2.4rem;
+			font-family: $mincho;
+			line-height: 1.2;
+		}
+		.row {
+			margin-bottom: 20px;
+			padding: 20px;
+			border: 1px solid  #ccc;
+			h4, h5 {
+				margin-bottom: 10px;
+				font-size: 2.0rem;
+				font-weight: bold;
+				line-height: 1.4;
+			}
+			h4 {
+				color: #f33;
+			}
+			h5 {
+				color: #06c;
+			}
+			p {
+				margin-bottom: 10px;
+			}
+			div {
+				padding: 20px;
+				background: #fff6cb;
+			}
+		}
+	}
+}

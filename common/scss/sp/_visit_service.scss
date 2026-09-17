@@ -1,0 +1,166 @@
+//* ========================================================================== */
+//* visit_service
+//* 定期訪問
+//* ========================================================================== */
+.visit_service {
+	margin-bottom: 40px;
+	.title {
+		margin: 0 -15px 20px;
+		padding: 30px 15px;
+		background: #aad59c url(../../images/visit_service/title_bg.gif) no-repeat right top;
+		background-size: contain;
+	}
+	.lead {
+		margin-bottom: 20px;
+		overflow: hidden;
+		.left {
+			margin: 0 auto 10px;
+			width: 90%;
+		}
+		.right {
+			h3 {
+				margin: 0 auto 10px;
+				width: 70%;
+			}
+			p {
+				margin-bottom: 5px;
+				font-size: 1.4rem;
+			}
+		}
+	}
+	.feature {
+		margin-bottom: 40px;
+		.row {
+			margin-bottom: 20px;
+			overflow: hidden;
+			width: 100%;
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			h3 {
+				padding: 10px 0;
+				font-size: 2.5rem;
+				font-weight: bold;
+				text-align: center;
+			}
+			.right {
+				padding: 0 10px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				.text {
+					margin-bottom: 10px;
+					float: right;
+					width: 100%;
+					-webkit-border-radius: 5px;
+					border-radius: 5px;
+					overflow: hidden;
+					p {
+						padding: 10px;
+						background: #fff;
+						strong {
+							font-size: 1.6rem;
+						}
+					}
+				}
+			}
+		}
+		.row__day {
+			background: #fdcbb9;
+			h3 {
+				color: #d95249;
+			}
+			.text {
+				strong {
+					color: #d95249;
+				}
+			}
+		}
+		.row__night {
+			background: #b3deac;
+			h3 {
+				color: #38973d;
+			}
+			.text {
+				strong {
+					color: #38973d;
+				}
+			}
+		}
+		.row__nightColumn {
+			padding: 0 10px;
+			border: 3px solid  #02af79;
+			background: #ecfae9;
+			overflow: visible;
+			p {
+				margin: -12px auto 0;
+				padding: 5px 0;
+			}
+		}
+		.row__teigaku {
+			background: #a3d2f4;
+			h3 {
+				color: #0f8bc4;
+			}
+			.text {
+				strong {
+					color: #0f8bc4;
+				}
+			}
+		}
+		.row__teigakuColumn {
+			padding: 10px 10px 0 10px;
+			border: 3px solid  #217fc4;
+			background: #dcf0ff;
+			overflow: visible;
+			h4 {
+				font-size: 1.6rem;
+				color: #0f8bc4;
+				font-weight: bold;
+			}
+			p {
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.houmon {
+		background: #d5f6cb;
+		h3 {
+			background: #33b371;
+			color: #fff;
+			font-size: 1.8rem;
+			font-weight: bold;
+			text-align: center;
+			line-height: 3.5rem;
+		}
+		.houmon__inner {
+			padding: 10px;
+			ul {
+				padding: 10px 0;
+				background: #fff;
+				text-align: center;
+				li {
+					margin: 0 10px;
+					display: inline-block;
+					font-size: 1.6rem;
+					strong {
+						color: #33b371;
+					}
+				}
+			}
+		}
+	}
+}
+.visit_service_column {
+	padding: 10px;
+	width: 200px;
+	min-height: 400px;
+	background: #feeec0;
+	.lead {
+		margin-bottom: 10px;
+		h2 {
+			margin: 0 auto 10px;
+		}
+	}
+}

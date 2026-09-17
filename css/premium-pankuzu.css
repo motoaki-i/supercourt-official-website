@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.g-desc.--has-pankuzu {
+  padding-top: 0;
+}
+
+.premium-pankuzu {
+  padding: 10px 0 5em 0;
+  margin-top: 0;
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 12px;
+}
+
+@media (min-width: 640px) {
+  .premium-pankuzu {
+    z-index: 999;
+    font-size: 16px;
+  }
+}
+
+.premium-pankuzu__list {
+  list-style: none !important;
+  float: left;
+}
+
+@media (min-width: 640px) {
+  .premium-pankuzu__list {
+    font-size: 14px !important;
+  }
+}
+
+.premium-pankuzu__link {
+  color: #39c;
+}
+
+.premium-pankuzu__link:hover {
+  color: #f82d74;
+}
+
+.premium-pankuzu__link::after {
+  content: '\f105';
+  font-family: FontAwesome;
+  color: #999;
+  padding: 0 5px 0 3px;
+}

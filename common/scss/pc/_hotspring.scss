@@ -1,0 +1,67 @@
+//* ========================================================================== */
+//* hotspring__detail
+//* お風呂温泉詳細
+//* ========================================================================== */
+.hotspring__detail {
+	.hotspring__inner {
+		.wrap {
+			h3 {
+				padding: 50px 0 10px;
+				font-size: 36px;
+				font-family: $mincho;
+				line-height: 1.2;
+			}
+			h3.small {
+				font-size: 24px;
+			}
+			h4 {
+				font-size: 16px;
+				padding: 25px 0 0 0;
+				border-bottom: 0px;
+			}
+			h5 {
+				padding: 20px 0 10px;
+				font-size: 28px;
+				color: #063E34;
+				font-family: $mincho;
+
+			}
+			table {
+				width: 100%;
+				border: #CACACA 1px solid;
+				th {
+					width: 16%;
+					padding: 2%;
+					background-color: #F3F2EB;
+					border: #CACACA 1px solid;
+				}
+				td {
+					width: 76%;
+					padding: 2%;
+					background-color: #FFF;
+					border: #CACACA 1px solid;
+				}
+			}
+			.column--hotspring {
+				border-radius: 20px;
+				border: solid 1px #D4CDB7;
+				padding: 30px;
+				h4 {
+				  font-size: 28px;
+				  padding: 0 0 10px;
+				  border-bottom: 0px;
+				}
+				h5 {
+				font-family: $mincho;
+					font-size: 14px;
+					padding: 25px 0 0 20px;
+					margin-bottom: 20px;
+					border-bottom: solid 1px #979797;
+					background-image: url(../../images/hotspring/icon_01.png);
+					background-repeat: no-repeat;
+					background-position: 0 25px;
+				}
+			}
+		}
+	}
+}

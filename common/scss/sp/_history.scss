@@ -1,0 +1,32 @@
+//* ========================================================================== */
+//* histrory
+//* 会社沿革
+//* ========================================================================== */
+.history {
+	margin-bottom: 40px;
+	table {
+		width: 100%;
+		th,td {
+			display: block;
+			text-align: center;
+		}
+		th {
+			margin-top: 20px;
+			padding-top: 10px;
+			border-top: 1px solid  #ccc;
+			font-weight: bold;
+			font-size: 1.6rem;
+		}
+		td {
+			margin-top: 10px;
+		}
+		tr:first-child {
+			th {
+				border-top: none;
+			}
+		}
+		.history_table_bgc {
+			color: #f63;
+		}
+	}
+}

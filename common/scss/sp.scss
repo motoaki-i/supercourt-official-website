@@ -1,0 +1,498 @@
+$cl-green: #2E522E;
+
+//font-family
+$mincho: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+
+//mixin
+@mixin gr-green {
+	background-color: $cl-green;
+	background-image:-moz-linear-gradient(rgb(49,87,48) 0%,rgb(35,64,36) 28%,rgb(23,39,26) 97%); 
+	background-image:-webkit-gradient(linear,color-stop(0, rgb(49,87,48)),color-stop(0.28, rgb(35,64,36)),color-stop(0.97, rgb(23,39,26)));
+	background-image:-webkit-linear-gradient(rgb(49,87,48) 0%,rgb(35,64,36) 28%,rgb(23,39,26) 97%);
+	background-image:-ms-linear-gradient(rgb(49,87,48) 0%,rgb(35,64,36) 28%,rgb(23,39,26) 97%);
+	background-image:linear-gradient(rgb(49,87,48) 0%,rgb(35,64,36) 28%,rgb(23,39,26) 97%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff17271a,endColorstr=#ff315730)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff17271a,endColorstr=#ff315730);
+}
+
+//PC
+.visible-pc-block {
+	display: none !important;
+}
+
+.visible-pc-inline {
+	display: none !important;
+}
+
+.visible-pc-inline-block {
+	display: none !important;
+}
+
+//SP
+.visible-sp-block {
+	display: block !important;
+}
+
+.visible-sp-inline {
+	display: inline !important;
+}
+
+.visible-sp-inline-block {
+	display: inline-block !important;
+}
+
+#sb-site {
+	padding-top: 60px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+
+//* ========================================================================== */
+//* common
+//* 共通
+//* ========================================================================== */
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.2em;
+	font-family: Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic, “ヒラギノ角ゴ ProN W3”, “Hiragino Kaku Gothic ProN”, “メイリオ”, Meiryo, sans-serif;
+}
+
+.container {
+	padding: 0 10px;
+	overflow: hidden;
+	clear: both;
+}
+
+.pt {
+	padding: 15px;
+	@include gr-green;
+	border-bottom: 5px solid  #9D8A39;
+	font-family: $mincho;
+	font-size: 2.0rem;
+	color: #F2F2CA;
+	line-height: 1.1;
+	h2 {
+	}
+}
+
+//*--------------------------------------------------------------------
+//トップボタン
+//--------------------------------------------------------------------*/
+.go2top {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+	z-index: 999;
+	p {
+		a {
+			display: block;
+			background: #bd8d4d;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			color: #fff;
+			font-size: 2.6rem;
+			text-decoration: none;
+			text-align: center;
+			opacity: 0.8;
+			filter: alpha(opacity=80);
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+	}
+}
+
+//*--------------------------------------------------------------------
+//ヘッダー
+//--------------------------------------------------------------------*/
+.fixed__header {
+	width: 100%;
+	position: fixed;
+	background: #fff;
+	z-index: 1030;
+}
+
+.header {
+	height: 60px;
+	border-bottom: 1px solid  #ccc;
+	position: relative;
+	h1 {
+		margin: 0 auto;
+		padding-top: 10px;
+		width: 90px;
+	}
+	.sb--btn {
+		position: absolute;
+		top: 1.5rem;
+		right: 15px;
+		font-size: 3.0rem;
+		color: $cl-green;
+	}
+}
+
+//*--------------------------------------------------------------------
+//サイドメニュー
+//--------------------------------------------------------------------*/
+.sb-slidebar {
+	background: #F0F0F0;
+	.sb__btn {
+		padding: 15px;
+		p {
+			margin-bottom: 15px;
+		}
+		ul {
+			li {
+				margin-bottom: 5px;
+				a {
+					padding: 10px;
+					display: block;
+					background: #ccc;
+					text-align: center;
+					font-size: 1.6rem;
+					font-weight: bold;
+					color: #fff;
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					-ms-border-radius: 5px;
+					-o-border-radius: 5px;
+					border-radius: 5px;
+				}
+			}
+			.sb__btn--request a {
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #1d3717), color-stop(0.00, #5b7555));
+				background: -webkit-linear-gradient(#5b7555, #1d3717);
+				background: linear-gradient(#5b7555, #1d3717);
+			}
+			.sb__btn--kengaku a {
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #9c7502), color-stop(0.00, #d8b13e));
+				background: -webkit-linear-gradient(#d8b13e, #9c7502);
+				background: linear-gradient(#d8b13e, #9c7502);
+
+			}
+			.sb__btn--contact a {
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #8f161b), color-stop(0.00, #ca5056));
+				background: -webkit-linear-gradient(#ca5056, #8f161b);
+				background: linear-gradient(#ca5056, #8f161b);
+			}
+		}
+	}
+	.sb__main {
+		ul {
+			border-top: 1px solid  #999;
+			li {
+				border-top: 1px solid  #fff;
+				border-bottom: 1px solid  #999;
+				text-align: center;
+				a {
+					padding: 15px;
+					display: block;
+					color: #333;
+					font-size: 1.6rem;
+				}
+				span {
+					margin-bottom: 10px;
+					padding-top: 15px;
+					display: inline-block;
+				}
+			}
+			ul {
+				border-top: none;
+				background: #fff;
+				li {
+					border-top: 1px dotted #ccc;
+					border-bottom: none;
+					a {
+						padding: 10px;
+						font-size: 1.2rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+//*--------------------------------------------------------------------
+//フッターリンク
+//--------------------------------------------------------------------*/
+.footerLink {
+	@include gr-green;
+	color: #fff;
+	.container {
+		padding: 0;
+		.column {
+			h3 {
+				padding: 10px;
+				background: rgba(0,0,0,0.5);
+				line-height: 1.0;
+				font-weight: bold;
+			}
+			ul {
+				li {
+					border-top: 1px solid rgba(255,255,255,0.3);
+					&:first-child {
+						border-top: none;
+					}
+					a {
+						padding: 10px;
+						display: block;
+						line-height: 1.0;
+						color: #fff;
+						text-decoration: none;
+						position: relative;
+						opacity: 0.7;
+						&:after {
+							content: "\f0da";
+							font-family: FontAwesome;
+							font-size: 1.2rem;
+							position: absolute;
+							top: 1rem;
+							right: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+//*--------------------------------------------------------------------
+//フッターお問い合わせボタンなど
+//--------------------------------------------------------------------*/
+.footerContact {
+	padding: 10px 0;
+	div {
+		overflow: hidden;
+		p {
+			margin: 0 auto 10px;
+			width: 70%;
+		}
+		ul {
+			overflow: hidden;
+			li {
+				float: left;
+				width: 33%;
+			}
+		}
+	}
+}
+
+
+//*--------------------------------------------------------------------
+//フッター最下部
+//--------------------------------------------------------------------*/
+.footerBottom {
+	padding: 10px;
+	background: #182A1B;
+	color: #fff;
+	font-size: 1.4rem;
+	p {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	a {
+		color: #fff;
+	}
+}
+
+
+//*--------------------------------------------------------------------
+//関連施設
+//--------------------------------------------------------------------*/
+.facilityOther {
+	margin: 0 -5px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	div {
+		margin-bottom: 10px;
+		padding: 0 5px;
+		width: 50%;
+		line-height: 1.2;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		p {
+			margin: 0 0 3px 0;
+			font-size: 1.2rem;
+		}
+		.photo {
+			margin-bottom: 5px;
+		}
+		h5 {
+			margin-bottom: 5px;
+			font-size: 1.4rem;
+			font-weight: bold;
+			a {
+				text-decoration: underline;
+				color: #333;
+			}
+		}
+	}
+}
+
+
+//*--------------------------------------------------------------------
+//施設一覧
+//--------------------------------------------------------------------*/
+.facilityList {
+	padding: 20px 0;
+	.lead {
+		margin-bottom: 20px;
+		text-align: center;
+		h2 {
+			font-size: 2.0rem;
+			font-family: $mincho;
+			color: #09483E;
+		}
+	}
+	.inner {
+		.region {
+			margin-bottom: 10px;
+			h3 {
+				@include gr-green;
+				a {
+					padding: 10px 10px 10px 35px;
+					display: block;
+					font-size: 1.6rem;
+					color: #fff;
+					line-height: 1.0;
+					background: url(../../images/facilityList_bars.png) no-repeat 10px 10px;
+					background-size: 16px;
+				}
+			}
+			ul {
+				background: #F4F2EA;
+				border: 1px solid  #ccc;
+				border-top: none;
+				display: none;
+				li {
+					border-top: 1px solid  #ccc;
+					a {
+						padding: 10px;
+						display: block;
+						color: #333;
+						&:before {
+							content: '\f0da';
+							font-family: FontAwesome;
+							color: #F6A467;
+							margin-right: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//*--------------------------------------------------------------------
+//ページ個別
+//--------------------------------------------------------------------*/
+
+//トップページ
+@import "sp/index";
+
+//施設
+@import "sp/facility";
+
+//会社情報
+@import "sp/outline";
+
+//会社沿革
+@import "sp/history";
+
+//建築候補地募集のお知らせ
+@import "sp/kouhochi";
+
+//入居の流れ
+@import "sp/process";
+
+//お客様の声
+@import "sp/voice";
+
+//企業理念・代表挨拶
+@import "sp/greeting";
+
+//ショートステイ
+@import "sp/shortstay";
+
+//定期巡回
+@import "sp/visit_service";
+
+//見学レポート
+@import "sp/kengakureport";
+
+//友の会
+@import "sp/tomonokai";
+
+//採用情報
+@import "sp/recruit";
+
+//用語集
+@import "sp/technical_term";
+
+//プライバシーポリシー
+@import "sp/privacy";
+
+//サイトマップ
+@import "sp/sitemap";
+
+//メールフォーム共通
+@import 'sp/mailforom';
+
+
+//*--------------------------------------------------------------------
+//スーパー・コートの取り組み
+//--------------------------------------------------------------------*/
+
+//共通（サイドメニュー・カラム・レイアウト・カテゴリ詳細など）
+@import "sp/approach--common";
+
+//介護サービス
+@import "sp/service";
+
+//スーパー・コートの研究活動
+@import "sp/research";
+
+//認知症ケア
+@import "sp/care";
+
+//医療体制
+@import "sp/medical";
+
+//ホスピタリティ
+@import "sp/hospitality";
+
+//お風呂温泉詳細
+@import "sp/hotspring";
+
+//高齢者トレーニング
+@import "sp/sc-fit";
+
+//入院率低下への取り組み
+@import "sp/plan";
+
+//健康イオン水
+@import "sp/ion-water";
+
+//旅行・リクリエーション
+@import "sp/travel";
+
+//美味しい食事
+@import "sp/meal";
+
+//社会貢献活動
+@import "sp/philanthropy";
+
+//ハートフル企業チャレンジ応援賞
+@import "sp/award2014";

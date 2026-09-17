@@ -1,0 +1,40 @@
+//* ========================================================================== */
+//* medical__detail
+//* 医療体制詳細
+//* ========================================================================== */
+.medical__detail {
+	.medical__inner {
+		.wrap {
+			h3 {
+				padding: 50px 0 10px;
+				font-size: 36px;
+				font-family: $mincho;
+				line-height: 1.2;
+				&.small {
+					font-size: 30px;
+				}
+			}
+			h4 {
+				font-size: 22px;
+				font-weight: bold;
+				padding: 25px 0 0 0;
+				margin-bottom: 20px;
+				border-bottom: solid 1px #979797;
+				&.small {
+					font-size: 16px;
+				}
+			}
+			h5 {
+				background-color: #073E35;
+				width: 100px;
+				height: 28px;
+				border-radius: 14px;
+				color: #FFFFFF;
+				text-align: center;
+				font-size: 16px;
+				padding-top: 5px;
+				margin: 10px 5px 10px 0;
+			}
+		}
+	}
+}

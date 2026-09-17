@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="ja"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>訪問介護看護 定期巡回･随時対応サービス | 株式会社スーパー・コート</title>
+<meta name="keywords" content="有料,老人ホーム,大阪,介護付,兵庫,京都,奈良,スーパーホテル,健康イオン水" />
+<meta name="description" content="有料老人ホーム スーパー・コートの定期巡回・随時対応サービスの紹介ページです。大阪・京都・兵庫・奈良の地域で、ご自宅に伺い介護や看護サービスを提供させていただきます。" />
+<!-- InstanceEndEditable -->
+<link href="/common/css/import.css" rel="stylesheet" type="text/css">
+<link href="/common/css/slidebars.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="(min-width: 640px)" href="/common/css/pc.css">
+<link rel="stylesheet" media="(max-width: 639px)" href="/common/css/sp.css">
+<!--[if lte IE 8]>
+<link href="/common/css/pc.css?200120" rel="stylesheet" type="text/css">
+<![endif]-->
+<script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/common/js/modernizr.js"></script>
+<script type="text/javascript" src="/common/js/rollover.js"></script>
+<script type="text/javascript" src="/common/js/smoothScroll.js"></script>
+<script type="text/javascript" src="/common/js/base.js"></script>
+<script type="text/javascript" src="/common/js/facilityLIst.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<link href="../common/css/colorbox.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/jquery.colorbox-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(e){
+  $(".lead .btn a").colorbox({retinaImage:true});
+});
+</script>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="bodyDataCurrent" type="text" value="default" -->
+</head>
+
+<body data-current="default" id="PAGETOP">
+<?php include( $_SERVER['DOCUMENT_ROOT'] . '/_header.php'); ?>
+
+<div id="sb-site">
+<!-- InstanceBeginEditable name="contents" -->
+  <div class="visit_service">
+    <div class="container">
+      <div class="title">
+        <h1><img src="../images/visit_service/title.png" alt="ご自宅でイキイキとした毎日を　訪問介護看護 定期巡回･随時対応サービス"/></h1>
+      </div>
+                   <ol class="pankuzu">
+                <li><a href="/">ホーム&nbsp;</a></li>
+            <li>訪問介護看護 定期巡回･随時対応サービス</li>
+          </ol>
+      <div class="lead">
+        <div class="left">
+          <p><img src="../images/visit_service/lead_img1.gif" alt="日中でも、夜間でも、定額でも"/></p>
+        </div>
+        <div class="right">
+          <h3><img src="../images/visit_service/lead_img2.gif" alt="24時間365日対応!!"/></h3>
+          <p>ホームヘルパー・看護職員による定期訪問と、いざという時は、随時介護や看護が必要な分だけ受けられる新しいサービスです。</p>
+          <p class="btn"><a href="_column.html"><img src="../images/visit_service/lead_btn.gif" alt="これまでの訪問介護とどこが違うの？"/></a></p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="row row__day">
+          <h3>日中でも</h3>
+          <div class="right">
+            <div class="text">
+              <p><strong>看護職員の定期訪問</strong><br>
+                看護職員が決まった日時に訪問し、床ずれの処置・点滴の管理などを行います。</p>
+            </div>
+            <div class="text">
+              <p><strong>いざという時も安心</strong><br>
+                「転んで起き上がれない」「気分が悪くなった」などの急な事態にも訪問いたします。必要に応じて主治医への指示を仰ぎます。</p>
+            </div>
+          </div>
+          <p class="img visible-pc-block"><img src="../images/visit_service/feature_day_img.png" alt=""/></p>
+        </div>
+        <div class="row row__night">
+          <h3>夜間でも</h3>
+          <div class="right">
+            <div class="text">
+              <p><strong>ヘルパーの24時間対応</strong><br>
+                ヘルパーの定期訪問のほか、突発的な体調不良などにも、24時間体制で必要に応じて訪問いたします。</p>
+            </div>
+            <div class="text">
+              <p><strong>つながる安心</strong><br>
+                不安になったらいつでも相談できる窓口があります。<br>
+                （24時間365日対応）</p>
+            </div>
+          </div>
+          <p class="img visible-pc-block"><img src="../images/visit_service/feature_night_img.png" alt=""/></p>
+        </div>
+        <div class="row row__nightColumn">
+          <p><img src="../images/visit_service/feature_day_column.png" alt="ケアコール端末を無料貸出！！[通話料無料]"/></p>
+        </div>
+        <div class="row row__teigaku">
+          <h3>定額で</h3>
+          <div class="right">
+            <div class="text">
+              <p><strong>利用回数にかかわらず料金は定額！！</strong><br>
+                月額の利用料金なので、利用回数を気にせず安心してサービスを受けていただくことができます。</p>
+            </div>
+          </div>
+          <p class="img visible-pc-block"><img src="../images/visit_service/feature_teigaku_img.png" alt=""/></p>
+        </div>
+        <div class="row row__teigakuColumn">
+          <h4>ご利用料金<small>（京都市、東大阪市、八尾市にお住まいの方の場合）</small></h4>
+          <p> 対象：要介護1〜5の認定を受けた方</p>
+          <p class="graf"><img src="../images/visit_service/feature_teigaku_column.gif" alt="ご利用料金表"/></p>
+          <p>※地域によりご利用料金は異なります。<br>
+            ※交通費（通院・買い物などの際に交通機関を利用した場合）などは別途実費をいただきます。</p>
+        </div>
+      </div>
+      <div class="houmon">
+        <h3>訪問地域のご案内</h3>
+        <div class="houmon__inner">
+          <ul>
+            <li><strong>大阪府</strong>／大阪市、堺市、東大阪市、八尾市</li>
+            <li><strong>京都府</strong>／京都市</li>
+            <li><strong>兵庫県</strong>／尼崎市</li>
+            <li><strong>奈良県</strong>／奈良市</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+<?php include( $_SERVER['DOCUMENT_ROOT'] . '/_footer.php'); ?>
+</div>
+</body>
+<!-- InstanceEnd --></html>

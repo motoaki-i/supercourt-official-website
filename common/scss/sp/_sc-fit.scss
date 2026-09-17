@@ -1,0 +1,57 @@
+//* ========================================================================== */
+//* sc-fit__detail
+//* 高齢者トレーニング詳細
+//* ========================================================================== */
+.sc-fit__detail {
+	.sc-fit__inner {
+		.wrap {
+			h3 {
+				padding: 40px 0 10px;
+				font-size: 2.4rem;
+				font-family: $mincho;
+				line-height: 1.2;
+			}
+			h4 {
+				font-size: 1.8rem;
+				font-weight: bold;
+				padding: 10px 0 0 0;
+				margin-bottom: 10px;
+				border-bottom: solid 1px #979797;
+			}
+			.column--sc-fit {
+				border-radius: 20px;
+				border: solid 3px #D4CDB7;
+				padding: 20px;
+				margin-top: 20px;
+				h5 {
+					font-size: 1.6rem;
+					padding: 0 0 20px;
+					border-bottom: 0px;
+				}
+			}
+			.youtube {
+				padding-top: 56.25%;
+				position: relative;
+				width: 100%;
+				iframe {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100% !important;
+					height: 100% !important;
+				}
+			}
+			p.sc-fit--strong {
+				font-size: 1.2rem;
+				padding: 25px 0 0 0;
+				margin-bottom: 20px;
+				font-weight: bold;
+			}
+			.row {
+				div {
+					margin: 10px 0;
+				}
+			}
+		}
+	}
+}

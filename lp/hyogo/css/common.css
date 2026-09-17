@@ -1,0 +1,416 @@
+@charset "utf-8";
+/*reset*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+font-weight:normal;
+vertical-align:bottom;
+background:transparent;
+list-style:none;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+img{
+width:100%;
+vertical-align:bottom;
+}
+ul{
+display: inline-block;
+}
+
+/*pc*/
+/********************
+common
+********************/
+.sp{display:none;}
+
+body{
+font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", "Noto Sans JP", sans-serif;
+font-size:14px;
+font-feature-settings:"palt";
+padding:70px 0 0;
+margin:0;
+text-align:center;
+overflow: hidden;
+color:#333;
+}
+html{
+overflow-y: scroll;
+}
+
+/*anchor*/
+a, a:hover, a:visited, a:active{
+color:#333;
+text-decoration:none;
+}
+a:hover{
+transition-duration: 0.5s;
+opacity:0.7;
+}
+
+/*header*/
+header{
+width:100%;
+background:#fff;
+position:fixed;
+top:0;
+z-index:100;
+border-bottom:1px solid #cac5aa;
+height:120px;
+}
+header div{
+max-width:1440px;
+margin:0 auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+header h1{
+display:inline-block;
+padding:0px;
+padding-left: 10px;
+}
+header h1 img{
+margin-top: 20px;
+max-width: 100%;
+}
+header ul{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+header li{
+padding-left:5px;
+}
+header p{
+position: fixed;	
+top: 70px; 
+right: 80px; 
+}
+
+.no_sp {
+position: fixed;	
+top: 0; 
+right: 20px;
+}
+
+.sec_01 li:nth-child(1){
+max-width: 892px;
+margin: 50px auto;
+text-align: center;
+}
+
+.sec_02{
+max-width: 1440px;
+margin: 0 auto;
+background: url("../img/bg_01.jpg") no-repeat top center;
+background-size:contain;
+background-color: #f4f2ee;
+padding: 150px 0 0;
+}
+.sec_02 h3{
+font-size: 2.2em;
+font-weight: bold;
+letter-spacing: 20px;
+margin-bottom: 100px;
+}
+.sec_02 p{
+font-size: 1.6em;
+line-height: 160%;
+letter-spacing: 5px;
+margin-bottom: 100px;
+}
+.sec_02 ul{
+display: flex;
+flex-wrap: wrap;
+justify-content:  space-around;
+max-width: 1200px;
+margin: 0 auto;
+}
+.sec_02 li {
+padding: 0 10px;
+width: 30%;
+margin-bottom: 30px;
+}
+.sec_04 li{
+margin: 100px auto;
+text-align: center;
+}
+.sec_05 li:last-child{
+margin-bottom: 100px;
+}
+
+/* contact_box */
+.contact_box{
+margin:0 auto 30px;
+}
+.contact_box{
+max-width:1440px;
+margin:0 auto;
+background: url("../img/bg_02.jpg") no-repeat top center;
+padding: 40px 0; 
+}
+.contact_box ul{
+display:flex;
+justify-content:center;
+align-items: center;
+}
+.contact_box li{
+display:flex;
+max-width:50%;
+}
+.contact_box li{
+margin: auto 10px;
+}
+
+
+/*footer*/
+footer{
+padding:0;
+}
+.f_cv{
+margin: 50px auto;
+}
+.f_cv ul{
+max-width:1000px;
+margin:0 auto;
+display:flex;
+justify-content:space-between;
+font-size:12px;
+}
+.f_cv li{
+display:flex;
+align-items:center;
+margin-left:5px;
+}
+.f_cv li img{
+margin-left:5px;
+}
+.f_data{
+background: #172046;
+color: #fff;
+padding:50px;
+}
+.f_data ul{
+text-align: center;
+}
+.f_data p{
+padding:50px 0 0;
+}
+
+
+
+/****************************************
+sp
+****************************************/
+@media screen and (max-width: 640px) {
+/********************
+common
+********************/
+.pc, .no_sp{
+display:none;
+}
+.sp{
+display:block;
+}
+body{
+font-size:14px;
+padding:0 0 0;
+}
+/*header*/
+header{
+position:static;
+height:90px;
+padding:10px;
+box-sizing:border-box;
+}
+header div{
+display: block;
+}
+header img{
+height:auto;
+width:auto;
+max-width:100%;
+}
+header h1{
+padding:0;
+}
+header h1 img{
+margin-top: 0;
+max-width: 80%;
+}
+header ul{
+padding-right:0;
+}
+header li{
+padding-left:0;
+}
+
+.sec_01 li:nth-child(1){
+margin: 10px auto;
+}
+.sec_02{
+padding: 50px 0 0;
+}
+.sec_02 ul{
+display: block;
+max-width: 100%;
+}
+.sec_02 li {
+padding: 10px 10px;
+width: 80%;
+margin: 0 auto ;
+}
+.sec_02 h3{
+font-size: 1.8em;
+font-weight: bold;
+letter-spacing: 5px;
+margin-bottom: 50px;
+}
+.sec_02 p{
+font-size: 1.4em;
+line-height: 160%;
+letter-spacing: 0px;
+margin-bottom: 50px;
+}
+.sec_04 li{
+margin: 30px auto;
+}
+.sec_05 li:last-child{
+margin-bottom: 0;
+}
+
+/*sp_menu*/
+.sp_menu_wrap{
+position:relative;
+z-index:9999;
+}
+.sp_menu_box{
+background:#FFF;
+position:fixed;
+bottom:0;
+width:100%;
+border-top:1px solid #fff;
+box-sizing:border-box;
+}
+.sp_menu{
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:100%;
+margin:0 auto;
+padding:0;
+z-index:9998;
+}
+.sp_menu li{
+text-align:center;
+width:25%;
+box-sizing:border-box;
+vertical-align:middle;
+}
+.sp_menu li img{
+width:auto;
+max-width: 100%;
+}
+.sp_menu li a{
+display:block;
+}
+
+/* contact_box */
+.contact_box{
+max-width:100%;
+background: url("../img/bg_02-SP.jpg") no-repeat bottom center;
+background-size:auto;
+padding: 40px 0;
+}
+.contact_box ul{
+display:block;
+}
+.contact_box li{
+max-width:70%;
+margin:20px auto;
+}
+
+/*footer*/
+footer{
+padding:0;
+}
+.f_cv{
+padding-top:5%;
+}
+.f_cv ul{
+max-width:90%;
+margin:0 auto;
+display:block;
+font-size:12px;
+text-align:center;
+}
+.f_cv li{
+display:block;
+height:auto;
+margin-bottom:5%;
+}
+.f_cv li img{
+display:block;
+width:auto;
+margin:0 auto;
+height:50px;
+}
+.f_cv li:nth-child(4) img{
+height:80px;
+}
+.f_data{
+margin-top:10%;
+margin-bottom: 60px;
+padding: 30px;
+}
+.f_data p{
+padding: 0;
+margin:10% 0;
+line-height:1.3em;
+}
+}

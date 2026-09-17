@@ -1,0 +1,62 @@
+//* ========================================================================== */
+//* meal__detail
+//* 美味しい食事
+//* ========================================================================== */
+.meal__detail {
+	.meal__inner {
+		.wrap {
+			.content {
+				margin-top:40px;
+			}
+			h3 {
+				padding: 50px 0 10px;
+				font-size: 36px;
+				font-family: $mincho;
+				line-height: 1.2;
+				&.small {
+					font: 24px;
+				}
+			}
+			h4 {
+				font-size: 22px;
+				font-weight: bold;
+				padding: 10px 0 0 0;
+				margin-bottom: 20px;
+				border-bottom: solid 1px #CCC7B0;
+				&.small {
+					font-size: 16px;
+				}
+			
+			}
+			h5 {
+					font-size: 16px;
+					padding: 0 0 3px 0;
+					font-weight:bold;
+					color:#009BE0;
+					border-bottom: 0px;
+				}
+				.column--meal {
+    border-radius: 10px;
+    border: 1px solid #CCC7B0;
+    padding: 20px;
+    margin-top: 30px;
+	.photo {
+		width:40%;
+		float:left;
+	}
+	.detail {
+		width:56%;
+		padding-left:4%;
+		float:left;
+	}
+	}
+
+
+								.row {
+					margin-bottom:30px;
+					overflow:hidden;
+				}
+
+		}
+	}
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.post {
+	width:730px;
+	margin:0 auto;
+}
+.post h2 {
+	margin-bottom:10px;
+	font-size:24px;
+	font-weight:bold;
+	color:#333;
+	border-left:#990 5px solid;
+	padding:0 0 0 10px;
+	line-height:1.3em;
+}
+.post h2 a{
+	color:#333;
+}
+.post ul li.cal{
+	text-align:right;
+	border-top:#CCC 1px solid;
+	border-bottom:#CCC 1px solid;
+	padding:3px;
+	margin-bottom:20px;
+}
+.post p {
+	margin:0 0 20px 0;
+
+}
+.post p img {
+	float:left;
+	width:auto !important;
+	margin:0 0 20px 30px;
+}
+
+
+@media screen and (max-width: 639px) { 
+.post {
+	width:auto;
+}
+
+}	

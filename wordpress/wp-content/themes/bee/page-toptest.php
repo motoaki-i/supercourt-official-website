@@ -1,0 +1,330 @@
+<?php get_header(); ?>
+
+
+
+<main>
+
+<div id="top" class="top-mv">
+  <div class="top-mv__movie">
+    <div class="top-mv__movie-inner">
+      <video src="<?php bloginfo('template_directory');?>/assets/video/top/top_mv.mp4?20250319" loop autoplay muted playsinline></video>
+    </div>
+  </div>
+</div>
+
+<div class="top-topics">
+  <section class="top-pickup space-m-bottom">
+    <div class="wrap-m-right">
+      <div class="top-topics__slide-head ttl-en-2l">
+        <h2 class="en-upper txt-bold txt-white">pick up</h2>
+      </div>
+      <div class="slick-slider top-topics__slide-cont">
+        <div class="slick-item">
+          <div class="slick-item__inner bg-white">
+            <div class="top-pickup__slide-image">
+              <img src="<?php bloginfo('template_directory');?>/assets/image/top/pickup05.jpg" alt="">
+            </div>
+            <p class="top-pickup__slide-txt lh-info"><a href="https://www.supercourt.jp/facility-list/olive_kusatsu/">「オリーブ・草津」2025年4月1日オープン</a></p>
+          </div>
+        </div>
+        <div class="slick-item">
+          <div class="slick-item__inner bg-white">
+            <div class="top-pickup__slide-image">
+              <img src="<?php bloginfo('template_directory');?>/assets/image/top/pickup01.jpg" alt="">
+            </div>
+            <p class="top-pickup__slide-txt lh-info"><a href="https://www.jqac.com/jqaward/history/2018" target="blank">2018年度 日本経営品質賞（大企業部門）を受賞（2019年）</a></p>
+          </div>
+        </div>
+        <div class="slick-item">
+          <div class="slick-item__inner bg-white">
+            <div class="top-pickup__slide-image">
+              <img src="<?php bloginfo('template_directory');?>/assets/image/top/pickup02.jpg" alt="">
+            </div>
+            <p class="top-pickup__slide-txt lh-info">第14回大会 日本認知症ケア学会で石崎賞受賞（2013年）</p>
+          </div>
+        </div>
+        <div class="slick-item">
+          <div class="slick-item__inner bg-white">
+            <div class="top-pickup__slide-image">
+              <img src="<?php bloginfo('template_directory');?>/assets/image/top/pickup03.jpg" alt="">
+            </div>
+            <p class="top-pickup__slide-txt lh-info">ハートフル企業チャレンジ応援賞受賞（2014年）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="top-topics__band block bg-yellow"></span>
+  </section>
+  <section class="top-youtube space-m-bottom">
+    <div class="wrap-m-right fade-in">
+      <div class="top-topics__slide-head ttl-en-2l">
+        <h2 class="txt-bold txt-white">YouTube</h2>
+      </div>
+      <div class="youtube-slider top-topics__slide-cont">
+        <div class="slick-item">
+          <div class="top-youtube__slide-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8Op3_DfutjI?si=Idnb37qjBA3JPXvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="slick-item">
+          <div class="top-youtube__slide-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cs1cBQ_xMJw?si=bdEy6R7ISMI8LO1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="slick-item">
+          <div class="top-youtube__slide-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/r0OuqkQ-DEQ?si=Vuncx-kaT802ya77" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="slick-item">
+          <div class="top-youtube__slide-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CeWw8qUg5pQ?si=HXEi_hm7mpXtO64c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="slick-item">
+          <div class="top-youtube__slide-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yMOI0vDbCL0?si=OaJeA3nEPqcbVa3X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="top-topics__band block bg-orange"></span>
+  </section>
+  <section class="top-news space-s-bottom">
+    <div class="wrap-m-right fade-in">
+      <div class="top-news__head">
+        <div class="top-news__ttl ttl-jp-2l">
+          <h2>新着情報</h2>
+          <span class="top-news__ttl-en block">
+            <img src="<?php bloginfo('template_directory');?>/assets/image/top/news_ttl_en.svg" alt="News">
+          </span>
+        </div>
+        <ul class="top-news__cate">
+          <?php
+          $terms = get_terms('news_category');
+          foreach ( $terms as $term ) {
+          echo '<li><a class="block bg-beige" href="'.get_term_link($term).'">'.$term->name.'</a></li>';
+          }?>
+        </ul>
+      </div>
+      <div class="top-news__cont">
+        <div class="top-news__left">
+          <a class="btn bg-orange-gradiate-reverse txt-white txt-bold" href="/news">
+            <span>VIEW ALL</span>
+          </a>
+        </div>
+        <div class="top-news__right">
+        <?php
+        $args = array(
+          'post_type' => 'news',
+          'posts_per_page' => 3,
+          'order' => 'DESC',
+          'paged' => $paged
+        );
+        $query = new WP_Query($args);
+        ?>
+        <?php if ( $query->have_posts() ) : ?>
+          <ul class="top-news__list">
+          <?php while ( $query->have_posts() ) : $query->the_post();?>
+            <li>
+              <a href="<?php the_permalink(); ?>">
+                <div class="top-news__info">
+                  <time><?php the_time('Y.m.d'); ?></time>
+                  <!-- <?php $terms = get_the_terms($post->ID,'news_category');
+                  foreach( $terms as $term ) {
+                    echo '<span class="top-news__tag txt-bold txt-white bg-orange">'.$term->name.'</span>';
+                  }?> -->
+                  <?php 
+                  $terms = get_the_terms($post->ID, 'news_category');
+                  if ($terms && !is_wp_error($terms)) {
+                  foreach ($terms as $term) {
+                  $additional_class = '';
+                  // スラッグによる条件分岐
+                  if ($term->slug === 'open') {
+                      $additional_class = 'news-cate--open';
+                  } elseif ($term->slug === 'info') {
+                      $additional_class = 'news-cate--info';
+                  }
+                  // タグの出力
+                  echo '<span class="top-news__tag txt-bold txt-white bg-orange ' . esc_attr($additional_class) . '">' . esc_html($term->name) . '</span>';
+                  }
+                  }?>
+                </div>
+                <h3 class="top-news__txt"><?php the_title(); ?></h3>
+              </a>
+            </li>
+            <?php endwhile; ?>
+          </ul>
+          <?php endif; wp_reset_postdata(); ?>
+        </div>
+      </div>
+    </div>
+  </section>
+  <span class="top-topics__bg block wrap-m-right">
+    <span class="top-topics__bg-inner bg-beige block"></span>
+  </span>
+</div>
+
+<section class="top-about space-l">
+  <div class="top-about__wrap flex align-start">
+    <div class="top-about__left fade-in">
+      <img src="<?php bloginfo('template_directory');?>/assets/image/top/about-building.jpg" alt="">
+    </div>
+    <div class="top-about__right fade-in">
+      <div class="top-ttl01 ttl-jp-4l">
+        <span class="top-ttl01-en block">
+          <img src="<?php bloginfo('template_directory');?>/assets/image/top/about_ttl_en.svg" alt="About">
+        </span>
+        <div class="top-ttl01-jp bg-white">
+          <h2 class="top-ttl01-jp__inner">スーパー・コートに<span class="ib">ついて</span></h2>
+        </div>
+      </div>
+      <p class="top-about__txt txt-just">日々の生活の中にたくさんの感動が生まれるように、ケアサービスをおもてなしの心で磨き上げる。スーパー・コートは、企業理念や使命、行動姿勢を全社で共有し、介護のその先を見据えたサービスの提供に努めています。</p>
+      <a class="top-about__btn btn bg-orange-gradiate-reverse txt-jp-m txt-white txt-bold" href="/company">
+        <span>スーパー・コートとは</span>
+      </a>
+      <div class="top-about__right-image">
+        <img src="<?php bloginfo('template_directory');?>/assets/image/top/about-people.jpg" alt="">
+      </div>
+    </div>
+    <span class="top-about__bg block bg-beige"></span>
+  </div>
+</section>
+
+<section class="top-service space-3s space-2l-bottom">
+  <div class="top-service__wrap wrap-m-right flex align-start">
+    <div class="top-service__left fade-in">
+      <div class="top-ttl01 ttl-jp-4l">
+        <span class="top-ttl01-en block">
+          <img src="<?php bloginfo('template_directory');?>/assets/image/top/service_ttl_en.svg" alt="Service">
+        </span>
+        <div class="top-ttl01-jp txt-orange bg-white">
+          <h2 class="top-ttl01-jp__inner">サービス</h2>
+        </div>
+      </div>
+      <p class="top-service__txt txt-just">パーキンソン病など神経難病の方への専門的なリハビリに特化した施設有料老人ホーム・介護施設を幅広く運営。ご要望に応じた施設や住宅で安心した日々をお過ごしいただけるよう、専門職による個別のサポート体制も整えています。</p>
+      <a class="top-service__btn btn bg-orange-gradiate-reverse txt-jp-m txt-white txt-bold" href="/service">
+        <span>スーパー・コートのサービス</span>
+      </a>
+      <span class="top-service__left-bg block bg-yellow"></span>
+    </div>
+    <div class="top-service__right">
+      <div class="top-service__image fade-in">
+        <img src="<?php bloginfo('template_directory');?>/assets/image/top/service-people.jpg" alt="">
+      </div>
+      <span class="top-service__script block fade-blur">
+        <img src="<?php bloginfo('template_directory');?>/assets/image/top/service_script.svg" alt="">
+      </span>
+    </div>
+  </div>
+  <span class="top-service__bottom-bg block wrap-m-left bg-beige"></span>
+</section>
+
+<section class="top-facility space-2s bg-orange">
+  <div class="top-facility__wrap">
+    <div class="top-facility__map fade-in">
+      <img src="<?php bloginfo('template_directory');?>/assets/image/top/facility_list_new.png" alt="" usemap="#Map">
+      <map name="Map">
+	<area shape="poly" coords="1206,554,1102,581,1170,609,1170,610,1083,641,1017,605,986,579,924,578,895,574,880,589,866,587,820,516,831,466,845,422,886,394,897,382,899,328,882,287,887,232,1021,230,1042,280,1084,299,1083,313,1031,346,1130,408,1167,483,1208,536" href="https://www.supercourt.jp/facility-list/hyougo/" alt="兵庫の施設一覧" title="兵庫の施設一覧">
+	<area shape="poly" coords="1049,649,1026,736,1057,785,1055,786,1015,792,956,793,956,792,963,784,947,777,950,750,976,744,1003,686" href="https://www.supercourt.jp/facility-list/hyougo/" alt="兵庫の施設一覧" title="兵庫の施設一覧">
+	<area shape="poly" coords="1130,186,1138,187,1165,232,1129,277,1130,277,1137,271,1150,264,1154,267,1156,273,1146,281,1149,285,1169,294,1166,313,1183,302,1193,310,1194,310,1194,306,1180,288,1181,276,1215,258,1218,260,1211,302,1227,326,1230,353,1294,376,1309,377,1330,401,1412,432,1338,456,1342,532,1368,541,1403,584,1366,601,1367,603,1394,621,1394,622,1328,609,1364,598,1299,554,1276,554,1250,513,1157,475,1125,403,1039,367,1035,333,1084,301,1044,285,1031,261,1027,240,1031,235,1043,237,1058,224,1089,210,1098,195" href="https://www.supercourt.jp/facility-list/kyoto/" alt="京都の施設一覧" title="京都の施設一覧">
+	<area shape="poly" coords="1192,686,1208,657,1203,633,1146,608,1120,607,1105,594,1109,565,1204,552,1203,533,1167,484,1248,512,1276,553,1365,570,1287,608,1276,672,1280,714,1271,743,1270,743,1270,735,1181,758,1156,777,1105,763,1112,755,1192,686" href="https://www.supercourt.jp/facility-list/osaka/" alt="大阪の施設一覧" title="大阪の施設一覧">
+		<area shape="poly" coords="1284,608,1325,608,1358,621,1403,626,1415,667,1446,694,1405,809,1456,847,1392,863,1331,946,1330,936,1307,931,1242,925,1241,894,1230,864,1206,859,1210,811,1287,808,1298,798,1270,744,1277,715,1274,635" href="https://www.supercourt.jp/facility-list/nara/" alt="奈良の施設一覧" title="奈良の施設一覧">
+</map>
+<script src="<?php bloginfo('template_directory');?>/assets/js/imageMapResizer.min.js"></script>
+<script>imageMapResize();</script>
+    </div>
+    <div class="top-facility__cont fade-in">
+      <div class="top-facility__cont-copy"><img src="<?php bloginfo('template_directory');?>/assets/image/top/facilities-copy.svg" alt=""></div>
+      <h2 class="top-facility__cont__ttl txt-white ttl-jp-4l">施設一覧</h2>
+      <div class="txt-white top-facility__cont__txt">スーパー・コートグループ全体で、大阪府下を中心に、兵庫、京都、奈良、滋賀にて約58施設を直営。（2025年2月現在）
+      </div>
+      <a class="top-facility__btn btn bg-black txt-jp-m txt-white txt-bold txt-center" href="/facility-list">
+        <span>施設一覧</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="top-strength bg-gray space-m space-l-bottom">
+  <div class="wrap-m">
+    <div class="top-strength-copy fade-blur"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-copy.svg" alt=""></div>
+  <h2 class="top-strength__cont__ttl txt-orange ttl-jp-4l fade-in">スーパー・コートの<span class="ib">特徴</span></h2>
+  <div class="top-strength__cont-wrap fade-in">
+    <a href="/feature/hospitality"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-button01.svg" alt=""></a>
+    <a href="/feature/medical"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-button02.svg" alt=""></a>
+    <a href="/feature/dementia"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-button03.svg" alt=""></a>
+    <a href="/feature/training"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-button04.svg" alt=""></a>
+    <a href="/feature/bath"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-button05.svg" alt=""></a>
+    <a href="/feature/meal"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-button06.svg" alt=""></a>
+    <a href="/feature/event"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-button07.svg" alt=""></a>
+    <a href="/feature/social"><img src="<?php bloginfo('template_directory');?>/assets/image/top/strength-button08.svg" alt=""></a>
+  </div>
+</div>
+</section>
+
+<section class="top-move-in space-s">
+  <div class="top-move-in-cont">
+    <div class="top-move-in-cont__img">
+      <h2 class="top-move-in-cont__ttl txt-orange ttl-jp-4l fade-in">入居を<span class="ib">お考えの方へ</span></h2>
+      <div class="image-zoom">
+        <img class="image-zoom__inner" src="<?php bloginfo('template_directory');?>/assets/image/top/movein-img01.jpg" alt="">
+      </div>
+    </div>
+    <div class="top-move-in-cont-right fade-in">
+      <a class="top-move-in__cont-button bg-white" href="/process"><div class="txt-black txt-jp-l txt-bold"><span class="txt-orange">入居</span>の流れ</div><img src="<?php bloginfo('template_directory');?>/assets/image/top/arrow-black.svg" alt=""></a>
+<a class="top-move-in__cont-button bg-white" href="/kengakureport"><div class="txt-black txt-jp-l txt-bold"><span class="txt-orange">見学</span>レポート</div><img src="<?php bloginfo('template_directory');?>/assets/image/top/arrow-black.svg" alt=""></a>
+<a class="top-move-in__cont-button bg-white" href="/voice"><div class="txt-black txt-jp-l txt-bold"><span class="txt-orange">お客様</span>の声</div><img src="<?php bloginfo('template_directory');?>/assets/image/top/arrow-black.svg" alt=""></a>
+<a class="top-move-in__cont-button bg-white" href="https://life-b.com/support/" target="blank"><div class="txt-black txt-jp-l txt-bold"><span class="txt-orange">不動産・相続</span>のサポート</div><img src="<?php bloginfo('template_directory');?>/assets/image/top/arrow-black.svg" alt=""></a>
+</div>
+</div>
+<div class="top-move-in-cont-bottom space-3l space-2l-bottom">
+<div class="top-move-in-cont-bottom-img02 fade-in"><img src="<?php bloginfo('template_directory');?>/assets/image/top/movein-img02.jpg" alt=""></div>
+<div class="top-move-in-cont-bottom-img03 fade-in"><img src="<?php bloginfo('template_directory');?>/assets/image/top/movein-img03.jpg" alt=""></div>
+<div class="top-move-in-cont-bottom-img04 fade-in"><img src="<?php bloginfo('template_directory');?>/assets/image/top/movein-img04.jpg" alt=""></div>
+<div class="top-move-in-cont-bottom-copy fade-blur"><img src="<?php bloginfo('template_directory');?>/assets/image/top/movein-copy.svg" alt=""></div>
+<div class="top-move-in-cont-bottom-txt ttl-jp-l txt-center txt-bold">地域の方に<br>
+「スーパー・コートがあるから<span class="ib">老後が安心」だと</span><br>
+おもっていただくこと</div>
+</div>
+<span class="top-move-in-bg"></span>
+</section>
+
+
+</main>
+
+
+<script>
+  $(function(){
+    $('.slick-slider').slick({
+      infinite: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+    $('.youtube-slider').slick({
+      infinite: false,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  });
+</script>
+
+<?php get_footer(); ?>

@@ -1,0 +1,78 @@
+//* ========================================================================== */
+//* mailforom
+//* メールフォーム共通
+//* ========================================================================== */
+.mailform {
+	.content {
+		padding-top: 40px;
+		.lead {
+			margin-bottom: 20px;
+		}
+		.mailform__inner {
+			span {
+				color: #f00;
+			}
+			h3 {
+				margin-bottom: 10px;
+				font-size: 1.6rem;
+				font-weight: bold;
+			}
+			input {
+				font-size: 1.6rem;
+			}
+			table {
+				th,td  {
+					display: block;
+					text-align: left;
+				}
+				th {
+					padding: 5px;
+					margin-bottom: 10px;
+					background: #eee;
+					font-weight: bold;
+				}
+				td {
+					margin-bottom: 20px;
+					line-height: 2.0rem;
+				}
+				ul {
+					li {
+						margin-bottom: 5px;
+					}
+				}
+				.btn__submit {
+					th,td {
+						padding: 0;
+						border: none;
+						background: none;
+						text-align: center;
+						input {
+							-webkit-appearance: none;
+							padding: 10px 20px;
+							width: 100%;
+							background: #069;
+							color: #fff;
+							font-weight: bold;
+							border: none;
+							cursor: pointer;
+							-webkit-border-radius: 5px;
+							-moz-border-radius: 5px;
+							-ms-border-radius: 5px;
+							-o-border-radius: 5px;
+							border-radius: 5px;
+						}
+					}
+				}
+			}
+			#intable {
+				table {
+					th,td {
+						margin: 0;
+						padding: 0 0 0 7px;
+						border-left: 1px solid #ccc;
+					}
+				}
+			}
+		}
+	}
+}

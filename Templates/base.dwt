@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>| 有料老人ホームのスーパー・コート</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!-- TemplateEndEditable -->
+<link href="../common/css/import.css" rel="stylesheet" type="text/css">
+<link href="../common/css/slidebars.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="(min-width: 640px)" href="../common/css/pc.css">
+<link rel="stylesheet" media="(max-width: 639px)" href="../common/css/sp.css">
+@@('<!-')@@-[if lte IE 8]>
+<link href="../common/css/pc.css" rel="stylesheet" type="text/css">
+<![endif]-@@('->')@@
+<script type="text/javascript" src="../common/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../common/js/modernizr.js"></script>
+<script type="text/javascript" src="../common/js/rollover.js"></script>
+<script type="text/javascript" src="../common/js/smoothScroll.js"></script>
+<script type="text/javascript" src="../common/js/base.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="bodyDataCurrent" type="text" value="default" -->
+</head>
+
+<body data-current="@@(bodyDataCurrent)@@" id="PAGETOP">
+<!--#include virtual="/_header.html" -->
+<div id="sb-site"> <!-- TemplateBeginEditable name="contents" -->contents<!-- TemplateEndEditable -->
+<!--#include virtual="/_footer.html" -->
+</body>
+</html>

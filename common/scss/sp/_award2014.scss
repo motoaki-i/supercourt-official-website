@@ -1,0 +1,62 @@
+
+//* ========================================================================== */
+//* award2014__detail
+//* //ハートフル企業チャレンジ応援賞
+//* ========================================================================== */
+.award2014__detail {
+	 .award2014__inner {
+		 .wrap {
+			 			.main {
+				margin:0 -15px;
+			}
+
+			 h3 {
+			 padding: 40px 0 10px;
+			 font-size: 2.4rem;
+			 font-family: $mincho;
+			 line-height: 1.2;
+			}
+			 h4 {
+			 font-size: 1.8rem;
+			 font-weight: bold;
+ 			padding: 10px 0 0 0;
+ 			margin-bottom: 10px;
+ 			border-bottom: solid 1px #979797;
+			}
+			 h5 {
+			 font-size: 1.6rem;
+			 padding: 0 0 10px;
+ 			font-family: $mincho;
+ 			font-weight:bold;
+			 border-bottom: 0px;
+			text-align:center;
+			}
+ 			.photo {
+ 			margin-top:10px;
+			}
+ 			.row {
+			 margin-bottom:30px;
+			 overflow:hidden;
+			}
+			.col_2 {
+				width:30% !important;
+				padding:0 30%;
+			}
+			.small {
+	font-size:20px;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+.red {
+	color:#990000;
+}
+.award {
+	text-align:center;
+	color:#990000;
+	font-size: 2.4rem;
+	font-family: $mincho;
+}
+
+		}
+	}
+}

@@ -1,0 +1,786 @@
+$cl-green: #2E522E;
+
+//font-family
+$mincho: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+
+//SP
+.side--menu {
+	display: none;
+}
+
+//* ========================================================================== */
+//* common
+//* 共通
+//* ========================================================================== */
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+
+
+//*--------------------------------------------------------------------
+//トップボタン
+//--------------------------------------------------------------------*/
+.btn_gototop {
+	clear: both;
+	width: 100%;
+	height: 45px;
+}
+.btn_gototop img {
+	width: 46px;
+	height: 45px;
+	float: right;
+}
+
+//*--------------------------------------------------------------------
+//グローバルナビ
+//--------------------------------------------------------------------*/
+.global {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+//*--------------------------------------------------------------------
+//サイドメニュー
+//--------------------------------------------------------------------*/
+.side--menu {
+	max-width: 210px
+	height: 769px;
+	h3 {
+		width: 210px;
+		height: 0;
+		background-image: url(../../images/service/right_menu01.png);
+		background-repeat: no-repeat;
+		display:block;
+		padding-top:100px;
+		overflow:hidden;
+	}
+	ul {
+		margin:0;
+		padding: 0;
+		li {
+		    list-style-type: none;
+		    margin:0;
+		    padding: 0;
+		    a {
+			    width: 210px;
+			    height: 0;
+			    background-image: url(../../images/service/right_menu01.png);
+			    background-repeat: no-repeat;
+			    display:block;
+			    padding-top:44px;
+			    overflow:hidden;
+			}
+
+		}
+		li#menu01 a {
+		    background-position: 0px -100px;
+		}
+		li#menu02 a {
+		    background-position: 0px -145px;
+		}
+		li#menu03 a {
+		    background-position: 0px -189px;
+		    padding-top:31px;
+		}
+		li#menu04 a {
+		    background-position: 0px -220px;
+		    padding-top:31px;
+		}
+		li#menu05 a {
+		    background-position: 0px -251px;
+		    padding-top:40px;
+		}
+		li#menu06 a {
+		    background-position: 0px -291px;
+		    padding-top:31px;
+		}
+		li#menu07 a {
+		    background-position: 0px -322px;
+		    padding-top:31px;
+		}
+		li#menu08 a {
+		    background-position: 0px -353px;
+		    padding-top:40px;
+		}
+		li#menu09 a {
+		    background-position: 0px -393px;
+		    padding-top:45px;
+		}
+		li#menu10 a {
+		    background-position: 0px -438px;
+		    padding-top:40px;
+		}
+		li#menu11 a {
+		    background-position: 0px -478px;
+		    padding-top:45px;
+		}
+		li#menu12 a {
+		    background-position: 0px -523px;
+		    padding-top:25px;
+		}
+		li#menu13 a {
+		    background-position: 0px -548px;
+		    padding-top:25px;
+		}
+		li#menu14 a {
+		    background-position: 0px -573px;
+		    padding-top:25px;
+		}
+		li#menu15 a {
+		    background-position: 0px -598px;
+		    padding-top:25px;
+		}
+		li#menu16 a {
+		    background-position: 0px -623px;
+		    padding-top:26px;
+		}
+		li#menu17 a {
+		    background-position: 0px -649px;
+		    padding-top:40px;
+		}
+		li#menu18 a {
+		    background-position: 0px -689px;
+		    padding-top:27px;
+		}
+		li#menu19 a {
+		    background-position: 0px -715px;
+		    padding-top:27px;
+		}
+		li#menu20 a {
+		    background-position: 0px -741px;
+		    padding-top:28px;
+		}
+		li#menu01.current a,
+		li#menu01 a:hover {
+		    background-position: -210px -100px;
+		}
+		li#menu02.current a,
+		li#menu02 a:hover {
+		    background-position: -210px -145px;
+		}
+		li#menu03.current a,
+		li#menu03 a:hover {
+		    background-position: -210px -189px;
+		}
+		li#menu04.current a,
+		li#menu04 a:hover {
+		    background-position: -210px -220px;
+		}
+		li#menu05.current a,
+		li#menu05 a:hover {
+		    background-position: -210px -251px;
+		}
+		li#menu06.current a,
+		li#menu06 a:hover {
+		    background-position: -210px -291px;
+		}
+		li#menu07.current a,
+		li#menu07 a:hover {
+		    background-position: -210px -322px;
+		}
+		li#menu08.current a,
+		li#menu08 a:hover {
+		    background-position: -210px -353px;
+		}
+		li#menu09.current a,
+		li#menu09 a:hover {
+		    background-position: -210px -393px;
+		}
+		li#menu10.current a,
+		li#menu10 a:hover {
+		    background-position: -210px -438px;
+		}
+		li#menu11.current a,
+		li#menu11 a:hover {
+		    background-position: -210px -478px;
+		}
+		li#menu12.current a,
+		li#menu12 a:hover {
+		    background-position: -210px -523px;
+		}
+		li#menu13.current a,
+		li#menu13 a:hover {
+		    background-position: -210px -548px;
+		}
+		li#menu14.current a,
+		li#menu14 a:hover {
+		    background-position: -210px -573px;
+		}
+		li#menu15.current a,
+		li#menu15 a:hover {
+		    background-position: -210px -598px;
+		}
+		li#menu16.current a,
+		li#menu16 a:hover {
+		    background-position: -210px -623px;
+		}
+		li#menu17.current a,
+		li#menu17 a:hover {
+		    background-position: -210px -649px;
+		}
+		li#menu18.current a,
+		li#menu18 a:hover {
+		    background-position: -210px -689px;
+		}
+		li#menu19.current a,
+		li#menu19 a:hover {
+		    background-position: -210px -715px;
+		}
+		li#menu20.current a,
+		li#menu20 a:hover {
+		    background-position: -210px -741px;
+		}
+	}
+}
+
+
+//*--------------------------------------------------------------------
+//カラム
+//--------------------------------------------------------------------*/
+.col_6 {
+	position: relative;
+	width: 100%;
+}
+.col_6:nth-child(even) {
+	position: relative;
+	width: 100%;
+}
+.col_6 img.p_top {
+	width: 100%;
+}
+.col_4 {
+	position: relative;
+	width: 100%;
+}
+.col_4_3 {
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.col_8 {
+	position: relative;
+	width: 100%;
+}
+.col_7 {
+	position: relative;
+	width: 100%;
+}
+.col_5 {
+	position: relative;
+	width: 100%;
+}
+.col_2 {
+	position: relative;
+	width: 100%;
+}
+.col_10 {
+	position: relative;
+	width: 100%;
+}
+.col_9 {
+	position: relative;
+	width: 100%;
+}
+.col_3 {
+	position: relative;
+	width: 100%;
+}
+.col_2_8 {
+	position: relative;
+	width: 100%;
+}
+.col_5_8 {
+	position: relative;
+	width: 100%;
+}
+
+img.img--right {
+	width: 100%;
+	float: none;
+	padding-bottom: 10px;
+}
+span.span--right {
+	width: 100%;
+	float: none;
+	padding: 10px 0 1em 6%;
+}
+
+
+//* ========================================================================== */
+//* category__detail
+//* カテゴリ詳細
+//* ========================================================================== */
+.category__detail {
+	width: 100%;
+	margin: 0 auto;
+	.category__inner {
+		padding-top: 0;
+		.wrap {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+			overflow: hidden;
+		}
+	}
+}
+
+//* ========================================================================== */
+//* service__detail
+//* 介護サービス詳細
+//* ========================================================================== */
+.service__detail {
+	width: 100%;
+	margin: 0 auto;
+	.service__inner {
+		padding-top: 0;
+		.side {
+			display: none;
+		}
+		.wrap {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+			overflow: hidden;
+			h3 {
+				padding: 10px 0 10px;
+				font-size: 1.6rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+
+			}
+			h4 {
+				font-size: 1.4rem;
+				padding: 10px 0 0 0;
+				margin-bottom: 20px;
+				border-bottom: solid 1px #979797;
+			}
+			.chart_01 {
+				padding-top: 10px;
+			}
+			.chart__top {
+				padding-top: 10px;
+			}
+			.chart__top20 {
+				padding-top: 10px;
+			}
+		}
+	}
+}
+
+
+//* ========================================================================== */
+//* care__detail
+//* 認知症ケア詳細
+//* ========================================================================== */
+.care__detail {
+	width: 100%;
+	margin: 0 auto;
+	.care__inner {
+		padding-top: 0;
+		.side {
+			display: none;
+		}
+		.wrap {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+			overflow: hidden;
+			h2 {
+				background-image: url(../../images/content_header01.png);
+				background-size: cover;
+				width: 100%;
+				height: 70px;
+				padding: 20px 0  0 10px;
+				color: #F2F2CA;
+				font-size: 2.0rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3 {
+				padding: 10px 0 10px;
+				font-size: 1.6rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3.small {
+				font-size: 1.4rem;
+			}
+			h4 {
+				font-size: 1.4rem;
+				padding: 	10px 0 0 0;
+				font-size: 1.6rem;
+				border-bottom: solid 1px #979797;
+			}
+			h4.small {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}
+
+
+//* ========================================================================== */
+//* medical__detail
+//* 医療体制詳細
+//* ========================================================================== */
+.medical__detail {
+	width: 100%;
+	margin: 0 auto;
+	.medical__inner {
+		padding-top: 0;
+		.side {
+			display: none;
+		}
+		.wrap {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+			overflow: hidden;
+			h2 {
+				background-image: url(../../images/content_header01.png);
+				background-size: cover;
+				width: 100%;
+				height: 70px;
+				padding: 20px 0  0 10px;
+				color: #F2F2CA;
+				font-size: 2.0rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3 {
+				padding: 10px 0 10px;
+				font-size: 1.6rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h4 {
+				font-size: 1.4rem;
+				padding: 	10px 0 0 0;
+				font-size: 1.6rem;
+				border-bottom: solid 1px #979797;
+			}
+			h5 {
+				background-color: #073E35;
+				width: 100px;
+				height: 28px;
+				font-size: 1.4rem;
+				color: #FFFFFF;
+				text-align: center;
+				font-size: 1.6rem;
+				padding-top: 5px;
+				margin: 10px 5px 10px 0;
+			}
+		}
+	}
+}
+
+
+//* ========================================================================== */
+//* hospitality__detail
+//* ホスピタリティ詳細
+//* ========================================================================== */
+.hospitality__detail {
+	width: 100%;
+	margin: 0 auto;
+	.hospitality__inner {
+		padding-top: 0;
+		.side {
+			display: none;
+		}
+		.wrap {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+			overflow: hidden;
+			h2 {
+				background-image: url(../../images/content_header01.png);
+				background-size: cover;
+				width: 100%;
+				height: 70px;
+				padding: 20px 0  0 10px;
+				color: #F2F2CA;
+				font-size: 2.0rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3 {
+				padding: 10px 0 10px;
+				font-size: 1.6rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3.small {
+				font-size: 1.4rem;
+			}
+			h4 {
+				font-size: 1.4rem;
+				padding: 	10px 0 0 0;
+				font-size: 1.6rem;
+				border-bottom: solid 1px #979797;
+			}
+			a.link--hospiality {
+				background-image: url(../../images/hospitality/icon_01.png);
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				padding-left: 20px;
+			}
+		}
+	}
+}
+
+
+//* ========================================================================== */
+//* hotspring__detail
+//* お風呂温泉詳細
+//* ========================================================================== */
+.hotspring__detail {
+	width: 100%;
+	margin: 0 auto;
+	.hotspring__inner {
+		padding-top: 0;
+		.side {
+			display: none;
+		}
+		.wrap {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+			overflow: hidden;
+			h2 {
+				background-image: url(../../images/content_header01.png);
+				background-size: cover;
+				width: 100%;
+				height: 70px;
+				padding: 20px 0  0 10px;
+				color: #F2F2CA;
+				font-size: 2.0rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3 {
+				padding: 10px 0 10px;
+				font-size: 1.6rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3.small {
+				font-size: 1.4rem;
+			}
+			h4 {
+				font-size: 1.4rem;
+				padding: 	10px 0 0 0;
+				font-size: 1.6rem;
+				border-bottom: solid 1px #979797;
+			}
+			h5 {
+				padding: 20px 0 10px;
+				font-size: 1.6rem;
+				color: #063E34;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			table {
+				width: 100%;
+				border: #CACACA 1px solid;
+				th {
+					width: 16%;
+					padding: 2%;
+					background-color: #F3F2EB;
+					border: #CACACA 1px solid;
+				}
+				td {
+					width: 76%;
+					padding: 2%;
+					background-color: #FFF;
+					border: #CACACA 1px solid;
+				}
+			}
+			.column--hotspring {
+				border-radius: 20px;
+				border: solid 1px #D4CDB7;
+				padding: 20px;
+				h4 {
+				  font-size: 1.4rem;
+				  padding: 0 0 10px;
+				  border-bottom: 0px;
+				}
+				h5 {
+				font-family: $mincho;
+					font-size: 1.2rem;
+					padding: 25px 0 0 20px;
+					margin-bottom: 20px;
+					border-bottom: solid 1px #979797;
+					background-image: url(../../images/hotspring/icon_01.png);
+					background-repeat: no-repeat;
+					background-position: 0 25px;
+				}
+			}
+		}
+	}
+}
+
+
+//* ========================================================================== */
+//* sc-fit__detail
+//* 高齢者トレーニング詳細
+//* ========================================================================== */
+.sc-fit__detail {
+	width: 100%;
+	margin: 0 auto;
+	.sc-fit__inner {
+		padding-top: 0;
+		.side {
+			display: none;
+		}
+		.wrap {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+			overflow: hidden;
+			h2 {
+				background-image: url(../../images/content_header01.png);
+				background-size: cover;
+				width: 100%;
+				height: 70px;
+				padding: 20px 0  0 10px;
+				color: #F2F2CA;
+				font-size: 2.0rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3 {
+				padding: 10px 0 10px;
+				font-size: 1.6rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h4 {
+				font-size: 1.4rem;
+				padding: 	10px 0 0 0;
+				font-size: 1.6rem;
+				border-bottom: solid 1px #979797;
+			}
+			.column--sc-fit {
+				border-radius: 20px;
+				border: solid 3px #D4CDB7;
+				padding: 20px;
+				margin-top: 20px;
+				h5 {
+					font-size: 1.6rem;
+					padding: 0 0 20px;
+					border-bottom: 0px;
+				}
+			}
+			p.sc-fit--strong {
+				font-size: 1.2rem;
+				padding: 25px 0 0 0;
+				margin-bottom: 20px;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+
+//* ========================================================================== */
+//* plan__detail
+//* 入院率低下への取り組み詳細
+//* ========================================================================== */
+.plan__detail {
+	width: 100%;
+	margin: 0 auto;
+	.plan__inner {
+		padding-top: 0;
+		.side {
+			display: none;
+		}
+		.wrap {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+			overflow: hidden;
+			h2 {
+				background-image: url(../../images/content_header01.png);
+				background-size: cover;
+				width: 100%;
+				height: 70px;
+				padding: 20px 0  0 10px;
+				color: #F2F2CA;
+				font-size: 2.0rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h3 {
+				padding: 10px 0 10px;
+				font-size: 1.6rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			h4 {
+				font-size: 1.4rem;
+				padding: 	10px 0 0 0;
+				font-size: 1.6rem;
+				border-bottom: solid 1px #979797;
+			}
+			p.plan__intro__first {
+				padding: 20px 0 0 0;
+			}
+			p.plan__intro {
+				padding-top: 1em;
+			}
+			h5 {
+				font-size: 1.2rem;
+				padding: 0 0 10px;
+				font-weight: bold;
+			}
+		}
+	}
+}

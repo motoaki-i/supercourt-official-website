@@ -1,0 +1,642 @@
+@charset "UTF-8";
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+
+.global {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.category__detail,
+.service__detail,
+.care__detail,
+.medical__detail,
+.hospitality__detail,
+.hotspring__detail,
+.sc-fit__detail,
+.plan__detail,
+.research__detail {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.category__detail .category__inner,
+.service__detail .service__inner,
+.care__detail .care__inner,
+.medical__detail .medical__inner,
+.hospitality__detail .hospitality__inner,
+.hotspring__detail .hotspring__inner,
+.sc-fit__detail .sc-fit__inner,
+.plan__detail .plan__inner,
+.research__detail .research__inner {
+  padding-top: 0;
+}
+.service__detail .service__inner .side,
+.care__detail .care__inner .side,
+.medical__detail .medical__inner .side,
+.hospitality__detail .hospitality__inner .side,
+.hotspring__detail .hotspring__inner .side,
+.sc-fit__detail .sc-fit__inner .side,
+.plan__detail .plan__inner .side,
+.research__detail .research__inner .side {
+  float: right;
+  width: 22%;
+}
+.service__detail .service__inner .wrap,
+.care__detail .care__inner .wrap,
+.medical__detail .medical__inner .wrap,
+.hospitality__detail .hospitality__inner .wrap,
+.hotspring__detail .hotspring__inner .wrap,
+.sc-fit__detail .sc-fit__inner .wrap,
+.plan__detail .plan__inner .wrap,
+.research__detail .research__inner .wrap {
+  float: left;
+  width: 75%;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+.category__detail .category__inner .wrap {
+  float: none;
+  width: 100%;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+
+.side--menu {
+    max-width: 210px
+    height: 769px;
+}
+.side--menu h3 {
+    width: 210px;
+    height: 0;
+    background-image: url(../../images/service/right_menu01.png);
+    background-repeat: no-repeat;
+    display:block;
+    padding-top:100px;
+    overflow:hidden;
+}
+.side--menu ul {
+    margin:0;
+    padding: 0;
+}
+.side--menu li {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.side--menu li a {
+    width: 210px;
+    height: 0;
+    background-image: url(../../images/service/right_menu01.png);
+    background-repeat: no-repeat;
+    display:block;
+    padding-top:44px;
+    overflow:hidden;
+}
+.side--menu li#menu01 a {
+    background-position: 0px -100px;
+}
+.side--menu li#menu02 a {
+    background-position: 0px -145px;
+}
+.side--menu li#menu03 a {
+    background-position: 0px -189px;
+    padding-top:31px;
+}
+.side--menu li#menu04 a {
+    background-position: 0px -220px;
+    padding-top:31px;
+}
+.side--menu li#menu05 a {
+    background-position: 0px -251px;
+    padding-top:40px;
+}
+.side--menu li#menu06 a {
+    background-position: 0px -291px;
+    padding-top:31px;
+}
+.side--menu li#menu07 a {
+    background-position: 0px -322px;
+    padding-top:31px;
+}
+.side--menu li#menu08 a {
+    background-position: 0px -353px;
+    padding-top:40px;
+}
+.side--menu li#menu09 a {
+    background-position: 0px -393px;
+    padding-top:45px;
+}
+.side--menu li#menu10 a {
+    background-position: 0px -438px;
+    padding-top:40px;
+}
+.side--menu li#menu11 a {
+    background-position: 0px -478px;
+    padding-top:45px;
+}
+.side--menu li#menu12 a {
+    background-position: 0px -523px;
+    padding-top:25px;
+}
+.side--menu li#menu13 a {
+    background-position: 0px -548px;
+    padding-top:25px;
+}
+.side--menu li#menu14 a {
+    background-position: 0px -573px;
+    padding-top:25px;
+}
+.side--menu li#menu15 a {
+    background-position: 0px -598px;
+    padding-top:25px;
+}
+.side--menu li#menu16 a {
+    background-position: 0px -623px;
+    padding-top:26px;
+}
+.side--menu li#menu17 a {
+    background-position: 0px -649px;
+    padding-top:40px;
+}
+.side--menu li#menu18 a {
+    background-position: 0px -689px;
+    padding-top:27px;
+}
+.side--menu li#menu19 a {
+    background-position: 0px -715px;
+    padding-top:27px;
+}
+.side--menu li#menu20 a {
+    background-position: 0px -741px;
+    padding-top:28px;
+}
+.side--menu li#menu01.current a,
+.side--menu li#menu01 a:hover {
+    background-position: -210px -100px;
+}
+.side--menu li#menu02.current a,
+.side--menu li#menu02 a:hover {
+    background-position: -210px -145px;
+}
+.side--menu li#menu03.current a,
+.side--menu li#menu03 a:hover {
+    background-position: -210px -189px;
+}
+.side--menu li#menu04.current a,
+.side--menu li#menu04 a:hover {
+    background-position: -210px -220px;
+}
+.side--menu li#menu05.current a,
+.side--menu li#menu05 a:hover {
+    background-position: -210px -251px;
+}
+.side--menu li#menu06.current a,
+.side--menu li#menu06 a:hover {
+    background-position: -210px -291px;
+}
+.side--menu li#menu07.current a,
+.side--menu li#menu07 a:hover {
+    background-position: -210px -322px;
+}
+.side--menu li#menu08.current a,
+.side--menu li#menu08 a:hover {
+    background-position: -210px -353px;
+}
+.side--menu li#menu09.current a,
+.side--menu li#menu09 a:hover {
+    background-position: -210px -393px;
+}
+.side--menu li#menu10.current a,
+.side--menu li#menu10 a:hover {
+    background-position: -210px -438px;
+}
+.side--menu li#menu11.current a,
+.side--menu li#menu11 a:hover {
+    background-position: -210px -478px;
+}
+.side--menu li#menu12.current a,
+.side--menu li#menu12 a:hover {
+    background-position: -210px -523px;
+}
+.side--menu li#menu13.current a,
+.side--menu li#menu13 a:hover {
+    background-position: -210px -548px;
+}
+.side--menu li#menu14.current a,
+.side--menu li#menu14 a:hover {
+    background-position: -210px -573px;
+}
+.side--menu li#menu15.current a,
+.side--menu li#menu15 a:hover {
+    background-position: -210px -598px;
+}
+.side--menu li#menu16.current a,
+.side--menu li#menu16 a:hover {
+    background-position: -210px -623px;
+}
+.side--menu li#menu17.current a,
+.side--menu li#menu17 a:hover {
+    background-position: -210px -649px;
+}
+.side--menu li#menu18.current a,
+.side--menu li#menu18 a:hover {
+    background-position: -210px -689px;
+}
+.side--menu li#menu19.current a,
+.side--menu li#menu19 a:hover {
+    background-position: -210px -715px;
+}
+.side--menu li#menu20.current a,
+.side--menu li#menu20 a:hover {
+    background-position: -210px -741px;
+}
+
+.col_6 {
+	position: relative;
+	width: 47%;
+	margin-right: 6%;
+	float: left;
+}
+.col_6:nth-child(even) {
+	position: relative;
+	width: 47%;
+	margin-right: 0;
+	float: left;
+}
+.col_6 img.p_top,
+.col_8 img.p_top,
+.col_12 img.p_top {
+	padding-top: 15px;
+}
+.col_4 {
+	position: relative;
+	width: 33%;
+	margin-right: 6%;
+	float: left;
+}
+.col_4_3 {
+	position: relative;
+	width: 32%;
+	margin-right: 2%;
+	margin-bottom: 20px;
+	float: left;
+}
+.col_4_3:nth-child(3n) {
+	position: relative;
+	width: 32%;
+	margin-right: 0;
+	margin-bottom: 20px;
+	float: left;
+}
+.col_8 {
+	position: relative;
+	width: 61%;
+	margin-right: 0;
+	float: left;
+}
+.col_7 {
+	position: relative;
+	width: 57%;
+	margin-right: 3%;
+	float: left;
+}
+.col_5 {
+	position: relative;
+	width: 40%;
+	margin-right: 0;
+	float: left;
+}
+.col_2 {
+	position: relative;
+	width: 15%;
+	margin-right: 3%;
+	float: left;
+}
+.col_10 {
+	position: relative;
+	width: 82%;
+	margin-right: 0;
+	float: left;
+}
+.col_9 {
+	position: relative;
+	width: 77%;
+	margin-right: 3%;
+	float: left;
+}
+.col_3 {
+	position: relative;
+	width: 20%;
+	margin-right: 0;
+	float: left;
+}
+.col_2_8 {
+	position: relative;
+	width: 23%;
+	margin: 0 0.7%;
+	padding-bottom: 30px;
+	float: left;
+}
+.col_5_8 {
+	position: relative;
+	width: 48%;
+	margin: 0 0.7%;
+	padding-bottom: 30px;
+	float: left;
+}
+
+.service__detail .service__inner .wrap h3 {
+  padding: 50px 0 10px;
+  font-size: 36px;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.service__detail .service__inner .wrap h4 {
+  font-size: 22px;
+  padding: 25px 0 0 0;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #979797;
+}
+
+.service__detail .service__inner .wrap .chart_01 {
+	padding-top: 100px;
+}
+.chart__top {
+	padding-top: 100px;
+}
+.chart__top20 {
+	padding-top: 20px;
+}
+
+.care__detail .care__inner .wrap h2,
+.sc-fit__detail .sc-fit__inner .wrap h2,
+.plan__detail .plan__inner .wrap h2,
+.research__detail .research__inner .wrap h2 {
+  background-image: url(../../images/content_header01.png);
+  width: 100%;
+  max-width: 700px;
+  height: 100px;
+  padding: 40px 0 0 20px;
+  color: #F2F2CA;
+  font-size: 34px;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.care__detail .care__inner .wrap h3,
+.medical__detail .medical__inner .wrap h3,
+.hospitality__detail .hospitality__inner .wrap h3,
+.hotspring__detail .hotspring__inner .wrap h3,
+.sc-fit__detail .sc-fit__inner .wrap h3,
+.plan__detail .plan__inner .wrap h3,
+.research__detail .research__inner .wrap h3 {
+  padding: 50px 0 10px;
+  font-size: 36px;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.research__detail .research__inner .wrap h3.small,
+.hospitality__detail .hospitality__inner .wrap h3.small,
+.medical__detail .medical__inner .wrap h3.small {
+  font-size: 24px;
+}
+.care__detail .care__inner .wrap h3.small {
+  font-size: 28px;
+}
+.care__detail .care__inner .wrap h4,
+.medical__detail .medical__inner .wrap h4,
+.hospitality__detail .hospitality__inner .wrap h4,
+.sc-fit__detail .sc-fit__inner .wrap h4,
+.plan__detail .plan__inner .wrap h4,
+.research__detail .research__inner .wrap h4 {
+  font-size: 22px;
+  padding: 25px 0 0 0;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #979797;
+}
+.care__detail .care__inner .wrap h4.small {
+  font-size: 16px;
+}
+.category__detail .category__inner .wrap p {
+  padding: 50px 0 50px;
+  font-size: 24px;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+p.caption {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	margin-top: -40px;
+}
+p.caption-bottom {
+	position: relative;
+	text-align: center;
+	padding-top: 5px;
+}
+.column--message {
+	border-radius: 20px;
+	border: solid 3px #D4CDB7;
+	margin-top: 50px;
+	padding: 30px;
+}
+.research__detail .research__inner .wrap .column--message h4 {
+  font-size: 24px;
+  padding: 0;
+  margin-bottom: 20px;
+  border-bottom: 0px;
+}
+.img--caption {
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5px;
+}
+.chart--kaizen {
+	padding: 50px 0;
+}
+.column--kaizen {
+	border-radius: 20px;
+	border: solid 3px #D4CDB7;
+	padding: 30px;
+}
+ul.care--list {
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+}
+ul.care--list li {
+	float: left;
+	background-color: #073E35;
+	width: 100px;
+	height: 28px;
+	border-radius: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 5px;
+	margin: 0 5px 20px 0;
+}
+.img--point {
+	padding: 0 0 20px;
+}
+.column--care {
+	border-radius: 20px;
+	border: solid 3px #D4CDB7;
+	margin-top: 30px;
+	padding: 30px;
+}
+.care__detail .care__inner .wrap .column--care h4 {
+  padding: 0 0 10px;
+  border-bottom: solid 1px #979797;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #063E34;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.medical__detail .medical__inner .wrap h5 {
+	background-color: #073E35;
+	width: 100px;
+	height: 28px;
+	border-radius: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 5px;
+	margin: 10px 5px 10px 0;
+}
+img.img--right {
+	width: 47%;
+	float: right;
+	padding-left: 6%;
+	padding-bottom: 10px;
+}
+span.span--right {
+	width: 47%;
+	float: right;
+	padding: 10px 0 1em 6%;
+}
+
+a.link--hospiality {
+	background-image: url(../../images/hospitality/icon_01.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+.hotspring__detail .hotspring__inner .wrap h4 {
+  font-size: 16px;
+  padding: 25px 0 0 0;
+  border-bottom: 0px;
+}
+.hotspring__detail .hotspring__inner .wrap h5 {
+  padding: 20px 0 10px;
+  font-size: 28px;
+  color: #063E34;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.hotspring__detail .hotspring__inner .wrap table {
+	width: 100%;
+	border: #CACACA 1px solid;
+}
+.hotspring__detail .hotspring__inner .wrap th {
+	width: 16%;
+	padding: 2%;
+	background-color: #F3F2EB;
+	border: #CACACA 1px solid;
+}
+.hotspring__detail .hotspring__inner .wrap td {
+	width: 76%;
+	padding: 2%;
+	background-color: #FFF;
+	border: #CACACA 1px solid;
+}
+.column--hotspring {
+	border-radius: 20px;
+	border: solid 1px #D4CDB7;
+	padding: 30px;
+}
+.hotspring__detail .hotspring__inner .wrap .column--hotspring h4 {
+  font-size: 28px;
+  padding: 0 0 10px;
+  border-bottom: 0px;
+}
+.hotspring__detail .hotspring__inner .wrap .column--hotspring h5 {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 14px;
+  padding: 25px 0 0 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #979797;
+  background-image: url(../../images/hotspring/icon_01.png);
+  background-repeat: no-repeat;
+  background-position: 0 25px;
+}
+.column--sc-fit {
+	border-radius: 20px;
+	border: solid 3px #D4CDB7;
+	padding: 30px;
+	margin-top: 30px;
+}
+.sc-fit__detail .sc-fit__inner .wrap .column--sc-fit h5 {
+  font-size: 24px;
+  padding: 0 0 20px;
+  border-bottom: 0px;
+}
+.sc-fit__detail .sc-fit__inner .wrap p.sc-fit--strong {
+  font-size: 16px;
+  padding: 25px 0 0 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.sc-fit__detail .sc-fit__inner .wrap p.machine--strong {
+  font-size: 16px;
+  padding: 10px 0 0 0;
+  font-weight: bold;
+}
+.plan__detail .plan__inner .wrap p.plan__intro__first {
+  padding: 50px 0 0 0;
+}
+.plan__detail .plan__inner .wrap p.plan__intro {
+  padding-top: 1em;
+}
+.plan__detail .plan__inner .wrap h5 {
+  font-size: 16px;
+  padding: 0 0 10px;
+  font-weight: bold;
+}
+.btn_gototop {
+	clear: both;
+	width: 100%;
+	height: 45px;
+}
+.btn_gototop img {
+	width: 46px;
+	height: 45px;
+	float: right;
+}

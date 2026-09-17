@@ -1,0 +1,911 @@
+@charset "UTF-8";
+html {
+  font: 62.5%/1.231 Noto Sans Japanese, メイリオ, Meiryo, 游ゴシック体, Yu Gothic, YuGothic, ヒラギノ角ゴシック Pro, Hiragino Kaku Gothic Pro, Osaka, ＭＳ\Ｐゴシック, MS PGothic, sans-serif;
+}
+
+h2,
+h4 {
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+.area-contents {
+  position: relative;
+  border-top: solid 1px #ddd;
+  padding: 26px 0 60px 0;
+}
+
+.area-contents * {
+  box-sizing: border-box;
+}
+
+.area-contents__ttl {
+  font-weight: 400;
+  display: block;
+  width: 345px;
+  max-width: 100%;
+  color: #9f8039;
+  font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E, メイリオ, Meiryo, serif;
+  position: relative;
+  margin: 0 auto;
+  font-size: calc(1.9rem + 2px);
+  top: -18px;
+  padding: 0 0 3px;
+  border-bottom: dotted 2px #9f8039;
+}
+
+@media (min-width: 481px) {
+  .area-contents__ttl {
+    display: none;
+  }
+}
+
+.area-contents__ttl-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 0 10px;
+  font-size: 21px;
+}
+
+.area-contents__inner {
+  position: relative;
+  padding: 0 4%;
+}
+
+@media (min-width: 481px) {
+  .area-contents__inner {
+    border-top: #fff 4px solid;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.area-contents__contents {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__contents {
+    flex-direction: row;
+    padding-top: 0;
+  }
+}
+
+.area-contents__map {
+  box-sizing: border-box;
+  width: 345px;
+  margin: 0 auto;
+  border: 1px solid #9f8039;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map {
+    width: 549px;
+    height: 400px;
+    margin-right: 40px;
+  }
+}
+
+.area-contents__map-btn {
+  position: absolute;
+  right: 4px;
+  bottom: 6px;
+  width: 100px;
+  height: 26px;
+  z-index: 1;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-btn {
+    right: 32px;
+    bottom: 16px;
+  }
+}
+
+.area-contents__map-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.area-contents__map-btn-img {
+  height: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-btn-img {
+    max-width: none;
+    width: 125px;
+  }
+}
+
+.area-contents__map-img {
+  text-align: center;
+  width: 345px;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img {
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+  }
+}
+
+.area-contents__map-img-text {
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E, メイリオ, Meiryo, serif;
+  font-size: 9px;
+  width: 69px;
+  height: 17px;
+  color: #9f8039;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text {
+    font-size: 11px;
+    width: auto;
+  }
+}
+
+.area-contents__map-img-text.--pc {
+  display: none;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text.--pc {
+    display: block;
+  }
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text.--sp {
+    display: none;
+  }
+}
+
+.area-contents__map-img-text.--osaka-kita {
+  left: 152.5px;
+  top: 97px;
+  color: #fff;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text.--osaka-kita {
+    left: 332px;
+    top: 123px;
+  }
+}
+
+.area-contents__map-img-text.--osaka-minami {
+  left: 141.5px;
+  top: 164px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text.--osaka-minami {
+    left: 316px;
+    top: 232px;
+  }
+}
+
+.area-contents__map-img-text.--kyoto {
+  left: 184px;
+  top: 38px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text.--kyoto {
+    left: 390px;
+    top: 27px;
+  }
+}
+
+.area-contents__map-img-text.--hyougo {
+  left: 78px;
+  top: 74px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text.--hyougo {
+    left: 216px;
+    top: 85px;
+  }
+}
+
+.area-contents__map-img-text.--nara {
+  left: 218px;
+  top: 134px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text.--nara {
+    left: 444px;
+    top: 183px;
+  }
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-img-text.--pc {
+    display: block;
+  }
+}
+
+.area-contents__map-img-text span {
+  font-size: 120%;
+}
+
+.area-contents__d-sp-none {
+  display: none;
+}
+
+@media (min-width: 481px) {
+  .area-contents__d-sp-none {
+    display: inline;
+  }
+}
+
+.area-contents__only-pc {
+  display: none;
+}
+
+@media (min-width: 481px) {
+  .area-contents__only-pc {
+    display: block;
+  }
+}
+
+.area-contents__pref-img {
+  display: none;
+}
+
+@media (min-width: 481px) {
+  .area-contents__pref-img {
+    width: 100%;
+    left: 0;
+    transform: scale(1.2);
+    display: inline;
+  }
+}
+
+.area-contents__map-pc {
+  display: none;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-pc {
+    display: inline;
+  }
+}
+
+.area-contents__map-area {
+  cursor: pointer;
+}
+
+.area-contents__map-box-sp {
+  width: 345px;
+  max-width: 100%;
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-box-sp {
+    display: none;
+    width: 100%;
+    left: 0;
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width: 481px) {
+  .area-contents__map-sp {
+    display: none;
+  }
+}
+
+.area-contents__detail-map {
+  display: none;
+  overflow: hidden;
+  border: 1px solid #9f8039;
+  position: relative;
+  width: 345px;
+  height: 251px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 481px) {
+  .area-contents__detail-map {
+    width: 549px;
+    margin-right: 40px;
+    height: 400px;
+  }
+}
+
+.area-contents__back-btn {
+  position: absolute;
+  right: 4px;
+  bottom: 6px;
+  width: 100px;
+  height: 26px;
+  z-index: 1;
+}
+
+.area-contents__back-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media (min-width: 481px) {
+  .area-contents__back-btn {
+    right: 32px;
+    bottom: 16px;
+  }
+}
+
+.area-contents__back-btn-img {
+  max-width: 100%;
+}
+
+@media (min-width: 481px) {
+  .area-contents__back-btn-img {
+    max-width: none;
+    width: 125px;
+  }
+}
+
+.area-contents__detail-img {
+  position: absolute;
+}
+
+@media (min-width: 481px) {
+  .area-contents__only-sp {
+    display: none;
+  }
+}
+
+.area-contents__facility {
+  box-sizing: border-box;
+  width: 345px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 400px;
+  border: 1px solid #9f8039;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility {
+    width: 411px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility::before {
+    display: none;
+  }
+}
+
+.area-contents__triangle {
+  background-color: #9f8039;
+  height: calc(190px - 154px);
+  position: relative;
+  width: calc(190px - 154px);
+  transform: translateX(-50%);
+  left: 50%;
+  top: -31px;
+  clip-path: polygon(50% 0%, 0% 86.6%, 100% 86.6%);
+}
+
+.area-contents__triangle::before {
+  background-color: #fff;
+  bottom: calc((100% - 15.5%) / 2);
+  content: "";
+  height: calc(175.6px - 143px);
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, calc((100% - 15.4%) / 2));
+  width: calc(175.6px - 143px);
+  clip-path: polygon(50% 0%, 0% 86.6%, 100% 86.6%);
+}
+
+@media (min-width: 481px) {
+  .area-contents__triangle {
+    display: none;
+  }
+}
+
+.area-contents__facility-item {
+  display: none;
+  box-sizing: border-box;
+  height: 400px;
+  margin: 0 auto;
+  padding: 15px 10px;
+  width: 345px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item {
+    width: 411px;
+    padding: 15px 9px 20px 15px;
+    margin-top: 0;
+  }
+}
+
+.area-contents__facility-item.--osaka-kita {
+  display: block;
+}
+
+.area-contents .area-contents__facility-jsScroll {
+  box-sizing: border-box;
+  height: calc(400px - 35px);
+  overflow: hidden;
+}
+
+.area-contents .jspContainer {
+  width: 100% !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.area-contents .jspPane {
+  position: absolute;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.area-contents .jspVerticalBar {
+  width: 6px;
+  height: 91%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.area-contents .jspTrack {
+  background: #eee;
+  position: relative;
+}
+
+.area-contents .jspDrag {
+  background: #9f8039;
+  position: relative;
+  left: 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.area-contents__desc {
+  color: #9f8039;
+  padding-left: 8px;
+  font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E, メイリオ, Meiryo, serif;
+  font-weight: 200;
+  width: 345px;
+  max-width: 100%;
+  margin: 16px auto 30px;
+  border-left: 5px solid #9f8039;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__desc {
+    border-left-width: 7px;
+    margin: 11px auto 50px;
+    width: auto;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+}
+
+.area-contents__to-facility-list-btn {
+  text-align: center;
+}
+
+.area-contents__to-facility-list-btn-link {
+  border: solid 1px #9f8039;
+  padding: 5px 55px 6px 54px;
+  text-align: center;
+  font-size: calc(1.5rem + 2px);
+  color: #9f8039;
+  font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E, メイリオ, Meiryo, serif;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+.area-contents__to-facility-list-btn-link:hover {
+  opacity: 0.7;
+}
+
+.area-contents__to-facility-list-btn-link:hover::after {
+  transform: rotate(135deg) translate3d(-3px, -3px, 0);
+}
+
+@media (min-width: 481px) {
+  .area-contents__to-facility-list-btn-link {
+    padding: 8px 0;
+    margin: 0 auto;
+    display: block;
+    width: 266px;
+    font-size: 20px;
+    padding: 3px 55px 6px 35px;
+  }
+}
+
+.area-contents__to-facility-list-btn-link::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-top: #9f8039 1px solid;
+  border-left: #9f8039 1px solid;
+  position: absolute;
+  top: calc(50% - 5px);
+  right: 13px;
+  transform: rotate(135deg);
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 481px) {
+  .area-contents__to-facility-list-btn-link::after {
+    border-top-width: 2px;
+    border-left-width: 2px;
+    width: 10px;
+    height: 10px;
+    top: calc(50% - 6px);
+    right: 15px;
+  }
+}
+
+.area-contents__facility-item-head {
+  padding-bottom: 15px;
+  margin-bottom: 18.5px;
+  width: calc(345px - 35px);
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  border-bottom: solid 1px #9f8039;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 19px;
+    padding: 0 0 14px 0;
+    width: 367px;
+  }
+}
+
+.area-contents__facility-item-head-name {
+  font-size: 19px;
+  color: #9f8039;
+  margin: 0;
+  padding: 0 0 1px;
+  left: 0;
+  font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E, メイリオ, Meiryo, serif;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-head-name {
+    font-size: 22px;
+  }
+}
+
+.area-contents__facility-item-num {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  margin-left: 36px;
+  color: #9f8039;
+  font-size: 16px;
+  font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E, メイリオ, Meiryo, serif;
+  font-weight: 200;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-num {
+    margin-left: 0;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .area-contents__facility-item-head-num {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    border-radius: 50%;
+    background: #9F8039;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.area-contents__facility-item-btn-wrap {
+  margin: 0;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-btn-wrap {
+    line-height: 1.7;
+    font-size: 14px;
+  }
+}
+
+.area-contents__facility-item-btn {
+  box-sizing: border-box;
+  padding: 5.3px 26px 5.3px 12.3px;
+  height: 39px;
+  width: 182px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  border: solid 1px #9f8039;
+  text-align: center;
+  color: #9f8039;
+  font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E, メイリオ, Meiryo, serif;
+  position: relative;
+  text-decoration: none;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-btn {
+    display: inline-block;
+    height: auto;
+    width: 200px;
+    padding: 9px 0 9px 17px;
+    font-size: 14px;
+    background: #fff;
+    letter-spacing: 0.1em;
+    text-align: left;
+  }
+}
+
+.area-contents__facility-item-btn::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-top: #9f8039 1px solid;
+  border-left: #9f8039 1px solid;
+  position: absolute;
+  transform: rotate(135deg);
+  transition: all 0.3s ease;
+  top: calc(50% - 4px);
+  right: 14px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-btn::after {
+    width: 10px;
+    height: 10px;
+    right: 15px;
+    top: calc(50% - 6px);
+  }
+}
+
+.area-contents__facility-item-ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(345px - 35px);
+  padding: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-ul {
+    width: calc(411px - 30px);
+    padding-right: 14px;
+    margin: 0;
+  }
+}
+
+.area-contents__facility-item-li {
+  display: flex;
+  padding: 10px;
+  background-color: #f3eddf;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-li {
+    padding: 10px 7px;
+    display: list-item;
+    list-style: none;
+  }
+}
+
+.area-contents__facility-img {
+  width: 36.5%;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 7px;
+  }
+}
+
+.area-contents__facility-name {
+  width: calc(100% - 30% - 20px);
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  position: relative;
+  line-height: 1.8;
+  color: #9f8039;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-name {
+    font-size: 13px;
+    line-height: 2;
+    width: auto;
+    margin: 0;
+    display: block;
+  }
+}
+
+.area-contents__facility-name::after {
+  right: -8px;
+  bottom: 50%;
+  transform: translateY(50%);
+  content: url(https://www.supercourt.jp/img/top/facility/facility-list-icon.svg);
+  margin-left: 5px;
+  position: absolute;
+  height: 21px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-name::after {
+    right: initial;
+    bottom: 0;
+    transform: none;
+  }
+}
+
+.area-contents__facility-item-link {
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.area-contents__facility-item-link:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 481px) {
+  .area-contents__facility-item-link {
+    width: calc((100% - 6px * 2) / 3);
+    margin: 0 6px 20px 0;
+    display: block;
+  }
+  .area-contents__facility-item-link:nth-child(3n) {
+    margin-right: 0;
+  }
+  .area-contents__facility-item-link.--mb-pc-0 {
+    margin-bottom: 0;
+  }
+}
+
+a.area-contents__facility-item-btn:link,
+a.area-contents__facility-item-btn:visited {
+  color: #9f8039;
+}
+
+a.area-contents__to-facility-list-btn-link:link,
+a.area-contents__to-facility-list-btn-link:visited {
+  color: #9f8039;
+}
+
+.facility.facility__detail.--mb-40 {
+  margin-bottom: 40px;
+}
+
+.area-contents__area {
+  width: 345px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 9px;
+}
+
+@media (min-width: 481px) {
+  .area-contents__area {
+    display: none;
+  }
+}
+
+.area-contents__area-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+}
+
+.area-contents__area-list > * {
+  width: calc((100% - 15px * 3) / 3);
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+
+.area-contents__area-item {
+  position: relative;
+}
+
+.area-contents__area-item::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 7px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-top: 7px solid #D3D3D3;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-bottom: none;
+}
+
+.area-contents__area-button {
+  display: block;
+  width: 100%;
+  padding: 10px 2px 12px 7px;
+  border: 1px solid #9F8039;
+  border-radius: 0;
+  background: transparent;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #9F8039;
+  text-align: left;
+  cursor: pointer;
+}
+
+.area-contents__area-num {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  border: 1px solid #9F8039;
+  border-radius: 50%;
+  font-size: 15px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.area-contents__area-button.--active {
+  background: #9F8039;
+  color: #fff;
+  cursor: default;
+}
+
+.area-contents__area-button.--active .area-contents__area-num {
+  border-color: #fff;
+}

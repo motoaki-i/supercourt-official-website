@@ -1,0 +1,51 @@
+//* ========================================================================== */
+//* kouhochi
+//* 建築候補地募集のお知らせ
+//* ========================================================================== */
+.kouhochi {
+	.wrap {
+		.pt {
+			margin-bottom: 40px;
+		}
+		.row {
+			margin-bottom: 40px;
+		}
+		h3 {
+			margin-bottom: 10px;
+			font-family: $mincho;
+			font-size: 30px;
+		}
+		p {
+			margin-bottom: 10px;
+		}
+		.btn {
+			margin: 0 auto;
+			max-width: 600px;
+		}
+		table {
+			width: 100%;
+			th,td {
+				padding: 15px;
+				border: 1px solid  #ccc;
+			}
+			th {
+				background: #eee;
+				font-weight: bold;
+			}
+		}
+		.lead {
+			overflow: hidden;
+			.img {
+				padding: 0 0 20px 20px;
+				float: right;
+				max-width: 283px;
+			}
+		}
+		.inquiry {
+			text-align: center;
+			p {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

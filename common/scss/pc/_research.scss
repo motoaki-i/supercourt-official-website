@@ -1,0 +1,46 @@
+//* ========================================================================== */
+//* research__detail
+//* スーパー・コートの研究活動
+//* ========================================================================== */
+.research__detail {
+	.research__inner {
+		.wrap {
+			h3 {
+				padding: 50px 0 10px;
+				font-size: 36px;
+				font-family: $mincho;
+				line-height: 1.2;
+				&.small {
+					font-size: 30px;
+				}
+			}
+			h4 {
+				font-size: 22px;
+				font-weight: bold;
+				padding: 25px 0 0 0;
+				margin-bottom: 20px;
+				border-bottom: solid 1px #979797;
+			}
+			.column--message {
+				margin-top: 20px;
+				padding: 20px 20px 0 20px;
+				border: 3px solid  #d4cdb7;
+				-webkit-border-radius: 20px;
+				-moz-border-radius: 20px;
+				-ms-border-radius: 20px;
+				-o-border-radius: 20px;
+				border-radius: 20px;
+				.row {
+					margin-bottom: 20px;
+				}
+				h5 {
+					margin-bottom: 20px;
+					font-size: 20px;
+				}
+			}
+			.chart--kaizen {
+				margin: 20px 0;
+			}
+		}
+	}
+}

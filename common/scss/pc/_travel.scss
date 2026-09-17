@@ -1,0 +1,61 @@
+//* ========================================================================== */
+//* travel__detail
+//* 旅行・リクリエーション
+//* ========================================================================== */
+.travel__detail {
+	.travel__inner {
+		.wrap {
+			.content {
+				margin-top:40px;
+			}
+			h3 {
+				padding: 50px 0 30px;
+				font-size: 36px;
+				font-family: $mincho;
+				line-height: 1.2;
+				&.small {
+					font: 24px;
+				}
+			}
+			h4 {
+				font-size: 22px;
+				font-weight: bold;
+				padding: 25px 0 0 0;
+				margin-bottom: 20px;
+				border-bottom: solid 1px #979797;
+				&.small {
+					font-size: 16px;
+				}
+			
+			}
+			h5 {
+					font-size: 16px;
+					padding: 0 0 3px 0;
+					font-weight:bold;
+					color:#009BE0;
+					border-bottom: 0px;
+				}
+				.column--travel {
+    border-radius: 10px;
+    border: 1px solid #CCC7B0;
+    padding: 10px;
+    margin-top: 30px;
+	font-size:12px;
+	.caution {
+		font-size:10px;
+	}
+				}
+								.row {
+					margin-bottom:30px;
+				}
+				ul {
+					margin:-2px;
+				}
+				ul li {
+					width:24.7%;
+					float:left;
+					padding:1px;
+				}
+		}
+	}
+}

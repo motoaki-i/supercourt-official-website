@@ -1,0 +1,28 @@
+//* ========================================================================== */
+//* recruit
+//* 採用情報
+//* ========================================================================== */
+.recruit {
+	margin-bottom: 40px;
+	.content {
+		padding-top: 20px;
+		.lead {
+			margin-bottom: 20px;
+			font-family: $mincho;
+			text-align: center;
+			line-height: 1.2;
+			p {
+				margin-bottom: 5px;
+			}
+			h3 {
+				font-size: 1.8rem;
+				color: #f60;
+			}
+		}
+		ul {
+			li {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}

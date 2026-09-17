@@ -1,0 +1,33 @@
+//* ========================================================================== */
+//* service__detail
+//* 介護サービス詳細
+//* ========================================================================== */
+.service__detail {
+	.service__inner {
+		padding-top: 0;
+		.wrap {
+			h3 {
+				padding: 50px 0 10px;
+				font-size: 36px;
+				font-family: $mincho;
+				line-height: 1.2;
+			}
+			h4 {
+				font-size: 22px;
+				font-weight: bold;
+				padding: 25px 0 0 0;
+				margin-bottom: 10px;
+				border-bottom: solid 1px #979797;
+			}
+			.chart_01 {
+				padding-top: 100px;
+			}
+			.chart__top {
+				padding-top: 100px;
+			}
+			.chart__top20 {
+				padding-top: 20px;
+			}
+		}
+	}
+}

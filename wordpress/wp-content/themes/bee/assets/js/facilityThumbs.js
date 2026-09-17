@@ -1,0 +1,471 @@
+function facilityThumbs(facilityName) {
+	var y = facilityName;
+
+	var obj = {
+		imazato: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート今里',
+			region: 'osaka',
+			address: '大阪市東成区大今里西2丁目8番22号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		takatsuki_jounai: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート高槻城内',
+			region: 'osaka',
+			address: '大阪府高槻市城内町1番24号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		rokujizo: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート京・六地蔵',
+			region: 'kyoto',
+			address: '京都府京都市伏見区桃山町大島312番地',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		mikuni: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート三国',
+			region: 'osaka',
+			address: '大阪府大阪市淀川区新高4丁目4番7号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		higashiosaka_shinishikiri: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート東大阪新石切',
+			region: 'osaka',
+			address: '大阪府東大阪市西石切町5丁目1番5号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		fujimori: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート京・藤森',
+			region: 'kyoto',
+			address: '京都府京都市伏見区深草池ノ内町11番3号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		senrichuou: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート千里中央',
+			region: 'osaka',
+			address: '大阪府豊中市上新田4丁目5番30号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		takaida: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート東大阪高井田',
+			region: 'osaka',
+			address: '大阪府東大阪市森河内西1丁目26番21号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		nishikyougoku: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート京・西京極',
+			region: 'kyoto',
+			address: '京都府京都市右京区西京極畔勝町55',
+            spec: [
+                '重度医療対応</li><li>リハビリ特化'
+            ]
+		},
+		higashiyodogawa: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート東淀川',
+			region: 'osaka',
+			address: '大阪府大阪市東淀川区大道南1丁目6番28号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		toyonakamomoyamadai: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート豊中桃山台',
+			region: 'osaka',
+			address: '大阪府豊中市西泉丘2丁目2451番地',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		suitayamate: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート吹田山手',
+			region: 'osaka',
+			address: '大阪府吹田市山手町4丁目31番21号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		mukonosou: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート武庫之荘',
+			region: 'hyougo',
+			address: '兵庫県尼崎市南武庫之荘2丁目18番18号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		ayameike: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コートあやめ池',
+			region: 'nara',
+			address: '奈良県奈良市あやめ池南6丁目8番38号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		nagaikouenfront: {
+			service: '高齢者住宅',
+			name: 'スーパー・コート長居公園フロント',
+			region: 'osaka',
+			address: '大阪府大阪市東住吉区鷹合3丁目11番19号'
+		},
+		toyonakaryokuchikouen: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート豊中緑地公園',
+			region: 'osaka',
+			address: '大阪府豊中市北条町4丁目7番7号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		takatsuki: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート高槻',
+			region: 'osaka',
+			address: '大阪府高槻市南庄所町14番4号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		ujiookubo: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート宇治大久保',
+			region: 'kyoto',
+			address: '京都府宇治市大久保町北ノ山77番5号'
+		},
+		pre_ujiookubo: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート プレミアム宇治',
+			region: 'kyoto',
+			address: '京都府宇治市大久保町北ノ山75番',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		pre_ikeda: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート プレミアム池田',
+			region: 'osaka',
+			address: '大阪府池田市井口堂3丁目1番9号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+				pre_nara_gakuenmae: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート プレミアム奈良・学園前',
+			region: 'nara',
+			address: '奈良県奈良市',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+				kadoma: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート門真',
+			region: 'osaka',
+			address: '大阪府門真市柳町11番27号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		onobara: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート箕面小野原',
+			region: 'osaka',
+			address: '大阪府箕面市小野原西6丁目14番15号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		kire: {
+			service: '介護付き有料老人ホーム',
+			name: 'せいりょう平野喜連',
+			region: 'osaka',
+			address: '大阪府大阪市平野区喜連西5丁目4番18号',
+			spec: [
+                'リハビリ特化'
+            ]
+		},
+		hirano: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート平野',
+			region: 'osaka',
+			address: '大阪府大阪市平野区長吉長原4丁目15番24号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		yao: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート八尾',
+			region: 'osaka',
+			address: '大阪府八尾市北亀井町3丁目2番31号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		minamihanayashiki: {
+			service: '高齢者住宅',
+			name: 'スーパー・コート南花屋敷',
+			region: 'hyougo',
+			address: '兵庫県川西市南花屋敷4丁目10番11号'
+		},
+		kobe_kita: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート神戸北',
+			region: 'hyougo',
+			address: '兵庫県神戸市北区谷上南町15-10',
+			spec: [
+				'リハビリ特化'
+			]
+		},
+		jr_nara: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コートJR奈良駅前',
+			region: 'nara',
+			address: '奈良県奈良市大宮町1丁目5番35号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		higashiosaka: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート東大阪みと',
+			region: 'osaka',
+			address: '大阪府東大阪市友井2丁目20番5号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		higashisumiyoshi2: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート東住吉2号館',
+			region: 'osaka',
+			address: '大阪府大阪市東住吉区西今川4丁目17番13号',
+			spec: [
+                'がん末期・指定難病対応フロアあり'
+            ]
+		},
+		higashisumiyoshi: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート東住吉1号館',
+			region: 'osaka',
+			address: '大阪府大阪市東住吉区西今川4丁目26番14号'
+		},
+		inadera: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート猪名寺',
+			region: 'hyougo',
+			address: '兵庫県尼崎市猪名寺2丁目10番8号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		daito: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート大東',
+			region: 'osaka',
+			address: '大阪府大東市扇町13番1号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		osakajo: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート大阪城公園',
+			region: 'osaka',
+			address: '大阪府大阪市城東区鴫野西2丁目19番28号',
+            spec: [
+                '重度認知症対応</li><li>がん末期・指定難病対応フロアあり'
+            ]
+		},
+		kamo: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート川西加茂',
+			region: 'hyougo',
+			address: '兵庫県川西市加茂2丁目6番23号',
+            spec: [
+                'リハビリ特化'
+            ]
+			
+		},
+		kawanishi: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート川西',
+			region: 'hyougo',
+			address: '兵庫県川西市東久代2丁目16番14号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		matsubara: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート松原',
+			region: 'osaka',
+			address: '大阪府松原市西野々1丁目1番1号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		shirasagi: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート堺白鷺',
+			region: 'osaka',
+			address: '大阪府堺市中区新家町531番1号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		kamiishi2: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート プライム神石',
+			region: 'osaka',
+			address: '大阪府堺市堺区神石市之町19番27号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		kamiishi: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート堺神石',
+			region: 'osaka',
+			address: '大阪府堺市堺区神石市之町7番28号',
+            spec: [
+                'リハビリ特化</li><li>がん末期・指定難病対応フロアあり'
+            ]
+		},
+		sakai: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート堺',
+			region: 'osaka',
+			address: '大阪府堺市北区百舌鳥赤畑町4丁341番1号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		takaishi: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート高石羽衣',
+			region: 'osaka',
+			address: '大阪府高石市高師浜4丁目1番22号',
+            spec: [
+				'リハビリ特化</li><li>がん末期・指定難病対応フロアあり'
+            ]
+		},
+		koriyama: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート郡山筒井',
+			region: 'nara',
+			address: '奈良県大和郡山市筒井町856番2号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		shijo: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート京・四条大宮',
+			region: 'kyoto',
+			address: '京都府京都市中京区壬生坊城町14番8号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		katsura: {
+			service: '介護付き有料老人ホーム',
+			name: 'スーパー・コート京・桂',
+			region: 'kyoto',
+			address: '京都府京都市西京区桂朝日町123',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		ibaraki: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート茨木彩都',
+			region: 'osaka',
+			address: '大阪府茨木市彩都やまぶき2丁目5番36号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		sakuradori: {
+			service: '有料老人ホーム',
+			name: 'スーパー・コート茨木さくら通り',
+			region: 'osaka',
+			address: '大阪府茨木市沢良宜東町19番36号',
+            spec: [
+                'リハビリ特化'
+            ]
+		},
+		tatsumi: {
+			service: 'グループホーム・デイサービス',
+			name: 'せいりょう巽北',
+			region: 'osaka',
+			address: '大阪府大阪市生野区巽北3丁目4番13号'
+		},
+		seiryo: {
+			service: '在宅介護デイサービス',
+			name: 'せいりょう',
+			region: 'osaka',
+			address: '大阪府大阪市東住吉区公園南矢田4丁目10番6号'
+		},
+		seiryo_himejima: {
+			service: '特別養護老人ホーム',
+			name: 'せいりょう姫島',
+			region: 'osaka',
+			address: '大阪市西淀川区姫島２丁目15番8号'
+		},
+		himejimamizuhoen: {
+			service: '特別養護老人ホーム',
+			name: '姫島みずほ苑',
+			region: 'osaka',
+			address: '大阪市西淀川区姫島 5-11-24'
+		},
+		kamikoshien: {
+			service: '特別養護老人ホーム',
+			name: 'せいりょう上甲子園',
+			region: 'hyougo',
+			address: '兵庫県西宮市上甲子園5丁目5-5'
+		}
+	};
+
+	document.write('<div>');
+	document.write('<p class="photo"><a href="/facility/' + obj[y]['region'] + '/' + y + '.html"><img src="/images/facility/thumbs/' + y + '.jpg" alt="' + obj[y]['name'] + '"/></a></p>');
+	document.write('<p class="service">' + obj[y]['service'] + '</p>');
+	document.write('<h5><a href="/' + obj[y]['region'] + '/' + y + '.html">' + obj[y]['name'] + '</a></h5>');
+	document.write('<p class="address">' + obj[y]['address'] + '</p>');
+    if(obj[y]['spec']){
+        document.write('<ul>');
+        $.each(obj[y]['spec'], function(i, val) {
+            document.write('<li>' + val + '</li>');
+        });
+        document.write('</ul>');
+       }
+	document.write('</div>');
+}

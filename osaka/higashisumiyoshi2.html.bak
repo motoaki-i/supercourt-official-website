@@ -1,0 +1,449 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>【公式】スーパー・コート東住吉2号館 | 大阪市の有料老人ホーム</title>
+<meta name="keywords" content="有料,老人ホーム,大阪,大阪市,東住吉区" />
+<meta name="description" content="大阪市東住吉区の有料老人ホーム スーパー・コート東住吉2号館をご紹介いたします。この施設では重度医療が必要な方でもご入居いただけますのでぜひご覧ください。">
+<!-- InstanceEndEditable -->
+<link href="/common/css/import.css" rel="stylesheet" type="text/css">
+<link href="/common/css/slidebars.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="(min-width: 640px)" href="/common/css/pc.css?160526">
+<link rel="stylesheet" media="(max-width: 639px)" href="/common/css/sp.css?160526">
+<!--[if lte IE 8]>
+<link href="/common/css/pc.css?160526" rel="stylesheet" type="text/css">
+<![endif]-->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/common/js/modernizr.js"></script>
+<script type="text/javascript" src="/common/js/rollover.js"></script>
+<script type="text/javascript" src="/common/js/smoothScroll.js"></script>
+<script type="text/javascript" src="/common/js/base.js"></script>
+<script type="text/javascript" src="/common/js/facilityLIst.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<link href="../common/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="../common/css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(e){
+  $('.bxslider').bxSlider({
+	  auto: true,
+	  nextSelector: '.slider-next',
+	  prevSelector: '.slider-prev'
+  });
+  $('.bx-rooms').bxSlider({
+	  auto: true,
+	  pagerCustom: '.bx-rooms-pager'
+  }); $(".feature a.modal, .facilityFloor a").colorbox({retinaImage:true,innerWidth:"90%"});
+});
+</script>
+<!-- 道順表示用 -->
+<script type="text/javascript">
+function fromhere() {
+  var initialLocation;
+  var defaultLocation = new google.maps.LatLng(34.621508, 135.533023);
+  var url = 'http://maps.google.co.jp/maps?f=d&source=s_d&saddr=FROMLAT,FROMLNG&daddr=%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E6%9D%B1%E4%BD%8F%E5%90%89%E5%8C%BA%E8%A5%BF%E4%BB%8A%E5%B7%9D4%E4%B8%81%E7%9B%AE17%E7%95%AA13%E5%8F%B7%20'; //
+
+  // 現在地取得
+  // Try W3C Geolocation (Preferred)
+  if(navigator.geolocation) {
+    browserSupportGetlocationFlag = true;
+    navigator.geolocation.getCurrentPosition(function(position) {
+      initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+      jumpMapURL();
+    }, function(error) {
+      handleNoGeolocation(browserSupportGetlocationFlag,error);
+    }, {enableHighAccuracy:true} // androidはこのオプションが必要
+    );
+  }
+  // Try Google Gears Geolocation
+  else if (google.gears) {
+    browserSupportGetlocationFlag = true;
+    var geo = google.gears.factory.create('beta.geolocation');
+    geo.getCurrentPosition(function(position) {
+      initialLocation = new google.maps.LatLng(position.latitude,position.longitude);
+      jumpMapURL();
+    }, function(error) {
+      handleNoGeoLocation(browserSupportGetlocationFlag,error);
+    }, {enableHighAccuracy:true} // androidはこのオプションが必要
+    );
+  }
+  // Browser doesn't support Geolocation
+  else {
+    browserSupportGetlocationFlag = false;
+    handleNoGeolocation(browserSupportGetlocationFlag,false);
+  }
+
+  function jumpMapURL() {
+
+    var lat       = initialLocation.lat();
+    var lng       = initialLocation.lng();
+    url = url.replace(/FROMLAT/, lat);
+    url = url.replace(/FROMLNG/, lng);
+   location.href = url;
+//	window.open( url , "_blank" ) ;
+  }
+
+  function handleNoGeolocation(errorFlag,error) {
+    if (errorFlag == true) {
+      alert("現在位置取得サービスが使用できません。施設付近の駅よりご案内します。\n"+
+          'コード: '    + error.code    + '\n' +
+          'メッセージ: ' + error.message + '\n');
+      initialLocation = defaultLocation;
+    } else {
+      alert("現在位置取得機能がございません。代わりに東京を表示しておきます。");
+      initialLocation = defaultLocation;
+    }
+    jumpMapURL();
+  }
+}
+</script>
+<!-- /道順表示用 -->
+<script type="text/javascript" src="/common/js/facilityThumbs.js"></script>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="bodyDataCurrent" type="text" value="default" -->
+</head>
+
+<body data-current="default" id="PAGETOP">
+<!-- Google Tag Manager -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-P436LG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P436LG');</script> 
+<!-- End Google Tag Manager --> 
+<!--#include virtual="/_header.html" -->
+<div id="sb-site"> <!-- InstanceBeginEditable name="contents" -->
+  <div class="facility facility__detail">
+    <div class="lead">
+      <div class="container">
+        <div class="left">
+          <p class="heading">有料老人ホーム</p>
+          <h1><em>スーパー・コート</em><strong>東住吉2号館</strong></h1>
+          <p class="text">地下鉄谷町線駒川中野駅から徒歩5分。駒川商店街もすぐの場所にあり、24時間看護師常駐で入居者様も安心のできる有料老人ホームです。</p>
+          <ul class="feature">
+            <li><img src="../images/facility/feature_icn_10.png" alt="介護職員常駐"/></li>
+            <li><img src="../images/facility/feature_icn_16.png" alt="24時間訪問看護対応"/></li>
+            <li><img src="../images/facility/feature_icn_06.png" alt="駅から近い"/></li>
+            <li><img src="../images/facility/feature_icn_11.png" alt="クリニック併設"/></li>
+            <li><img src="../images/facility/feature_icn_03.png" alt="天然温泉のお風呂"/></li>
+            <li><img src="../images/facility/feature_icn_17.png" alt="がん末期・指定難病対応フロアあり"/></li>
+            <li><img src="../images/facility/feature_icn_09.png" alt="駐車場あり"/></li>
+          </ul>
+        </div>
+        <div class="right">
+          <div class="visual">
+            <div class="visualInner">
+              <ul class="bxslider">
+                <li><img src="../images/facility/higashisumiyoshi2/shisetsu_1.jpg" alt=""/></li>
+                <li><img src="../images/facility/higashisumiyoshi2/shisetsu_2.jpg" alt=""/></li>
+                <li><img src="../images/facility/higashisumiyoshi2/shisetsu_3.jpg" alt=""/></li>
+              </ul>
+            </div>
+            <p class="slider-prev"></p>
+            <p class="slider-next"></p>
+          </div>
+          <p class="btnBlog"><a href="http://www.supercourt.jp/blog/sumiyoshi2/" target="_blank"><img src="../images/facility/btn_blog.jpg" alt="施設ブログを見る"/></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="facility__inner">
+      <div class="container">
+        <ol class="pankuzu">
+          <li><a href="/">ホーム&nbsp;</a></li>
+          <li><a href="../facility/#osaka-shinai">施設一覧（大阪市内）&nbsp;</a></li>
+          <li>スーパー・コート東住吉2号館</li>
+        </ol>
+        <div class="wrap outline">
+          <h3>概要</h3>
+          <div class="content">
+            <div class="row">
+              <h4>ご利用料金</h4>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <th scope="row">入居金</th>
+                    <td><strong>0円</strong></td>
+                  </tr>
+                  <tr>
+                    <th rowspan="2" scope="row">月額利用料</th>
+                    <td>お一人でご入居の場合<strong>&nbsp;128,905円(税込)</strong></td>
+                  </tr>
+                  <tr>
+                    <td>お二人でご入居の場合<strong>&nbsp;217,810円(税込)</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="small">※ご利用料金は1日3食、食事代含んでおります。<br>
+                ※個室内電気代が別途必要となります。<br>
+                ※介護サービスをご利用の場合、介護保険適応による自己負担が必要となります。</p>
+            </div>
+            <div class="row">
+              <h4>施設概要</h4>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <th scope="row">施設名</th>
+                    <td scope="col"> スーパー・コート東住吉2号館 </td>
+                    <th>施設の目的</th>
+                    <td scope="col"> 有料老人ホーム </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">所在地</th>
+                    <td> 大阪府大阪市東住吉区西今川4丁目17番13号 </td>
+                    <th>最寄駅・バス停</th>
+                    <td> 地下鉄谷町線「駒川中野」駅<br />
+                      近鉄大阪線「今川」駅 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">規模・構造</th>
+                    <td> 鉄筋コンクリート造4階建 </td>
+                    <th>開設日</th>
+                    <td> 平成14年5月31日 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">居室面積</th>
+                    <td> 9.7m<sup>2</sup></td>
+                    <th>延床面積</th>
+                    <td> 1729.46m<sup>2</sup></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">居室数</th>
+                    <td> 77室 </td>
+                    <th>定員</th>
+                    <td> 77名 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">共用施設</th>
+                    <td> 食堂、浴室、特浴室、共用トイレ </td>
+                    <th>入居条件</th>
+                    <td> 要介護1～5、要支援1・2の方 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">権利関係</th>
+                    <td> 利用権 </td>
+                    <th>契約期間中退去</th>
+                    <td> 可能 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="wrap access">
+          <h3>アクセス</h3>
+          <div class="content">
+            <div class="row">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.26144730666!2d135.5319163509915!3d34.62283278035857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000de85f9d96d8d%3A0x4c8d26dd2bc8e2c5!2z44K544O844OR44O844Kz44O844OI5p2x5L2P5ZCJ77yS5Y-36aSo!5e0!3m2!1sja!2sus!4v1445255028808" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="row">
+              <h4>住所</h4>
+              <p>〒546-0042<br>
+                大阪府大阪市東住吉区西今川4丁目17番13号</p>
+              <h4>アクセス</h4>
+              <p>地下鉄谷町線「駒川中野」駅より徒歩約5分<br>
+                近鉄南大阪線「今川」駅より徒歩約10分</p>
+              <p class="btnPdf"><a href="../images/facility/higashisumiyoshi2/higashisumiyoshi2.pdf" target="_blank"><img src="../images/facility/btn_pdfmap.jpg" alt="わかりやすいPDF地図"/></a> <a onclick='fromhere();' class="routemap"><img src="../images/facility/btn_routemap.jpg" alt="現在地からのルートを見る"/></a> </p>
+            </div>
+          </div>
+        </div>
+        <div class="wrap outline">
+          <h3>介護・<br>
+            医療体制</h3>
+          <div class="content">
+            <div class="row">
+              <h4>介護・医療体制</h4>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <th scope="row">医療サービス</th>
+                    <td>・24時間看護職員常駐<br>
+                      ・重度医療フロアあり<br>
+                      ※夜間早朝帯慢性疾患サービス（1日1,650円）</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">介護サービス</th>
+                    <td>・認知症の方、車いすの方もご入居いただけます</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="row">
+              <h4>医療面の受け入れ体制</h4>
+              <p>持病などで、日常的に医療面のケアが必要になる方の場合、<br>
+                受け入れ体制はあるかどうかを記載しています。<br>
+                ○：受け入れ可　×：不可　△要相談</p>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <th scope="row">○</th>
+                    <td scope="row">たん吸引</td>
+                    <th scope="row">○</th>
+                    <td>胃ろう</td>
+                    <th scope="row">○</th>
+                    <td scope="col">腸ろう</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">○</th>
+                    <td scope="row">中心静脈栄養(IVH)</td>
+                    <th scope="row">○</th>
+                    <td>鼻腔経管</td>
+                    <th scope="row">○</th>
+                    <td>ストーマ</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">○</th>
+                    <td scope="row">インシュリン投与</td>
+                    <th scope="row">○</th>
+                    <td>在宅酸素</td>
+                    <th scope="row">○</th>
+                    <td>尿バルーン</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">○</th>
+                    <td scope="row">ペースメーカー</td>
+                    <th scope="row">○</th>
+                    <td>透析</td>
+                    <th scope="row">△</th>
+                    <td>褥瘡(とこずれ)</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="small"> ※△に該当する疾患をお持ちの場合はスーパー・コート入居相談室(0120-78-4850)にご相談ください。</p>
+            </div>
+            <div class="row">
+              <h4>感染症面の受け入れ体制</h4>
+              <p>感染性の疾患がある方を受け入れる体制があるかどうかを記載しています。<br>
+                ○：受け入れ可　×：不可　△要相談</p>
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <th scope="row">○</th>
+                    <td scope="row">MRSA(ブドウ球菌感染症）</td>
+                    <th scope="row">○</th>
+                    <td>肝炎</td>
+                    <th scope="row">○</th>
+                    <td scope="col">梅毒</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">△</th>
+                    <td scope="row">疥癬（かいせん）</td>
+                    <th scope="row">×</th>
+                    <td>結核</td>
+                    <td scope="row">&nbsp;</td>
+                    <td>&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="small"> ※△に該当する疾患をお持ちの場合はスーパー・コート入居相談室(0120-78-4850)にご相談ください。</p>
+            </div>
+          </div>
+        </div>
+        <div class="wrap inside">
+          <h3>館内紹介</h3>
+          <div class="content">
+            <div class="row">
+              <h4>居室</h4>
+              <p>全77室になります。お部屋の間取りには、慣れ親しんだ家具を入れて頂く事ができます。</p>
+              <div class="facilitySlider">
+                <div class="facilitySlider--big">
+                  <ul class="bx-rooms">
+                    <li><img src="../images/facility/higashisumiyoshi2/shisetsu_sub_1.jpg" alt=""/></li>
+                    <li><img src="../images/facility/higashisumiyoshi2/shisetsu_sub_2.jpg" alt=""/></li>
+                  </ul>
+                </div>
+                <ul class="bx-rooms-pager">
+                  <li><a data-slide-index="0" href=""><img src="../images/facility/higashisumiyoshi2/btn_shisetsu_sub_1.jpg" alt=""/></a></li>
+                  <li><a data-slide-index="1" href=""><img src="../images/facility/higashisumiyoshi2/btn_shisetsu_sub_2.jpg" alt=""/></a></li>
+                </ul>
+                <div class="facilitySlider__text">
+                  <p class="small">【室内設備】<br>
+                    ナースコール・洗面台・エアコン・カーテン</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="facilityGallery">
+                <div class="row">
+                  <h4>共有スペース</h4>
+                  <p>食堂では、お食事だけでなく、レクリエーションや各種イベントなどを開催しております。<br>
+                    各階にはスタッフルームがございますので、何かありましたらすぐ申し付け頂けます。</p>
+                  <div class="facilityGallery">
+                    <ul>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo1.jpg" alt=""/><br>
+                      1階食堂</li>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo2.jpg" alt=""/><br>
+                      2階食堂 </li>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo3.jpg" alt=""/><br>
+                      談話スペース</li>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo4.jpg" alt=""/><br>
+                      廊下</li>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo5.jpg" alt=""/><br>
+                      共用トイレ</li>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo6.jpg" alt=""/><br>
+                        エレベーター</li>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo7.jpg" alt=""/><br>
+                        大浴室</li>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo8.jpg" alt=""/><br>
+                      機械浴</li>
+                      <li><img src="../images/facility/higashisumiyoshi2/photo9.jpg" alt=""/><br>
+                      相談室</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <h4>館内見取り図</h4>
+              <p>1階は事務所、健康管理室、大食堂、一般浴室。2階は小食堂、特浴室。
+                ご入居者様の居室は2階～4階となっております。喫煙スペースは4階にございます。 </p>
+              <div class="facilityFloor">
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td><img src="../images/facility/higashisumiyoshi2/mitorizu1.jpg" alt=""/>
+                        <p>1階<a href="../images/facility/higashisumiyoshi2/mitomizu_sketch1.gif" title="スーパー・コート東住吉2号館 1階見取り図"><img src="../images/facility/bt_mitorizu.gif" alt="見取り図拡大"/></a></p></td>
+                      <td><img src="../images/facility/higashisumiyoshi2/mitorizu2.jpg" alt=""/>
+                        <p>2階<a href="../images/facility/higashisumiyoshi2/mitomizu_sketch2.gif" title="スーパー・コート東住吉2号館 2階見取り図"><img src="../images/facility/bt_mitorizu.gif" alt="見取り図拡大"/></a></p></td>
+                    </tr>
+                    <tr>
+                      <td><img src="../images/facility/higashisumiyoshi2/mitorizu3.jpg" alt=""/>
+                        <p>3階<a href="../images/facility/higashisumiyoshi2/mitomizu_sketch3.gif" title="スーパー・コート東住吉2号館 3階見取り図"><img src="../images/facility/bt_mitorizu.gif" alt="見取り図拡大"/></a></p></td>
+                      <td><img src="../images/facility/higashisumiyoshi2/mitorizu3.jpg" alt=""/>
+                        <p>4階<a href="../images/facility/higashisumiyoshi2/mitomizu_sketch4.gif" title="スーパー・コート東住吉2号館 4階見取り図"><img src="../images/facility/bt_mitorizu.gif" alt="見取り図拡大"/></a></p></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrap other">
+          <h3>この施設に近いその他の施設</h3>
+          <div class="content">
+            <div class="row">
+              <div class="facilityOther"> 
+                <script>facilityThumbs('hirano')</script> 
+                <script>facilityThumbs('kire')</script> 
+                <script>facilityThumbs('matsubara')</script> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- #BeginLibraryItem "/Library/facilityList.lbi" --> 
+  <!--#include virtual="/_facilityList.html" --><!-- #EndLibraryItem --><!-- InstanceEndEditable --> 
+  <!--#include virtual="/_footer.html" -->
+</div>
+</body>
+<!-- InstanceEnd -->
+</html>

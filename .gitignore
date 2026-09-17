@@ -1,0 +1,54 @@
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.ico
+*.bmp
+*.tif
+*.tiff
+*.avif
+*.heic
+*.heif
+*.raw
+*.cr2
+*.nef
+
+# Capitalized extensions
+*.JPG
+*.JPEG
+*.PNG
+*.GIF
+*.WEBP
+*.SVG
+*.ICO
+*.BMP
+*.TIF
+*.TIFF
+*.AVIF
+*.HEIC
+*.HEIF
+
+# Design source files
+*.psd
+*.ai
+*.eps
+
+# WordPress本体のシステムフォルダを除外
+/wp-admin/
+/wp-includes/
+/*.php
+
+# プラグインやコアのアップデートファイル、キャッシュなどを除外
+/wp-content/plugins/
+/wp-content/cache/
+/wp-content/upgrade/
+
+# All-in-One WP Migration backup files
+/wordpress/wp-content/ai1wm-backups/
+
+# 設定ファイルや環境依存ファイルを除外
+/wp-config.php
+/.htaccess

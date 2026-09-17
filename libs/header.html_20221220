@@ -1,0 +1,139 @@
+<!-- Header Start -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Q4FCV8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <div class="sp-menu">
+    <p class="ct serif"><a href="https://www.supercourt.jp/data_request/">資料請求</a></p>
+    <p class="menu"><a href="#"><img src="/img/common/menu_btn.png" alt="メニュー"></a></p>
+  </div>
+
+  <div class="menu-wrap">
+    <div class="head-form">
+      <p class="serif">お気軽にお問合せください。</p>
+      <p class="head-btn-tel-txt"><a href="tel:0120784850" onclick="ga('send','event','button','click', 'tel');"><img src="/img/common/head_img01.png" alt="0120-78-4850"></a></p>
+      <p class="head-btn-tel sp"><a href="tel:0120784850" onclick="ga('send','event','button','click', 'tel');"><img src="/img/common/head_btn04.png" alt="電話をかける"></a></p>
+      <ul class="pc">
+        <li><a href="/inspection/"><img src="/img/common/head_btn05.png" alt="見学申込"></a></li>
+        <li><a href="/data_request/"><img src="/img/common/head_btn06.png" alt="資料請求"></a></li>
+        <li><a href="https://www.supercourt.jp/inquirys/"><img src="/img/common/head_btn07.png" alt="お問い合わせ"></a></li>
+      </ul>
+      <ul class="sp">
+        <li><a href="https://www.supercourt.jp/inquirys/"><img src="/img/common/head_btn01.png" alt="お問い合わせ"></a></li>
+        <li><a href="/data_request/"><img src="/img/common/head_btn02.png" alt="資料請求"></a></li>
+        <li><a href="/inspection/"><img src="/img/common/head_btn03.png" alt="見学申込"></a></li>
+      </ul>
+    </div><!-- /.head-form -->
+    <div class="hf_tbl">
+	    <div><a href="/inspection/"><img src="/img/common/icon1.png" alt="見学申込" width="66" height="66" /></a></div>
+	    <div><a href="/data_request/"><img src="/img/common/icon2.png" alt="資料請求" width="66" height="66" /></a></div>
+	    <div><a href="https://www.supercourt.jp/inquirys/"><img src="/img/common/icon3.png" alt="お問い合わせ" width="66" height="66" /></a></div>
+    </div>
+
+
+    <div class="nav-wrap">
+      <nav>
+        <div class="inner">
+          <h1 class="head-logo"><a href="/"><img src="/img/common/logo.svg" alt="【公式】大阪で有料老人ホームをお探しなら株式会社スーパー・コート"></a></h1>
+
+
+          <!--Gナビ-->
+          <ul class="gmenu serif">
+
+            <li class="sp"><a href="/">TOP</a></li>
+
+            <li class="open-m"><span><a href="/feature/">スーパー･コートの特徴</a></span>
+                <ul class="sub-menu sp">
+                    <li><a href="/feature/effort/">介護サービス向上へ</a></li>
+                    <li><a href="/feature/research/">研究活動</a></li>
+                    <li><a href="/feature/care/">認知症ケア</a></li>
+                    <li><a href="/feature/medicine/">医療体制</a></li>
+                    <li><a href="/feature/hospitality/">ホスピタリティ</a></li>
+                    <li><a href="/feature/bath/">お風呂・温泉</a></li>
+                    <li><a href="/feature/ikiiki/">イキイキとした生活</a></li>
+                    <li><a href="/feature/philanthropy/">社会貢献</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/process/">入居の流れ</a></li>
+
+            <!--<li><a href="/facility/">施設一覧</a></li>-->
+            <li class="open-m2"><span class="pc"><a href="/facility/">施設一覧</a></span><span class="sp">施設一覧</span>
+                <ul class="sub-menu sp">
+                    <li><a href="/facility/">施設一覧</a></li>
+                    <li><a href="/facility/rehabili.html">パーキンソン病専門住宅</a></li>
+                    <li><a href="/facility/premium.html">プレミアム</a></li>
+                    <li><a href="/facility/osaka/">大阪市内の施設</a></li>
+                    <li><a href="/facility/osaka/#osaka-fu">大阪市外の施設</a></li>
+                    <li><a href="/facility/kyoto/">京都の施設</a></li>
+                    <li><a href="/facility/hyougo/">兵庫の施設</a></li>
+                    <li><a href="/facility/nara/">奈良の施設</a></li>
+                </ul>
+            </li>
+
+            <li><a href="/voice/">お客様の声</a></li>
+
+            <li><a href="/company/">会社案内</a></li>
+
+            <!--<li><a href="/recruit/">採用情報</a></li>-->
+            <li class="open-m3"><span class="pc"><a href="/recruit/">採用情報</a></span><span class="sp">採用情報</span>
+                <ul class="sub-menu sp">
+                    <li><a href="https://recruit.supercourt.co.jp/" target="blank">新卒採用</a></li>
+                    <li><a href="https://career.supercourt.co.jp/" target="blank">キャリア採用</a></li>
+                </ul>
+            </li>
+
+            <li class="pc"><a href="tel:0120-78-4850">フリーダイヤル 0120-78-4850</a></li>
+
+          </ul>
+          <!--//Gナビ-->
+
+
+        </div>
+		  <div class="megamenu">
+          <ul>
+          <li><a href="/feature/effort/"><img src="/img/common/nav_feature01.png" alt="介護サービス向上へ"/></a></li>
+          <li><a href="/feature/research/"><img src="/img/common/nav_feature02.png" alt="研究活動"/></a></li>
+          <li><a href="/feature/care/"><img src="/img/common/nav_feature03.png" alt="認知症ケア"/></a></li>
+          <li><a href="/feature/medicine/"><img src="/img/common/nav_feature04.png" alt="医療体制"/></a></li>
+          <li><a href="/feature/hospitality/"><img src="/img/common/nav_feature05.png" alt="ホスピタリティ"/></a></li>
+          <li><a href="/feature/bath/"><img src="/img/common/nav_feature06.png" alt="お風呂・温泉"/></a></li>
+          <li><a href="/feature/ikiiki/"><img src="/img/common/nav_feature07.png" alt="イキイキとした生活"/></a></li>
+          <li><a href="/feature/philanthropy/"><img src="/img/common/nav_feature08.png" alt="社会貢献"/></a></li>
+          </ul>
+          </div> 
+          
+          <div class="megamenu2">
+          <ul>
+          <li><a href="/facility/rehabili.html">パーキンソン病専門住宅</a></li>
+				  <li><a href="/facility/premium.html">プレミアム</a></li>
+				  <li><a href="/facility/osaka/">大阪市内の施設</a></li>
+				  <li><a href="/facility/osaka/#osaka-fu">大阪市外の施設</a></li>
+				  <li><a href="/facility/kyoto/">京都の施設</a></li>
+				  <li><a href="/facility/hyougo/">兵庫の施設</a></li>
+				  <li><a href="/facility/nara/">奈良の施設</a></li>
+          </ul>
+          </div>
+
+          <div class="megamenu3">
+          <ul>
+          <li><a href="https://recruit.supercourt.co.jp/" target="blank">新卒採用</a></li>
+          <li><a href="https://career.supercourt.co.jp/" target="blank">キャリア採用</a></li>
+          </ul>
+          </div>  
+      </nav>
+    </div>
+    <!-- /.menu-wrap -->
+
+  </div>
+</header>
+<!-- Header End -->
+
+
+<div id="sp_fixed">
+	<a href="/inspection/"><img src="/img/common/btn1.png" alt="見学申込" width="" height="" /></a><!--
+	--><a href="/data_request/"><img src="/img/common/btn2.png" alt="資料請求" width="" height="" /></a><!--
+	--><a href="https://www.supercourt.jp/inquirys/"><img src="/img/common/btn3.png" alt="お問合せ" width="" height="" /></a>
+</div>

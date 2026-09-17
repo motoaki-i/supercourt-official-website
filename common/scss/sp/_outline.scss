@@ -1,0 +1,43 @@
+//* ========================================================================== */
+//* outline
+//* 会社情報
+//* ========================================================================== */
+.outline {
+	margin-bottom: 40px;
+	.pt {
+		margin-bottom: 40px;
+	}
+	.outline__table {
+		margin-bottom: 40px;
+		table {
+			width: 100%;
+			th,td {
+				display: block;
+				width: 100%;
+				text-align: left;
+			}
+			th {
+				margin-bottom: 10px;
+				padding: 7px;
+				background: #eee;
+				font-weight: bold;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+			td {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.iso9001 {
+		h3 {
+			margin-bottom: 20px;
+			padding: 10px;
+			background: $cl-green;
+			color: #fff;
+			font-size: 1.6rem;
+			font-weight: bold;
+		}
+	}
+}

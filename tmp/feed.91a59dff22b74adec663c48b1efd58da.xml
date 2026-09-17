@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>lesson me</title>
+	<atom:link href="http://www.lesson5.info/?feed=rss2" rel="self" type="application/rss+xml" />
+	<link>http://www.lesson5.info</link>
+	<description></description>
+	<lastBuildDate>Fri, 10 Mar 2017 09:56:49 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+<atom:link rel="hub" href="https://pubsubhubbub.appspot.com"/><atom:link rel="hub" href="https://pubsubhubbub.superfeedr.com"/>	<item>
+		<title>A.N.P.B day 2017@NHNテコラス</title>
+		<link>http://www.lesson5.info/?p=584</link>
+		<comments>http://www.lesson5.info/?p=584#respond</comments>
+		<pubDate>Fri, 10 Mar 2017 09:56:49 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[NHNテコラス]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=584</guid>
+		<description><![CDATA[WordPressを使ったコンテンツマーケティングがテーマのイベントに行ってきました。 会]]></description>
+				<content:encoded><![CDATA[<p>WordPressを使ったコンテンツマーケティングがテーマのイベントに行ってきました。</p>
+<p>会場はNHNテコラスさん。2016年12月のWordBench東京の会場と同じ。<br />
+この会場なにがすごいってめちゃきれい。</p>
+<p><img class="alignnone size-large wp-image-589" src="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0591-700x525.jpg" alt="" width="700" height="525" srcset="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0591-700x525.jpg 700w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0591-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0591-768x576.jpg 768w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>やばくない！？<br />
+ここの会場はじめてじゃないんですが抜けがよくて気持ちいいです。</p>
+<p>イベントはこちらで募集されていました。詳細などはこちらをご確認ください。</p>
+<p><a href="https://ex-cloud.connpass.com/event/51785/" target="_blank">https://ex-cloud.connpass.com/event/51785/</a></p>
+<p>主催 : <a href="https://nhn-techorus.com/" target="_blank">NHNテコラス株式会社</a><br />
+協賛：株式会社アマナイメージズ・株式会社Ptmind・株式会社ベンチマークジャパン</p>
+<p>このイベントの対象者はこちらだそう。</p>
+<p>* サイトの速度が遅くてコンテンツを作成に気を使う<br />
+* 公開しているデザインがCVに貢献しているか分らない<br />
+* 顧客ナーチャリングがうまくいっていない<br />
+* どういう画像素材使うか悩む<br />
+* 顧客体験を最大化したいけどなにを始めればいいのか？</p>
+<h2>タイムテーブル</h2>
+<table>
+<thead>
+<tr>
+<th align="left">開始時刻</th>
+<th align="left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">18:45 ~ 19:15</td>
+<td align="left">受付開始</td>
+</tr>
+<tr>
+<td align="left">19:15 ~ 19:30</td>
+<td align="left">機会損失しない！サーバの選び方<br />
+エクスクラウド 平賀 真琴</td>
+</tr>
+<tr>
+<td align="left">19:30 ~ 19:50</td>
+<td align="left">多様化するコンテンツマーケティングにおけるビジュアルブランディング<br />
+株式会社アマナイメージズ 代表取締役社長　新居 祐介</td>
+</tr>
+<tr>
+<td align="left">19:50 ~ 20:00</td>
+<td align="left">休憩</td>
+</tr>
+<tr>
+<td align="left">20:00 ~ 20:20</td>
+<td align="left">利用者10万人突破!!Ptengineを利用した、WordPressのアクセス解析<br />
+株式会社Ptmind Japan Country Manager　安藤 高志</td>
+</tr>
+<tr>
+<td align="left">20:20 ~ 20:40</td>
+<td align="left">次世代メール配信システムを使って効果的なメールマーケティング<br />
+株式会社ベンチマークジャパン エヴァンジェリスト 　笠原 吾郎</td>
+</tr>
+<tr>
+<td align="left">20:40 ~ 22:00</td>
+<td align="left">懇親会</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>機会損失しない！サーバの選び方</h2>
+<p>エクスクラウド 平賀 真琴さん</p>
+<p><img class="alignnone size-large wp-image-599" src="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0613-700x525.jpg" alt="" width="700" height="525" srcset="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0613-700x525.jpg 700w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0613-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0613-768x576.jpg 768w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>エクスクラウドさんの勉強会イベントを募集した際の申込み数などの推移をもとにどのような対策を行ったのかわかりやすく説明されていました。</p>
+<ul>
+<li>文言変更で改善</li>
+<li>メールでリーチする手法をとった</li>
+<li>最終的に合計申し込み140まで到達</li>
+</ul>
+<p>その他、サーバーの運用において機会損失する場面の説明も。</p>
+<h3>サイトを離れる理由とは？</h3>
+<p>* 表示が遅い<br />
+* サイトのチューニング次第で転送量が増えても負荷は減らすことができる。<br />
+* スマホの離脱率が170%改善。回遊率が高まった。管理者のストレスも軽減できた<br />
+* 2秒が現在の我慢できるところ<br />
+* PDCAじゃなくCAPD</p>
+<h2>多様化するコンテンツマーケティングにおけるビジュアルブランディング</h2>
+<p>株式会社アマナイメージズ 代表取締役社長　新居 祐介さん</p>
+<p><img class="alignnone size-large wp-image-600" src="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0618-700x525.jpg" alt="" width="700" height="525" srcset="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0618-700x525.jpg 700w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0618-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0618-768x576.jpg 768w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>みなさん知らない人はいないぐらいの知名度アマナイメージズ。<br />
+クオリティも高いけど価格も高いイメージですが、</p>
+<p><a href="https://foryourimages.com/" target="_blank">「気軽に使える高品質ストックフォト | ForYourImages」</a></p>
+<p>という廉価なサービスも始められています。<br />
+サブスクリプションもあってこれなら使えるといった方多そうです。</p>
+<p>自社内でのサービス向上の手法を以下のような流れでお話されていました。</p>
+<ul>
+<li>より成果を上げるためのコンテンツマーケティングにおけるビジュアル戦略</li>
+<li>オンラインメディアは変革期に入った</li>
+<li>まとめサイトにおける画像の引用</li>
+<li>多様化するコンテンツマーケティング</li>
+<li>デジタルマーケティングというものは存在しない</li>
+<li>マーケティングを再定義、全社員で共有することが大事</li>
+<li>顧客に特別なブランディングを提供することが大事</li>
+<li>目標設定をする</li>
+<li>いかに見つけてもらうか</li>
+<li>ビジュアルで差別化する既存コンテンツのビジュアルも差し替えていく</li>
+<li>appleや無印のように一貫したビジュアル戦略を行っていく</li>
+<li>ビジュアル設計の方法</li>
+<li>ペルソナにビジュアル設定を加える</li>
+<li>エモーショナルスケール（縦 ソフト・ハート 横 コールド・ウォーム）</li>
+<li>ビジュアルを見える化して共有することが大切</li>
+<li>コンテンツマーケティング支援サービスの紹介</li>
+</ul>
+<h2>利用者10万人突破!!Ptengineを利用した、WordPressのアクセス解析</h2>
+<p>株式会社Ptmind Japan Country Manager　安藤 高志さん</p>
+<p><img class="alignnone size-large wp-image-601" src="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0625-700x525.jpg" alt="" width="700" height="525" srcset="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0625-700x525.jpg 700w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0625-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0625-768x576.jpg 768w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>ヒートマップでは以前から有名な<a href="http://www.ptmind.co.jp/" target="_blank">Ptengine</a>の紹介</p>
+<ul>
+<li> 日本で成功することはグローバルでもキーポイント</li>
+<li>それは日本の品質の高さが証明されたようなものだから</li>
+<li>Ptengine（データアナリティクス）の紹介</li>
+<li>DataDeck（ダッシュボードサービス）の紹介</li>
+<li>サイト管理者が陥る3つの問題</li>
+</ul>
+<p>デモを動画で撮らせてもらえたのでアップ次第こちらに埋め込みます。<br />
+このサービス、とてもよさそうです。<br />
+始めやすい価格帯の設定もあるしいつか使ってみたいですね！</p>
+<h2>次世代メール配信システムを使って効果的なメールマーケティング</h2>
+<p>株式会社ベンチマークジャパン エヴァンジェリスト 笠原 吾郎さん</p>
+<p><img class="alignnone size-large wp-image-602" src="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0627-700x525.jpg" alt="" width="700" height="525" srcset="http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0627-700x525.jpg 700w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0627-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2017/03/IMG_0627-768x576.jpg 768w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><a href="http://www.benchmarkemail.com/jp/" target="_blank">HTMLメール作成支援のサービス</a>の紹介</p>
+<ul>
+<li>顧客に合わせた配信</li>
+<li>ペルソナ</li>
+<li>ステータス（AIDMA 見込み度合い</li>
+<li>HTMLメール</li>
+<li>ビジュアルで訴求できる</li>
+<li>開封・クリック測定ができる</li>
+</ul>
+<p>以前、クライアントワークで検討させていただいたことがあったのですが、その頃より随分できることが増えていました。<br />
+WPのプラグインもあったりとワードプレスとの相性もよさそう。<br />
+またユーザーデータをもとに価値観をデータベース化しサービスを始められるそう。</p>
+<p>セミナー後、同じ会場で行われた懇親会でも勉強になる話が多く行ってよかったと思います。</p>
+<p style="text-align: right;"><img class="alignnone size-large wp-image-587" src="http://www.lesson5.info/wp-content/uploads/2017/03/eyecatch-700x525.jpg" alt="A.N.P.B day 2017 with たなはる" width="700" height="525" srcset="http://www.lesson5.info/wp-content/uploads/2017/03/eyecatch-700x525.jpg 700w, http://www.lesson5.info/wp-content/uploads/2017/03/eyecatch-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2017/03/eyecatch-768x576.jpg 768w, http://www.lesson5.info/wp-content/uploads/2017/03/eyecatch.jpg 1200w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>ありがとうございました！</p>
+<p>まだ写真たくさんあるんですがLTEなのでタイミングみて追記します。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=584</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ページ内リンク（#）でアクセスしたときに、特定のモーダルを開いたり、スライダーで特定スライドに移動する方法</title>
+		<link>http://www.lesson5.info/?p=561</link>
+		<comments>http://www.lesson5.info/?p=561#respond</comments>
+		<pubDate>Tue, 21 Feb 2017 12:57:13 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[javascript]]></category>
+		<category><![CDATA[bxslider]]></category>
+		<category><![CDATA[fancybox]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=561</guid>
+		<description><![CDATA[そろそろ春だね。 みんなコード書いてる？ 最近は勉強会のレポートばっかでtipsから随分遠]]></description>
+				<content:encoded><![CDATA[<p>そろそろ春だね。<br />
+みんなコード書いてる？</p>
+<p>最近は勉強会のレポートばっかでtipsから随分遠ざかってた感じですが、久しぶりに投稿してみます。</p>
+<p>モーダルとかスライダーの設置する案件があると、どうしても他のページからのリンクが出てきますよね。<br />
+それが、単にページへのリンクだといいんだけど、</p>
+<h3>モーダルの場合</h3>
+<p>index.html#sample01</p>
+<p>こんなリンクが貼られていて、ハッシュつきでアクセスがあった場合、<strong>「#sample01」のモーダルが開かれるようにしたい</strong>。</p>
+<h3>スライダーの場合</h3>
+<p>index.html#sample01</p>
+<p>こちらもこんなリンクが貼られていて、<strong>「#sample01」のIDが指定してあるスライドからスタートしたい</strong>。</p>
+<p>こんなことがよくあるんじゃないかと思います。<br />
+今さらこんなん誰でも知ってるでしょとも思うんですが、困ってる人もいるかもしれないのでメモしておきますね。</p>
+<h3>モーダルを開きたい場合</h3>
+<h4>html</h4>
+<pre class="brush: xml; title: ; notranslate">
+&lt;p&gt;本文本文本文本文本文本文本文&lt;/p&gt;
+
+&lt;div class=&quot;panel&quot; id=&quot;sample01&quot; style=&quot;display:none;&quot;&gt;
+&lt;div class=&quot;txt&quot;&gt;
+&lt;h2&gt;sample01のコンテンツ&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, praesentium, nesciunt, vel aspernatur a minus corporis magnam magni possimus culpa quo eum tempore neque omnis dolorem expedita quod? Vero, officiis.&lt;br&gt;
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, praesentium, nesciunt, vel aspernatur a minus corporis magnam magni possimus culpa quo eum tempore neque omnis dolorem expedita quod? Vero, officiis.&lt;br&gt;
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, praesentium, nesciunt, vel aspernatur a minus corporis magnam magni possimus culpa quo eum tempore neque omnis dolorem expedita quod? Vero, officiis.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- / .txt --&gt;
+&lt;/div&gt;&lt;!-- / .panel --&gt;
+</pre>
+<h4>javascript</h4>
+<pre class="brush: jscript; title: ; notranslate">
+$(function() {
+	if (location.hash){
+		var target = location.hash;
+		console.log(target);  // targetの値は「#sample01」
+		$.fancybox.open(target);
+	}
+});
+</pre>
+<p>&nbsp;</p>
+<p><code class="jscript keyword">if</code> <code class="jscript plain">(location.hash){ </code>}</p>
+<p>この条件を入れてあげれば、http://www.○○○○.com/modal/index.html#sample01というリンクURL文字列のうちハッシュ（#）以降が「<code class="jscript plain">location.hash</code>」で取得できます。</p>
+<ul>
+<li><a href="/playground/hash.html" target="_blank">サンプルページ（ハッシュなしのアクセス）</a></li>
+<li><a href="/playground/hash.html#sample01" target="_blank">サンプルページ（#sample01ありのアクセス）</a></li>
+</ul>
+<p>どちらも同じhtmlにジャンプしますが、ハッシュがあると該当のモーダルが表示されると思います。<br />
+意外に簡単に設置できるので、ご自身のよく使うjsにモジュールとして入れておくといいかもしれませんね。</p>
+<p>&nbsp;</p>
+<h3>指定スライドに移動したいとき</h3>
+<h4>html</h4>
+<pre class="brush: xml; title: ; notranslate">
+&lt;ul class=&quot;bxslider&quot;&gt;
+	&lt;li id=&quot;sample01&quot;&gt;画像&lt;/li&gt;
+	&lt;li id=&quot;sample02&quot;&gt;画像&lt;/li&gt;
+	&lt;li id=&quot;sample03&quot;&gt;画像&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+<h4>javascript</h4>
+<pre class="brush: jscript; title: ; notranslate">
+$(function() {
+	
+if (location.hash){
+	var targetSlide = location.hash.replace(&quot;#sample0&quot;,&quot;&quot;); // 各スライダーの連番を取得
+	$('.bxslider').bxSlider({
+		mode: 'horizontal',
+		captions: false,
+		onSliderLoad:function(currentIndex){
+			goToSlide(targetSlide);
+    }
+	});
+	}  else {
+	$('.bxslider').bxSlider({
+		mode: 'horizontal',
+		captions: false
+	});
+} // end else
+
+});
+</pre>
+<ul>
+<li><a href="http://www.lesson5.info/playground/hash2.html" target="_blank">サンプルページ（ハッシュなしのアクセス）</a></li>
+<li><a href="http://www.lesson5.info/playground/hash2.html#sample01" target="_blank">サンプルページ（#sample01ありのアクセス）</a></li>
+<li><a href="http://www.lesson5.info/playground/hash2.html#sample02" target="_blank">サンプルページ（#sample02ありのアクセス）</a></li>
+<li><a href="http://www.lesson5.info/playground/hash2.html#sample03" target="_blank">サンプルページ（#sample03ありのアクセス）</a></li>
+</ul>
+<p>今回はbxsliderをサンプルとしています。<br />
+それぞれスライダーのライブラリには、</p>
+<ul>
+<li>ロードした時のタイミング</li>
+<li>スライドを移動させる前後のタイミング</li>
+</ul>
+<p>など、それぞれアクションを設定できるようなオプションがあります。</p>
+<p>そこに今回のようにハッシュから取得した番号を元に、指定スライドへ移動する処理をくわえてあげればOKですね。</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=561</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordBench山口にNHNテコラスさんがやってきた ヤァ！ヤァ！ヤァ！</title>
+		<link>http://www.lesson5.info/?p=527</link>
+		<comments>http://www.lesson5.info/?p=527#respond</comments>
+		<pubDate>Tue, 06 Dec 2016 18:33:54 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[WordBench]]></category>
+		<category><![CDATA[NHNテコラス]]></category>
+		<category><![CDATA[waf]]></category>
+		<category><![CDATA[忘年会]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=527</guid>
+		<description><![CDATA[すいません、ちょっと書くの遅れましたが、12月3日に行われた「第4回WordBench山口]]></description>
+				<content:encoded><![CDATA[<p><img class="alignnone size-large wp-image-528" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-35-09-1024x768.jpg" alt="第4回WordBench山口〜忘年会2016〜" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-35-09-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-35-09-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-35-09-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>すいません、ちょっと書くの遅れましたが、12月3日に行われた「第4回WordBench山口〜忘年会2016〜」のレポートです。<br />
+今回は周南での開催！モデレータのお二人ありがとう！周南良くない？</p>
+<p><img class="alignnone size-full wp-image-553" src="http://www.lesson5.info/wp-content/uploads/2016/12/4a19de2ecc53bbf82adb4b2cc106baa4.jpg" alt="4a19de2ecc53bbf82adb4b2cc106baa4" width="339" height="262" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/4a19de2ecc53bbf82adb4b2cc106baa4.jpg 339w, http://www.lesson5.info/wp-content/uploads/2016/12/4a19de2ecc53bbf82adb4b2cc106baa4-300x232.jpg 300w" sizes="(max-width: 339px) 100vw, 339px" /></p>
+<p>基本的にはLT大会だったんですが、前回のWordCamp Tokyoで知り合った<a href="https://ex-cloud.jp/" target="_blank">エクスクラウド</a>の方に来ていただけるということで特別セッションありと、とても楽しみにしていました。</p>
+<blockquote class="twitter-tweet" data-lang="ja">
+<p dir="ltr" lang="ja">特別セッションはNHNテコラスさんだよ〜！ <a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a> <a href="https://t.co/MGpIi9vdcd">https://t.co/MGpIi9vdcd</a></p>
+<p>— WordBench山口 (@wbyamaguchi) <a href="https://twitter.com/wbyamaguchi/status/804242097762992128">2016年12月1日</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<h2>タイムスケジュール</h2>
+<table>
+<thead>
+<tr>
+<th>時間</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14:45〜</td>
+<td>受付</td>
+</tr>
+<tr>
+<td>15:00</td>
+<td>開場</td>
+</tr>
+<tr>
+<td>15:15〜16:15</td>
+<td>特別セッション「かんたん！わかりやすいWAFのおはなし」<br />
+ <a href="https://nhn-techorus.com/" target="_blank">NHNテコラス株式会社</a>　小柳津 純 さま</td>
+</tr>
+<tr>
+<td>16:15</td>
+<td>乾杯</td>
+</tr>
+<tr>
+<td>16:30</td>
+<td>LT大会（1人5分間・8名）<br />
+ (1) 久次 昌志さん<br />
+ (2) 山本 昭政さん<br />
+ (3) 石川 博之さん<br />
+ (4) 品田 隆明さん<br />
+ (5) 原田 美幸さん<br />
+ (6) 中江 秀幸さん<br />
+ (7) 森松 信樹さん<br />
+ (8) 野村 康夫さん</td>
+</tr>
+<tr>
+<td>17:20</td>
+<td>プレゼント交換</td>
+</tr>
+<tr>
+<td>18:00</td>
+<td>フリータイム</td>
+</tr>
+<tr>
+<td>19:00</td>
+<td>終了</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>特別セッション「かんたん！わかりやすいWAFのおはなし」</h2>
+<p><a href="https://nhn-techorus.com/" target="_blank">NHNテコラス株式会社</a>　小柳津 純 さま</p>
+<p><img class="alignnone size-large wp-image-534" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-17-30-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-15-17-30" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-17-30-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-17-30-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-17-30-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>全体を通して本当に分かりやすかったです。タイトル通り、すごい。</p>
+<p><img class="alignnone size-large wp-image-536" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-32-03-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-15-32-03" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-32-03-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-32-03-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-32-03-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /><img class="alignnone size-large wp-image-537" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-34-21-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-15-34-21" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-34-21-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-34-21-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-34-21-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>どんな被害があるのかをケース別に説明していただきました。<br />
+ 自分でこういったデータを集めて勉強するのってできないのでとても貴重。</p>
+<p><img class="alignnone size-large wp-image-538" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-38-24-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-15-38-24" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-38-24-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-38-24-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-38-24-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /><img class="alignnone size-large wp-image-539" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-39-40-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-15-39-40" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-39-40-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-39-40-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-39-40-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>対策についての現状についても。<br />
+ 写真にも書いてありますが「対策しないというよりはできない」というのが問題になっているのはとても共感。</p>
+<p><img class="alignnone size-large wp-image-540" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-52-57-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-15-52-57" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-52-57-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-52-57-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-52-57-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /><img class="alignnone size-large wp-image-541" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-53-51-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-15-53-51" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-53-51-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-53-51-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-15-53-51-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>テコラスさんのホスティング事業「エクスクラウド」でのWAFについてもメリットを説明していただきました。<br />
+ このあたり会場の反応がとても良かったように感じたのでみんな対策はしたいんだな〜と。<br />
+ 僕は一足先にエクスクラウドさんの「<a href="https://ex-cloud.jp/wordpress/" target="_blank">WordPressホスティング</a>」使ってますが、みんなもどうかな？いいと思うんだよね〜。</p>
+<blockquote class="twitter-tweet" data-lang="ja"><p>
+KUSANAGI、WAF、SSL、HTTP/2搭載で2,980円からは安いなと率直に感じるなと <a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a></p>
+<p>— ヤスベェ３世！＠暗黒星雲賞キュアミラクル (@y3sei) <a href="https://twitter.com/y3sei/status/804944115091681281">2016年12月3日</a>
+</p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-lang="ja">
+<p dir="ltr" lang="ja">KUSANAGI＋WAF＋SSLで月額2980円からって凄いな〜 <a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a></p>
+<p>— 茶生 (@foolsai) <a href="https://twitter.com/foolsai/status/804943938914172928">2016年12月3日</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<h2>LT大会</h2>
+<p>お一人、風邪で来れなかったので総勢7人？</p>
+<p><img class="alignnone size-large wp-image-547" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-16-59-35-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-16-59-35" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-16-59-35-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-16-59-35-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-16-59-35-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p><a href="https://nhn-techorus.com/" target="_blank">NHNテコラス株式会社</a>　中江 秀幸 さま</p>
+<p>初めて会ってから3ヶ月、山口に来てくれた。感慨深い。タバコ吸っててよかった。<br />
+ 今回の記事のタイトル、LT内からいただきました笑</p>
+<p>&nbsp;</p>
+<p><img class="alignnone size-large wp-image-548" src="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-16-48-06-1024x768.jpg" alt="%e5%86%99%e7%9c%9f-2016-12-03-16-48-06" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-16-48-06-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-16-48-06-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/12/写真-2016-12-03-16-48-06-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>しなやんが今回のMVPかな。いつもありがとう〜！<br />
+ しなやんがLT。感慨深い。</p>
+<p>みんなのLT楽しかったです。それぞれみんなのらしさが出てたし。どんどん出てほしいな。<br />
+ 野村さん、聞けなくてすいません…</p>
+<p>そのあとはみんなで楽しく過ごしました。<br />
+ プレゼント交換たのしかったね！</p>
+<blockquote class="twitter-tweet" data-lang="ja"><p>
+瓦そばだ<a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a> <a href="https://t.co/GT3xwu4WAS">pic.twitter.com/GT3xwu4WAS</a></p>
+<p>— あんもにーさん＊バルクアップ中 (@anmony_workout) <a href="https://twitter.com/anmony_workout/status/804974651826847744">2016年12月3日</a>
+</p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-lang="ja">
+<p dir="ltr" lang="ja">瓦そばにふぐ鍋も！ <a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a> <a href="https://t.co/U5u7rOZkmX">pic.twitter.com/U5u7rOZkmX</a></p>
+<p>— WordBench山口 (@wbyamaguchi) <a href="https://twitter.com/wbyamaguchi/status/804976046562897920">2016年12月3日</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-lang="ja"><p>
+ふぐ登場！♪───Ｏ（≧∇≦）Ｏ────♪ <a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a> <a href="https://t.co/YwaAt346sL">pic.twitter.com/YwaAt346sL</a></p>
+<p>— エクスクラウド (@EX_Cloud_PR) <a href="https://twitter.com/EX_Cloud_PR/status/804972830408347648">2016年12月3日</a>
+</p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-lang="ja">
+<p dir="ltr" lang="ja">第4回WordBench山口@忘年会 <a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a> <a href="https://t.co/aAGj5PAhvZ">pic.twitter.com/aAGj5PAhvZ</a></p>
+<p>— マエダカズヤ (@plusmk) <a href="https://twitter.com/plusmk/status/804985881522118656">2016年12月3日</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-lang="ja">
+<p lang="ja" dir="ltr">勉強になったのはモチロンのこと、<br />ふく刺身・瓦そば・牡蠣鍋・お酒<br />とっても美味しかったし、<br />久々のプレゼント交換も楽しかった！<br />ドレスコードも見て楽しませて頂きました(-∀-*)<a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a></p>
+<p>&mdash; Naoko Murakami (@ud_fibonacci) <a href="https://twitter.com/ud_fibonacci/status/806033899562246145">2016年12月6日</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h2>まとめ</h2>
+<p>テコラスの中江さんがおっしゃってた、山口じゃなくて他のITコミュニティにも積極的に関わっていったほうがいいんじゃないかな？というのはほんとにそうだと思います。<br />
+山口のコミュニティが盛り上がるためにも必要なことだし、それぞれ個人の経験値も必ず上がると思います。</p>
+<p>いきなり一人で他県のイベントに参加するのが敷居が高ければ一緒に行こう。<br />
+来年のWordCampは山口からたくさんで行きたいな。修学旅行気分で〜。</p>
+<p>ちゃんと東京からのゲストさんをおもてなしできたかなっていうところは少し反省する部分もあるけど、これが今の自分。がんばろ。</p>
+<p>重ね重ね、テコラスの中江さま、小柳津さま、遠くまでありがとうございました！<br />
+今度遊びに行きます！</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=527</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordCamp Tokyo 2016 参加レポート</title>
+		<link>http://www.lesson5.info/?p=486</link>
+		<comments>http://www.lesson5.info/?p=486#comments</comments>
+		<pubDate>Mon, 19 Sep 2016 09:14:45 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[WordCamp]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=486</guid>
+		<description><![CDATA[そうなんです、最近行ってきました系の記事しか書いてない僕ですが今回もそういうのです。 すい]]></description>
+				<content:encoded><![CDATA[<p>そうなんです、最近行ってきました系の記事しか書いてない僕ですが今回もそういうのです。<br />
+すいません。</p>
+<p>今回行ってきたのは<a href="https://2016.tokyo.wordcamp.org/" target="_blank">WordCamp Tokyo 2016</a>。<br />
+WordPressのコミュニティイベントでは日本で一番大きいのかな、多分。ちゃんと調べてないけど東京だしそうだよね。</p>
+<h3>タイムテーブル</h3>
+<p><a href="http://www.lesson5.info/wp-content/uploads/2016/09/timetable.jpg" rel="attachment wp-att-491"><img class="alignnone wp-image-491 size-large" src="http://www.lesson5.info/wp-content/uploads/2016/09/timetable-1024x700.jpg" alt="タイムテーブル" width="940" height="643" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/timetable-1024x700.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/timetable-300x205.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/timetable-768x525.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></a></p>
+<p>山口に帰ってきてからスキャンしたもので、荒くてすいません…</p>
+<p>おそらく午後から人が増えてブースがゆっくり回れないだろうなぁと予測して、午前中は割り切ってブースを順に回ってお話を聞きました。</p>
+<h3>ブース</h3>
+<p>印象が深かった企業さまだけ紹介しておきます。使ってるサービスとか僕個人の環境によります。</p>
+<h4>ナナエフさん</h4>
+<p>光市のプログラマ、石川くんがお知り合いだというのは前々から知っていたので、事前に僕が行くっていうのを伝えてもらってお伺いしてきました。<br />
+石川くん、繋いでくれてありがとう！でも写真とってなかったごめん！</p>
+<h4>エックスサーバーさん</h4>
+<p><img class="alignnone size-large wp-image-504" src="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1219-1024x768.jpg" alt="img_1219" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1219-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1219-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1219-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>もうずっとエックスサーバーさんのレンタルサーバー使ってるんですが、まぁ田舎に住んでるもんで実際に出展されてるとこをはじめノベルティですら見たことがなく。</p>
+<p>最近個人ではじめたサイトが同接が増えてきて重くなってるんですと相談したら<a href="https://www.wpx.ne.jp/" target="_blank">WP専用サーバー</a>をおすすめされたんですが、そちらだとWordPress以外の動作は保証されていないらしく…<br />
+どうしようかな〜</p>
+<h4>エクスクラウドさん</h4>
+<p>WordBenchの山口で知り合った方がKUSANAGIいいよって言われてから気になっていて。<br />
+懇親会でエクスクラウドのマーケティングのマネージャーさんたちと楽しくお話させていただいたのが面白かった。<a href="https://ex-cloud.jp/wordpress/" target="_blank">WordPress向けのサービス</a>がローンチされたので使ってみようと思う！</p>
+<h3>セッション</h3>
+<p>上で紹介したタイムテーブルに興味あるのを赤丸でいれてて、実際ほぼその通りに動けたと思いいます。聞きたくても聞けなかったものもあるけれど…</p>
+<h4>Contributing, You, and your Business / Mike Schroder</h4>
+<p><img class="alignnone size-large wp-image-502" src="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1216-1024x768.jpg" alt="img_1216" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1216-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1216-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1216-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>海外の方のセッションてまだ未経験なのでこれは行っとかないと！ということで選びました。<br />
+なんとなく聞けるけど、聞いたことがない単語が多くて聞けるには程遠かった…</p>
+<p><img class="alignnone size-medium wp-image-506" src="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1217-300x225.jpg" alt="img_1217" width="300" height="225" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1217-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1217-768x576.jpg 768w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1217-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>同時通訳もあったんだけど、どうしても日本語だけに集中して聞いてても全然頭に入ってこない。<br />
+スピーカーの方の動きと日本語があってないからどうしても違和感しかなかった。<br />
+同時通訳の方のスキルはすごいな〜。あれどんな頭の中してんだろ。超人なんじゃないかな。</p>
+<h4>RestAPIとjQueryで作る最短アプリ開発 / 松田 千尋（ITかあさん）</h4>
+<p><img class="alignnone size-large wp-image-507" src="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1221-1024x768.jpg" alt="img_1221" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1221-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1221-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1221-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>もう4年ぐらい前かな、PHPのお勉強のために、スクレイピングしてWordPressにぶっこむサイトを作って2年ほど続けていたときがあって。<br />
+そのときよく参考にさせていただいたのが、「ITかあさん」の記事でした。<br />
+貪欲に何かを作っていく感じが好きで、これもぜひ聞きたいな〜と思って選びました。</p>
+<p>登壇後に控室にお邪魔してお話させていただきました。控室に入ってちょっと失礼な感じありなのは自覚してましたが、明るく話してもらえてよかったです、ありがとうございました！</p>
+<h4>年間300プロジェクトから体得！ “リスクを撃破する” テクニカルディレクション術 / 関井 遼平,丹羽 孝彰,安藤 大海</h4>
+<p><img class="alignnone size-large wp-image-508" src="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1222-1024x768.jpg" alt="img_1222" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1222-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1222-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1222-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p><a href="https://www.loftwork.jp/" target="_blank">ロフトワーク</a>さんのセッション。<br />
+もう10年ぐらいお世話になっております。ほんと今の自分はロフトワークさん抜きには語れない。<br />
+遠慮せず最前列ど真ん中に座らせていただきました。</p>
+<p><img class="alignnone size-large wp-image-509" src="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1223-1024x768.jpg" alt="img_1223" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1223-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1223-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1223-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>実際のプロジェクトのスケジュールや画面設計などの資料をもとにお話されていて、「あ〜いつも見てる画面設計だな〜」と妙に嬉しく不思議な感じでした。関井さんたちとはセッション後もお話させていだいて楽しかった。ブースにいた川竹さんとも初めてお会いできたし。11月は果林さんに会いに行ってみようかな！</p>
+<h4>kintoneと組み合わせて、快適サイト運営術 / たにぐち まこと</h4>
+<p>ロフトワークさんとお話するのに夢中で、トラックに入ったときには残り5分ぐらいだったんです。<br />
+すいません。写真も撮ったんですが暗いんです、すいません。</p>
+<p>WordPressのサイトからのお問い合わせメールをkintoneに取り込んでセキュアに便利に使おうという内容でした。お問い合わせに限らず視点かえればもっと面白いことできそうなことができそうなので引き続きkintoneはウォッチしていきます。</p>
+<h4>LT大会</h4>
+<p><img class="alignnone size-large wp-image-512" src="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1227-1024x768.jpg" alt="img_1227" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1227-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1227-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1227-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>山口県出身の男の子が頑張っているので見に行きました。スベリ枠とか言われていたのにもうあまりスベらないね笑</p>
+<p><a href="https://wordwine.org/" target="_blank">WordWineという温泉とワインとWPを楽しもうというイベント</a>の告知LT。</p>
+<h4>WordPressで運営する大手メディア 座談会 / 北野 優矢, 米村 智水, 山本衆平, 川原崎晋裕, 田原 遊馬</h4>
+<p>LT見に行ってたのでちょっと遅れた。かなり楽しみにしていたセッション。</p>
+<p>なんで楽しみにしていたかというと、僕の住んでいる周南市では「萌えサミ」というイベントがあるんですがそのサイト制作を何年か担当させていただいてました（今はやってないです）。<br />
+3年前ぐらいにそのイベントを「KAI-YOU.net」さんに<a href="http://kai-you.net/article/1298" target="_blank">取り上げていただいたこと</a>があったんです。</p>
+<p>以前からカイユウさんはデザインをはじめ、コンテンツの選び方・見せ方にカッコよさがあり、かなり前向きに読んでいたのでとてもうれしかったんですよね。<br />
+エンジニアの方と懇親会でその話をさせていただいたのはテンションあがりましたね。</p>
+<p>セッション中では、WPはコンテンツ投入だけに使っていてユーザー側への表示はCakePHPとか、エンジニアさんは一人とか内部的なことが聞けました。貴重〜！<br />
+そのほかのメディアさんの話も勉強になりました。みなさん広く捉えられてる。<br />
+キュレーションからくるゴミみたいなPVっていうようなソリッドな発言もあったり笑</p>
+<p>パネリストの方は色は違えどそれぞれ自信に溢れていて仕事できそうな雰囲気で。<br />
+すごい人はいっぱいいるね。</p>
+<h3>懇親会</h3>
+<p><img class="alignnone size-large wp-image-515" src="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1229-1-1024x768.jpg" alt="img_1229" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1229-1-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1229-1-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/IMG_1229-1-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>もうたくさんいすぎてね、誰に話しかけようかなとか練ろうかと思ってたんですがセコいと思ってやめました。自然に話しかけるの重視で。気づいたら終わってたし。一口も食べてないしってその時気づいたよ。</p>
+<p>でも、仲良く話していただいた方はたくさんいらっしゃいました。</p>
+<ul>
+<li><a href="https://ex-cloud.jp/" target="_blank">エクスクラウド</a>の楽しい方々</li>
+<li>あの<a href="http://store-burton.jp/" target="_blank">バートン</a>から11年間スポンサードいただいてたという同い年の元プロスノーボーダーの<a href="http://ichigo-branding.com/" target="_blank">田中さん（Ichigo Branding 株式会社）</a></li>
+<li>20分ほど楽しく話してJCの先輩ということがわかった田圓さん</li>
+</ul>
+<p>その後の2次会でも山口から〜！？と暖かく話を聞いてくださって楽しかったです。<br />
+まぁそこでも3口ぐらいしか食べれませんでした、話すのに夢中になるので仕方ない！</p>
+<h3>ハッカソン（2日目）</h3>
+<p>お題は「WordPressの情報をまとめたサイト」を10:00 &#8211; 15:00でつくること。<br />
+僕はとらさんチームに所属。全部で4人。</p>
+<ul>
+<li>ひさつぐ &#8211; 僕（WP歴4年ぐらい）</li>
+<li>くわはらさん &#8211; デザイン/フロント両方できる方（WP歴5年ぐらい）</li>
+<li>もりさん &#8211; ディレクターさん（WP歴1年未満）</li>
+<li>みずかみさん &#8211; 電力系のインフラプログラマさん（WP歴1年未満）</li>
+</ul>
+<p>くわはらさんの案で、「WordPressのCodexがリニューアルで読みにくくなったのでそれを解決する」サイトに方向としては決定。デザインとhtml/cssは僕の担当となりました。</p>
+<p>できあがったのはこちら！</p>
+<p><a href="http://wct2016tiger.heteml.jp/hackathon/" target="_blank">とらさんチームのとらのまき！</a><br />
+http://wct2016tiger.heteml.jp/hackathon/</p>
+<p>時間に限りがあるので、とにかく1ページで見やすいという方向性が伝わればいいので、トップとシングルという構成になりました。</p>
+<p>気をつけたのは、</p>
+<ul>
+<li>出来上がりにやっつけ感がないこと</li>
+<li>トラをいれること</li>
+<li>チームでやることの楽しさを出す</li>
+</ul>
+<p>ってところでしょうか。入力データが絶対的に足りませんがハッカソンで作ったようには見えないと思うのでそこはデザイン担当としてある程度のとこに落とせたように思います。</p>
+<p>オフィスと自宅のmacでadobe ccのライセンスは使い切っているのでMBAはCS6。今回切り出すパーツが少なかったので助かったけど、ccのアセットは欲しいなやっぱり。<br />
+あと、マウス持っていてなかったのでこれでずいぶん作業時間を削られた感。</p>
+<p>仕事より緊迫した感じあった。ちょっと焦ったよね…</p>
+<p>でも、みんなでできて楽しかった！それにつきる！</p>
+<h3>まとめ</h3>
+<p>ひとりぼっちでの参加でしたが、知っている人の方のご協力であまり寂しい思いもせず楽しく過ごせたし、次回東京行くときに電話できる人もなんとかできたと思う。</p>
+<p>すこしづつ東京にも自分の居場所ができるように進んでいきます。<br />
+ご協力いただいた方、お話していただいた方、ありがとうございました！</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=486</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>やまぐち若手デザイナー勉強会 vol.3の懇親会だけ行ってきた</title>
+		<link>http://www.lesson5.info/?p=478</link>
+		<comments>http://www.lesson5.info/?p=478#respond</comments>
+		<pubDate>Mon, 12 Sep 2016 10:45:36 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[やまぐち若手デザイナー勉強会]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=478</guid>
+		<description><![CDATA[今回も行ってきたシリーズです。 最近tipsとか書くことないよね！ 今回おじゃましたのは、]]></description>
+				<content:encoded><![CDATA[<p>今回も行ってきたシリーズです。<br />
+最近tipsとか書くことないよね！</p>
+<p>今回おじゃましたのは、「<a href="http://www.ywcd.jp/" target="_blank">やまぐち若手デザイナー勉強会 </a>」さん。</p>
+<p><img class="alignnone size-large wp-image-483" src="http://www.lesson5.info/wp-content/uploads/2016/09/ymcd-1024x644.jpg" alt="やまぐち若手デザイナー勉強会" width="940" height="591" srcset="http://www.lesson5.info/wp-content/uploads/2016/09/ymcd-1024x644.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/09/ymcd-300x189.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/09/ymcd-768x483.jpg 768w, http://www.lesson5.info/wp-content/uploads/2016/09/ymcd.jpg 1104w" sizes="(max-width: 940px) 100vw, 940px" /><br />
+3回目の開催だそう。聞くところによると回を進めるごとに参加者は増えているようで必要とされている感じ。</p>
+<p>vol.2も行く予定だったのが東京行きで断念、今回のvol.3も頭からと思ってましたが仏事ごとで岡山から帰ってきて懇親会からの参加。</p>
+<p>主催のきよはるくんと話すのが楽しくて写真が1枚もありません。</p>
+<h3>懇親会、盛りあがってました</h3>
+<p>結構アツい感じの内容で盛り上がっててとても僕好みの懇親会でした。<br />
+意識が高いってほんといいと思う。</p>
+<h3>徳山高専からも参加者が</h3>
+<p>徳山が誇るエリートたちの巣窟からも2人ほどエントリーされてました。<br />
+一人は知ってる子だったけど、もう一人の子もとても優秀ぽくて応援したいな〜という気持ちになりました。<br />
+徳山に就職とか考えないでメジャーなところに就職してほしいもんですね！</p>
+<p>次は何人か引き連れて行きまーす！</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=478</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>第2回 WordBench山口に行ってきた</title>
+		<link>http://www.lesson5.info/?p=449</link>
+		<comments>http://www.lesson5.info/?p=449#comments</comments>
+		<pubDate>Mon, 23 May 2016 07:57:03 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[WordBench]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=449</guid>
+		<description><![CDATA[今回はスピーカーとしてWordBench山口に参加してきました。 初めて参加の方も多かった]]></description>
+				<content:encoded><![CDATA[<p>今回はスピーカーとしてWordBench山口に参加してきました。<br />
+初めて参加の方も多かったし、山大生も2人いたりと今回も実り多い時間だったのではないでしょうか。</p>
+<ul>
+<li><a href="http://wordbench.org/groups/yamaguchi/" target="_blank">WordBenchの山口グループページ</a></li>
+<li><a href="https://www.facebook.com/groups/wbyamaguchi/" target="_blank">facebookの公開グループ</a></li>
+<li><a href="https://wbyamaguchi.doorkeeper.jp/events/42008" target="_blank">今回のdoorkeeper</a></li>
+</ul>
+<h3>タイムテーブル</h3>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<th>12:30〜13:00</th>
+<td>受付</td>
+</tr>
+<tr>
+<th>13:00〜13:10</th>
+<td>開会・ガイダンス</td>
+</tr>
+<tr>
+<th>13:10〜13:40</th>
+<td>自己紹介</p>
+<ul>
+<li>名前</li>
+<li>職業</li>
+<li>WordPress歴</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>13:40〜14:10</th>
+<td>セッション１<br />
+<strong>わたしなりのWordPress構築手順〜オリジナルテーマ作成〜</strong><br />
+スピーカー：原田成美（@narugaro）</td>
+</tr>
+<tr>
+<th>14:10〜14:30</th>
+<td>休憩（20分）</td>
+</tr>
+<tr>
+<th>14:30〜15:00</th>
+<td>セッション２<br />
+<strong>俺様的WP導入ショーケース</strong><br />
+スピーカー： 久次昌志（@lesson5）さん</td>
+</tr>
+<tr>
+<th>15:00〜15:30</th>
+<td>LT大会<br />
+絶賛受付中！（1人5分程度）<br />
+LTしていただいた方には、素敵なプレゼントを用意しています。<br />
+お申し込みは<a href="https://wbyamaguchi.doorkeeper.jp/contact/new" rel="nofollow">こちら</a>から<br />
+イベント告知や紹介等でもOK</td>
+</tr>
+<tr>
+<th>15:30〜15:50</th>
+<td>なんでも質問会</td>
+</tr>
+<tr>
+<th>15:50〜16:00</th>
+<td>まとめ</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>セッション1 「わたしなりのWordPress構築手順」</h2>
+<p><a href="https://twitter.com/narugaro/" target="_blank">@narugaroさん</a>のセッション。</p>
+<p><img class="alignnone size-full wp-image-461" src="http://www.lesson5.info/wp-content/uploads/2016/05/13062310_1001425806601828_4675389987168251432_n.jpg" alt="13062310_1001425806601828_4675389987168251432_n" width="960" height="639" srcset="http://www.lesson5.info/wp-content/uploads/2016/05/13062310_1001425806601828_4675389987168251432_n.jpg 960w, http://www.lesson5.info/wp-content/uploads/2016/05/13062310_1001425806601828_4675389987168251432_n-300x200.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/05/13062310_1001425806601828_4675389987168251432_n-768x511.jpg 768w, http://www.lesson5.info/wp-content/uploads/2016/05/13062310_1001425806601828_4675389987168251432_n-600x400.jpg 600w, http://www.lesson5.info/wp-content/uploads/2016/05/13062310_1001425806601828_4675389987168251432_n-210x140.jpg 210w" sizes="(max-width: 960px) 100vw, 960px" /></p>
+<p>すでに出来上がったhtmlからどのようにWPに組み込んでいくのかをCodaで実演。<br />
+初めてのスピーカーだったようで緊張したと言ってたけど、全然そんな風には見えなかったな。<br />
+確実にわかったのは僕よりWPタグを暗記してること。</p>
+<p>そして、右投げ左打ちだということ。</p>
+<h2>セッション2 「俺様的WP導入ショーケース」</h2>
+<h3>今回自分に与えた課題</h3>
+<p>懇親会が本番とはよく言われるけど、本番はセッションだと僕は思います。今回はスピーカーということで、自分に3つの課題を与えてのチャレンジでした。</p>
+<ol>
+<li><strong>どんな参加者の人でも最低ひとつは「ああ、そうなんだ」と思ってもらう</strong></li>
+<li><strong>楽しく聞いてもらえるように工夫する</strong></li>
+<li><strong>懇親会で何か一体感を味わえることをする</strong></li>
+</ol>
+<p>僕のセッションのテーマは「俺様的WP導入ショーケース」。</p>
+<p>僕が知ってる方以外はWPをどんなふうに使っているかわからなかったので、内容を3つにセグメントしました。</p>
+<p>WordPressを使って、</p>
+<ul>
+<li><strong>自分のブログを作る</strong></li>
+<li><strong>企業のサイトを作る</strong></li>
+<li><strong>自分のサイトを作る</strong></li>
+</ul>
+<p>には、どんな技術が必要かを、僕がやっているサイト・作らせてもらったサイトを事例に挙げて喋らせてもらいました。</p>
+<p><img class="alignnone size-full wp-image-462" src="http://www.lesson5.info/wp-content/uploads/2016/05/13267753_1001426009935141_9113553918241632746_n.jpg" alt="13267753_1001426009935141_9113553918241632746_n" width="960" height="639" srcset="http://www.lesson5.info/wp-content/uploads/2016/05/13267753_1001426009935141_9113553918241632746_n.jpg 960w, http://www.lesson5.info/wp-content/uploads/2016/05/13267753_1001426009935141_9113553918241632746_n-300x200.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/05/13267753_1001426009935141_9113553918241632746_n-768x511.jpg 768w, http://www.lesson5.info/wp-content/uploads/2016/05/13267753_1001426009935141_9113553918241632746_n-600x400.jpg 600w, http://www.lesson5.info/wp-content/uploads/2016/05/13267753_1001426009935141_9113553918241632746_n-210x140.jpg 210w" sizes="(max-width: 960px) 100vw, 960px" /></p>
+<p>幅が広かったので広く浅くにしかできなかったけど、惜しみなく自分の話をしたので少しは信用して聞いてもらえたんじゃないかなと思います。<br />
+ちょっと時間おしてしまって申し訳なかったけど…</p>
+<h3>LT</h3>
+<h4>@lesson5</h4>
+<p>コミュニティ <a href="http://base-ment.net/" target="_blank">Basement</a>の紹介。<br />
+自分が立ち上げたコミュニティの宣伝させていただきました。ありがとうございます！</p>
+<h4>@Tsuyoshi. (つよし)さん</h4>
+<p>WordPress勉強とワインを楽しむイベント、「WordWine」の紹介。</p>
+<blockquote class="twitter-tweet" data-lang="ja">
+<p dir="ltr" lang="ja">WordWineの宣伝しました！ <a href="https://twitter.com/hashtag/WB%E5%B1%B1%E5%8F%A3?src=hash">#WB山口</a> <a href="https://t.co/LnfrGJLSYQ">https://t.co/LnfrGJLSYQ</a></p>
+<p>— Tsuyoshi. (つよし) (@tsuyoshiwebcake) <a href="https://twitter.com/tsuyoshiwebcake/status/733914545681399809">2016年5月21日</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script><br />
+<a href="https://twitter.com/tsuyoshiwebcake/" target="_blank">Tsuyoshi. (つよし)さんのtwはこちら</a><br />
+<a href="https://www.pakutaso.com/search.html?offset=0&amp;limit=30&amp;search=Tsuyoshi.&amp;imagemodel=Tsuyoshi." target="_blank">ぱくたそでモデル</a>もされています。<br />
+今回のこのレポートの写真もお借りしました。ありがとうございます！</p>
+<h4>野村さん</h4>
+<p><a href="https://dbstudychugoku.github.io/" target="_blank">中国地方DB勉強会</a>の紹介。<br />
+山口は野村さんが取りまとめ。頭が下がります…<br />
+realmとか気になるので行ってみたい。<br />
+<a href="https://www.facebook.com/profile.php?id=100006984761097" target="_blank">野村さんのfbはこちら</a></p>
+<h4>@y3seiさん</h4>
+<p><a href="https://ja.wordpress.org/plugins /rss-feed-canceller/" target="_blank">制作プラグイン「RSS-feed Canceller」</a>の紹介。<br />
+相変わらず忙しそう（笑）<br />
+<a href="https://twitter.com/y3sei/" target="_blank">@y3seiさんのtwはこちら</a></p>
+<h4>河井さん</h4>
+<p><a href="http://sgu03439.wix.com/share-office601" target="_blank">今回利用させていただいたシェアオフィス</a>の管理人さん。<br />
+Pepperを動かすアプリの開発勉強会のお誘い。<br />
+懇親会で色々お話伺いましたが色々動いてらっしゃるようで今後に注目ですね。</p>
+<h4>@mykhrd_さん</h4>
+<p>今年のWEBのデザイントレンドの紹介。<br />
+やっぱ帰国子女だけあって僕が見ているトレンド系のサイトとは全く違ってた。<br />
+懇親会でこういった知識リソースの仕入先もっと聞けばよかったな。<br />
+<a href="https://twitter.com/mykhrd_/" target="_blank">@mykhrd_さんのtwはこちら</a></p>
+<h2>参加された方のレポートはこちら</h2>
+<ul>
+<li><a href="http://blog-shinayanz.com/wordbenchinymg2nd/" target="_blank">これであなたも脱初心者！第２回WordBench山口に参加してきました。 | ブログしなやんZ</a></li>
+<li><a href="http://plusmk.blogspot.jp/2016/05/wordbench.html" target="_blank">PlusMK+ワークメモ: WordBench山口に参加してきました</a></li>
+<li><a href="http://wordbench.org/2016/05/24/%E7%AC%AC2%E5%9B%9Ewordbench%E5%B1%B1%E5%8F%A35%E6%9C%8821%E6%97%A5%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88/" target="_blank">第2回WordBench山口(5月21日)振り返りレポート | WordBench</a></li>
+<li><a href="https://narugaro.wordpress.com/2016/05/27/%E7%AC%AC2%E5%9B%9Ewordbench%E5%B1%B1%E5%8F%A3%E3%82%92%E9%96%8B%E5%82%AC%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F/" target="_blank">第2回WordBench山口を開催しました | やってみたら、できた。</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=449</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>ZXPInstallerでエクステンションをAdobe CC 2015製品に簡単にインストール</title>
+		<link>http://www.lesson5.info/?p=434</link>
+		<comments>http://www.lesson5.info/?p=434#respond</comments>
+		<pubDate>Fri, 05 Feb 2016 09:52:06 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[dreamweaver]]></category>
+		<category><![CDATA[photoshop]]></category>
+		<category><![CDATA[Adobe CC 2015]]></category>
+		<category><![CDATA[zxp]]></category>
+		<category><![CDATA[エクステンション]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=434</guid>
+		<description><![CDATA[Adobe CC 2015以前はExtension Managerで拡張機能（エクステンシ]]></description>
+				<content:encoded><![CDATA[<p>Adobe CC 2015以前はExtension Managerで拡張機能（エクステンション）を管理できていたのに、なぜcc2015からはExtension Managerがないんだろうと思っていた人も多いはず。</p>
+<p>Extension Managerがなくてもコマンドライン使ったり、zxpファイルをApplication Supportディレクトリに手動でコピーしたりすれば使えるんですが、システムライブラリに追加するのって気を使うし、正確な置き場所調べるのも時間かかるしで、「めんどくさいなぁ〜」っていうのがみんなの本音なんじゃないでしょうか。</p>
+<p>頻繁にやる作業じゃない分時間かかってる気がするし。</p>
+<p>今日、photoshopでサムネ用にまとめて50枚ぐらいの画像を書き出すのにレイヤーを一気にリネームしたくて、以前入れてた「<a href="http://madebyvadim.com/layrs/" target="_blank">Layrs Control 2</a>」を使いたいなぁと思って、ダウンロードしたら同梱されているreadmeに「<a href="http://zxpinstaller.com/" target="_blank">ZXP Installer</a>使ったらいいよ」と書いてあったのでやってみました。</p>
+<p>特に説明することもないぐらいなんですが、ZXPInstallerをインストールして立ち上げたらこんなウィンドウが出るので、zxpファイルをドロップするだけ。</p>
+<p><img class="alignnone size-full wp-image-437" src="http://www.lesson5.info/wp-content/uploads/2016/02/Adobe_ZXPInstaller.png" alt="ZXPInstaller" width="600" height="450" srcset="http://www.lesson5.info/wp-content/uploads/2016/02/Adobe_ZXPInstaller.png 600w, http://www.lesson5.info/wp-content/uploads/2016/02/Adobe_ZXPInstaller-300x225.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<p>まぁ簡単。</p>
+<p>あとはphotoshopを立ち上げ直すだけ。</p>
+<p><img class="alignnone size-full wp-image-438" src="http://www.lesson5.info/wp-content/uploads/2016/02/Layrs-Control-2.png" alt="Layrs Control 2" width="628" height="335" srcset="http://www.lesson5.info/wp-content/uploads/2016/02/Layrs-Control-2.png 628w, http://www.lesson5.info/wp-content/uploads/2016/02/Layrs-Control-2-300x160.png 300w" sizes="(max-width: 628px) 100vw, 628px" /></p>
+<p>ちゃんと使えるようになってます。</p>
+<h4>ん？photoshop以外のエクステンションをドロップするとどうなるんだろ？</h4>
+<p>と、思ってcc2015にしてから使えてなかったdreamweaver用の閉じタグコメント挿入エクステンション「<a href="http://design.kayac.com/topics/2010/05/dreamweaver-extention.php" target="_blank">End_comment.mxp</a>」で試してみました。<br />
+mxpファイルだと古いのでzxpに変換しておきましょう。</p>
+<p><img class="alignnone size-full wp-image-439" src="http://www.lesson5.info/wp-content/uploads/2016/02/End_comment.png" alt="End_comment" width="571" height="294" srcset="http://www.lesson5.info/wp-content/uploads/2016/02/End_comment.png 571w, http://www.lesson5.info/wp-content/uploads/2016/02/End_comment-300x154.png 300w" sizes="(max-width: 571px) 100vw, 571px" /></p>
+<p>ちゃんと使えてる！</p>
+<p>仕組みはわかんないけど自動的に判別されて対象のアプリケーションにインストールされるのかな？</p>
+<p>dreamweaver cc 2015だとEmmetでも閉じタグ追加できるけど、全部Emmetで展開していかないといけないし、やっぱ部分的に挿入できるEnd_commentのほうが使いやすい。</p>
+<p>というわけで「<a href="http://zxpinstaller.com/" target="_blank">ZXPInstaller</a>」、おすすめです！</p>
+<h4>おまけ</h4>
+<p>上記の作業のついでに見つけたんですが、「<a href="http://madebyvadim.tumblr.com/" target="_blank">Photoshoplr</a>」というサイト（海外）があってよさそうなphotoshop向けのエクステンションがリストアップされてます。もしかしたらいいのあるかも？</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=434</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>第1回 WordBench山口に行ってきた</title>
+		<link>http://www.lesson5.info/?p=415</link>
+		<comments>http://www.lesson5.info/?p=415#comments</comments>
+		<pubDate>Mon, 01 Feb 2016 09:33:33 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[WordBench]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=415</guid>
+		<description><![CDATA[久しぶりにweb系の勉強会に行ってきました。 前に行ったのいつだろうと調べてみたら、 20]]></description>
+				<content:encoded><![CDATA[<p>久しぶりにweb系の勉強会に行ってきました。<br />
+前に行ったのいつだろうと調べてみたら、</p>
+<p>2014年2月の「<a href="http://webridge-kagawa.com/meeting/sp/140201/" target="_blank">Webridge Meeting SP16 (ウェブリッジ ミーティング スペシャル16)　Webサイトへの集客力アップ術</a>」と2年ぶり。</p>
+<p>今回は「第1回 WordBench山口」に行ってきました。</p>
+<p><a href="http://wordbench.org/groups/yamaguchi/" target="_blank">WordBenchの山口グループページ</a><br />
+<a href="https://www.facebook.com/groups/wbyamaguchi/" target="_blank">facebookの公開グループ</a><br />
+<a href="https://wbyamaguchi.doorkeeper.jp/events/34638" target="_blank">今回のdoorkeeper</a></p>
+<h2>WordBench山口を知ったきっかけ</h2>
+<p>僕が情報収集用に使っているものにスマホアプリの「<a href="https://lp.kamel.io/" target="_blank">カメリオ</a>」があるんですが、そのアプリで「WordPress」を拾ってくるニュースのテーマのひとつにしていて、上記のWordBenchの山口グループページが流れてきて、「あ、山口にもWordBenchできたんだなー」と知り、すぐにメンバー登録しました。<br />
+お仕事でご一緒した方が立ち上げに関わっているようだったのもあって、何かお手伝いできればとfbのグループにも追加してもらいましたが、あまり口出すのもあれなのでただ当日を楽しみにしてました。</p>
+<p>doorkeeperのページが立ち上がったところで、知ってる人に何人かお声がけして、<a href="https://twitter.com/shinayan" target="_blank">@shinayan</a>さんと<a href="https://twitter.com/foolsai" target="_blank">@foolsai</a>さんと同乗で、途中<a href="http://tabelog.com/yamaguchi/A3501/A350102/35000971/" target="_blank">ドルフィン</a>でラーメンを楽しみながら会場へ向かいました。</p>
+<h2>当日の模様</h2>
+<p>進行役の<a href="https://twitter.com/mykhrd_" target="_blank">@mykhrd_</a>さんは帰国子女のためか日本ぽい空気をまったく読まずゴリゴリに自分らしく進められてたのが面白かったです。酔ってるのかと思ったよね。<br />
+doorkeeperの方にスケジュールありますが、こんな感じ。</p>
+<table border="0" width="100%" cellspacing="0" cellpadding="10">
+<tbody>
+<tr>
+<th>13:00〜13:30</th>
+<td>受付</td>
+</tr>
+<tr>
+<th>13:30〜13:40</th>
+<td>開会・ガイダンス</td>
+</tr>
+<tr>
+<th>13:40〜14:10</th>
+<td>自己紹介</td>
+</tr>
+<tr>
+<th>14:10〜14:40</th>
+<td>セッション１<br />
+<strong>ご注文はWordPressですか？</strong><br />
+スピーカー：GOUTEN（岡下剛典 / @gouten5010）さん</td>
+</tr>
+<tr>
+<th>14:40〜15:00</th>
+<td>休憩（20分）</td>
+</tr>
+<tr>
+<th>15:00〜15:20</th>
+<td>セッション２<br />
+<strong>WordPressのセキュリティ対策</strong><br />
+スピーカー： やまちゃん（Piwikjapan / @yamachan5593）さん<br />
+スライド：<a href="http://www.slideshare.net/TakashiYamamoto3/wordbench-yamaguchi-at-ube" rel="nofollow">http://www.slideshare.net/TakashiYamamoto3/wordbench-yamaguchi-at-ube</a></td>
+</tr>
+<tr>
+<th>15:20〜15:40</th>
+<td>WordPressなんでも質問（質疑応答）</td>
+</tr>
+<tr>
+<th>15:40〜16:00</th>
+<td>LT大会</td>
+</tr>
+<tr>
+<th>16:00〜16:10</th>
+<td>名刺交換・交流など</td>
+</tr>
+<tr>
+<th>16:10〜16:20</th>
+<td>まとめ</td>
+</tr>
+</tbody>
+</table>
+<h2>セッション1　ご注文はWordPressですか？</h2>
+<p>スピーカー：GOUTEN（岡下剛典 / <a href="https://twitter.com/gouten5010" target="_blank">@gouten5010</a>）さん</p>
+<p><img class="alignnone size-large wp-image-422" src="http://www.lesson5.info/wp-content/uploads/2016/02/IMG_0809-1024x768.jpg" alt="GOUTEN（岡下剛典 / @gouten5010）さん" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/02/IMG_0809-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/02/IMG_0809-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/02/IMG_0809-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>僕、WordBenchまわりよく知らないんですが、「スベリ芸」をまわりの方からキャラ設定されてるらしくセッション途中でも「ここでスベって」など声援を受けてらっしゃいました。<br />
+セッションの内容としては、なぜCMSにWPを選ぶのかという初心者の方もフォローできる内容。</p>
+<h2>セッション2　WordPressのセキュリティ対策</h2>
+<p>スピーカー： やまちゃん（Piwikjapan / <a href="https://twitter.com/yamachan5593" target="_blank">@yamachan5593</a>）さん</p>
+<p><img class="alignnone size-large wp-image-424" src="http://www.lesson5.info/wp-content/uploads/2016/02/IMG_0810-1024x768.jpg" alt="やまちゃん（Piwikjapan / @yamachan5593）さん" width="940" height="705" srcset="http://www.lesson5.info/wp-content/uploads/2016/02/IMG_0810-1024x768.jpg 1024w, http://www.lesson5.info/wp-content/uploads/2016/02/IMG_0810-300x225.jpg 300w, http://www.lesson5.info/wp-content/uploads/2016/02/IMG_0810-768x576.jpg 768w" sizes="(max-width: 940px) 100vw, 940px" /></p>
+<p>作って満足、放置しているWPがよく被害にあう乗っ取りの事例紹介と対策。<br />
+実演までされてて面白かった。</p>
+<h2>懇親会</h2>
+<p>知ってる人もいらっしゃったので楽しかった。懇親会でも進行などあればもっと楽しくなるように感じたけどおそらく誰もやりたがらないので気が向いたらやろうかな。</p>
+<h2>まとめ</h2>
+<p>同業者さんの色んな話が聞けるのはやっぱ面白い。<br />
+今思い出すと懇親会でWPの話を全くしてない気がするので、WPはあくまで何かを作るツールであってやっぱ興味があるのはみんなが何を目指してるとか、こういうことを今やってるとか、そういう話を僕は聞きたいんだろうな。</p>
+<p>他の参加者さんたちの当日の模様はこちら</p>
+<ul>
+<li><a href="http://blog-shinayanz.com/wordbench-yamaguchi/" target="_blank">WordBench山口に参加して勉強させていただいてきたよ | ブログしなやんZ</a></li>
+<li><a href="https://mykhrd.wordpress.com/2016/02/01/wordbench-yamaguchi-the-prologue/" target="_blank">Wordbench Yamaguchi, The Prologue</a></li>
+<li><a href="http://wordbench.org/2016/02/03/%E7%AC%AC1%E5%9B%9Ewordbench%E5%B1%B1%E5%8F%A31%E6%9C%8830%E6%97%A5%E6%8C%AF%E3%82%8A%E8%BF%94%E3%82%8A%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88/" target="_blank">第1回WordBench山口(1月30日)振り返りレポート | WordBench</a></li>
+<li><a href="http://webcake.no003.info/event/wbyamaguchi-vol1.html" target="_blank">第1回WordBench山口にWordBench福岡メンバーで突撃しました | WebCake</a></li>
+</ul>
+<p>第2回も参加しまーす。</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=415</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>「Google Feed API」の代替として「rss-php」でRSSやAtomフィードを取得・表示する</title>
+		<link>http://www.lesson5.info/?p=392</link>
+		<comments>http://www.lesson5.info/?p=392#comments</comments>
+		<pubDate>Wed, 02 Dec 2015 14:11:21 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[php]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[rss]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=392</guid>
+		<description><![CDATA[Google Feed APIが以前から非推奨になってからしばらく立ちますが、いよいよ今日]]></description>
+				<content:encoded><![CDATA[<p>Google Feed APIが以前から非推奨になってからしばらく立ちますが、いよいよ今日、2015年12月2日、Googleらしくすっぱりと動かなくなりました。</p>
+<p><strong>2015年12月4日 いったんAPIが復帰しているみたい。暫定的な処置なのかもで構わずphpやjsonに移行しておいたほうがいいと思います。</strong></p>
+<p>まずほとんどのweb制作者の方たちが対応に追われているんじゃないでしょうか…<br />
+抱えてる案件が一段落している時だったので僕は直撃を避けれた感じではありますが、今日、タイトなスケジュールをこなしていた方にはGoogleが嫌いになる人もいるかもしれませんね。</p>
+<p>twitterなんかでもどのように対応するか色々大変な声が上がってたみたいですが、<br />
+僕は簡単に早く対応したかったので、あっさりPHPで代替しました。</p>
+<p>jsだとクロスドメインまわりで面倒くさいですが、phpだとそれがないのでほんとに簡単に終わりました。<br />
+元からこれにしとけばよかった…</p>
+<h2>使用ライブラリ</h2>
+<p>今回使わせてもらったphpのライブラリ「rss-php」はこちらです。<br />
+<a href="https://github.com/dg/rss-php" target="_blank">dg/rss-php · GitHub</a></p>
+<p>基本的にこのライブラリは、rssをロードしたりパースしたりを簡単にしてくれるもの。<br />
+特にキャッシュの指定ができるのがいいですね。<br />
+使い方によっては10以上のrssをまとめて取ってきて処理することもあるでしょうし、それをアクセス都度こなすのは遅くなるしキャッシュできるのはありがたい。</p>
+<h3>設置</h3>
+<p>ライブラリである「Feed.php」自体は任意の場所に置きましょう。<br />
+そのライブラリを表示用のphpからinclude,requireします。</p>
+<p>それではケースに分けてコード置いておきます。</p>
+<p><a href="#rss-single">対象RSSが1つの場合</a><br />
+<a href="#rss-multi">対象RSSが複数の場合でPHPで書き出す</a><br />
+<a href="#rss-json">対象RSSが複数の場合でPHPでJSONを返しjavascriptで表示</a></p>
+<h2 id="rss-single">対象RSSが1つの場合</h2>
+<p>表示したいrssが1つの場合はこちら。<br />
+こちらはキャッシュを指定していません。</p>
+<pre class="brush: php; title: ; notranslate">
+&lt;?php
+
+	// ライブラリの読み込み
+	require_once ($_SERVER['DOCUMENT_ROOT'] . '/lib/Feed.php');
+
+	// 取得するフィードのURLを指定
+	$url = &quot;http://www.lesson5.info/?feed=rss2&quot; ;
+
+	// インスタンスの作成
+	$feed = new Feed ;
+
+	// RSSを読み込む
+	$rss = $feed-&gt;loadRss( $url ) ;
+
+	// HTML表示用
+	$html = '' ;
+
+	$sitename = $rss-&gt;title ;
+
+	foreach( $rss-&gt;item as $item )
+	{
+		// 各エントリーの処理
+		$title = $item-&gt;title ;	// タイトル
+		$link = $item-&gt;link ;	// リンク
+
+		// 日付の取得(UNIX TIMESTAMP)
+		foreach( array( &quot;pubDate&quot; , &quot;date_timestamp&quot; , &quot;dc:date&quot; , &quot;published&quot; , &quot;issued&quot; ) as $time )
+		{
+			if( isset( $item-&gt;{ $time } ) &amp;&amp; !empty( $item-&gt;{ $time } ) )
+			{
+				$timestamp = ( is_int( $item-&gt;{ $time } ) ) ? $item-&gt;{ $time } : strtotime( $item-&gt;{ $time } ) ;
+				break ;
+			}
+		}
+
+		// 仮に日付が取得できなかったら現在時刻
+		if( !isset( $timestamp ) )
+		{
+			$timestamp = time() ;
+		}
+
+		// 表示
+		$html .= '&lt;dt&gt;&lt;a href=&quot;' . $link . '&quot; target=&quot;_blank&quot;&gt;' . $title . '&lt;/a&gt; (' . date( &quot;Y/m/d&quot; , $timestamp ) . ')&lt;/dt&gt;&lt;dd&gt;' . $sitename . '&lt;/dd&gt;' ;
+	}
+?&gt;
+
+&lt;dl&gt;
+&lt;?php echo $html ?&gt;
+&lt;/dl&gt;
+</pre>
+<h2 id="rss-multi">対象RSSが複数の場合でPHPで書き出す</h2>
+<p>こちらはキャッシュを指定しています。<br />
+6つのブログから各最新1件のエントリ（全部で5件まで）を表示するようにしています。<br />
+※xmlの形式はすべてのブログで同一前提です。日付などフォーマットが違うケースもあるのでその辺りは追加で対応が必要です。</p>
+<pre class="brush: php; title: ; notranslate">
+&lt;?php
+
+	// ライブラリの読み込み
+	require_once ($_SERVER['DOCUMENT_ROOT'] . '/lib/Feed.php');
+	
+	// キャッシュの設定
+	Feed::$cacheDir = $_SERVER['DOCUMENT_ROOT'] . '/temp';
+	Feed::$cacheExpire = '1 hours';
+	
+	// HTML表示用
+	$html = '' ;
+	
+	// 表示最大件数
+	$maxview = 5 ;
+
+	// 取得するフィードのURLを指定
+	$urls = array(
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;
+	);
+	
+	// 各rssをまとめた配列
+	$entrylist = array();
+	
+	// RSSごとに1エントリづつ抽出
+	for ($i = 0; $i &lt; count($urls); $i++) {
+			$url = $urls[$i];
+			
+			// インスタンスの作成
+			$feed = new Feed ;
+			
+			// RSSを読み込む
+			$rss = Feed::loadRss($url);
+			
+			for ($entry = 0; $entry &lt; 1; $entry++) {
+				$sitename = $rss-&gt;title ;
+				$sitelink = $rss-&gt;link ;
+				$item = $rss-&gt;item[$entry];
+				// 各エントリーの処理
+				$title = $item-&gt;title ;
+				$link = $item-&gt;link ;
+				$timestamp = strtotime( $item-&gt;pubDate ) ;
+				// 配列に
+				$entrylist[$i]['sitename'] = $sitename;
+				$entrylist[$i]['sitelink'] = $sitelink;
+				$entrylist[$i]['title'] = $title;
+				$entrylist[$i]['link'] = $link;
+				$entrylist[$i]['timestamp'] = $timestamp;
+			}
+	}
+	
+	// 日付でソート
+	foreach ((array)$entrylist as $key =&gt; $value) {
+		$sort[$key] = $value['timestamp'];
+	}
+	array_multisort($sort, SORT_DESC, $entrylist);
+	
+	// 書き出す件数を設定
+	if ( count($entrylist) &gt; $maxview ) {
+		$entrynum = $maxview;
+	} else {
+		$entrynum = count($entrylist);
+	}
+	
+	// 書き出し
+	for ($i = 0; $i &lt; $entrynum; $i++) {
+		$html .= '&lt;dt&gt;&lt;a href=&quot;' . $entrylist[$i]['link'] . '&quot; target=&quot;_blank&quot;&gt;' . $entrylist[$i]['title'] . '&lt;/a&gt; (' . date( &quot;Y/m/d&quot; , $entrylist[$i]['timestamp'] ) . ')&lt;/dt&gt;&lt;dd&gt;&lt;a href=&quot;' . $entrylist[$i]['sitelink'] . '&quot; target=&quot;_blank&quot;&gt;' . $entrylist[$i]['sitename'] . '&lt;/a&gt;&lt;/dd&gt;' ;
+	}
+	
+?&gt;
+
+&lt;dl&gt;
+&lt;?php echo $html ?&gt;
+&lt;/dl&gt;
+</pre>
+<p>めんどくさいめんどくさいと思いながら、今までは全部Googleさん任せでした。<br />
+jsの制限を抜けれるのであればphpで対応したほうがやっぱ早いですね…</p>
+<p>まぁ、jsでっていうのが前提で「Google Feed API」を使ってたので当然ですが…</p>
+<h2 id="rss-json">対象RSSが複数の場合でPHPでJSONを返しjavascriptで表示</h2>
+<p>どうしても以前のGoogle Feed APIみたくjavascriptを使用したいならこちら。<br />
+ひとつ前の「対象RSSが複数の場合でPHPで書き出す」ケースではphpで表示していましたが、<br />
+php自体はJSONを返すようにして、javascript側でJSONを受け取り整形表示したい時に。</p>
+<h3>PHP</h3>
+<pre class="brush: php; title: ; notranslate">
+&lt;?php
+
+	// ライブラリの読み込み
+	require_once ($_SERVER['DOCUMENT_ROOT'] . '/lib/Feed.php');
+	
+	// キャッシュの設定
+	Feed::$cacheDir = $_SERVER['DOCUMENT_ROOT'] . '/temp';
+	Feed::$cacheExpire = '1 hours';
+	
+	// HTML表示用
+	$html = '' ;
+
+	// 取得するフィードのURLを指定
+	$urls = array(
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;,
+		&quot;http://www.lesson5.info/?feed=rss2&quot;
+	);
+	
+	// 各rssをまとめた配列
+	$entrylist = array();
+	
+	// RSSごとに1エントリづつ抽出
+	for ($i = 0; $i &lt; count($urls); $i++) {
+			$url = $urls[$i];
+			
+			// インスタンスの作成
+			$feed = new Feed ;
+			
+			// RSSを読み込む
+			$rss = Feed::loadRss($url);
+			
+			for ($entry = 0; $entry &lt; 1; $entry++) {
+				$sitename = $rss-&gt;title ;
+				$sitelink = $rss-&gt;link ;
+				$item = $rss-&gt;item[$entry];
+				// 各エントリーの処理
+				$title = $item-&gt;title ;
+				$link = $item-&gt;link ;
+				$timestamp = strtotime( $item-&gt;pubDate ) ;
+				// 配列に
+				$entrylist[$i]['sitename'] = $sitename;
+				$entrylist[$i]['sitelink'] = $sitelink;
+				$entrylist[$i]['title'] = $title;
+				$entrylist[$i]['link'] = $link;
+				$entrylist[$i]['timestamp'] = $timestamp;
+			}
+	}
+	
+	// 日付でソート
+	foreach ((array)$entrylist as $key =&gt; $value) {
+		$sort[$key] = $value['timestamp'];
+	}
+	array_multisort($sort, SORT_DESC, $entrylist);
+	
+	// JSONを返す
+	echo json_encode($entrylist);
+	exit;
+	
+?&gt;
+</pre>
+<h3>JS</h3>
+<pre class="brush: jscript; title: ; notranslate">
+&lt;script&gt;
+$(function() {
+	$.ajax({
+		type: 'GET',
+		url: 'getjson.php', //先ほどのphpへのパス
+		success: function(res) {
+			// ここに取得したjsonの処理など
+		}
+	});
+});
+&lt;/script&gt;
+</pre>
+<p>こうすればPHPさえサーバーのどこかに置ければクロスドメイン関係なくjsでも取得・表示できるのではないでしょうか。</p>
+<p>今回参考にさせてもらったブログはこちらです。<br />
+<a href="https://syncer.jp/php-how-to-get-feed" target="_blank">PHPでRSSやAtomのフィードを取得する方法</a><br />
+Ameblo、Jugem、FC2、Livedoor、WordPress、はてなブログなどブログサービス別に日付対応なども載っていて助かるかと思います。</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=392</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		</item>
+		<item>
+		<title>TweenMax（TweenLite）でSVGをアニメーションさせる</title>
+		<link>http://www.lesson5.info/?p=370</link>
+		<comments>http://www.lesson5.info/?p=370#respond</comments>
+		<pubDate>Thu, 30 Jul 2015 05:03:49 +0000</pubDate>
+		<dc:creator><![CDATA[ひさっち]]></dc:creator>
+				<category><![CDATA[javascript]]></category>
+		<category><![CDATA[svg]]></category>
+		<category><![CDATA[tweenlite]]></category>
+		<category><![CDATA[tweenmax]]></category>
+
+		<guid isPermaLink="false">http://www.lesson5.info/?p=370</guid>
+		<description><![CDATA[オブジェクトが何かしらアニメーションするサイトが去年あたりから一般的に増えてきてるように思]]></description>
+				<content:encoded><![CDATA[<p>オブジェクトが何かしらアニメーションするサイトが去年あたりから一般的に増えてきてるように思います。<br />
+特に今年は一気に目にする機会が多くなったように思います。</p>
+<p>あわせてcanvasやsvgを扱うサイトも増えてきて、jsで動かす対象も増えてきましたね。</p>
+<p>今日は、javascriptのアニメーションライブラリ、「<a href="http://greensock.com/tweenmax" target="_blank">TweenMax</a>」でsvgを動かすサンプルです。</p>
+<h2>TweenMaxを読み込んで動かせるようにする</h2>
+<p>まずはライブラリを読み込んで、動かす準備をしましょう。headにjqueryのように追加するだけでOK。<br />
+<a href="http://greensock.com/docs/#/HTML5/GSAP/TweenMax/" target="_blank">リファレンスはこちら。</a></p>
+<pre class="brush: xml; title: ; notranslate">
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js&quot;&gt;&lt;/script&gt;
+</pre>
+<h2>SVGは全部で9種類</h2>
+<p>SVGもいろいろ種類があって、使う場面も様々。<br />
+全部で9種類あります。</p>
+<ul>
+<li>四角形（rectタグ）</li>
+<li>円（circleタグ）</li>
+<li>楕円（ellipseタグ）</li>
+<li>直線（lineタグ）</li>
+<li>折れ線（polylineタグ）</li>
+<li>多角形（polygonタグ）</li>
+<li>パス（pathタグ）</li>
+<li>画像（imageタグ）</li>
+<li>文字列（textタグ）</li>
+</ul>
+<p>今回は多角形（polygon）を扱ってみます。</p>
+<p>前提として、</p>
+<ul>
+<li>レスポンシブとして扱いたい</li>
+<li>ボックス要素の背景として扱いたい</li>
+<li>同じボックスがあってもまとめて指定したい</li>
+</ul>
+<p>としています。</p>
+<h3>polygonタグの基本</h3>
+<pre class="brush: xml; title: ; notranslate">
+&lt;svg&gt;
+&lt;polygon
+      points=&quot;320,270 320,180 260,180 260,230 400,230&quot;
+      fill=&quot;skyblue&quot; stroke=&quot;green&quot; stroke-width=&quot;5&quot; /&gt;
+&lt;/svg&gt;
+</pre>
+<p>SVGタグの中にpolygonタグがあるのが基本。<br />
+アトリビュートとして、</p>
+<ul>
+<li>線の太さ</li>
+<li>線の色</li>
+<li>塗りつぶしの色</li>
+<li>多角形の頂点座標</li>
+</ul>
+<p>この4つが設定できます。<br />
+多角形の頂点座標はXYをカンマ区切りで表記し、頂点ごとに半角スペースで分けるように記述すればOK。ここで指定した分の数だけの多角形になります。</p>
+<p>ベースとなるhtml・css・jsはこちら。<br />
+レスポンシブ前提ということで、pointsはページ読み込みやリサイズ時にjsで指定したいので記述していません。</p>
+<p>.sectionが外側となるボックス<br />
+.polygonはabsolute指定で背景にします。</p>
+<h2>html</h2>
+<pre class="brush: xml; title: ; notranslate">
+&lt;div class=&quot;section svgs&quot;&gt;
+&lt;div class=&quot;polygon&quot;&gt;
+&lt;svg id=&quot;poly00&quot;&gt;
+&lt;polygon id=&quot;polygon00&quot; fill=&quot;#e2ffb9&quot;&gt;
+&lt;/svg&gt;	    
+&lt;/div&gt;&lt;!-- /.polygon --&gt;
+&lt;h1&gt;コンテンツ&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quod cumque ab debitis similique autem amet, suscipit velit omnis numquam minus corporis, expedita, eaque sint adipisci voluptate? Laborum, quibusdam id!&lt;/p&gt;	
+&lt;/div&gt;&lt;!-- /.section svgs --&gt;
+
+&lt;div class=&quot;section svgs&quot;&gt;
+&lt;div class=&quot;polygon&quot;&gt;
+&lt;svg id=&quot;poly01&quot;&gt;
+&lt;polygon id=&quot;polygon01&quot; fill=&quot;#e2ffb9&quot;&gt;
+&lt;/svg&gt;	    
+&lt;/div&gt;&lt;!-- /.polygon --&gt;
+&lt;h1&gt;コンテンツ&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quod cumque ab debitis similique autem amet, suscipit velit omnis numquam minus corporis, expedita, eaque sint adipisci voluptate? Laborum, quibusdam id!&lt;/p&gt;	
+&lt;/div&gt;&lt;!-- /.section svgs --&gt;
+</pre>
+<h2>css</h2>
+<pre class="brush: css; title: ; notranslate">
+.section { position: relative; }
+.polygon { position:absolute; z-index:-10; opacity: 0.4; width: 100%; height: auto; overflow: visible; }
+.polygon svg { width: 100%; height: auto; overflow: visible; }
+</pre>
+<h2>javascript</h2>
+<pre class="brush: jscript; title: ; notranslate">
+$(function() {
+
+$(window).on('load resize',function(){
+
+// get a parent box size
+
+var svgBoxWidth = [];
+var svgBoxHeight = [];
+
+$(&quot;.svgs&quot;).each(function(){
+	svgBoxWidth.push($(this).width());
+	svgBoxHeight.push($(this).height());
+});
+
+var item_count = svgBoxWidth.length;
+
+// set a viewbox's size &amp; points
+
+for (var i = 0; i &lt; item_count; i++){
+	
+	// set  viewbox's size
+	var targetSvgId = &quot;poly0&quot; + i ;
+	var svgObj = document.getElementById(targetSvgId);
+	svgObj.setAttribute('viewBox', '0 0 '+svgBoxWidth[i]+' '+svgBoxHeight[i]); 
+	
+	// set  points
+	
+	function randompoint () {
+		randnum = 90 + Math.floor( Math.random() * 10 );
+		randnum = randnum / 100;
+		return randnum;
+	}
+	
+	var basepoint = 50 + Math.floor( Math.random() * 150 );
+	
+	// before animate 
+	var pointsTL = 0+','+basepoint; 
+	var pointsTR = Math.round(svgBoxWidth[i]*randompoint())+',0'; 
+	var pointsBR = Math.round(svgBoxWidth[i]*randompoint())+','+Math.round(svgBoxHeight[i]*randompoint()); 
+	var pointsBL = '0,'+Math.round(svgBoxHeight[i]*randompoint()); 
+	var points = pointsTL+' '+pointsTR+' '+pointsBR+' '+pointsBL;
+	var points_array  = [ pointsTL+','+pointsTR+','+pointsBR+','+pointsBL ];
+	
+	// after animate
+	var _pointsTL = '0,'+basepoint; 
+	var _pointsTR = Math.round(svgBoxWidth[i]*randompoint())+',0'; 
+	var _pointsBR = Math.round(svgBoxWidth[i]*randompoint())+','+Math.round(svgBoxHeight[i]*randompoint()); 
+	var _pointsBL = '0,'+Math.round(svgBoxHeight[i]*randompoint()); 
+	var _points = _pointsTL+' '+_pointsTR+' '+_pointsBR+' '+_pointsBL;
+	var _points_array = [ _pointsTL+','+_pointsTR+','+_pointsBR+','+_pointsBL ];
+
+	var targetPolygon = &quot;polygon0&quot; + i ;
+	var svgPolygon = document.getElementById(targetPolygon);
+	svgPolygon.setAttribute(&quot;points&quot;,points);
+
+	function animateSVG(target,from,to) {
+		var timeLine = new TimelineMax();
+		timeLine
+			.add(TweenMax.to('#'+targetPolygon, 6, { rotation:-0.2, scale:0.95, y:'+=30px' }))
+			.add(TweenMax.to('#'+targetPolygon, 3, { rotation:+0.2, scale:1 , y:'-=30px' }));
+		timeLine.repeat(-1);			
+	}
+	
+	animateSVG(targetPolygon,points,_points);
+
+	
+} // end for item_count
+
+}); // end load resize
+
+}); // end ready
+</pre>
+<p>jsとしては、レスポンシブとしたいので、<br />
+loadとresize時に親ボックスである.sectionの縦横サイズを取得し、その値を</p>
+<ol>
+<li>座標値に変更して、svgのviewboxのサイズに指定</li>
+<li>viewboxより小さくなるようにpointsの値をランダム値で設定</li>
+<li>アニメーション後の値もランダムで設定</li>
+<li>アニメーション処理</li>
+</ol>
+<p>といった処理を.sectionごとに繰り返しています。<br />
+viewboxやpointsの値がピクセルベースなので、svg自体をcssで横幅100%にすると、スマホ時などは縦サイズが足らなくなります。それを回避したくloadとresizeに設定するようにしました。</p>
+<p>動かしてみれば普通に動くのであんまり敷居は高くないかも。<br />
+ただちょっとハマったところがあって、</p>
+<h2>setAttributeする際の注意点</h2>
+<pre class="brush: jscript; title: ; notranslate">
+var svgObj = document.getElementById(targetSvgId);
+svgObj.setAttribute('viewBox', '0 0 '+svgBoxWidth[i]+' '+svgBoxHeight[i]); 
+</pre>
+<p>サンプルでは上記のように、要素の取得にjQueryを使っていません。<br />
+これは、</p>
+<pre class="brush: jscript; title: ; notranslate">
+var svgObj = $(targetSvgId);
+</pre>
+<p>setAttributeするオブジェクトをjQueryオブジェクトにしてしまうと操作ができなくなります。</p>
+<pre class="brush: jscript; title: ; notranslate">
+var svgObj = $(targetSvgId);
+var $svgObj = svgObj;
+</pre>
+<p>このように最初の取得はjQueryを使わず、その後jQueryオブジェクトにすることで扱えるようになります。<br />
+最初はなんで動かないのかと思いましたが、以下のページを見て解決できました。</p>
+<p>参考：<a href="http://5log.jp/blog/svg-jquery/" target="_blank">SVGをjQueryで操作する際にハマったので、書き留めておく。</a></p>
+<h2>attr属性を動かす際の注意点</h2>
+<p>pointsの値を動かすには注意が必要です。<br />
+TweenMaxに指定する値を記述してもアニメーションはしません。<br />
+attr属性のものを動かすには、TweenMaxの追加プラグイン「<a href="https://greensock.com/AttrPlugin" target="_blank">AttrPlugin</a>」が必要です。<br />
+しかも、これを追加しても値として設定できるのは「数字」が指定されているプロパティのみ。<br />
+pointsのようにカンマなどが含まれているものは動かすことができません。<br />
+こういったものを動かすには、.onUpdateを利用する必要があります。</p>
+<p>参考：<a href="http://zxcvbnmnbvcxz.com/tweenlite-svg-polygon/" target="_blank">TweenLiteを使用して SVG polygon（polyline） を任意の形状へ変形アニメーションさせる方法</a></p>
+<p>海外のAttrPluginへの反応も調べてみましたが、けっこう問題があるようです。<br />
+アップデートで良くなるといいですね。</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.lesson5.info/?feed=rss2&#038;p=370</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

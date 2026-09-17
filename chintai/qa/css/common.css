@@ -1,0 +1,747 @@
+@charset "utf-8";
+
+/*reset*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: bottom;
+    background: transparent;
+    list-style: none;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+ul {
+    display: inline-block;
+}
+
+
+/*pc*/
+/********************
+common
+********************/
+.sp {
+    display: none;
+}
+
+body {
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-feature-settings: "palt";
+    /*
+    padding: 70px 0 0;
+    */
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    color: #333;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+/*anchor*/
+a,
+a:hover,
+a:visited,
+a:active {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    transition-duration: 0.5s;
+    opacity: 0.7;
+}
+
+/*header*/
+header {
+    width: 100%;
+    background: #fff;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #cac5aa;
+    height: 120px;
+}
+
+header div {
+    max-width: 1440px;
+    margin: 0 auto;
+    /*
+    display: flex;
+    */
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+header h1 img {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    padding-left: 5px;
+}
+
+header p {
+    position: fixed;
+    top: 70px;
+    right: 80px;
+}
+
+.no_sp {
+    position: fixed;
+    top: 0;
+    right: 20px;
+}
+
+.sec_01 li:nth-child(1) {
+    max-width: 892px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sec_02 {
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+.sec_02 h3 {
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.sec_02 p {
+    font-size: 1.6em;
+    line-height: 160%;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+}
+
+.sec_02 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sec_02 li {
+    padding: 0 10px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.sec_04 li {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.sec_05 li:last-child {
+    margin-bottom: 100px;
+}
+
+.sec_02 h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 20px;
+    margin-bottom: 100px;
+}
+
+.main {
+    max-width: 900px;
+    margin: 90px auto;
+    padding: 10px;
+}
+
+.main-txt {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.category {
+
+}
+
+.sec_02 .category ul {
+    text-align: center;
+}
+
+.sec_02 .category li {
+    border: 1px solid #d6dde3;
+    padding: 0.5em;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+.qa-001 {
+    margin-bottom: 10px;
+    border: 1px solid #d6dde3;
+    border-radius: 5px;
+}
+
+.qa-001 summary {
+    font-size: 1.6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em 1em 3em;
+    color: #333333;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: left;
+}
+
+.qa-001 summary::before,
+.qa-001 p::before {
+    position: absolute;
+    left: 1em;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.qa-001 summary::before {
+    color: #75bbff;
+    content: "Q";
+}
+
+.qa-001 summary::after {
+    transform: translateY(-25%) rotate(45deg);
+    width: 7px;
+    height: 7px;
+    margin-left: 10px;
+    border-bottom: 3px solid #333333b3;
+    border-right: 3px solid #333333b3;
+    content: '';
+    transition: transform .5s;
+}
+
+.qa-001[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.qa-001 p {
+    position: relative;
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: .3em 3em 1.5em;
+    color: #333;
+    transition: transform .5s, opacity .5s;
+    text-align: left;
+}
+
+.qa-001[open] p {
+    transform: none;
+    opacity: 1;
+}
+
+.qa-001 p::before {
+    color: #ff8d8d;
+    line-height: 1.2;
+    content: "A";
+}
+
+.qa-001 ul {
+    display: block;
+    margin: 0;
+    padding: 0.3em 3em 1.5em 3em;
+    color: #333;
+    transition: transform .5s, opacity .5s;
+    text-align: left;
+    font-size: 1.7em;
+}
+
+.qa-001 li {
+    width: 100%;
+
+}
+
+.qa-001 .txt {
+    display: block;
+    margin: 0;
+    padding: 0.3em 3em 1.5em 3em;
+    color: #333;
+    transition: transform .5s, opacity .5s;
+    text-align: left;
+    font-size: 1.6em;
+    width: auto;
+    line-height: 1.8em;
+}
+
+/* CSSコード */
+/* ポップアップウインドウの設定 */
+.pu {
+    background-color: #efefef;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+/* チェックボックスの初期設定 */
+#pu-on {
+    display: none;
+}
+
+/* チェックされたらポップアップウインドウを開く */
+#pu-on:checked+.pu {
+    display: block;
+}
+
+/* 閉じるアイコン（右上） */
+.icon-close {
+    background: #000;
+    color: #fff;
+    font-size: 30px;
+    padding: 0 10px;
+    position: absolute;
+    right: 0;
+}
+
+/* 開くボタン */
+.btn-open {
+    background: #fff;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    width: 95%;
+    text-align: left;
+}
+
+/* ポップアップの内容 */
+.pu-content {
+    margin: 40px auto 40px auto;
+    width: 90%;
+}
+
+/****************************************
+sp
+****************************************/
+@media screen and (max-width: 640px) {
+
+    /********************
+    common
+    ********************/
+    .pc,
+    .no_sp {
+        display: none;
+    }
+
+    .sp {
+        display: block;
+    }
+
+    body {
+        font-size: 14px;
+        padding: 0 0 0;
+    }
+
+    /*header*/
+    header {
+        position: static;
+        height: 90px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    header div {
+        display: block;
+    }
+
+    header img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+    }
+
+    header h1 {
+        padding: 0;
+    }
+
+    header h1 img {
+        margin-top: 0;
+        max-width: 80%;
+    }
+
+    header ul {
+        padding-right: 0;
+    }
+
+    header li {
+        padding-left: 0;
+    }
+
+    .sec_01 li:nth-child(1) {
+        margin: 10px auto;
+    }
+
+    .sec_02 {
+        margin: 50px auto;
+    }
+
+    .sec_02 ul {
+        display: block;
+        max-width: 100%;
+    }
+
+    .sec_02 li {
+        padding: 10px 10px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .sec_02 h3 {
+        font-size: 1.8em;
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+    }
+
+    .sec_02 p {
+        font-size: 1.2em;
+        line-height: 160%;
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+    }
+
+    .sec_04 li {
+        margin: 30px auto;
+    }
+
+    .sec_05 li:last-child {
+        margin-bottom: 0;
+    }
+
+    /**
+    Q&A
+    **/
+    .sec_02 h2 {
+        font-size: 1.8em;
+        font-weight: bold;
+        letter-spacing: 20px;
+        margin-bottom: 50px;
+    }
+
+    .main {
+        margin: 50px auto;
+        padding: 10px;
+    }
+
+    .main-txt {
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    .category {}
+
+    .sec_02 .category ul {
+        text-align: center;
+    }
+
+    .sec_02 .category li {
+        border: 1px solid #d6dde3;
+        padding: 0.5em;
+        margin: 0 auto;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    .qa-001 {
+        margin-bottom: 10px;
+        border: 1px solid #d6dde3;
+        border-radius: 5px;
+    }
+
+    .qa-001 summary {
+        font-size: 1.2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 1em 2em 1em 3em;
+        color: #333333;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    .qa-001 summary::before,
+    .qa-001 p::before {
+        position: absolute;
+        left: 1em;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+
+    .qa-001 summary::before {
+        color: #75bbff;
+        content: "Q";
+    }
+
+    .qa-001 summary::after {
+        transform: translateY(-25%) rotate(45deg);
+        width: 7px;
+        height: 7px;
+        margin-left: 10px;
+        border-bottom: 3px solid #333333b3;
+        border-right: 3px solid #333333b3;
+        content: '';
+        transition: transform .5s;
+    }
+
+    .qa-001[open] summary::after {
+        transform: rotate(225deg);
+    }
+
+    .qa-001 p {
+        position: relative;
+        transform: translateY(-10px);
+        opacity: 0;
+        margin: 0;
+        padding: .3em 3em 1.5em;
+        color: #333;
+        transition: transform .5s, opacity .5s;
+        text-align: left;
+    }
+
+    .qa-001[open] p {
+        transform: none;
+        opacity: 1;
+    }
+
+    .qa-001 p::before {
+        color: #ff8d8d;
+        line-height: 1.2;
+        content: "A";
+    }
+
+    .qa-001 ul {
+        display: block;
+        margin: 0;
+        padding: 0.3em 3em 1.5em 3em;
+        color: #333;
+        transition: transform .5s, opacity .5s;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .qa-001 li {
+        width: 100%;
+
+    }
+
+    .qa-001 .txt {
+        display: block;
+        margin: 0;
+        padding: 0.3em 3em 1.5em 3em;
+        color: #333;
+        transition: transform .5s, opacity .5s;
+        text-align: left;
+        font-size: 1em;
+        width: auto;
+        line-height: 1.8em;
+        ;
+
+    }
+
+    /* CSSコード */
+    /* ポップアップウインドウの設定 */
+    .pu {
+        background-color: #efefef;
+        box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    /* チェックボックスの初期設定 */
+    #pu-on {
+        display: none;
+    }
+
+    /* チェックされたらポップアップウインドウを開く */
+    #pu-on:checked+.pu {
+        display: block;
+    }
+
+    /* 閉じるアイコン（右上） */
+    .icon-close {
+        background: #000;
+        color: #fff;
+        font-size: 30px;
+        padding: 0 10px;
+        position: absolute;
+        right: 0;
+    }
+
+    /* 開くボタン */
+    .btn-open {
+        background: #fff;
+        border-radius: 10px;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        width: 95%;
+        text-align: left;
+    }
+
+    /* ポップアップの内容 */
+    .pu-content {
+        margin: 40px auto 40px auto;
+        width: 90%;
+    }
+
+}

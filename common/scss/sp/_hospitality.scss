@@ -1,0 +1,40 @@
+//* ========================================================================== */
+//* hospitality__detail
+//* ホスピタリティ詳細
+//* ========================================================================== */
+.hospitality__detail {
+	.hospitality__inner {
+		.wrap {
+			h3 {
+				padding: 40px 0 10px;
+				font-size: 2.4rem;
+				font-family: $mincho;
+				line-height: 1.2;
+				&.small {
+					font-size: 1.8rem;
+				}
+			}
+			h4 {
+				font-size: 1.8rem;
+				font-weight: bold;
+				padding: 10px 0 0 0;
+				margin-bottom: 10px;
+				border-bottom: solid 1px #979797;
+				&.small {
+					font-size: 1.6rem;
+				}
+			}
+			a.link--hospiality {
+				background-image: url(../../images/hospitality/icon_01.png);
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				padding-left: 20px;
+			}
+			.row {
+				div {
+					margin: 10px 0;
+				}
+			}
+		}
+	}
+}

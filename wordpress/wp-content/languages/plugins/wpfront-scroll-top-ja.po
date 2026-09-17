@@ -1,0 +1,367 @@
+# Translation of Plugins - WPFront Scroll Top - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WPFront Scroll Top - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-12-12 15:10:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WPFront Scroll Top - Stable (latest release)\n"
+
+#: classes/trait-wpfront-scroll-top.php:80
+msgid "Select Image"
+msgstr "選択"
+
+#: classes/trait-wpfront-scroll-top.php:79
+msgid "Choose Image"
+msgstr "メディアの選択またはアップロード"
+
+#: classes/trait-wpfront-scroll-top.php:78
+msgid "Media Library"
+msgstr "メディアライブラリ"
+
+#: classes/trait-wpfront-scroll-top.php:161
+msgid "Image Button"
+msgstr "ボタン画像"
+
+#: classes/trait-wpfront-scroll-top.php:163
+msgid "Font Awesome Button"
+msgstr "Font Awesome ボタン"
+
+#: classes/trait-wpfront-scroll-top.php:126
+#: classes/trait-wpfront-scroll-top.php:127
+#: classes/trait-wpfront-scroll-top.php:131
+msgid "ex:"
+msgstr "例:"
+
+#: classes/trait-wpfront-scroll-top.php:120
+#: classes/trait-wpfront-scroll-top.php:121
+msgid "Use the textbox below to specify the post IDs as a comma separated list."
+msgstr "下のテキストボックスで投稿 ID をカンマ区切りで指定してください。"
+
+#: classes/trait-wpfront-scroll-top.php:177
+msgid "Link to Page"
+msgstr "ページにリンク"
+
+#: classes/trait-wpfront-scroll-top.php:75
+msgid "How to find CSS selector?"
+msgstr "CSS セレクターの見つけ方"
+
+#: classes/trait-wpfront-scroll-top.php:134
+msgid "Negative value allowed. Use this filed to precisely set scroll position. Useful when you have overlapping elements."
+msgstr "負の値を設定してスクロール位置をより正確に指定することもできます。要素が重なっているときに有効な方法です。"
+
+#: classes/trait-wpfront-scroll-top.php:133
+msgid "CSS selector of the element, which has the scroll bar. \"html, body\" works in almost all cases."
+msgstr "スクロールバーが表示される要素の CSS セレクタ。html や body はほとんどの場合で有効です。"
+
+#: classes/trait-wpfront-scroll-top.php:132
+msgid "CSS selector of the element, you are trying to scroll to. Ex: #myDivID, .myDivClass"
+msgstr "スクロールしようとする要素の CSS セレクタ。例: #myDivID, .myDivClass など"
+
+#: classes/trait-wpfront-scroll-top.php:176
+msgid "Scroll to Element"
+msgstr "指定要素へスクロール"
+
+#: classes/trait-wpfront-scroll-top.php:111
+msgid "Default action on WP-ADMIN pages."
+msgstr "デフォルトの動作。WP-ADMIN ページでも機能します。"
+
+#: classes/trait-wpfront-scroll-top.php:175
+msgid "Scroll to Top"
+msgstr "ページ先頭にスクロール"
+
+#: classes/trait-wpfront-scroll-top.php:107
+msgid "Enable as a last resort if the button is not working. This could create compatibility issues."
+msgstr "ボタンが機能しないときの最終手段として使ってください。互換性の問題を引き起こす可能性があります。"
+
+#: classes/trait-wpfront-scroll-top.php:93
+msgid "Increases site performance. Keep it enabled, if there are no conflicts."
+msgstr "サイトのパフォーマンス向上につながります。他のプラグインとの競合など不具合がなければ有効にしておいてください。"
+
+#: classes/trait-wpfront-scroll-top.php:53
+msgid "Attach on Shutdown"
+msgstr "変則的なボタン表示処理"
+
+#: classes/trait-wpfront-scroll-top.php:70
+msgid "Icon Color"
+msgstr "アイコン色"
+
+#: classes/trait-wpfront-scroll-top.php:69
+msgid "Do not include URL"
+msgstr "URL を含めない"
+
+#: classes/trait-wpfront-scroll-top.php:68
+msgid "Font Awesome URL"
+msgstr "Font Awesome URL"
+
+#: classes/trait-wpfront-scroll-top.php:67
+msgid "Icon Class"
+msgstr "アイコンクラス"
+
+#: classes/trait-wpfront-scroll-top.php:65
+msgid "Mouse Over Color"
+msgstr "マウスオーバー色"
+
+#: classes/trait-wpfront-scroll-top.php:74
+msgid "Offset"
+msgstr "オフセット"
+
+#: classes/trait-wpfront-scroll-top.php:73
+msgid "Scroll Container CSS Selector"
+msgstr "スクロール部コンテナの CSS セレクタ"
+
+#: classes/trait-wpfront-scroll-top.php:72
+msgid "Element CSS Selector"
+msgstr "要素の CSS セレクタ"
+
+#: classes/trait-wpfront-scroll-top.php:76
+msgid "Page URL"
+msgstr "ページの URL"
+
+#: classes/trait-wpfront-scroll-top.php:55
+msgid "Button Action"
+msgstr "ボタンクリック時の動作"
+
+#: classes/trait-wpfront-scroll-top.php:39
+msgid "Javascript Async"
+msgstr "JavaScript の非同期読み込み"
+
+#. Author URI of the plugin
+msgid "http://wpfront.com"
+msgstr "http://wpfront.com"
+
+#. Description of the plugin
+msgid "Allows the visitor to easily scroll back to the top of the page."
+msgstr "訪問者が簡単にトップへスクロールできるようになります。"
+
+#. Plugin URI of the plugin
+msgid "http://wpfront.com/scroll-top-plugin/"
+msgstr "http://wpfront.com/scroll-top-plugin/"
+
+#: classes/trait-wpfront-scroll-top.php:59
+msgid "Custom URL"
+msgstr "カスタム URL"
+
+#: classes/trait-wpfront-scroll-top.php:189
+msgid "All pages"
+msgstr "すべてのページ"
+
+#: classes/class-wpfront-scroll-top-options-view.php:63
+msgid "Filter"
+msgstr "フィルター"
+
+#: classes/trait-wpfront-scroll-top.php:116
+#: classes/trait-wpfront-scroll-top.php:117
+msgid "Negative values allowed."
+msgstr "負の値も設定できます。"
+
+#: classes/trait-wpfront-scroll-top.php:149
+msgid "Top Left"
+msgstr "左上"
+
+#: classes/trait-wpfront-scroll-top.php:148
+msgid "Top Right"
+msgstr "右上"
+
+#: classes/trait-wpfront-scroll-top.php:147
+msgid "Bottom Left"
+msgstr "左下"
+
+#: classes/trait-wpfront-scroll-top.php:146
+msgid "Bottom Right"
+msgstr "右下"
+
+#: classes/trait-wpfront-scroll-top.php:162
+msgid "Text Button"
+msgstr "テキストボタン"
+
+#: classes/trait-wpfront-scroll-top.php:106
+msgid "Button will be hidden on iframes, usually inside popups."
+msgstr "ボタンが iframe 上 (通常はポップアップ内) で非表示になります。"
+
+#: classes/trait-wpfront-scroll-top.php:105
+msgid "Button will be hidden on 'wp-admin'."
+msgstr "wp-admin ではボタンは非表示になります。"
+
+#: classes/trait-wpfront-scroll-top.php:104
+msgid "Button will be hidden on browser window with lesser or equal width."
+msgstr "ウインドウ幅が指定値以下になるとボタンが隠れます。"
+
+#: classes/trait-wpfront-scroll-top.php:103
+msgid "Button will be hidden on broswer window when the width matches."
+msgstr "ウインドウ幅が指定値にマッチするとボタンが隠れます。"
+
+#: classes/trait-wpfront-scroll-top.php:100
+msgid "Button will be auto hidden after this duration in seconds, if enabled."
+msgstr "有効な場合、ボタンはこの時間 (秒) が経過すると自動的に非表示になります。"
+
+#: classes/trait-wpfront-scroll-top.php:98
+msgid "Window scroll duration in milliseconds."
+msgstr "ウィンドウのスクロール時間 (ミリ秒)。"
+
+#: classes/trait-wpfront-scroll-top.php:97
+msgid "Button fade duration in milliseconds."
+msgstr "ボタンのフェード時間 (ミリ秒)。"
+
+#: classes/trait-wpfront-scroll-top.php:95
+msgid "Set 0px to auto fit."
+msgstr "0px にすると自動的にフィットするように調整します。"
+
+#: classes/trait-wpfront-scroll-top.php:41
+msgid "Button Size"
+msgstr "ボタンサイズ"
+
+#: classes/trait-wpfront-scroll-top.php:94
+msgid "Number of pixels to be scrolled before the button appears."
+msgstr "ボタンが表示されるまでにスクロールさせるピクセル数。"
+
+#: classes/class-wpfront-scroll-top-options-view.php:61
+msgid "Display"
+msgstr "表示"
+
+#: classes/class-wpfront-scroll-top-options-view.php:71
+msgid "WPFront Scroll Top Settings"
+msgstr "WPFront Scroll Top 設定"
+
+#: classes/trait-wpfront-scroll-top.php:213
+msgid "[Post]"
+msgstr "[投稿]"
+
+#: classes/trait-wpfront-scroll-top.php:208
+msgid "[Page]"
+msgstr "[固定ページ]"
+
+#: classes/class-wpfront-scroll-top.php:553
+msgid "Scroll Top"
+msgstr "Scroll Top"
+
+#. Plugin Name of the plugin
+#: classes/class-wpfront-scroll-top.php:553
+msgid "WPFront Scroll Top"
+msgstr "WPFront Scroll Top"
+
+#: classes/trait-wpfront-scroll-top.php:77
+msgid "Display on Pages"
+msgstr "表示するページ"
+
+#: classes/trait-wpfront-scroll-top.php:66
+#: classes/trait-wpfront-scroll-top.php:71
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: classes/trait-wpfront-scroll-top.php:64
+msgid "Background Color"
+msgstr "背景色"
+
+#: classes/trait-wpfront-scroll-top.php:63
+msgid "Text Color"
+msgstr "テキスト色"
+
+#: classes/trait-wpfront-scroll-top.php:62
+msgid "Text"
+msgstr "テキスト"
+
+#: classes/trait-wpfront-scroll-top.php:58
+msgid "Margin Y"
+msgstr "縦方向のマージン"
+
+#: classes/trait-wpfront-scroll-top.php:57
+msgid "Margin X"
+msgstr "横方向のマージン"
+
+#: classes/class-wpfront-scroll-top-options-view.php:62
+#: classes/trait-wpfront-scroll-top.php:56
+msgid "Location"
+msgstr "場所"
+
+#: classes/trait-wpfront-scroll-top.php:52
+msgid "Hide on iframes"
+msgstr "iframe で隠す"
+
+#: classes/trait-wpfront-scroll-top.php:51
+msgid "Hide on WP-ADMIN"
+msgstr "管理画面 (WP-ADMIN) で隠す"
+
+#: classes/trait-wpfront-scroll-top.php:60
+msgid "Image ALT"
+msgstr "画像の ALT 属性値"
+
+#: classes/trait-wpfront-scroll-top.php:54
+msgid "Button Style"
+msgstr "ボタンのスタイル"
+
+#: classes/trait-wpfront-scroll-top.php:50
+msgid "Small Window Max Width"
+msgstr "ウィンドウの最小幅"
+
+#: classes/trait-wpfront-scroll-top.php:49
+msgid "Hide on Small Window"
+msgstr "小さいウィンドウでは非表示"
+
+#: classes/trait-wpfront-scroll-top.php:48
+msgid "Small Device Max Width"
+msgstr "デバイスの最小幅"
+
+#: classes/trait-wpfront-scroll-top.php:47
+msgid "Hide on Small Devices"
+msgstr "モバイル端末表示時は隠す"
+
+#: classes/trait-wpfront-scroll-top.php:46
+msgid "Auto Hide After"
+msgstr "非表示までの秒数"
+
+#: classes/trait-wpfront-scroll-top.php:45
+msgid "Auto Hide"
+msgstr "自動的に非表示"
+
+#: classes/trait-wpfront-scroll-top.php:44
+msgid "Scroll Duration"
+msgstr "スクロールの速さ"
+
+#: classes/trait-wpfront-scroll-top.php:43
+msgid "Button Fade Duration"
+msgstr "フェードアウトまでの秒数"
+
+#: classes/trait-wpfront-scroll-top.php:42
+msgid "Button Opacity"
+msgstr "ボタンの不透明度"
+
+#: classes/trait-wpfront-scroll-top.php:40
+msgid "Scroll Offset"
+msgstr "スクロールオフセット値"
+
+#: classes/trait-wpfront-scroll-top.php:38
+msgid "Enabled"
+msgstr "有効"
+
+#: classes/class-wpfront-scroll-top-options-view.php:178
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: classes/class-wpfront-scroll-top-options-view.php:200
+msgid "Buy me a Beer or Coffee"
+msgstr "プラグインが気に入ったら、ビールかコーヒーをおごってください"
+
+#: classes/class-wpfront-scroll-top-options-view.php:199
+msgid "Write a Review"
+msgstr "レビューを書く"
+
+#: classes/class-wpfront-scroll-top-options-view.php:198
+msgid "Settings Description"
+msgstr "設定の説明"
+
+#: classes/class-wpfront-scroll-top-options-view.php:221
+msgid "If you have a caching plugin, clear the cache for the new settings to take effect."
+msgstr "キャッシュプラグインを使用している場合は、キャッシュをクリアして新しい設定を有効にします。"
+
+#: classes/class-wpfront-scroll-top.php:185
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページを表示する権限がありません。"
+
+#: classes/class-wpfront-scroll-top.php:318
+msgid "Settings"
+msgstr "設定"

@@ -1,0 +1,37 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="side--menu">
+  <h3>スーパー・コートの取り組み</h3>
+  <ul>
+    <li id="side--service"><a href="../feature/effort/">介護サービス向上への取り組み</a></li>
+    <li id="side--researchTop"><a href="../feature/research/">研究活動</a>
+      <ul>
+        <li id="side--research"><a href="../feature/research/research/">スーパー・コートの研究活動</a></li>
+        <li id="side--kaigodo_kaizen"><a href="../feature/research/kaigodo_kaizen/">要介護度が18％改善</a></li>
+      </ul>
+    </li>
+    <li id="side--careTop"><a href="../feature/care/">認知症ケア</a>
+      <ul>
+        <li id="side--care"><a href="../feature/care/care/">認知症ケアの取り組み</a></li>
+        <li id="side--ishizaki"><a href="../feature/care/ishizaki/">石崎賞を受賞</a></li>
+      </ul>
+    </li>
+    <li id="side--medical_organization"><a href="../feature/medicine/medical_organization/">医療体制</a></li>
+    <li id="side--hospitality"><a href="../feature/hospitality/hotel/">ホテルでつちかったホスピタリティ</a></li>
+    <li id="side--hotspring"><a href="../feature/bath/hotspring/">お風呂・温泉</a></li>
+    <li id="side--ikiikiTop"><a href="../feature/ikiiki/">イキイキとした生活を送っていただくために</a>
+      <ul>
+        <li id="side--sc-fit"><a href="../feature/ikiiki/sc-fit/">高齢者トレーニング</a></li>
+        <li id="side--plan"><a href="../feature/ikiiki/plan/">入院率低下への取り組み</a></li>
+        <li id="side--ion-water"><a href="../feature/ikiiki/water/">健康イオン水</a></li>
+        <li id="side--travel"><a href="../feature/ikiiki/travel/">旅行・リクリエーション</a></li>
+        <li id="side--meal"><a href="../feature/ikiiki/meal/">おいしい食事</a></li>
+      </ul>
+    </li>
+    <li id="side--societyTop"><a href="../feature/philanthropy/">社会貢献活動</a>
+      <ul>
+        <li id="side--philanthropy"><a href="../feature/philanthropy/philanthropy/">社会貢献活動</a></li>
+        <li id="side--award2014"><a href="../feature/philanthropy/award2014/">ハートフル企業チャレンジ応援賞</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>

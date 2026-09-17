@@ -1,0 +1,9 @@
+<div class="visit_service_column">
+  <div class="lead">
+        <h1><img src="../images/visit_service/visit_service_popup_title.png" alt="これまでの訪問介護とどこが違うの？"/></h1>
+      <p>これまでは24時間対応ができなかったり、時間が限られていたりと介護内容が事業所ごとに異なっていました。そのため「地域密着型サービス」のひとつとして、24時間365日、定期訪問と随時訪問による介護・看護が定額で受けられるサービス「定期巡回・随時対応型訪問介護看護」が創設されました。</p>
+  </div>
+  <div class="img">
+    <p><img src="../images/visit_service/visit_service_popup_img.png" alt=""/></p>
+  </div>
+</div>

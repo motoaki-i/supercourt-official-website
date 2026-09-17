@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+//* ========================================================================== */
+//* common
+//* 共通
+//* ========================================================================== */
+body {
+	line-height: 1.6;
+	color: #464646;
+}
+
+a:link,
+a:visited {
+	color: #39c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f82d74;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	display: block;
+	width: 100%;
+}

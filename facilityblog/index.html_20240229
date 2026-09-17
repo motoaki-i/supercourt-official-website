@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>有料老人ホームへの入居の流れ | 株式会社スーパー・コート</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="スーパー・コートが運営する有料老人ホームにご入居するまでの流れをご紹介します。施設の見学も対応しているため、気になる施設がございましたら、お気軽にお問合せください。" />
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5Q4FCV8');</script>
+  <!-- End Google Tag Manager -->
+  <!-- InstanceEndEditable -->
+  <link href="/common/css/import.css" rel="stylesheet" type="text/css">
+  <link href="/common/css/slidebars.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="(min-width: 640px)" href="/common/css/pc.css">
+  <link rel="stylesheet" media="(max-width: 639px)" href="/common/css/sp.css">
+  <!--[if lte IE 8]>
+<link href="/common/css/pc.css?200120" rel="stylesheet" type="text/css">
+<![endif]-->
+  <script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/common/js/modernizr.js"></script>
+  <script type="text/javascript" src="/common/js/rollover.js"></script>
+  <script type="text/javascript" src="/common/js/smoothScroll.js"></script>
+  <script type="text/javascript" src="/common/js/base.js"></script>
+  <script type="text/javascript" src="/common/js/facilityLIst.js"></script>
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="bodyDataCurrent" type="text" value="default" -->
+</head>
+
+<body data-current="default" id="PAGETOP">
+  <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_header.php'); ?>
+  <div id="sb-site"> <!-- InstanceBeginEditable name="contents" -->
+    <div class="process">
+      <div class="container">
+        <div class="pt">
+          <h1>入居の流れ</h1>
+        </div>
+        <ol class="pankuzu">
+          <li><a href="/">ホーム&nbsp;</a></li>
+          <li>入居の流れ</li>
+        </ol>
+        <div class="content">
+          <div class="flow">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <th scope="row">STEP1</th>
+                        <td>
+                          <h2 class="h3">お問合せ</h2>
+                          <p>スーパー・コートに興味を持たれましたらインターネットまたは、お電話（0120-78-4850）でお問合せ下さい。</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </tr>
+              </tbody>
+            </table>
+            <div class="res">
+              <p>介護相談室の担当者がご対応いたします。</p>
+            </div>
+            <!-- 追加CTA -->
+            <div class="top-contact-tel__content_process">
+            <div class="top-contact-tel__content">
+                <span class="top-contact-tel__num"><a href="tel:0120-78-4850">0120-78-4850</a></span>
+                <span class="top-contact-tel__date">受付時間　9:00~17:45<!-- (○曜日を除く) --></span>
+              </div>
+              <a class="top-contact-mail__bnr top-contact-mail__bnr-contact" href="/inquirys"><span>お問い合わせ</span></a>
+            </div>
+              <!-- END 追加CTA -->
+          </div>
+
+          <style>
+            .top-contact-tel__content_process{display: flex; justify-content: space-between; align-items: center; width: 700px; margin: 20px auto 0;}
+
+            .top-contact-tel__content_process .top-contact-tel__content{background: #F4EFE2; width: 284px;}
+            .top-contact-tel__content_process .top-contact-tel__num{display: block; align-items: center; text-align: center; font-family: 'Noto Serif JP', serif; line-height: 1.7; font-size: 16px;}
+            .top-contact-tel__content_process .top-contact-tel__num a{color: #000; font-size: 30px; font-weight: 500; line-height: calc( 50 / 35 ); text-align: center; white-space: nowrap;}
+            .top-contact-tel__content_process .top-contact-tel__num a:before{content: ""; display: inline-block; width: 22px; height: 22px; background: url(../img/top/contact/icon-tel.svg) center / contain no-repeat; margin: 0 11px 1px 0;}
+            .top-contact-tel__content_process .top-contact-tel__date{display: block; font-size: 15px; font-weight: 500; line-height: calc( 28 / 17 ); text-align: center; font-family: 'Noto Serif JP', serif;}
+
+            .top-contact-tel__content_process .top-contact-mail__bnr{background-color: #9F8039; background-image: url(../img/top/contact/icon-mail.svg); height: 62px; display: flex; align-items: center; font-size: 20px; font-weight: 700; line-height: calc( 23 / 18 ); color: #fff; border: 2px solid #fff;white-space: nowrap; padding-left: 80px; background-position: 16px center; background-repeat: no-repeat; position: relative; width: 100%; max-width: 200px; font-family: 'Noto Serif JP', serif;}
+            .top-contact-tel__content_process .top-contact-mail__bnr::after{content: ""; display: inline-block; width: 7px; height: 15px; background: url(../img/top/contact/arrow.svg) center / cover no-repeat; position: absolute; top: 50%; right: 9px; transform: translateY(-50%); transition: right ease .3s;}
+
+            @media (max-width: 648px){
+              .top-contact-tel__content_process{flex-direction: column; width: 100%; margin: 15px 0;}
+              .top-contact-tel__content_process .top-contact-tel__content{width: 100%; margin-bottom: 10px; padding:0;}
+              .top-contact-tel__content_process .top-contact-mail__bnr{width: 100%; max-width: none; padding:0;}
+              .top-contact-tel__content_process .top-contact-mail__bnr span{padding-left: 80px;}
+            }
+          </style>
+
+          <div class="arrow">
+            <p><i class="fa fa-angle-down"></i></p>
+          </div>
+          <div class="flow">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <th scope="row">STEP2</th>
+                  <td>
+                    <h2 class="h3">ご見学</h2>
+                    <p>ご都合にあわせて、施設をご案内させていただきます。（ご見学は予約優先となります）</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="res">
+              <p>モデルルーム・食堂・浴室など館内のご見学・料金のご説明・施設での過ごし方などをご案内いたします。 <br>
+                所要時間1時間～1時間半が目安です。 </p>
+            </div>
+            <!-- 追加CTA -->
+            <div class="top-contact-tel__content_process">
+            <a class="top-contact-mail__bnr top-contact-mail__bnr-application" href="/inspection"><span>見学申し込み</span></a>
+          </div>
+            <!-- END 追加CTA -->
+          </div>
+
+          <style>
+            .top-contact-tel__content_process .top-contact-mail__bnr-application{background-color: #0A519F; background-image: url(../img/top/contact/icon-application.svg); background-position: 19px;}
+          </style>
+
+          <div class="arrow">
+            <p><i class="fa fa-angle-down"></i></p>
+          </div>
+          <div class="flow">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <th scope="row">STEP3</th>
+                  <td>
+                    <h2 class="h3">施設利用申込み</h2>
+                    <p>お申込みとなりましたら、書類のご提出をお願いいたします。</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="res">
+              <p>スーパー・コート所定様式の健康診断書・ご入居者アンケートをお渡しいたしますので、作成お願いいたします。<br>
+                ご家族（ご本人）より収入証明書・保険証のコピー（介護保険・医療保険）をご準備ください。 </p>
+            </div>
+          </div>
+          <div class="arrow">
+            <p><i class="fa fa-angle-down"></i></p>
+          </div>
+          <div class="flow">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <th scope="row">STEP4</th>
+                  <td>
+                    <h2 class="h3">入居前面談</h2>
+                    <p>STEP3の書類のご提出後、ご面談の日時をご相談させて頂きます。<br>
+                      ご本人様とご家族の両方と、ご一緒に面談させていただきます。</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="res">
+              <p>ご提出いただいた書類をもとに、確認とご相談のため、<br>
+                ご自宅や病院などへ担当者がお伺いしご面談させていただきます
+                。<br>
+                （面談結果によっては入居をお断りさせていただく事もございますので、予めご了承ください。）</p>
+            </div>
+          </div>
+          <div class="arrow">
+            <p><i class="fa fa-angle-down"></i></p>
+          </div>
+          <div class="flow">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <th scope="row">STEP5</th>
+                  <td>
+                    <h2 class="h3">契約ご入居</h2>
+                    <p>入居日が決定しましたら、ご入居頂けます。</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="res">
+              <p>入居日が契約日となりますので、契約書をお渡しいたします。</p>
+            </div>
+          </div>
+          <div class="arrow">
+            <p><i class="fa fa-angle-down"></i></p>
+          </div>
+          <div class="end">
+            <h3>第二の我が家、スーパー・コートで、イキイキした生活をお送りください。</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_p-contact.php'); ?> -->
+    <!-- InstanceEndEditable -->
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_footer.php'); ?>
+  </div>
+</body>
+<!-- InstanceEnd -->
+
+</html>

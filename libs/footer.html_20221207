@@ -1,0 +1,109 @@
+<p class="btn-pagetop"><a href="#wrap"><span>TOPへ戻る</span></a></p>
+<footer>
+    <div class="foot-nav01 cf">
+         <div class="inner">
+          <dl class="feature">
+          <dt>スーパー・コートの特徴</dt>
+          <dd><a href="/feature/">スーパー・コートの特徴</a></dd>
+				<dd><a href="/feature/effort/">介護サービス向上への取り組み</a></dd>
+				<dd><a href="/feature/research/">研究活動</a></dd>
+				<dd><a href="/feature/care/">認知症ケア</a></dd>
+				<dd><a href="/feature/medicine/">医療体制</a></dd>
+				<dd><a href="/feature/hospitality/">ホテルで培ったホスピタリティ</a></dd>
+				<dd><a href="/feature/bath/">お風呂・温泉</a></dd>
+				<dd><a href="/feature/ikiiki/">イキイキとした生活を送っていただくために</a></dd>
+				<dd><a href="/feature/philanthropy/">社会貢献活動</a></dd>
+		  </dl>
+        
+          <dl class="facility">
+		  <dt>施設一覧 </dt>
+		  <dd><a href="/facility/">施設一覧</a></dd>
+			<dd><a href="/facility/rehabili.html">パーキンソン病専門住宅</a></dd>
+			<dd><a href="/facility/premium.html">プレミアム</a></dd>
+            <dd><a href="/facility/osaka/">大阪市内の施設</a></dd>
+            <dd><a href="/facility/osaka/#osaka-fu">大阪市外の施設</a></dd>
+            <dd><a href="/facility/kyoto/">京都の施設</a></dd>
+            <dd><a href="/facility/hyougo/">兵庫の施設</a></dd>
+            <dd><a href="/facility/nara/">奈良の施設 </a></dd>
+		  </dl>
+
+        
+       	 <dl class="company-prof">
+		 <dt>会社案内</dt>
+            <dd><a href="/company/">会社案内</a></dd>
+            <dd><a href="/company/overview/">会社情報</a></dd>
+            <dd><a href="/company/philosophy/">企業理念</a></dd>
+	    <dd><a href="/company/message/">代表挨拶</a></dd>
+            <dd><a href="/company/history/">会社沿革</a></dd>
+	    <dd><a href="/company/kouhochi/">土地活用</a></dd>
+          </dl>
+
+        
+        <dl class="pick-up">
+		<dt>ピックアップコンテンツ</dt>
+				<dd><a href="/kengakureport/">見学レポート</a></dd>
+		</dl>  
+      
+      
+       	 <dl class="topics">
+		 <dt>新着情報</dt>
+         <dd><a href="/topics/">新着情報</a></dd>
+         <dd><a href="/topics_category/column/">コラム</a></dd>
+         <dd><a href="/topics_category/news/">お知らせ</a></dd>
+		  </dl>
+      
+
+      <dl class="other">
+ <dt>その他</dt>
+        <dd><a href="/process/">入居の流れ</a></dd>
+        <dd><a href="/recruit/">採用情報</a></dd>
+        <dd><a href="/voice/">お客様の声</a></dd>
+  </dl>
+       
+    </div>
+    </div>
+    <!-- / .foot-nav01 -->
+
+    <div class="foot-nav02">
+    <div class="inner">
+    	<ul>
+    		<li><a href="/company/">会社概要</a></li>
+    		<li><a href="/sitemap/">サイトマップ</a>
+    		<li><a href="/link/index.html">リンク集</a></li></li><br class="sp">
+    		<li><a href="/privacy/">プライバシーポリシー</a></li>
+    	</ul>
+    	</div>
+    </div>
+    <!-- / .foot-nav02 -->
+    
+    <p class="foot-copy">Copyright&copy; SUPER COURT. All rights reserved.</p>
+</footer>
+<script type="text/javascript">
+if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">');
+} else {
+document.write('<meta name="viewport" content="width=1200,user-scalable=0">');
+}
+</script>
+<script>
+$(function() {
+  // 変数にクラスを入れる
+  var btn = $('.head-form');
+  
+  //スクロールしてページトップから100に達したらボタンを表示
+  $(window).on('load scroll', function(){
+    if($(this).scrollTop() > 100) {
+      btn.addClass('active');
+    }else{
+      btn.removeClass('active');
+    }
+  });
+
+  //スクロールしてトップへ戻る
+  btn.on('click',function () {
+    $('body,html').animate({
+      scrollTop: 0
+    });
+  });
+});
+</script>

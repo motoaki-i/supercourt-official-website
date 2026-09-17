@@ -1,0 +1,131 @@
+<?php require_once('../wordpress/wp-load.php'); ?>
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+  <?php wp_head(); ?>
+  <link href="https://www.supercourt.jp/wordpress/wp-content/themes/bee/css/style.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>有料老人ホーム・資料ダウンロード | 株式会社スーパー・コート</title>
+  <meta name="keywords" content="有料,老人ホーム,大阪,介護付,兵庫,京都,奈良,資料請求" />
+  <meta name="description" content="有料老人ホームのスーパー・コートに関する資料請求はこちら。お気軽にお申込みください。" />
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5Q4FCV8');</script>
+  <!-- End Google Tag Manager -->
+  <!-- InstanceEndEditable -->
+  <link href="/common/css/import.css" rel="stylesheet" type="text/css">
+<link href="/common/css/slidebars.css" rel="stylesheet" type="text/css">
+<link href="/common/css/blog.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" media="(min-width: 640px)" href="<?php echo get_theme_file_uri( 'css/topics_pc.css' ); ?>?v=20220920">
+        <link rel="stylesheet" media="(max-width: 639px)" href="<?php echo get_theme_file_uri( 'css/topics_sp.css' ); ?>?v=20220920">
+
+  <link rel="stylesheet" media="(min-width: 640px)" href="/common/css/pc.css">
+  <link rel="stylesheet" media="(max-width: 639px)" href="/common/css/sp.css">
+
+
+  
+  <!--[if lte IE 8]>
+<link href="/common/css/pc.css?200120" rel="stylesheet" type="text/css">
+<![endif]-->
+
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="bodyDataCurrent" type="text" value="default" -->
+
+</head>
+
+<body data-current="default" id="PAGETOP">
+  <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_header.php'); ?>
+  
+  <div id="sb-site">
+	  
+    <div class="mailform data_request">
+      <div class="pt">
+        <h1>資料ダウンロード</h1>
+      </div>
+
+      <div class="content data_request_content">
+        <div class="container">
+          <ol class="pankuzu">
+            <li><a href="/">ホーム&nbsp;</a></li>
+            <li>資料ダウンロード</li>
+          </ol>
+		
+<div class="mailform__inner">
+
+<div class="datatabs clearfix">
+  <a href="../data_request/" class="data-tab-yuso tab-mail">資料の郵送を<br class="spbr">ご希望の方は<br class="spbr">こちら</a>
+  <a class="data-activetab-dl tab-download">資料<br class="spbr">ダウンロード</a>
+</div>
+        
+<div class="lead_box">
+        <div class="lead">
+          <h3>「送信完了ページ」で資料をダウンロードいただけます。<br>下記項目をご入力の上、ご送信ください。</h3>
+          <p>ご入居希望施設の設備や食事、費用、介護体制などが詳しく分かる資料をダウンロードいただけます。</p>
+        </div>
+</div>
+
+
+<?php echo do_shortcode( '[contact-form-7 id="10578" title="テストフォーム--資料ダウンロード"]' ); ?>
+
+
+    
+    <!--フォームのバリデーション-->
+    <link rel="stylesheet" href="/common/js/validationEngine/validationEngine.jquery.css" type="text/css" />
+    <script src="/common/js/validationEngine/jquery.validationEngine-ja.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/common/js/validationEngine/jquery.validationEngine.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        jQuery("#mailform").validationEngine();
+      });
+    </script>
+    <script type="text/javascript" src="/data_request_dl/mailform/mailform.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/data_request_dl/mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+    <!-- ふりがな自動入力 -->
+    <script type="text/javascript" src="/inquirys/jquery.autoKana.js" charset="utf-8"></script> 
+    <script>
+      jQuery(function(){
+        jQuery.fn.autoKana('#namae','#furigana',{katakana:false});
+      });
+    </script>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- InstanceEndEditable -->
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_footer.php'); ?>
+  </div>
+<?php get_footer('facility'); ?>
+
+
+
+<script src="https://ajaxzip3.github.io/ajaxzip3.js"></script>
+<script>
+$(function(){
+    $('input[name="zipcode1"]').keyup(function(){
+        AjaxZip3.zip2addr(this, '', 'address1', 'address2');
+    });
+});
+</script>
+
+  
+
+
+
+  <script type="text/javascript" src="/js/blog-load.js"></script>
+
+</body>
+<!-- InstanceEnd -->
+
+</html>

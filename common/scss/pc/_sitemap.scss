@@ -1,0 +1,57 @@
+//* ========================================================================== */
+//* sitemap
+//* サイトマップ
+//* ========================================================================== */
+.sitemap {
+	margin-bottom: 40px;
+	.content {
+		padding-top: 40px;
+		a {
+			color: #333;
+			&:before {
+				content: '\f0da';
+				font-family: FontAwesome;
+				margin-right: 5px;
+			}
+		}
+		.row {
+			margin-bottom: 20px;
+			border-bottom: 1px dotted #ccc;
+			h3 {
+				float: left;
+				font-weight: bold;
+			}
+			.right {
+				padding-left: 25%;
+			}
+			h4 {
+				margin-bottom: 10px;
+				padding-left: 6px;
+				font-weight: bold;
+				line-height: 1.2;
+				border-left: 5px solid  #f60;
+			}
+			ul {
+				margin-bottom: 20px;
+				li {
+					margin-bottom: 5px;
+				}
+			}
+		}
+		.sitemap--home {
+			padding-bottom: 20px;
+		}
+		.sitemap--facility {
+			ul {
+				font-size: 0;
+				li {
+					display: inline-block;
+					width: 33.3%;
+					font-size: 14px;
+					vertical-align: top;
+				}
+			}
+		}
+	}
+}
+

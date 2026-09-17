@@ -1,0 +1,674 @@
+@Charset: "UTF-8";
+/* Pz-LinkCard CSS for Admin Screen */
+
+/* DashBoard */
+.pz-lkc-dashboard {
+	display: none;
+}
+.pz-lkc-dashboard h1 {
+}
+.pz-lkc-dashboard h2 {
+	position: relative;
+	margin-left: -8px;
+	padding: 8px;
+	border-left: solid 8px #3399dd;
+}
+.pz-lkc-dashboard h2::after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+	width: 100%;
+	height: 0;
+	border-bottom: solid 1px #444444;
+}
+.pz-lkc-dashboard h3 {
+}
+.pz-lkc-dashboard h4 {
+	margin: 16px 0 12px 0;
+	font-size: 20px;
+	border-bottom: double 6px #000000;
+	line-height: 20px;
+}
+#pz-lkc-error h2 {
+	border-left: solid 8px #dd1144;
+}
+#pz-lkc-admin h2 {
+	border-left: solid 8px #dd11cc;
+}
+#pz-lkc-initialize h2 {
+	border-left: solid 8px #11dd44;
+}
+.pz-lkc-error-url {
+}
+.pz-lkc-clear-both {
+}
+
+/* Manager & Settings Goto Icon */
+.pz-lkc-header-goto {
+	display: inline;
+	float: right;
+}
+.pz-lkc-header-goto-icon {
+	font-size: 20px;
+	vertical-align: middle;
+}
+.pz-lkc-header-goto-text {
+	font-size: 9px;
+	vertical-align: middle;
+}
+
+/* Manager */
+.pz-lkc-header-manager {
+	display: inline;
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+.pz-lkc-header-manager-icon {
+	font-size: 24px;
+}
+.pz-lkc-header-manager-settings-icon {
+	display: inline;
+	float: right;
+	font-size: 18px;
+}
+
+/* Manager - Cache Editor */
+.pz-lkc-man-cache-editor-title {
+	margin: 0;
+	padding: 16px;
+	background-color: #ddeeff;
+	box-shadow: 4px 4px 4px 0;
+	font-size: 14px;
+	font-weight: 600;
+	border: solid 2px #ccd0d4;
+	border-radius: 8px;
+}
+.pz-lkc-man-cache-editor-icon {
+	font-size: 24px;
+	vertical-align: middle;
+}
+.pz-lkc-man-cache-editor-text {
+	vertical-align: middle;
+}
+.pz-lkc-man-cache-editor {
+	width: 750px;
+	margin: -20px 0 0 32px;
+	padding: 24px;
+	border: solid 2px #ccd0d4;
+	border-radius: 8px;
+	background-color: #ffffff;
+	box-shadow: 4px 4px 4px 0;
+	margin-bottom: 32px;
+}
+.pz-lkc-man-cache-editor th {
+	width: 200px;
+	text-align: left;
+	font-size: 14px;
+}
+
+/* Manager - Cache List */
+.pz-lkc-man-count-list {
+}
+.pz-lkc-man-search-box {
+}
+.pz-lkc-man-search-box-icon {
+	font-size: 20px;
+}
+.pz-lkc-man-navi {
+}
+.pz-lkc-man-batch-list {
+}
+.pz-lkc-man-domain-list {
+}
+,pz-man-pages {
+}
+.pz-lkc-man-cache-list {
+}
+.pz-lkc-man-cache-list th {
+	text-align: center;
+}
+.pz-lkc-man-thumbnail {
+	display: flex;
+	height: 48px;
+	width: 48px;
+	border: solid 1px #000000;
+	background-color: #ffffff;
+}
+.pz-lkc-man-thumbnail div {
+	margin: auto;
+}
+.pz-lkc-man-thumbnail img {
+	max-height: 48px;
+	max-width: 48px;
+}
+.pz-lkc-man-head-orderby {
+	vertical-align: middle;
+	margin-left: 4px;
+	font-size: 12px;
+}
+.pz-lkc-man-head-check {
+}
+.pz-lkc-man-head-id {
+	width: 50px;
+}
+.pz-lkc-man-head-url {
+	width: 100px;
+}
+.pz-lkc-man-head-title {
+	width: 100px;
+}
+.pz-lkc-man-head-excerpt {
+}
+.pz-lkc-man-head-charset {
+	width: 100px;
+}
+.pz-lkc-man-head-domain {
+	width: 100px;
+}
+.pz-lkc-man-head-sns {
+	width: 2.5em;
+}
+.pz-lkc-man-head-resist-time {
+	width: 65px;
+}
+.pz-lkc-man-head-update-time {
+	width: 65px;
+}
+.pz-lkc-man-head-sns-time {
+	width: 65px;
+}
+.pz-lkc-man-head-alive-time {
+	width: 65px;
+}
+.pz-lkc-man-head-post-id {
+	width: 3em;
+}
+.pz-lkc-man-head-result-update {
+	width: 4em;
+}
+.pz-lkc-man-body-menu {
+	font-size: 12px;
+}
+.pz-lkc-man-body-check {
+}
+.pz-lkc-man-body-id {
+	text-align: center;
+}
+.pz-lkc-man-body-url {
+	width: 200px;
+	height: calc(20px * 1);
+	line-height: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 9px;
+}
+.pz-lkc-man-body-url-error {
+	font-size: 16px;
+}
+.pz-lkc-man-body-url-error-ignore {
+	font-size: 16px;
+}
+.pz-lkc-man-body-title {
+	height: calc(20px * 2);
+	line-height: 20px;
+	overflow: hidden;
+	white-space: wrap;
+	text-overflow: ellipsis;
+}
+.pz-lkc-man-body-excerpt {
+	height: calc(20px * 4);
+	line-height: 20px;
+	overflow: hidden;
+	white-space: wrap;
+	text-overflow: ellipsis;
+}
+.pz-lkc-man-body-charset {
+	text-align: center;
+}
+.pz-lkc-man-body-domain {
+	height: calc(20px * 4);
+	width: 100px;
+	line-height: 20px;
+	overflow: hidden;
+	white-space: wrap;
+	text-overflow: ellipsis;
+}
+.pz-lkc-man-body-domain {
+	background-color: transparent;
+	color: #444444;
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 16px;
+	white-space: space;
+	word-break: break-all;
+
+}
+.pz-lkc-man-body-sitename {
+	padding: 2px 0 2px 0;
+	background-color: #888888;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 16px;
+	white-space: space;
+	word-break: break-all;
+}
+.pz-lkc-man-body-sns {
+	font-size: 60%;
+	text-align: right;
+}
+.pz-lkc-man-body-resist-time {
+	text-align: center;
+}
+.pz-lkc-man-body-update-time {
+	text-align: center;
+}
+.pz-lkc-man-body-sns-time {
+	text-align: center;
+}
+.pz-lkc-man-body-alive-time {
+	text-align: center;
+}
+.pz-lkc-man-body-post-id {
+	height: calc(20px * 4);
+	line-height: 20px;
+	overflow: hidden;
+	white-space: wrap;
+	text-overflow: ellipsis;
+	text-align: right;
+}
+.pz-lkc-man-body-result {
+	text-align: center;
+}
+.pz-lkc-man-body-result-update {
+}
+.pz-lkc-man-body-result-alive {
+	color: #ff0000;
+}
+
+/* Manager - File Menu */
+.pz-lkc-man-filemenu {
+	margin-top: 20px;
+	border: solid 1px #000000;
+	background-color: #ffffff;
+}
+.pz-lkc-man-filemenu th,td {
+	padding: 10px;
+}
+.pz-lkc-man-filemenu-title {
+}
+.pz-lkc-man-filemenu-title-icon {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+/* Manager - HTTP Result Code */
+.pz-http-ok {
+}
+.pz-http-error {
+	color: #ff0000;
+}
+
+/* Settings */
+.pz-lkc-header-settings {
+	display: inline;
+}
+.pz-lkc-header-settings-icon {
+	font-size: 24px;
+}
+.pz-lkc-help-icon {
+	width: 16px;
+	height: 16px;
+}
+.pz-lkc-note {
+	color: #ff8844;
+}
+.pz-lkc-tab-now {
+}
+.pz-lkc-tab-show {
+}
+.pz-lkc-display {
+}
+
+/* Settings - Tabs */
+.pz-lkc-tabs {
+	display: block;
+	position: relative;
+}
+.pz-lkc-tabs:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	border-bottom: solid 2px #000000;
+	z-index: 1;
+}
+.pz-lkc-tab {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	padding: 4px;
+	text-decoration: none;
+	border-width: 2px 2px 0 2px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #bbbbbb;
+	color: #000000;
+	border-radius: 8px 8px 0 0;
+}
+.pz-lkc-show {
+}
+.pz-lkc-hide {
+	display: none;
+}
+
+/* Settings - Pages */
+.pz-lkc-page {
+	display: none;
+	padding: 8px;
+}
+.pz-lkc-page-active {
+	display: block;
+}
+.pz-lkc-tab-active {
+	background-color: #eeeeee;
+	color: #000000;
+	z-index: 2;
+	border-bottom-color: #0000ff;
+}
+.form-table td {
+	vertical-align: top;
+}
+
+/* Settings - basic */
+.pz-lkc-changelog-tab {
+	display: inline-block;
+	position: relative;
+	padding: 2px 16px 2px 16px;
+	background-color: #ddeeff;
+	font-size: 14px;
+	font-weight: 600;
+	border-top: solid 1px #888888;
+	border-right: solid 1px #888888;
+	border-left: solid 1px #888888;
+	border-radius: 4px 4px 0 0;
+	box-shadow: 8px 8px 8px;
+	text-align: center;
+}
+.pz-lkc-changelog {
+	position: relative;
+	padding: 4px 16px 4px 16px;
+	min-width: 100px;
+	width: 800px;
+	min-height: 50px;
+	height: 200px;
+	background-color: #ffffff;
+	border: solid 1px #888888;
+	box-shadow: 8px 8px 8px;
+	line-height: 20px;
+	white-space: nowrap;
+	overflow: scroll;
+	resize: both;
+}
+.pz-lkc-position-margin {
+	width: 600px;
+	text-align: center;
+	border: dashed 1px #000000;
+	background-color: #eeeeee;
+}
+.pz-lkc-position-margin-card {
+	text-align: center;
+	border: solid 1px #000000;
+	background-color: #ffffff;
+}
+.pz-lkc-display-layout {
+	width: 600px;
+	border: solid 1px #000000;
+	background-color: #ffffff;
+}
+.pz-lkc-display-layout-thumbnail {
+	vertical-align: middle !important;
+}
+.pz-lkc-display-thumbnail {
+	border: solid 1px #000000;
+	text-align: center;
+}
+.pz-lkc-letter-box {
+	width: 500px;
+	padding: 10px;
+	border: solid 1px #000000;
+	background-color: #ffffff;
+	line-height: 24px;
+}
+.pz-lkc-letter-box div {
+	padding: 10px;
+}
+.pz-lkc-letter-color-code {
+	width: 80px;
+}
+.pz-lkc-shortcode {
+	width: 8em;
+}
+.pz-lkc-shortcode-copy {
+	color: #888888;
+}
+.pz-lkc-shortcode-enabled {
+}
+.pz-lkc-shortcode-parameter {
+	font-weight: bold;
+}
+.pz-lkc-shortcode-title {
+	color: #aabbff;
+}
+.pz-lkc-shortcode-content {
+	color: #bbaaff; 
+}
+.pz-lkc-shortcode-example {
+	width: 600px;
+	border: solid 1px #000000;
+	padding: 0 8px;
+    line-height: 2;
+    min-height: 30px;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: solid 1px #7e8993;
+    background-color: #f1f1f1;
+    color: #32373c;
+}
+
+/* Settings - Run Button */
+.pz-lkc-button {
+    margin: 0;
+    padding: 4px 16px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #0071a1;
+	background-color: #f3f5f6;
+    border: solid 1px #0071a1;
+    border-radius: 4px;
+    white-space: nowrap;
+    line-height: 2;
+    cursor: pointer;
+}
+.pz-lkc-button:hover {
+	background-color: #f1f1f1;
+}
+.pz-lkc-button-sure {
+    margin: 0;
+    padding: 4px 16px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #0071a1;
+	background-color: #ffaaaa;
+    border: solid 1px #0077aa;
+    border-radius: 4px;
+    white-space: nowrap;
+    line-height: 2;
+    cursor: pointer;
+}
+.pz-lkc-button-sure:hover {
+	background-color: #ee9999;
+}
+.pz-lkc-button-disabled {
+    margin: 0;
+    padding: 4px 16px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #0071a1;
+	background-color: #dddddd;
+    border: solid 1px #88aaff;
+    border-radius: 4px;
+    white-space: nowrap;
+    line-height: 2;
+    cursor: not-allowed;
+}
+.pz-lkc-button-text {
+	vertical-align: middle;
+}
+
+/* Settings - MultiSite */
+.pz-lkc-multi-list {
+}
+.pz-lkc-multi-list th {
+	text-align: center;
+}
+.pz-lkc-multi-head-current {
+}
+.pz-lkc-multi-head-blog-id {
+}
+.pz-lkc-multi-head-site-name {
+}
+.pz-lkc-multi-head-url {
+}
+.pz-lkc-multi-head-domain {
+}
+.pz-lkc-multi-body-current {
+	text-align: center;
+}
+.pz-lkc-multi-body-blog-id {
+	text-align: center;
+}
+.pz-lkc-multi-body-site-name {
+}
+.pz-lkc-multi-body-url {
+}
+.pz-lkc-multi-body-domain {
+}
+
+/* Settings - Cron */
+.pz-lkc-cron-log {
+	width: 800px;
+	padding: 4px;
+	height: 200px;
+	background-color: #ffffff;
+	border: solid 1px #888888;
+	line-height: 20px;
+	white-space: nowrap;
+	overflow: scroll;
+	resize: both;
+}
+.pz-lkc-cron-margin {
+	margin: 8px;
+}
+.pz-lkc-cron-all {
+}
+.pz-lkc-cron-list {
+	min-width: 300px;
+	width: 800px;
+	max-width: 1200px;
+}
+.pz-lkc-cron-list td {
+	vertical-align: middle;
+}
+.pz-lkc-cron-list-lkc {
+}
+.pz-lkc-cron-list-other {
+	display: none;
+}
+.pz-lkc-cron-head-run {
+	width: 80px;
+}
+.pz-lkc-cron-head-hook {
+}
+.pz-lkc-cron-head-next-time {
+	width: 160px;
+}
+.pz-lkc-cron-head-schedule {
+	width: 160px;
+}
+.pz-lkc-cron-body-run {
+}
+.pz-lkc-cron-body-hook {
+}
+.pz-lkc-cron-body-next-time {
+}
+.pz-lkc-cron-body-schedule {
+}
+
+/* Settings - Super Mode */
+.pz-lkc-debug-text , .pz-lkc-debug-only , .pz-lkc-debug-only * {
+	color: #0066ff !important;
+}
+.pz-lkc-admin-text , .pz-lkc-admin-only , .pz-lkc-admin-only * {
+	color: #cc3388 !important;
+}
+.pz-lkc-develop-text , .pz-lkc-develop-only , .pz-lkc-develop-only * {
+	color: #00aa88 !important;
+}
+.pz-lkc-develop-message {
+	margin: 0 0 0 -16px;
+	padding: 8px;
+	background-color: #00aa88 !important;
+	color: #ffffff !important;
+	font-size: 24px;
+ 	text-align: center;
+}
+.pz-lkc-admin-notice {
+	padding: 6px;
+	background-color: #cc3388;
+	color: #ffffff;
+	font-size: 20px;
+ 	text-align: center;
+}
+
+/* Visual Editor - Input URL Dialog - Overlay */
+#pz-lkc-overlay {
+	z-index: 1001;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 120%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+/* Visual Editor - Input URL Dialog - Modal */
+#pz-lkc-modal {
+	z-index: 9991;
+	display: none;
+	position: fixed;
+	margin: 0 auto;
+	padding: 20px;
+	border: solid 2px #000000;
+	border-radius: 4px;
+	background: #ffffff;
+}
+
+/* Visual Editor - Input URL Dialog - Close Button */
+#pz-lkc-close {
+	position: relative;
+	float: right;
+	margin: -10px;
+}
+#pz-lkc-close:hover {
+	cursor: pointer;
+}
+
+/* Visual Editor - Input URL Dialog - TextBox */
+#pz-lkc-content {
+	text-align: center;
+	padding: 10px;
+}

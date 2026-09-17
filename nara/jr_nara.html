@@ -1,0 +1,545 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>奈良県奈良市の介護付き有料老人ホーム | スーパー・コートJR奈良駅前</title>
+  <meta http-equiv="refresh" content="0;url=https://www.supercourt.jp/facility-list/nara/jr_nara/">
+<link rel="canonical" href="https://www.supercourt.jp/facility-list/nara/jr_nara/">
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5Q4FCV8');</script>
+  <!-- End Google Tag Manager -->
+  <meta name="keywords" content="有料,老人ホーム,奈良,奈良市,パーキンソン病特化" />
+  <meta name="description" content="奈良県奈良市の有料老人ホーム スーパー・コートJR奈良駅前の公式サイト。パーキンソン病特化施設として充実したリハビリ環境をご提供しております。" />
+  <!-- InstanceEndEditable -->
+  <link href="/common/css/import.css" rel="stylesheet" type="text/css">
+  <link href="/common/css/slidebars.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="(min-width: 640px)" href="/common/css/pc.css">
+  <link rel="stylesheet" media="(max-width: 639px)" href="/common/css/sp.css">
+  <!--[if lte IE 8]>
+<link href="/common/css/pc.css?200120" rel="stylesheet" type="text/css">
+<![endif]-->
+  <script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/common/js/modernizr.js"></script>
+  <script type="text/javascript" src="/common/js/rollover.js"></script>
+  <script type="text/javascript" src="/common/js/smoothScroll.js"></script>
+  <script type="text/javascript" src="/common/js/base.js"></script>
+  <script type="text/javascript" src="/common/js/facilityLIst.js"></script>
+  <!-- InstanceBeginEditable name="head" -->
+  <link href="../common/css/colorbox.css" rel="stylesheet" type="text/css">
+  <link href="../common/css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="../common/js/jquery.colorbox-min.js"></script>
+  <script type="text/javascript" src="../common/js/jquery.bxslider.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function (e) {
+      $('.bxslider').bxSlider({
+        auto: true,
+        nextSelector: '.slider-next',
+        prevSelector: '.slider-prev'
+      });
+      $('.bx-rooms').bxSlider({
+        auto: true,
+        pagerCustom: '.bx-rooms-pager'
+      }); $(".feature a.modal, .facilityFloor a").colorbox({ retinaImage: true, innerWidth: "90%" });
+    });
+  </script>
+  <!-- 道順表示用 -->
+  <script type="text/javascript">
+    function fromhere() {
+      var initialLocation;
+      var defaultLocation = new google.maps.LatLng(34.681009, 135.819330);
+      var url = '//maps.google.co.jp/maps?f=d&source=s_d&saddr=FROMLAT,FROMLNG&daddr=%E5%A5%88%E8%89%AF%E7%9C%8C%E5%A5%88%E8%89%AF%E5%B8%82%E5%A4%A7%E5%AE%AE%E7%94%BA%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%95%E2%88%92%EF%BC%93%EF%BC%95%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%88%EF%BC%AA%EF%BC%B2%E5%A5%88%E8%89%AF%E9%A7%85%E5%89%8D'; //
+
+      // 現在地取得
+      // Try W3C Geolocation (Preferred)
+      if (navigator.geolocation) {
+        browserSupportGetlocationFlag = true;
+        navigator.geolocation.getCurrentPosition(function (position) {
+          initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+          jumpMapURL();
+        }, function (error) {
+          handleNoGeolocation(browserSupportGetlocationFlag, error);
+        }, { enableHighAccuracy: true } // androidはこのオプションが必要
+        );
+      }
+      // Try Google Gears Geolocation
+      else if (google.gears) {
+        browserSupportGetlocationFlag = true;
+        var geo = google.gears.factory.create('beta.geolocation');
+        geo.getCurrentPosition(function (position) {
+          initialLocation = new google.maps.LatLng(position.latitude, position.longitude);
+          jumpMapURL();
+        }, function (error) {
+          handleNoGeoLocation(browserSupportGetlocationFlag, error);
+        }, { enableHighAccuracy: true } // androidはこのオプションが必要
+        );
+      }
+      // Browser doesn't support Geolocation
+      else {
+        browserSupportGetlocationFlag = false;
+        handleNoGeolocation(browserSupportGetlocationFlag, false);
+      }
+
+      function jumpMapURL() {
+
+        var lat = initialLocation.lat();
+        var lng = initialLocation.lng();
+        url = url.replace(/FROMLAT/, lat);
+        url = url.replace(/FROMLNG/, lng);
+        location.href = url;
+        //	window.open( url , "_blank" ) ;
+      }
+
+      function handleNoGeolocation(errorFlag, error) {
+        if (errorFlag == true) {
+          alert("現在位置取得サービスが使用できません。施設付近の駅よりご案内します。\n" +
+            'コード: ' + error.code + '\n' +
+            'メッセージ: ' + error.message + '\n');
+          initialLocation = defaultLocation;
+        } else {
+          alert("現在位置取得機能がございません。代わりに東京を表示しておきます。");
+          initialLocation = defaultLocation;
+        }
+        jumpMapURL();
+      }
+    }
+  </script>
+  <!-- /道順表示用 -->
+
+  <script type="text/javascript" src="/common/js/facilityThumbs.js"></script>
+  <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="bodyDataCurrent" type="text" value="default" -->
+</head>
+
+<body data-current="default" id="PAGETOP">
+  <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_header.php'); ?>
+
+  <div id="sb-site">
+    <!-- InstanceBeginEditable name="contents" -->
+    <div class="facility facility__detail">
+      <div class="lead">
+        <div class="container">
+          <div class="left">
+            <p class="heading">有料老人ホーム</p>
+            <h1><em>スーパー・コート</em><strong>JR奈良駅前</strong></h1>
+            <p class="text">JR関西本線の奈良駅より徒歩4分、近鉄奈良線近鉄奈良駅より徒歩10分。理学療法士によるリハビリや神経内科専門医による訪問診療、24時間の看護体制などパーキンソン病の方々に寄り添ったサービスを提供しております。</p>
+            <ul class="feature">
+              <li><a href="../facility/_ninchishofloor.html" class="modal"><img
+                    src="../images/facility/feature_icn_02.png" alt="認知症フロア" /></a></li>
+              <li><a href="/facility/_kaisospace.html" class="modal"><img src="../images/facility/feature_icn_01.png"
+                    alt="回想スペース" /></a></li>
+              <li><a href="../facility/_tatamiburo.html" class="modal"><img src="../images/facility/feature_icn_05.png"
+                    alt="畳風呂設置" /></a></li>
+              <li><img src="../images/facility/feature_icn_03.png" alt="天然温泉のお風呂" /></li>
+              <li><img src="../images/facility/feature_icn_10.png" alt="介護職員常駐" /></li>
+              <li><img src="../images/facility/feature_icn_09.png" alt="駐車場あり" /></li>
+              <li><img src="../images/facility/feature_icn_06.png" alt="駅から近い" /></li>
+              <li><a href="/feature/ikiiki/sc-fit/index.html" target="_blank"><img
+                    src="../images/facility/feature_icn_14.png" alt="SC-Fit"></a></li>
+              <li><img src="../images/facility/feature_icn_18.png" alt="パーキンソン病特化" /></li>
+              <li><img src="../images/facility/feature_icn_16.png" alt="24時間看護体制" /></li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="visual">
+              <div class="visualInner">
+                <ul class="bxslider">
+                  <li><img src="../images/facility/nara/shisetsu299_1.jpg" alt="" /></li>
+                  <li><img src="../images/facility/nara/shisetsu299_2.jpg" alt="" /></li>
+                  <li><img src="../images/facility/nara/shisetsu299_3.jpg" alt="" /></li>
+                  <li><img src="../images/facility/nara/shisetsu299_4.jpg" alt="" /></li>
+                </ul>
+              </div>
+              <p class="slider-prev"></p>
+              <p class="slider-next"></p>
+            </div>
+            <p class="btnBlog"><a href="/blog/nara/" target="_blank"><img src="../images/facility/btn_blog.jpg"
+                  alt="施設ブログを見る" /></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="facility__inner">
+        <div class="container">
+          <ol class="pankuzu">
+            <li><a href="/">ホーム&nbsp;</a></li>
+            <li><a href="../facility/#nara">施設一覧（奈良）&nbsp;</a></li>
+            <li>スーパー・コートJR奈良駅前</li>
+          </ol>
+          <div class="pkplan" style="max-width: 800px; margin: 0 auto;">
+            <a href="/images/facility/nara/jr_nara_pk.pdf" target="_blank"><img src="/images/facility/banner_pk.jpg"
+                alt="パーキンソン特化施設"></a><br>
+          </div>
+          <div class="wrap outline">
+            <h3>概要</h3>
+            <div class="content">
+              <div class="row">
+                <h4>ご利用料金</h4>
+                <div class="row pre" style="margin-top: 0;">
+                  <table class="price" style="margin-bottom: 20px;">
+                    <tbody>
+                      <tr>
+                        <th style="text-align: center">料金プラン</th>
+                        <th style="text-align: center">前払い金</th>
+                        <th style="text-align: center">月額利用料</th>
+                      </tr>
+                      <tr>
+                        <td style="text-align: center">①パーキンソン病の方</td>
+                        <td style="text-align: center"><strong>0円</strong></td>
+                        <td style="text-align: center"><strong>128,905円(税込)</strong></td>
+                      </tr>
+                      <tr>
+                        <td style="text-align: center">②上記以外の方</td>
+                        <td style="text-align: center"><strong>0円</strong></td>
+                        <td style="text-align: center"><strong>158,905円(税込)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p class="small">
+                  ※プラン①はパーキンソン病の方などの対象プランとなります。<a href="/images/facility/nara/jr_nara_pk.pdf"
+                    target="_blank">詳しくはこちら</a><br>
+                  ※ご利用料金は1日3食、食事代含んでおります。 <br>
+                  ※介護保険・医療保険適用による介護サービスの自己負担が別途必要となります。 <br>
+                  ※個室内電気代が別途必要となります。
+                </p>
+              </div>
+              <div class="row">
+                <h4>施設概要</h4>
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <th scope="row">施設名</th>
+                      <td>スーパー・コートJR奈良駅前</td>
+                      <th>施設の目的</th>
+                      <td>有料老人ホーム</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">所在地</th>
+                      <td>奈良県奈良市大宮町1丁目5番35号</td>
+                      <th>最寄駅・バス停</th>
+                      <td>JR関西本線「奈良」駅<br>
+                        近鉄奈良線「近鉄奈良」駅</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">規模・構造</th>
+                      <td>RC造地上6階建</td>
+                      <th>開設日</th>
+                      <td>平成21年8月1日</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">居室面積</th>
+                      <td>18.00m&sup2;</td>
+                      <th>延床面積</th>
+                      <td>5029.45m&sup2;</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">居室数</th>
+                      <td>155室（全室個室、トイレ・洗面・<br>
+                        冷暖房付）</td>
+                      <th>定員</th>
+                      <td>155名</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">共用施設</th>
+                      <td>食堂、浴室、共用トイレ、談話コーナー</td>
+                      <th>入居条件</th>
+                      <td>要介護1～5、要支援1・2、自立の方</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">権利関係</th>
+                      <td>利用権</td>
+                      <th>契約期間中退去</th>
+                      <td>可能</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrap outline">
+            <h3>介護・<br>
+              医療体制</h3>
+            <div class="content">
+              <div class="row">
+                <h4>介護・医療体制</h4>
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <th scope="row">医療サービス</th>
+                      <td>・24時間訪問看護対応</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">介護サービス</th>
+                      <td>・認知症の方、車いすの方もご入居いただけます</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="row">
+                <h4>医療・感染症面の受入体制</h4>
+                <p>持病などで、日常的に医療面のケアが必要になる方の場合、
+                  受け入れ体制はあるかどうかを記載しています。<br>
+                  ○：受け入れ可　△：お問合せ下さい　×：受け入れ不可<br>
+                  <br>
+                  【パーキンソン病の方】
+                </p>
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <th scope="row">○</th>
+                      <td scope="row">たん吸引</td>
+                      <th scope="row">○</th>
+                      <td>胃ろう</td>
+                      <th scope="row">△</th>
+                      <td scope="col">気管切開（永久気管孔）</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">△</th>
+                      <td scope="row">点滴</td>
+                      <th scope="row">○</th>
+                      <td>ストーマ</td>
+                      <th scope="row">○</th>
+                      <td>インシュリン投与</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">○</th>
+                      <td scope="row">在宅酸素</td>
+                      <th scope="row">○</th>
+                      <td>尿バルーン</td>
+                      <th scope="row">○</th>
+                      <td>ペースメーカー</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">○</th>
+                      <td scope="row">透析</td>
+                      <th scope="row">○</th>
+                      <td>褥瘡(とこずれ)</td>
+                      <th scope="row">○</th>
+                      <td>パーキンソン病</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">○</th>
+                      <td scope="row">MRSA(ブドウ球菌感染症）</td>
+                      <th scope="row">○</th>
+                      <td>肝炎</td>
+                      <th scope="row">○</th>
+                      <td scope="col">梅毒</td>
+                  </tbody>
+                  <tr>
+                    <th scope="row">△</th>
+                    <td scope="row">疥癬（かいせん）</td>
+                    <th scope="row">△</th>
+                    <td>結核</td>
+                  </tr>
+                </table><br>
+
+                <p>【上記以外の方】</p>
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <th scope="row">×</th>
+                      <td scope="row">たん吸引</td>
+                      <th scope="row">○</th>
+                      <td>胃ろう</td>
+                      <th scope="row">×</th>
+                      <td scope="col">気管切開（永久気管孔）</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">△</th>
+                      <td scope="row">点滴</td>
+                      <th scope="row">○</th>
+                      <td>ストーマ</td>
+                      <th scope="row">○</th>
+                      <td>インシュリン投与</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">○</th>
+                      <td scope="row">在宅酸素</td>
+                      <th scope="row">○</th>
+                      <td>尿バルーン</td>
+                      <th scope="row">○</th>
+                      <td>ペースメーカー</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">○</th>
+                      <td scope="row">透析</td>
+                      <th scope="row">○</th>
+                      <td>褥瘡(とこずれ)</td>
+                      <th scope="row">○</th>
+                      <td>パーキンソン病</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">○</th>
+                      <td scope="row">MRSA(ブドウ球菌感染症）</td>
+                      <th scope="row">○</th>
+                      <td>肝炎</td>
+                      <th scope="row">○</th>
+                      <td scope="col">梅毒</td>
+                  </tbody>
+                  <tr>
+                    <th scope="row">△</th>
+                    <td scope="row">疥癬（かいせん）</td>
+                    <th scope="row">△</th>
+                    <td>結核</td>
+                  </tr>
+                </table>
+                <p class="small">
+                  ※△に該当する疾患をお持ちの場合はスーパー・コート入居相談室（0120-78-4850）にご相談ください。</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrap access">
+            <h3>アクセス</h3>
+            <div class="content">
+              <div class="row">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.85046298701!2d135.81627555099308!3d34.683723380342904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60013a32763c9f55%3A0x11affab89e8a0a0b!2z44K544O844OR44O844Kz44O844OI77yq77yy5aWI6Imv6aeF5YmN!5e0!3m2!1sja!2sus!4v1445258067287"
+                  width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <div class="row">
+                <h4>住所</h4>
+                <p>〒630-8115<br>
+                  奈良県奈良市大宮町1丁目5番35号<br>
+                  TEL:0742-30-4850
+                </p>
+                <h4>アクセス</h4>
+                <p>JR関西本線「奈良」駅北口より徒歩約4分<br>
+                  近鉄奈良線「近鉄奈良」駅より徒歩約10分</p>
+                <p class="btnPdf"><a href="../images/facility/nara/nara.pdf" target="_blank"><img
+                      src="../images/facility/btn_pdfmap.jpg" alt="わかりやすいPDF地図" /></a>
+                  <a href="//maps.google.com/maps?saddr=現在地&daddr=スーパー・コートJR奈良駅前&dirflg=d" class="visible-sp-block"><img
+                      src="../images/facility/btn_routemap.jpg" alt="現在地からのルートを見る" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="wrap inside">
+            <h3>館内紹介</h3>
+            <div class="content">
+              <div class="row">
+                <h4>居室</h4>
+                <p>1階10室、2階28室、4階21室、3階5階6階各32室の合計155室。<br>
+                  トイレ、エアコン、ナースコール完備。 </p>
+                <div class="facilitySlider">
+                  <div class="facilitySlider--big">
+                    <ul class="bx-rooms">
+                      <li><img src="../images/facility/nara/shisetsu299sub_1.jpg" alt="" /></li>
+                      <li><img src="../images/facility/nara/shisetsu299sub_2.jpg" alt="" /></li>
+                      <li><img src="../images/facility/nara/shisetsu299sub_3.jpg" alt="" /></li>
+                      <li><img src="../images/facility/nara/shisetsu299sub_4.jpg" alt="" /></li>
+                    </ul>
+                  </div>
+                  <ul class="bx-rooms-pager">
+                    <li><a data-slide-index="0" href=""><img src="../images/facility/nara/btn_shisetsu299sub_1.jpg"
+                          alt="" /></a></li>
+                    <li><a data-slide-index="1" href=""><img src="../images/facility/nara/btn_shisetsu299sub_2.jpg"
+                          alt="" /></a></li>
+                    <li><a data-slide-index="2" href=""><img src="../images/facility/nara/btn_shisetsu299sub_3.jpg"
+                          alt="" /></a></li>
+                    <li><a data-slide-index="3" href=""><img src="../images/facility/nara/btn_shisetsu299sub_4.jpg"
+                          alt="" /></a></li>
+                  </ul>
+                  <div class="facilitySlider__text">
+                    <p class="small">【室内設備】<br>
+                      ナースコール・トイレ・洗面台・エアコン・カーテン</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <h4>共有スペース</h4>
+                <p>１階入り口はオートロックでセキュリティーも万全となっております。<br>
+                  食堂ではお食事やティータイムを過ごして頂く他、イベント、レクリエーションやラジオ体操、機能訓練、口腔体操、タオル体操など実施しております。<br>
+                  また、パーキンソン病の方などを対象に在籍している理学療法士がご入居者の方それぞれにあったリハビリを提供しております。
+                  浴室には畳が敷かれており、週1回、天然温泉のお風呂をお楽しみ頂けます。車椅子の方もご入浴いただけるよう機械浴も備え付けられています。
+                </p>
+                <div class="facilityGallery">
+                  <ul>
+                    <li><img src="../images/facility/nara/photo01.jpg" alt="" /><br>
+                      エントランス</li>
+                    <li><img src="../images/facility/nara/photo02.jpg" alt="" /><br>
+                      食堂</li>
+                    <li><img src="../images/facility/nara/photo03.jpg" alt="" /><br>
+                      昭和の思い出コーナー</li>
+                    <li><img src="../images/facility/nara/photo04.jpg" alt="" /><br>
+                      脱衣室</li>
+                    <li><img src="../images/facility/nara/photo05.jpg" alt="" /><br>
+                      畳風呂</li>
+                    <li><img src="../images/facility/nara/photo06.jpg" alt="" /><br>
+                      機械浴</li>
+                    <li><img src="../images/facility/nara/photo07.jpg" alt="" /><br>
+                      健康管理室</li>
+                    <li><img src="../images/facility/nara/photo08.jpg" alt="" /><br>
+                      共用トイレ</li>
+                    <li><img src="../images/facility/nara/photo09.jpg" alt="" /><br>
+                      駐車場</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <h4>館内見取り図</h4>
+                <p>1階は事務所、健康相談室、食堂、浴室、脱衣室、特別浴室、居室、2階は相談室、居室、4階は食堂、居室があり
+                  3階、5階、6階は居室です。
+                  各階にはスタッフルームを設置しておりますので、ご要望には迅速に対応させていただきます。</p>
+                <div class="facilityFloor">
+                  <table border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                      <tr>
+                        <td><img src="../images/facility/nara/mitorizu01.jpg" alt="" />
+                          <p>1階<a href="../images/facility/nara/jrnaraekimae_sketch1.gif"
+                              title="スーパー・コートJR奈良駅前 1階見取り図"><img src="../images/facility/bt_mitorizu.gif"
+                                alt="見取り図拡大" /></a></p>
+                        </td>
+                        <td><img src="../images/facility/nara/mitorizu02.jpg" alt="" />
+                          <p>2・3・5・6階<a href="../images/facility/nara/jrnaraekimae_sketch2.gif"
+                              title="スーパー・コートJR奈良駅前 2、3、5、6階見取り図"><img src="../images/facility/bt_mitorizu.gif"
+                                alt="見取り図拡大" /></a></p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><img src="../images/facility/nara/mitorizu03.jpg" alt="" />
+                          <p>4階<a href="../images/facility/nara/jrnaraekimae_sketch3.gif"
+                              title="スーパー・コートJR奈良駅前 4階見取り図"><img src="../images/facility/bt_mitorizu.gif"
+                                alt="見取り図拡大" /></a></p>
+                        </td>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrap other">
+            <h3>この施設に近いその他の施設</h3>
+            <div class="content">
+              <div class="row">
+                <div class="facilityOther">
+                  <script>facilityThumbs('ayameike')</script>
+                  <script>facilityThumbs('koriyama')</script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- #BeginLibraryItem "/Library/facilityList.lbi" -->
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_facilityList.php'); ?>
+    <!-- #EndLibraryItem -->
+    <!-- InstanceEndEditable -->
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_footer.php'); ?>
+  </div>
+</body>
+<!-- InstanceEnd -->
+
+</html>

@@ -1,0 +1,108 @@
+.facility-popup__button,
+.facility-popup-modal {
+	display: none;
+}
+
+@media (max-width: 639px) {
+	.facilityGallery ul li {
+		position: relative;
+	}
+
+	.facility-popup__button {
+		position: absolute;
+		top: 0;
+		right: 5px;
+		bottom: 0;
+		left: 5px;
+		display: block;
+		padding: 0;
+		border: none;
+		background: url(../img/common/icon-popup.svg) right 10px top 10px / 24px
+			24px no-repeat;
+		cursor: pointer;
+	}
+
+	.facility-popup-modal {
+		display: block;
+		position: relative;
+		z-index: 10000;
+	}
+
+	.facility-popup-modal__container {
+		display: none;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	.facility-popup-modal__container.is-open {
+		display: block;
+	}
+
+	.facility-popup-modal__bg {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.25);
+	}
+
+	.facility-popup-modal__content {
+		position: fixed;
+		right: 50%;
+		bottom: 52%;
+		transform: translate(50%, 50%);
+		width: 90%;
+		max-width: 500px;
+		max-height: 87%;
+		overflow-y: auto;
+	}
+
+	.facility-popup-modal__img img {
+		width: 100%;
+		height: auto;
+	}
+
+	.facility-popup-modal__caption {
+		display: block;
+		padding: 6px;
+		background: #fff;
+		font-family: 游ゴシック体, Yu Gothic, YuGothic, ヒラギノ角ゴシック Pro,
+			Hiragino Kaku Gothic Pro, Osaka, ＭＳ\Ｐゴシック, MS PGothic, sans-serif;
+		font-weight: 500;
+		font-size: 22px;
+	}
+
+	.facility-popup-modal__close-button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 55px;
+		height: 55px;
+		border: none;
+		background: #8d040a;
+		cursor: pointer;
+	}
+
+	.facility-popup-modal__close-button::before,
+	.facility-popup-modal__close-button::after {
+		content: "";
+		position: absolute;
+		right: 50%;
+		bottom: 50%;
+		width: 35px;
+		height: 1px;
+		background: #fff;
+	}
+
+	.facility-popup-modal__close-button::before {
+		transform: translate(50%, 50%) rotate(45deg);
+	}
+
+	.facility-popup-modal__close-button::after {
+		transform: translate(50%, 50%) rotate(-45deg);
+	}
+}

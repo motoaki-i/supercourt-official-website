@@ -1,0 +1,370 @@
+/**
+ * facility-field.js で挿入されるコンテンツのスタイル
+ */
+.outline-empty-status {
+}
+
+.outline.outline-empty-status {
+	margin-bottom: 0;
+}
+
+.facility__detail .facility__inner .wrap.outline-empty-status .content .row {
+	margin-top: 0;
+	padding: 24px 0 16px;
+	font-size: 28px;
+	letter-spacing: 0;
+}
+
+.outline-empty-status.wrap .content .row--full {
+	color: #8e040a;
+}
+
+@media (min-width: 481px) {
+	.facility__detail .facility__inner .outline.outline-empty-status h3 {
+		padding-top: 23px;
+		background-image: url(../../images/facility/icn-outline-home.svg);
+		background-position: 0 23px;
+	}
+}
+
+.facility__detail .facility__inner .outline.outline-residents-status h3 {
+	background-image: url(../../images/facility/icn-outline-info.svg);
+}
+
+.facility__detail .facility__inner .wrap.outline-residents-status .content h4 {
+	padding-left: 11px;
+	font-size: 28px;
+	letter-spacing: 0;
+}
+
+.residents-status {
+	display: flex;
+}
+
+.residents-status > * {
+	width: 50%;
+}
+
+.residents-status > * + * {
+	margin-left: 67px;
+}
+
+.residents-status__item:nth-child(1) {
+	max-width: 221px;
+}
+
+.residents-status__item {
+	margin-top: 5px;
+}
+
+.residents-status__chart {
+	max-width: 221px;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.residents-status__chart-area {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 100%;
+	overflow: hidden;
+}
+
+.residents-status__chart-area canvas {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.residents-status__chart-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 28%;
+	height: 28%;
+	background: url(../images/facility/icn-residents-num.svg) center/contain
+		no-repeat;
+}
+
+.residents-status__age {
+	margin-top: 37px;
+	padding-left: 12px;
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+		"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック",
+		"MS PGothic", sans-serif;
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+
+.residents-status__age-int {
+	display: inline-block;
+	font-size: 120px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: calc(159 / 120);
+}
+
+.residents-status__age-frac {
+	position: relative;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: calc(53 / 40);
+}
+
+.residents-status__age-icon {
+	position: absolute;
+	left: 0;
+	bottom: 100%;
+	transform: translateX(15%);
+	width: 53px;
+	height: 56px;
+	background: url(../../images/facility/icn-residents-age.svg) center/contain
+		no-repeat;
+}
+
+.facility-qa {
+	padding-top: 91px;
+	padding-bottom: 50px;
+}
+
+.facility-qa__wrap {
+	max-width: 980px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.facility-qa__head {
+	position: relative;
+	margin-bottom: 87px;
+	text-align: center;
+}
+
+.facility-qa__head::after {
+	content: "";
+	position: absolute;
+	top: calc(100% + 0px);
+	left: 50%;
+	width: 59px;
+	height: 33px;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	transform: translateX(-50%) skewX(-30deg) rotate(30deg);
+}
+
+.facility-qa__ttl {
+	font-family: 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E,
+		メイリオ, Meiryo, serif;
+	font-size: 35px;
+	letter-spacing: 0;
+	line-height: calc(56 / 35);
+	color: #09483e;
+}
+
+.facility-qa__read {
+	margin-top: 12px;
+	font-size: 18px;
+	letter-spacing: 0;
+	line-height: calc(21 / 18);
+}
+
+.facility-qa__list dl {
+	border: 1px solid #ccc;
+}
+
+.facility-qa__list dl + dl {
+	margin-top: 12px;
+}
+
+.facility-qa__list dl dt button {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 28px 68px 19px 71px;
+	appearance: none;
+	border: none;
+	background: #f8f6ee;
+	font-family: 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E,
+		メイリオ, Meiryo, serif;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: calc(38 / 24);
+	color: #09483e;
+	text-align: left;
+	cursor: pointer;
+}
+
+.facility-qa__list dl dt button::before {
+	content: "Q.";
+	position: absolute;
+	top: 16px;
+	left: 30px;
+	font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN,
+		HGS明朝E, メイリオ, Meiryo, serif;
+	font-size: 28px;
+	letter-spacing: 0;
+	color: #09483e;
+}
+
+.facility-qa__list dl dt button::after {
+	content: "";
+	position: absolute;
+	top: 45%;
+	right: 31px;
+	width: 16px;
+	height: 16px;
+	border-right: 2px solid #09483e;
+	border-bottom: 2px solid #09483e;
+	transform: translateY(-50%) rotate(45deg);
+	transition: 0.2s;
+}
+
+.facility-qa__list dl.is-open dt button::after {
+	transform: translateY(-50%) rotate(-135deg);
+}
+
+.facility-qa__list dl dd {
+	position: relative;
+	display: none;
+	padding: 24px 30px 20px 71px;
+	font-family: 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN, HGS明朝E,
+		メイリオ, Meiryo, serif;
+	font-size: 16px;
+	letter-spacing: 0;
+	line-height: calc(26 / 16);
+}
+
+.facility-qa__list dl dd::before {
+	content: "A.";
+	position: absolute;
+	top: 16px;
+	left: 30px;
+	font-family: Noto Serif JP, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho ProN,
+		HGS明朝E, メイリオ, Meiryo, serif;
+	font-size: 28px;
+	letter-spacing: 0;
+	color: #333;
+}
+
+@media (max-width: 480px) {
+	.facility__detail .facility__inner .wrap.outline-empty-status .content .row {
+		padding: 0px 14px 25px;
+		font-size: 18px;
+	}
+
+	.residents-status {
+		flex-direction: column;
+	}
+
+	.residents-status > * {
+		width: 100%;
+	}
+
+	.residents-status > * + * {
+		margin-left: 0;
+	}
+
+	.residents-status__item {
+		margin-top: 0;
+	}
+
+	.residents-status__item:nth-child(1) {
+		max-width: none;
+	}
+
+	.residents-status__chart {
+		max-width: 200px;
+		margin-top: -8px;
+	}
+
+	.residents-status__age {
+		margin-top: 0;
+		text-align: center;
+	}
+
+	.residents-status__age-int {
+		font-size: 80px;
+	}
+
+	.residents-status__age-frac {
+		font-size: 28px;
+	}
+
+	.residents-status__age-icon {
+		bottom: 125%;
+		transform: translateX(0%);
+		width: 42px;
+		height: 43px;
+	}
+
+	.facility__detail
+		.facility__inner
+		.wrap.outline-residents-status
+		.content
+		h4 {
+		font-size: 18px;
+	}
+
+	.facility-qa {
+		padding-top: 60px;
+		padding-bottom: 22px;
+	}
+
+	.facility-qa__head {
+		margin-bottom: 22px;
+	}
+
+	.facility-qa__head::after {
+		content: none;
+	}
+
+	.facility-qa__ttl {
+		font-size: 24px;
+	}
+
+	.facility-qa__read {
+		margin-top: 8px;
+		font-size: 14px;
+	}
+
+	.facility-qa__list dl dt button {
+		font-size: 16px;
+		padding: 17px 39px 9px 38px;
+	}
+
+	.facility-qa__list dl dt button::before {
+		top: 10px;
+		left: 9px;
+		font-size: 20px;
+	}
+
+	.facility-qa__list dl dt button::after {
+		right: 15px;
+		width: 12px;
+		height: 12px;
+	}
+
+	.facility-qa__list dl dd {
+		padding: 14px 20px 15px 38px;
+	}
+
+	.facility-qa__list dl dd * {
+		font-size: 14px;
+		line-height: calc(22 / 14);
+	}
+
+	.facility-qa__list dl dd::before {
+		top: 8px;
+		left: 9px;
+		font-size: 20px;
+	}
+}

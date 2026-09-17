@@ -1,0 +1,416 @@
+@charset "UTF-8";
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+
+.global {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.category__detail,
+.service__detail,
+.care__detail,
+.medical__detail,
+.hospitality__detail,
+.hotspring__detail,
+.sc-fit__detail,
+.plan__detail,
+.research__detail {
+  width: 100%;
+  margin: 0 auto;
+}
+.category__detail .category__inner,
+.service__detail .service__inner,
+.care__detail .care__inner,
+.medical__detail .medical__inner,
+.hospitality__detail .hospitality__inner,
+.hotspring__detail .hotspring__inner,
+.sc-fit__detail .sc-fit__inner,
+.plan__detail .plan__inner,
+.research__detail .research__inner {
+  padding-top: 0;
+}
+.service__detail .service__inner .side,
+.care__detail .care__inner .side,
+.medical__detail .medical__inner .side,
+.hospitality__detail .hospitality__inner .side,
+.hotspring__detail .hotspring__inner .side,
+.sc-fit__detail .sc-fit__inner .side,
+.plan__detail .plan__inner .side,
+.research__detail .research__inner .side {
+  display: none;
+}
+.service__detail .service__inner .wrap,
+.care__detail .care__inner .wrap,
+.medical__detail .medical__inner .wrap,
+.hospitality__detail .hospitality__inner .wrap,
+.hotspring__detail .hotspring__inner .wrap,
+.sc-fit__detail .sc-fit__inner .wrap,
+.plan__detail .plan__inner .wrap,
+.research__detail .research__inner .wrap {
+  float: none;
+  width: 100%;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.category__detail .category__inner .wrap {
+  float: none;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.side--menu {
+  display: none;
+}
+
+.col_6 {
+	position: relative;
+	width: 100%;
+}
+.col_6:nth-child(even) {
+	position: relative;
+	width: 100%;
+}
+.col_6 img.p_top {
+	width: 100%;
+}
+.col_4 {
+	position: relative;
+	width: 100%;
+}
+.col_4_3 {
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.col_8 {
+	position: relative;
+	width: 100%;
+}
+.col_7 {
+	position: relative;
+	width: 100%;
+}
+.col_5 {
+	position: relative;
+	width: 100%;
+}
+.col_2 {
+	position: relative;
+	width: 100%;
+}
+.col_10 {
+	position: relative;
+	width: 100%;
+}
+.col_9 {
+	position: relative;
+	width: 100%;
+}
+.col_3 {
+	position: relative;
+	width: 100%;
+}
+.col_2_8 {
+	position: relative;
+	width: 100%;
+}
+.col_5_8 {
+	position: relative;
+	width: 100%;
+}
+
+.service__detail .service__inner .wrap h3 {
+  padding: 10px 0 10px;
+  font-size: 1.6rem;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.service__detail .service__inner .wrap h4 {
+  font-size: 1.4rem;
+  padding: 10px 0 0 0;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #979797;
+}
+
+.service__detail .service__inner .wrap .chart_01 {
+	padding-top: 10px;
+}
+.chart__top {
+	padding-top: 10px;
+}
+.chart__top20 {
+	padding-top: 10px;
+}
+
+.care__detail .care__inner .wrap h2,
+.sc-fit__detail .sc-fit__inner .wrap h2,
+.plan__detail .plan__inner .wrap h2,
+.research__detail .research__inner .wrap h2 {
+  background-image: url(../../images/content_header01.png);
+  background-size: cover;
+  width: 100%;
+  height: 70px;
+  padding: 20px 0  0 10px;
+  color: #F2F2CA;
+  font-size: 2.0rem;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.care__detail .care__inner .wrap h3,
+.medical__detail .medical__inner .wrap h3,
+.hospitality__detail .hospitality__inner .wrap h3,
+.hotspring__detail .hotspring__inner .wrap h3,
+.sc-fit__detail .sc-fit__inner .wrap h3,
+.plan__detail .plan__inner .wrap h3,
+.research__detail .research__inner .wrap h3 {
+  padding: 10px 0 10px;
+  font-size: 1.6rem;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.research__detail .research__inner .wrap h3.small,
+.hospitality__detail .hospitality__inner .wrap h3.small,
+.medical__detail .medical__inner .wrap h3.small {
+  font-size: 1.4rem;
+}
+.care__detail .care__inner .wrap h3.small {
+  font-size: 1.4rem;
+}
+.care__detail .care__inner .wrap h4,
+.medical__detail .medical__inner .wrap h4,
+.hospitality__detail .hospitality__inner .wrap h4,
+.sc-fit__detail .sc-fit__inner .wrap h4,
+.plan__detail .plan__inner .wrap h4,
+.research__detail .research__inner .wrap h4 {
+  font-size: 1.4rem;
+  padding: 	10px 0 0 0;
+  font-size: 1.6rem;
+  border-bottom: solid 1px #979797;
+}
+.care__detail .care__inner .wrap h4.small {
+  font-size: 1.2rem;
+}
+.category__detail .category__inner .wrap p {
+  padding: 20px 0 20px;
+  font-size: 1.6rem;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+p.caption {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	margin-top: -40px;
+}
+p.caption-bottom {
+	position: relative;
+	text-align: center;
+	padding-top: 5px;
+}
+.column--message {
+	border-radius: 20px;
+	border: solid 3px #D4CDB7;
+	margin-top: 10px;
+	padding: 20px;
+}
+.research__detail .research__inner .wrap .column--message h4 {
+  font-size: 24px;
+  padding: 0;
+  margin-bottom: 10px;
+  border-bottom: 0px;
+}
+.img--caption {
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5px;
+}
+.chart--kaizen {
+	padding: 10px 0;
+}
+.column--kaizen {
+	border-radius: 20px;
+	border: solid 3px #D4CDB7;
+	padding: 20px;
+}
+ul.care--list {
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+}
+ul.care--list li {
+	float: none;
+	background-color: #073E35;
+	width: 100%;
+	height: 28px;
+	border-radius: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.6rem;
+	padding-top: 5px;
+	margin: 10px 5px 0 0;
+}
+.img--point {
+	padding: 0 0 20px;
+}
+.column--care {
+	border-radius: 20px;
+	border: solid 3px #D4CDB7;
+	margin-top: 10px;
+	padding: 20px;
+}
+.care__detail .care__inner .wrap .column--care h4 {
+  padding: 0 0 10px;
+  border-bottom: solid 1px #979797;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #063E34;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.medical__detail .medical__inner .wrap h5 {
+	background-color: #073E35;
+	width: 100px;
+	height: 28px;
+	font-size: 1.4rem;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.6rem;
+	padding-top: 5px;
+	margin: 10px 5px 10px 0;
+}
+img.img--right {
+	width: 100%;
+	float: none;
+	padding-bottom: 10px;
+}
+span.span--right {
+	width: 100%;
+	float: none;
+	padding: 10px 0 1em 6%;
+}
+
+a.link--hospiality {
+	background-image: url(../../images/hospitality/icon_01.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+.hotspring__detail .hotspring__inner .wrap h4 {
+  font-size: 1.4rem;
+  padding: 25px 0 0 0;
+  border-bottom: 0px;
+}
+.hotspring__detail .hotspring__inner .wrap h5 {
+  padding: 20px 0 10px;
+  font-size: 1.6rem;
+  color: #063E34;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.hotspring__detail .hotspring__inner .wrap table {
+	width: 100%;
+	border: #CACACA 1px solid;
+}
+.hotspring__detail .hotspring__inner .wrap th {
+	width: 16%;
+	padding: 2%;
+	background-color: #F3F2EB;
+	border: #CACACA 1px solid;
+}
+.hotspring__detail .hotspring__inner .wrap td {
+	width: 76%;
+	padding: 2%;
+	background-color: #FFF;
+	border: #CACACA 1px solid;
+}
+.column--hotspring {
+	border-radius: 20px;
+	border: solid 1px #D4CDB7;
+	padding: 20px;
+}
+.hotspring__detail .hotspring__inner .wrap .column--hotspring h4 {
+  font-size: 1.4rem;
+  padding: 0 0 10px;
+  border-bottom: 0px;
+}
+.hotspring__detail .hotspring__inner .wrap .column--hotspring h5 {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 1.2rem;
+  padding: 25px 0 0 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px #979797;
+  background-image: url(../../images/hotspring/icon_01.png);
+  background-repeat: no-repeat;
+  background-position: 0 25px;
+}
+.column--sc-fit {
+	border-radius: 20px;
+	border: solid 3px #D4CDB7;
+	padding: 20px;
+	margin-top: 20px;
+}
+.sc-fit__detail .sc-fit__inner .wrap .column--sc-fit h5 {
+  font-size: 1.6rem;
+  padding: 0 0 20px;
+  border-bottom: 0px;
+}
+.sc-fit__detail .sc-fit__inner .wrap p.sc-fit--strong {
+  font-size: 1.2rem;
+  padding: 25px 0 0 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.sc-fit__detail .sc-fit__inner .wrap p.machine--strong {
+  font-size: 16px;
+  padding: 10px 0 0 0;
+  font-weight: bold;
+}
+.plan__detail .plan__inner .wrap p.plan__intro__first {
+  padding: 20px 0 0 0;
+}
+.plan__detail .plan__inner .wrap p.plan__intro {
+  padding-top: 1em;
+}
+.plan__detail .plan__inner .wrap h5 {
+  font-size: 1.2rem;
+  padding: 0 0 10px;
+  font-weight: bold;
+}
+.btn_gototop {
+	clear: both;
+	width: 100%;
+	height: 45px;
+}
+.btn_gototop img {
+	width: 46px;
+	height: 45px;
+	float: right;
+}

@@ -1,0 +1,1499 @@
+/********************
+*  共通スタイル
+********************/
+#con_wrap a,
+#con_wrap a:hover {
+	color: inherit;
+}
+
+:root {
+	--main_color: #9F8039;
+	--main_color_rgb: 159, 128, 57;
+	--main_bg: #F5F2EB;
+}
+
+#con_wrap img {
+	width: auto;
+	max-width: 100%;
+	display: inline-block;
+}
+
+#con_wrap button, #con_wrap input, #con_wrap select, #con_wrap table, #con_wrap textarea {
+	font: inherit;
+}
+
+#con_wrap .pc {
+	display: block;
+}
+
+#con_wrap .sp {
+	display: none;
+}
+
+@media (max-width: 992px) {
+	#con_wrap .pc {
+		display: none;
+	}
+
+	#con_wrap .sp {
+		display: block;
+	}
+}
+
+/** font **/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
+
+.font_Serif {
+	font-family: 'EB Garamond', serif;
+	font-family: 'Noto Serif JP', serif;
+}
+
+/** コンテンツ幅 **/
+.container_wrap {
+	max-width: 1110px;
+}
+
+.container_wrap_wide {
+	max-width: 1330px;
+}
+
+.container_wrap,
+.container_wrap_wide {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/** コンテンツ スペース **/
+.con_space {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.con_space_btm {
+	padding-bottom: 100px;
+}
+
+.con_space_btm_narrow {
+	padding-bottom: 60px;
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+.mb60 {
+	margin-bottom: 60px;
+}
+
+@media (max-width: 992px) {
+	.con_space {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.con_space_btm_narrow {
+		padding-bottom: 30px;
+	}
+
+	.mb30 {
+		margin-bottom: 20px;
+	}
+
+}
+
+/** font style **/
+.fw_bold {
+	font-weight: bold;
+}
+
+.text_center {
+	text-align: center;
+}
+
+/** font size **/
+.fontS {
+	font-size: 14px;
+}
+
+.fontM {
+	font-size: 18px;
+}
+.fontM-2 {
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+.fontM-3 {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 18px;
+	background: rgba(255, 255, 255, 0.85);
+	color: #333;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	padding: 5px 15px;
+	margin: 0 0 7px 0;
+}
+.fontM-4 {
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+}
+
+
+.fontL {
+	font-size: 26px;
+}
+
+@media (max-width: 992px) {
+	.fontM {
+		font-size: 16px;
+	}
+	.fontM-2 {
+		font-size: 15px;
+		font-weight: normal;
+	}
+
+	.fontM-3 {
+		display: inline-block;
+		font-size: 12px;
+		font-weight: bold;
+		border-radius: 18px;
+		background: rgba(255, 255, 255, 0.85);
+		color: #333;
+		letter-spacing: 1px;
+		font-family: sans-serif;
+		padding: 3px 10px;
+		margin: 0 0 5px 0;
+		text-shadow: none;
+	}
+	.fontM-4 {
+		font-size: 11px;
+		letter-spacing: 1px;
+		font-family: sans-serif;
+	}
+
+	p.blog_btn a {
+		font-size: 14px;
+	}
+
+	.fontL {
+		font-size: 20px;
+	}
+}
+
+/** 文字色 **/
+.fc_white {
+	color: #fff;
+}
+
+.fc_main {
+	color: var(--main_color);
+}
+
+/** 背景 **/
+.bg_main {
+	background-color: var(--main_bg);
+}
+
+.bg_main2 {
+	background-color: var(--main_color);
+}
+
+.bg_gray {
+	background-color: #DDDDDD;
+}
+
+.bg_gray2 {
+	background-color: #F5F5F5;
+}
+
+/** 見出し **/
+/* h2 */
+.h2_area {
+	position: relative;
+	padding-top: 40px;
+	margin-bottom: 60px;
+}
+
+.h2_area.text_center {
+	text-align: center;
+}
+
+.h2_area::after {
+	content: "";
+	position: absolute;
+	background: linear-gradient(to right, #A1A884, #E8CA3D);
+	width: 40px;
+	height: 7px;
+	border-radius: 2px;
+	top: 0;
+	left: 0;
+}
+
+.h2_area.text_center::after {
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+}
+
+.h2_area .h2_ttl {
+	font-weight: bold;
+	font-size: 36px;
+	font-family: 'EB Garamond', serif;
+	font-family: 'Noto Serif JP', serif;
+}
+
+.h2_area .h2_sub_txt {
+	display: inline-block;
+	background: linear-gradient(to right, #A1A884, #E8CA3D);
+	background: -webkit-linear-gradient(to right, #A1A884, #E8CA3D);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 992px) {
+	.h2_area {
+		padding-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	.h2_area .h2_ttl {
+		font-size: 26px;
+	}
+
+	.h2_area::after {
+		width: 30px;
+		height: 5px;
+	}
+}
+
+/** パンクズ **/
+ul.breadcrumbList {
+	display: flex;
+	padding: 8px 5px;
+}
+
+ul.breadcrumbList li {
+	margin-right: 10px;
+	position: relative;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+ul.breadcrumbList li a {
+	color: var(--main_color);
+	font-size: 12px;
+}
+
+ul.breadcrumbList li::after {
+	content: ">";
+	display: inline-block;
+	padding-left: 10px;
+}
+
+ul.breadcrumbList li:last-child:after {
+	display: none;
+}
+
+/********************
+*  KV
+********************/
+#KV_area {
+	background-image: url(../img/KV.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 860px;
+	position: relative;
+	padding: 40px 0;
+}
+
+#KV_area::before {
+	content: "";
+	position: absolute;
+	background: linear-gradient(rgba(46, 37, 37, 0), rgba(46, 37, 37, 0.8));
+	width: 100%;
+	height: 40%;
+	bottom: 0;
+	left: 0;
+}
+
+#KV_area .container_wrap_wide {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	height: 100%;
+	position: relative;
+}
+
+#KV_area .container_wrap_wide .txt_wrap h1 {
+	font-size: 46px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	line-height: 1.2;
+}
+
+.blog_btn a{
+	background-color: #ff006f;
+	color: #fff;
+	padding: 20px;
+	border-radius: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	display: block;
+	width: 280px;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+@media (max-width: 992px) {
+	ul.breadcrumbList {
+		margin-top: 54px;
+		font-size: 86%;
+}
+ul.breadcrumbList li {
+	margin-right: 3px;
+}
+ul.breadcrumbList li::after {
+padding-left: 3px;
+}
+	#KV_area {
+		background-image: url(../img/KV.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 80%;
+		position: relative;
+		padding: 220px 0 20px;
+	}
+#KV_area::before {
+	height: 100%;
+}
+	#KV_area .container_wrap_wide .txt_wrap  {
+		text-shadow: 0 0 4px #000;
+	}
+	
+	#KV_area .container_wrap_wide .txt_wrap h1 {
+		font-size: 18px;
+		padding: 0 0 5px 0;
+		margin: 0 0 5px 0;
+	}
+	
+	#KV_area .container_wrap_wide{
+		display: block;
+	}
+	
+.blog_btn a{
+	width: 60%;
+	padding: 10px 7px;
+	margin: 10px auto 0;
+	line-height: 1.4;
+	font-size: 12px !important;
+}
+
+}
+
+/********************
+*  feature_wrap
+********************/
+#feature_wrap {
+	background-color: #FF8900;
+	padding: 25px 0;
+}
+
+#feature_wrap ul.feature_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#feature_wrap ul.feature_list li {
+	width: 17%;
+	margin: 0.5%;
+	text-align: center;
+	font-size: 14px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 55px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+@media (max-width: 992px) {
+	#feature_wrap ul.feature_list li {
+		width: 44.5%;
+	}
+	#feature_wrap ul.feature_list {
+justify-content: space-between;
+}
+}
+
+/********************
+*  lead_wrap
+********************/
+#lead_wrap {
+	padding: 60px 0;
+}
+
+#lead_wrap p {
+	text-align: center;
+	line-height: 2;
+}
+
+@media (max-width: 992px) {
+	#lead_wrap {
+		padding: 30px 0;
+	}
+}
+
+/********************
+*  con_wrap
+********************/
+#con_wrap * {
+	box-sizing: border-box;
+}
+
+#con_wrap a {
+	transition: .6s;
+}
+
+/* 施設の特徴 */
+#con_wrap .feature_area .box_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+#con_wrap .feature_area .box_row:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+#con_wrap .feature_area .box_row:last-child {
+	margin-bottom: 0;
+}
+
+#con_wrap .feature_area .box_row .txt_box {
+	width: 45%;
+}
+
+#con_wrap .feature_area .box_row .img_box {
+	width: 48%;
+}
+
+#con_wrap .feature_area .box_row .img_box img {
+	width: 100%;
+	height: 320px;
+	object-fit: cover;
+}
+
+#con_wrap .feature_area .box_row .more_link {
+	text-align: right;
+	margin-top: 30px;
+}
+
+#con_wrap .feature_area .box_row .more_link a {
+	display: inline-block;
+}
+
+#con_wrap .feature_area .box_row .txt_box p {
+	margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+	#con_wrap .feature_area .box_row {
+		flex-wrap: wrap;
+	}
+
+	#con_wrap .feature_area .box_row .txt_box {
+		width: 100%;
+	}
+
+	#con_wrap .feature_area .box_row .img_box {
+		width: 100%;
+	}
+
+	#con_wrap .feature_area .box_row:nth-child(even) {
+		flex-direction: inherit;
+	}
+
+	#con_wrap .feature_area .box_row {
+		margin-bottom: 40px;
+	}
+
+	#con_wrap .feature_area .box_row .txt_box p {
+		margin-top: 10px;
+	}
+
+	#con_wrap .feature_area .box_row .more_link {
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+
+	#con_wrap .feature_area .box_row .img_box img {
+		height: 220px;
+	}
+}
+
+/* 居室・館内のご案内 */
+#con_wrap .guide_area .con_wrap {
+	margin-bottom: 60px;
+}
+
+#con_wrap .guide_area .con_wrap:last-child {
+	margin-bottom: 0;
+}
+
+#con_wrap .guide_area .con_wrap .img_list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 25px;
+}
+
+#con_wrap .guide_area .con_wrap .img_list li {
+	width: calc(100% / 3);
+	padding: 10px;
+}
+
+#con_wrap .guide_area .con_wrap .img_list li img {
+	width: 100%;
+	object-fit: cover;
+}
+
+#con_wrap .guide_area .con_wrap .img_list li p {
+	margin-top: 5px;
+}
+
+#con_wrap .guide_area .con_wrap .detail_txt {
+	padding: 25px;
+	border-radius: 10px;
+	line-height: 2;
+	margin-top: 30px;
+}
+
+@media (max-width: 992px) {
+	#con_wrap .guide_area .con_wrap .img_list li {
+		width: 100%;
+		padding: 0 0 10px;
+	}
+
+	#con_wrap .guide_area .con_wrap .detail_txt {
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	#con_wrap .guide_area .con_wrap {
+		margin-bottom: 40px;
+	}
+}
+
+/* パーツ/表 */
+#con_wrap .table_box table {
+	width: 100%;
+}
+
+#con_wrap .table_box .table_price.pc_table {
+	display: block;
+}
+
+#con_wrap .table_box .table_price.sp_table {
+	display: none;
+}
+
+#con_wrap .table_box .table_price th,
+#con_wrap .table_box .table_price td {
+	text-align: center;
+}
+
+#con_wrap .table_box .table_price .accept {
+	color: #75AA2C;
+}
+
+#con_wrap .table_box .table_price .noaccept {
+	color: #FFB100;
+}
+
+#con_wrap .table_box .table_price img {
+	display: inline-block;
+	padding-right: 5px;
+	vertical-align: bottom;
+}
+
+#con_wrap .table_box th,
+#con_wrap .table_box td {
+	border: 1px solid var(--main_color);
+	padding: 25px;
+}
+
+#con_wrap .table_box th {
+	background-color: var(--main_bg);
+	width: 20%;
+}
+
+#con_wrap .table_box .table_type01 th {
+	background-color: var(--main_bg);
+	width: 20%;
+}
+
+#con_wrap .table_box .table_type01 td {
+	width: 80%;
+}
+
+#con_wrap .table_box ul.note_list {
+	margin-top: 15px;
+}
+
+@media (max-width: 992px) {
+	#con_wrap .table_box .table_price.pc_table {
+		display: none;
+	}
+
+	#con_wrap .table_box .table_price.sp_table {
+		display: block;
+	}
+
+	#con_wrap .table_box th, #con_wrap .table_box td {
+		padding: 15px;
+	}
+
+	#con_wrap .table_box th,
+	#con_wrap .table_box .table_type01 th {
+		width: 30%;
+	}
+
+	#con_wrap .table_box td,
+	#con_wrap .table_box .table_type01 td {
+		width: 70%;
+	}
+
+}
+
+/* 介護・医療体制 */
+#con_wrap .conditions_list {
+	display: flex;
+	margin-top: 35px;
+}
+
+#con_wrap .conditions_list li {
+	padding-right: 30px;
+}
+
+#con_wrap .conditions_list li img {
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 3px;
+	padding-right: 5px;
+}
+
+
+#con_wrap .accept_con_list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#con_wrap .accept_con_list li {
+	width: 31%;
+	margin: 0.7%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid var(--main_color);
+}
+
+#con_wrap .accept_con_list li span {
+	padding-left: 30px;
+}
+
+@media (max-width: 992px) {
+	#con_wrap .conditions_list {
+		margin-top: 20px;
+		flex-wrap: wrap;
+		font-size: 12px;
+	}
+
+	#con_wrap .conditions_list li {
+		padding-right: 15px;
+	}
+
+	#con_wrap .accept_con_list li {
+		width: 100%;
+		margin: 5px 0;
+	}
+
+	#con_wrap .accept_con_list li img {
+		width: 50px;
+	}
+
+	#con_wrap .accept_con_list li span {
+		padding-left: 20px;
+	}
+}
+
+/* ご入居をお考えのみなさまへ */
+#con_wrap .greeting_row {
+	display: flex;
+	justify-content: space-between;
+}
+
+#con_wrap .greeting_row .txt_box {
+	flex: 1;
+	padding-left: 60px;
+}
+
+#con_wrap .greeting_row .pic_box {
+	width: 350px;
+	position: relative;
+}
+
+#con_wrap .greeting_row .pic_box p {
+	text-align: center;
+}
+
+#con_wrap .greeting_row .pic_item {
+	display: table;
+	position: relative;
+}
+
+#con_wrap .greeting_row .pic_item img {
+	width: 312px;
+	height: 390px;
+	object-fit: cover;
+	display: block;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 50px;
+}
+
+#con_wrap .greeting_row .pic_item::after {
+	content: "";
+	background-color: var(--main_color);
+	position: absolute;
+	width: 312px;
+	height: 390px;
+	right: -40px;
+	top: 40px;
+	z-index: 0;
+}
+
+#con_wrap .greeting_row .txt_box p {
+	line-height: 2;
+}
+
+
+#con_wrap .greeting_row .txt_box p {
+	line-height: 2;
+}
+
+@media (max-width: 992px) {
+	#con_wrap .greeting_row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	#con_wrap .greeting_row .pic_box {
+		width: 100%;
+	}
+
+	#con_wrap .greeting_row .pic_item {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#con_wrap .greeting_row .pic_item img {
+		width: 250px;
+		height: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#con_wrap .greeting_row .pic_item::after {
+		width: 250px;
+		height: 350px;
+		right: -20px;
+		top: 20px;
+	}
+
+	#con_wrap .greeting_row .txt_box {
+		margin-top: 30px;
+		padding-left: 0;
+	}
+}
+
+/* アクセス・施設概要 */
+#con_wrap .iframe-aspect {
+	aspect-ratio: 8 / 3;
+}
+
+#con_wrap .iframe-aspect iframe {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 992px) {
+	#con_wrap .iframe-aspect {
+		aspect-ratio: 8 / 5;
+	}
+}
+
+/* CTA */
+#con_wrap .cta_wrap {
+	background-image: url(../img/cta_bg.jpg);
+	background-size: cover;
+}
+
+#con_wrap .cta_wrap .cta_btn_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#con_wrap .cta_wrap .cta_btn_list li {
+	width: calc((100% - 45px) / 4);
+}
+
+#con_wrap .cta_wrap .cta_btn_list li a {
+	display: block;
+	text-align: center;
+	padding: 12px 10px;
+}
+
+#con_wrap .cta_wrap .cta_btn_list li:nth-child(1) a {
+	background-color: #FFB100;
+}
+
+#con_wrap .cta_wrap .cta_btn_list li:nth-child(2) a {
+	background-color: #205C98;
+}
+
+#con_wrap .cta_wrap .cta_btn_list li:nth-child(3) a {
+	background-color: #75AA2C;
+}
+
+#con_wrap .cta_wrap .cta_btn_list li:nth-child(4) a {
+	background-color: #9F8039;
+}
+
+#con_wrap .cta_wrap .inner_box {
+	background-color: #fff;
+	padding: 50px 20px;
+}
+
+#con_wrap .cta_wrap .inner_box .tel_item {
+	text-align: center;
+	padding: 25px 50px;
+	border-top: 1px solid var(--main_color);
+	border-bottom: 1px solid var(--main_color);
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#con_wrap .cta_wrap .inner_box .tel_item span.tel_item_num {
+	font-weight: normal;
+	font-size: 38px;
+	color: #333;
+	padding: 0 0 0 30px;
+	background: url(../img/icon-telephone.png) left 5px no-repeat;
+	background-size: 22px;
+}
+
+#con_wrap .cta_wrap .inner_box .tel_item p {
+	margin-top: 8px;
+}
+
+@media (max-width: 992px) {
+	#con_wrap .cta_wrap .cta_btn_list li {
+		width: calc((100% - 15px) / 2);
+		margin-bottom: 10px;
+	}
+
+	#con_wrap .cta_wrap .cta_btn_list li img {
+		height: 60px;
+	}
+
+	#con_wrap .cta_wrap .inner_box {
+		background-color: #fff;
+		padding: 30px 20px;
+	}
+
+	#con_wrap .cta_wrap .inner_box .tel_item {
+		text-align: center;
+		padding: 20px 0;
+		border-top: 1px solid var(--main_color);
+		border-bottom: 1px solid var(--main_color);
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#con_wrap .cta_wrap .inner_box .tel_item img {
+		max-width: 85%;
+	}
+}
+
+/* FAQ */
+#con_wrap .accordion {
+	margin-top: 30px;
+	position: relative;
+}
+
+#con_wrap .accordion .accordion-item {
+	background-color: var(--main_bg);
+	margin-bottom: 20px;
+	padding: 20px 40px;
+}
+
+#con_wrap .accordion-title {
+	cursor: pointer;
+}
+
+#con_wrap .accordion-title span {
+	vertical-align: baseline;
+	line-height: 1;
+}
+
+#con_wrap .accordion-title span.fontL {
+	color: var(--main_color);
+	font-family: 'EB Garamond', serif;
+	font-family: 'Noto Serif JP', serif;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#con_wrap .accordion-content {
+	display: none;
+	padding: 20px 70px 0 30px;
+}
+
+#con_wrap .accordion-title {
+	position: relative;
+}
+
+#con_wrap .accordion-title::after {
+	border-right: solid 2px var(--main_color);
+	border-top: solid 2px var(--main_color);
+	content: "";
+	display: block;
+	height: 8px;
+	position: absolute;
+	right: 50px;
+	top: 0;
+	transform: rotate(135deg);
+	transition: transform .3s ease-in-out, top .3s ease-in-out;
+	width: 8px;
+}
+
+#con_wrap .accordion-title.open::after {
+	top: 2%;
+	transform: rotate(-45deg);
+}
+
+#con_wrap .accordion-title::before {
+	content: "回答";
+	position: absolute;
+	right: 39px;
+	top: 46%;
+	color: var(--main_color);
+}
+
+@media (max-width: 992px) {
+	#con_wrap .accordion .accordion-item {
+		background-color: var(--main_bg);
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+	#con_wrap .accordion-title {
+		padding: 15px 30px 15px 15px;
+		display: flex;
+		align-items: center;
+	}
+
+	#con_wrap .accordion-title::before {
+		display: none;
+	}
+
+	#con_wrap .accordion-title::after {
+		right: 15px;
+		top: 30%;
+		transform: rotate(135deg) translateY(-30%);
+		-webkit-transform: rotate(135deg) translateY(-30%);
+		-ms-transform: rotate(135deg) translateY(-30%);
+	}
+
+	#con_wrap .accordion-title.open::after {
+		top: 36%;
+		transform: rotate(-45deg) translateY(-30%);
+		-webkit-transform: rotate(-45deg) translateY(-30%);
+		-ms-transform: rotate(-45deg) translateY(-30%);
+	}
+
+	#con_wrap .accordion-title span.fontL {
+		padding-bottom: 6px;
+	}
+
+	#con_wrap .accordion-content {
+		padding: 0 20px 20px;
+	}
+}
+
+/* 近隣の老人ホーム・介護施設のご紹介 */
+#con_wrap .swiper-button-prev,
+#con_wrap .swiper-button-next {
+	height: 11px;
+	width: 60px;
+	position: relative;
+	margin-left: 32px;
+}
+
+#con_wrap .swiper-button-prev:after,
+#con_wrap .swiper-button-next:after {
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "";
+	margin: auto;
+	height: 11px;
+	width: 60px;
+}
+
+#con_wrap .swiper-button-prev:after {
+	background-image: url(../img/slide_arr01.svg);
+}
+
+#con_wrap .swiper-button-next:after {
+	background-image: url(../img/slide_arr02.svg);
+}
+
+#con_wrap .swiper_button_row {
+	display: flex;
+	justify-content: flex-end;
+	border-top: 1px solid #fff;
+	padding-top: 35px;
+}
+
+#con_wrap .swiper_box .img_item,
+#con_wrap .swiper_box p {
+	padding: 0 10px;
+}
+
+#con_wrap .swiper_box a {
+	display: block;
+}
+
+#con_wrap .swiper-wrapper {
+	height: auto;
+	margin-bottom: 30px;
+}
+
+/* 資料請求・見学申込フォーム */
+#con_wrap .form_wrap .form_tab {
+	display: flex;
+	justify-content: space-evenly;
+	line-height: 1;
+}
+
+#con_wrap .form_wrap .form_tab li {
+	width: calc((100% - 30px) / 4);
+	cursor: pointer;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+#con_wrap .form_wrap .form_tab li.active img {
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(2%) hue-rotate(151deg) brightness(108%) contrast(101%);
+}
+
+#con_wrap .form_wrap .form_tab li.active:nth-child(1) {
+	background-color: #FFB100;
+}
+
+#con_wrap .form_wrap .form_tab li.active:nth-child(2) {
+	background-color: #205C98;
+}
+
+#con_wrap .form_wrap .form_tab li.active:nth-child(3) {
+	background-color: #75AA2C;
+}
+
+#con_wrap .form_wrap .form_tab li.active:nth-child(4) {
+	background-color: #9F8039;
+}
+
+#con_wrap .form_wrap .form_tab li span {
+	mask-image: url(../img/form_tab_img01.svg);
+	mask-repeat: no-repeat;
+	mask-position: center;
+	background-color: #61C4DF;
+}
+
+#con_wrap .form_wrap .form_con {
+	background-color: #fff;
+	display: none;
+	border-top-width: 10px;
+	border-top-style: solid;
+	padding: 30px 15px;
+}
+
+#con_wrap .form_wrap .form_con .inner_wrap {
+	max-width: 880px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#con_wrap .form_wrap .form_con.form01 {
+	border-top-color: #FFB100;
+}
+
+#con_wrap .form_wrap .form_con.form02 {
+	border-top-color: #205C98;
+}
+
+#con_wrap .form_wrap .form_con.form03 {
+	border-top-color: #75AA2C;
+}
+
+#con_wrap .form_wrap .form_con.form04 {
+	border-top-color: #9F8039;
+}
+
+#con_wrap .form_wrap .form_con.show {
+	display: block;
+}
+
+#con_wrap .form_wrap .form_box table {
+	width: 100%;
+	table-layout: fixed;
+	word-break: break-all;
+	word-wrap: break-all;
+}
+
+#con_wrap .form_wrap .form_box table tr {
+	border-bottom: 1px solid #ECECEB;
+}
+
+#con_wrap .form_wrap .form_box table th,
+#con_wrap .form_wrap .form_box table td {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#con_wrap .form_wrap .form_box table tr:first-child {
+	border-top: 1px solid #ECECEB;
+}
+
+#con_wrap .form_wrap .form_box table th {
+	width: 30%;
+	font-weight: bold;
+	padding-right: 30px;
+}
+
+#con_wrap .form_wrap .form_box table td {
+	width: 70%;
+}
+
+#con_wrap .form_wrap .form_box span.required {
+	display: inline-block;
+	margin-left: 5px;
+	color: #fff;
+	background-color: #FF6200;
+	line-height: 1;
+	padding: 4px;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+#con_wrap .form_wrap .form_box input.form_input_long,
+#con_wrap .form_wrap .form_box .form_select select,
+#con_wrap .form_wrap .form_box textarea {
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #E0E0E0;
+	width: 100%;
+	background-color: #fff;
+	font-size: 16px;
+}
+
+#con_wrap .form_wrap .form_box .form_select select {
+	display: block;
+	width: 100%;
+	height: 42px;
+	padding: .375rem .75rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	font-size: 16px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	position: relative;
+}
+
+#con_wrap .form_wrap .form_box .form_select {
+	position: relative;
+	width: 100%;
+	max-width: 320px;
+}
+
+#con_wrap .form_wrap .form_box .form_select::after {
+	content: "";
+	background-image: url(../img/select_arr.svg);
+	background-size: contain;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+#con_wrap .form_wrap .form_box .add_dtl {
+	display: flex;
+	align-items: center;
+}
+
+#con_wrap .form_wrap .form_box .add_dtl:first-child {
+	margin-bottom: 15px;
+}
+
+#con_wrap .form_wrap .form_box .add_dtl.care_level {
+	margin-bottom: 0;
+}
+
+#con_wrap .form_wrap .form_box .add_dtl p {
+	width: 200px;
+}
+
+#con_wrap .form_wrap .form_box .add_dtl.care_level p {
+	width: 120px;
+}
+
+#con_wrap .form_wrap .form_box .add_dtl input {
+	flex: 1;
+}
+
+#con_wrap .form_wrap .form_box .add_dtl button.add_search {
+	width: 115px;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 15px;
+	border: none;
+	background-color: var(--main_color);
+	border-radius: 50px;
+	color: #fff;
+	line-height: 1;
+	font-size: 14px;
+}
+
+#con_wrap .form_wrap .form_box .radio_item,#con_wrap .form_wrap .form_box .wpcf7-list-item label {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+#con_wrap .form_wrap .form_box input[type=radio],
+#con_wrap .form_wrap .form_box input[type=checkbox] {
+	width: 14px;
+	height: 14px;
+}
+
+#con_wrap .form_wrap .form_box #text {
+	display: none;
+	padding: 8px;
+	border-radius: 5px;
+	border: 1px solid #E0E0E0;
+	max-width: 260px;
+	background-color: #fff;
+	font-size: 16px;
+}
+
+#con_wrap .form_wrap .send_btn {
+	background-color: #FF6200;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	display: block;
+	width: 90%;
+	max-width: 350px;
+	border: none;
+	font-size: 16px;
+}
+#con_wrap .form_wrap .wpcf7-not-valid-tip {
+color: red;
+margin-top: 5px;
+display: block;
+	font-size: 12px;
+}
+#con_wrap .form_wrap .wpcf7-response-output {
+color: red;
+margin-top: 5px;
+	text-align: center;
+}
+/* エラーメッセージの上部を消去 */
+
+div.screen-reader-response{
+display: none;
+}
+@media (max-width: 992px) {
+	#con_wrap .form_wrap .form_tab li {
+		width: calc((100% - 10px) / 4);
+		padding: 5px;
+	}
+
+	#con_wrap .form_wrap .form_tab li img {
+		height: 34px;
+	}
+
+	#con_wrap .form_wrap .form_box table th,
+	#con_wrap .form_wrap .form_box table td,
+	#con_wrap .form_wrap .form_box table tr {
+		display: block;
+		width: 100%;
+	}
+
+	#con_wrap .form_wrap .form_box table td {
+		padding-top: 0;
+	}
+
+	#con_wrap .form_wrap .form_box .add_dtl {
+		flex-wrap: wrap;
+	}
+
+	#con_wrap .form_wrap .form_box .add_dtl p {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+.xdsoft_datetimepicker .xdsoft_datepicker, .xdsoft_datetimepicker .xdsoft_timepicker{
+								display: block!important;
+							}
+
+
+
+
+/* 施設ブログ */
+
+div.blog-space {
+	width: clac(100% - 20px);
+	margin: 0 auto 100px;
+	padding: 0 10px 0;
+}
+.detail-blog-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 0 20px 0;
+}
+article.blog {
+  width: 30%;
+  margin: 0 0 30px 0;
+}
+
+article.blog figure {
+  display: block;
+  width: 100%;
+  height: 200px;
+  margin: 0 0 10px 0;
+}
+article.blog figure img {
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+}
+article.blog a time {
+  display: block;
+  width: 100%;
+  font-size: 90%;
+  color: #888;
+}
+article.blog a p {
+  display: block;
+  width: 100%;
+  font-size: 100%;
+  color: #333;
+}
+article.blog a:hover time,article.blog a:hover p {
+  text-decoration: underline;
+}
+.detail-blog-more a {
+  width: 240px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #9F8039;
+  color: #9F8039;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 100%;
+  position: relative;
+}
+.detail-blog-more a::after {
+  content: "›";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+
+@media (max-width: 992px) {
+
+	div.blog-space {
+		width: clac(90% - 20px);
+		margin: 0 auto 100px;
+		padding: 0 10px 0;
+	}
+
+	article.blog {
+	  width: 90%;
+	  margin: 0 auto 40px;
+	}
+	.detail-blog-more a {
+	  width: calc(90% - 22px);
+	}
+
+
+}
+/* 240619 追記 */
+#tab_panel-2 .date_box{height: 42px; width: 40%; margin-left: 10px; margin-bottom: 10px; border: 1px solid #E0E0E0;}
+#tab_panel-2 #time{height: 42px; width: 40%; margin-left: 10px; margin-bottom: 10px; border: 1px solid #E0E0E0;}
+@media screen and (max-width:648px){
+	#tab_panel-2 .num{display: block;}
+	#tab_panel-2 .date_box{width: 44%; margin-left: 0;}
+	#tab_panel-2 #time{width: 52%;}
+}
+/* 240619 END */
+/* 240729 追記 */
+.con_space_btm_02{padding-bottom: 30px;}
+.facility-list_add_cta .con_space{margin-bottom: 100px !important;}
+/* 240729 END */
+
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+<?php get_header(); ?>
+
+<main id="document">
+
+<div class="lower-mv">
+  <figure class="lower-mv-image">
+    <img src="<?php bloginfo('template_directory');?>/assets/image/document/mv.jpg" alt="">
+  </figure>
+  <div class="ttl-lower-wrap">
+    <p class="ttl-lower-up ttl-en-2l txt-white txt-black en-upper">document</p>
+    <h1 class="ttl-lower txt-white bg-black"><?php the_title()?></h1>
+  </div>
+</div>
+
+<ul class="pan">
+    <li class="txt-en-s"><a href="<?php echo esc_url(home_url('/')); ?>">TOP</a></li>
+    <li class="txt-en-s">-</li>
+    <li class="txt-jp-s"><?php the_title()?></li>
+</ul>
+
+<section class="information-osaka space-2s space-m-bottom wrap-m">
+
+<h2 class="ttl-jp-4l space-3s-bottom">重要事項説明書等の介護サービス情報の公表</h2>
+
+<h3 class="ttl-jp-m">大阪市内の事業所</h3>
+<div class="table-scroll">
+<table class="jusetsutable">
+<tbody>
+
+<tr>
+<th rowspan="2">スーパー・コート<br>東住吉2号館</th>
+<td class="jusetsutable_jigyocategory">特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_higashisumiyoshi2_r6-1201.pdf" download="スーパー・コート東住吉2号館 重要事項説明書（令和6年12月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_higashisumiyoshi2_r6-1201.pdf" download="スーパー・コート東住吉2号館 情報開示事項一覧（令和6年12月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+<tr>
+<td class="jusetsutable_jigyocategory">介護予防特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_higashisumiyoshi2_r6-1201.pdf" download="スーパー・コート東住吉2号館 重要事項説明書（令和6年12月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_higashisumiyoshi2_r6-1201.pdf" download="スーパー・コート東住吉2号館 情報開示事項一覧（令和6年12月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">スーパー・コート<br>大阪城公園</th>
+<td class="jusetsutable_jigyocategory">特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_osakajo_r7-0201.pdf" download="スーパー・コート大阪城公園 重要事項説明書（令和7年2月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_osakajo_r7-0201.pdf" download="スーパー・コート大阪城公園 情報開示事項一覧（令和7年2月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+<tr>
+<td class="jusetsutable_jigyocategory">介護予防特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_osakajo_r7-0201.pdf" download="スーパー・コート大阪城公園 重要事項説明書（令和7年2月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_osakajo_r7-0201.pdf" download="スーパー・コート大阪城公園 情報開示事項一覧（令和7年2月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">スーパー・コート<br>平野</th>
+<td class="jusetsutable_jigyocategory">特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_hirano_r7-0201.pdf" download="スーパー・コート平野 重要事項説明書（令和7年2月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_hirano_r6-1125.pdf" download="スーパー・コート平野 情報開示事項一覧（令和6年11月25日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+<tr>
+<td class="jusetsutable_jigyocategory">介護予防特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_hirano_r7-0201.pdf" download="スーパー・コート平野 重要事項説明書（令和7年2月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_hirano_r6-1125.pdf" download="スーパー・コート平野 情報開示事項一覧（令和6年11月25日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">スーパー・コート<br>三国</th>
+<td class="jusetsutable_jigyocategory">特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_mikuni_r6-0701.pdf" download="スーパー・コート三国 重要事項説明書（令和6年7月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_mikuni_r6-0825.pdf" download="スーパー・コート三国 情報開示事項一覧（令和6年8月25日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+<tr>
+<td class="jusetsutable_jigyocategory">介護予防特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_mikuni_r6-0701.pdf" download="スーパー・コート三国 重要事項説明書（令和6年7月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_mikuni_r6-0825.pdf" download="スーパー・コート三国 情報開示事項一覧（令和6年8月25日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">スーパー・コート<br>東淀川</th>
+<td class="jusetsutable_jigyocategory">特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_higashiyodogawa_r6-0901.pdf" download="スーパー・コート東淀川 重要事項説明書（令和6年9月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_higashiyodogawa_r6-0630.pdf" download="スーパー・コート東淀川 情報開示事項一覧（令和6年6月30日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+<tr>
+<td class="jusetsutable_jigyocategory">介護予防特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_higashiyodogawa_r6-0901.pdf" download="スーパー・コート東淀川 重要事項説明書（令和6年9月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_higashiyodogawa_r6-0630.pdf" download="スーパー・コート東淀川 情報開示事項一覧（令和6年6月30日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">スーパー・コート<br>今里</th>
+<td class="jusetsutable_jigyocategory">特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_imazato_r6-0601.pdf" download="スーパー・コート今里 重要事項説明書（令和6年6月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_imazato_r6-0630.pdf" download="スーパー・コート今里 情報開示事項一覧（令和6年6月30日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+<tr>
+<td class="jusetsutable_jigyocategory">介護予防特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_imazato_r6-0601.pdf" download="スーパー・コート今里 重要事項説明書（令和6年6月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_imazato_r6-0630.pdf" download="スーパー・コート今里 情報開示事項一覧（令和6年6月30日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+
+<tr>
+<th rowspan="2">スーパー・コート<br>住之江</th>
+<td class="jusetsutable_jigyocategory">特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_suminoe_r6-1201.pdf" download="スーパー・コート住之江 重要事項説明書（令和6年12月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_suminoe_r7-0101.pdf" download="スーパー・コート住之江 情報開示事項一覧（令和7年1月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+<tr>
+<td class="jusetsutable_jigyocategory">介護予防特定施設<br class="pc-only">入居者生活介護</td>
+<td>
+<a href="/pdf/osaka/imp_suminoe_r6-1201.pdf" download="スーパー・コート住之江 重要事項説明書（令和6年12月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">重要事項説明書</a>
+<a href="/pdf/osaka/info_suminoe_r7-0101.pdf" download="スーパー・コート住之江 情報開示事項一覧（令和7年1月1日改定）" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">情報開示事項一覧</a>
+</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+</section>
+
+
+<div class="request-dl wrap-m space-3l-bottom">
+  <div class="mt2">
+
+<h3 class="ttl-jp-m">職場環境等要件に関しての取り組み内容</h3>
+
+<ul class="linklists_normalline">
+<li><a href="/pdf/syogukaizenkeikaku.pdf" download="職場環境等要件に関しての取り組み内容" target="_blank"><img src="<?php bloginfo('template_directory');?>/assets/image/document/icon.svg" alt="">令和6年4月</a></li>
+</ul>
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+</main>
+
+<?php get_footer(); ?>

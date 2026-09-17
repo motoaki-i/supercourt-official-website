@@ -1,0 +1,709 @@
+# Translation of Plugins - YARPP &#8211; Yet Another Related Posts Plugin - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - YARPP &#8211; Yet Another Related Posts Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-25 02:32:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - YARPP &#8211; Yet Another Related Posts Plugin - Stable (latest release)\n"
+
+#: classes/YARPP_Meta_Box.php:114
+msgid "random"
+msgstr "ランダム"
+
+#: classes/YARPP_Meta_Box.php:14
+msgid "This advanced option gives you full power to easily customize the look and feel of YARPP. YARPP Custom Templates are written in PHP and saved in your active theme folder. %1$sLearn more about YARPP Custom Templates%2$s."
+msgstr "この拡張オプションを使用すると、YARPP のルック & フィールを簡単にカスタマイズできます。YARPP カスタムテンプレートは PHP で記述し、使用中のテーマフォルダに保存します。%1$sYARPP カスタム テンプレートの詳細を参照してください%2$s。"
+
+#: includes/template_metabox.php:12
+msgid "Related Posts:"
+msgstr "関連投稿:"
+
+#: classes/YARPP_Block.php:205 classes/YARPP_Widget.php:122 src/js/block.js:157
+msgid "You may also like"
+msgstr "こちらもおすすめ"
+
+#: includes/yarpp_options.php:65
+msgid "There is a new beta (%s) of Yet Another Related Posts Plugin. You can <a href=\"%s\">download it here</a> at your own risk."
+msgstr "Yet Another Related Posts Pluginの新しいベータ版 (%s) が公開されました。自己責任で<a href=\"%s\">ここからダウンロード</a>してください。"
+
+#: includes/yarpp_options.php:47
+msgid "There is a new version of %1$s available.<a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">View version %4$s details</a>or <a href=\"%5$s\">update automatically</a>."
+msgstr "新しいバージョンの%1$sが利用可能です。<a href=\"%2$s\" class=\"thickbox\" title=\"%3$s\">バージョン%4$sの詳細を表示</a>するか、<a href=\"%5$s\">自動アップグレード</a>を行ってください。"
+
+#: includes/yarpp_myisam_notice.php:18
+msgid "Titles and bodies still cannot be used as relatedness criteria."
+msgstr "タイトルと本文は依然として関連性の基準として使用できません。"
+
+#: includes/yarpp_myisam_notice.php:12
+msgid "There was an error adding the full-text index to your posts table: %s"
+msgstr "投稿テーブルにフルテキストインデックスを追加する際にエラーが発生しました: %s"
+
+#: includes/yarpp_myisam_notice.php:9
+msgid "Full-text Index creation did not work!"
+msgstr "フルテキストインデックスを作成できませんでした。"
+
+#: includes/yarpp_meta_boxes_hooks.php:75
+msgid "REST API Options"
+msgstr "REST API 設定"
+
+#: includes/yarpp_meta_boxes_hooks.php:57
+msgid "RSS Feed Options"
+msgstr "RSS Feed 設定"
+
+#: includes/yarpp_meta_boxes_hooks.php:36
+msgid "Automatic Display Options"
+msgstr "自動表示設定"
+
+#: includes/yarpp_meta_boxes_hooks.php:24
+msgid "The Algorithm"
+msgstr "アルゴリズム"
+
+#: includes/template_metabox.php:34
+msgid "Refresh"
+msgstr "再読み込み"
+
+#: includes/template_metabox.php:34
+msgid "Configure Options"
+msgstr "設定オプション"
+
+#: includes/template_metabox.php:31
+msgid "No related posts matched."
+msgstr "一致する関連投稿はありません。"
+
+#: includes/template_metabox.php:29 includes/template_metabox.php:31
+msgid "Updating the post may change the matches."
+msgstr "投稿を更新すると、一致を変更する場合があります。"
+
+#: includes/template_metabox.php:25
+msgid "View"
+msgstr "表示"
+
+#: includes/template_metabox.php:25
+msgid "Edit"
+msgstr "編集"
+
+#: classes/YARPP_Rest_Api.php:148
+msgid "Invalid ID"
+msgstr "無効な ID"
+
+#: classes/YARPP_Rest_Api.php:125
+msgid "The password for the post if it is password protected."
+msgstr "パスワードで保護されている場合の投稿のパスワード。"
+
+#: classes/YARPP_Rest_Api.php:74
+msgid "Sorry, you are not allowed to read this post."
+msgstr "申し訳ありませんが、この投稿を読む権限がありません。"
+
+#: classes/YARPP_Rest_Api.php:58
+msgid "YARPP relatedness score"
+msgstr "YARPP 関連性スコア"
+
+#: classes/YARPP_Rest_Api.php:40
+msgid "Unique identifier for the object."
+msgstr "オブジェクトの一意の識別子。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:105
+msgid "Please make a database backup before attempting this, and consider adding the indexes manually by running the following queries:"
+msgstr "この作業を行う前にデータベースのバックアップを取り、以下のクエリを実行して手動でインデックスを追加することを検討してください:"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:104
+msgid "You have a large database and so adding them may take several minutes and cause the website to become unresponsive during this time. We recommend performing this action during off-peak hours."
+msgstr "データベースが大きいため、追加に数分かかり、その間ウェブサイトが応答しなくなる可能性があります。オフピークの時間帯にこの操作を行うことをお勧めします。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:103
+msgid "\"Fulltext indexes\" will improve YARPP’s algorithm but may affect performance."
+msgstr "「フルテキストインデックス」は YARPP のアルゴリズムを改善しますが、パフォーマンスに影響を与える可能性があります。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:91
+msgid "Enabling comparisons using Titles or Bodies requires adding \"fulltext indexes\" to the posts table."
+msgstr "タイトルや本文を使った比較を有効にするには、投稿テーブルに「フルテキストインデックス」を追加する必要があります。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:78
+msgid "See MySQL %1$sstorage engines%2$s documentation for details on MySQL engines."
+msgstr "MySQL エンジンの詳細については、MySQL の %1$sストレージ エンジン%2$s ドキュメントを参照してください。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:59
+msgid "Please contact your host about updating MySQL to at latest version %1$s, or run the following SQL code on your MySQL client (eg PHPMyAdmin) or terminal:"
+msgstr "MySQL を最新バージョン %1$s に更新するか、MySQL クライアント (PHPMyAdmin など) またはターミナルで以下の SQL コードを実行してください:"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:48
+msgid "Because full-text indexing is not supported by your current table engine, \"%1$s\", YARPP cannot compare posts based on their Titles or Bodies."
+msgstr "現在のテーブルエンジン「%1$s」でフルテキストインデックスの作成をサポートしていないため、YARPP はタイトルまたは本文に基づいて投稿を比較できません。"
+
+#. translators: icon to expand
+#: classes/YARPP_Meta_Box_Relatedness.php:38
+#: classes/YARPP_Meta_Box_Relatedness.php:96
+msgid "Show Details %s"
+msgstr "詳細表示 %s"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:32
+msgid "Comparing posts based on Titles or Bodies is currently disabled"
+msgstr "タイトルまたは本文に基づく投稿の比較は現在無効になっています"
+
+#: classes/YARPP_Meta_Box_Pool.php:41
+msgid "Post types to include:"
+msgstr "含める投稿タイプ:"
+
+#: classes/YARPP_Meta_Box_Pool.php:10
+msgid "This belongs to a custom taxonomy"
+msgstr "これはカスタムタクソノミーに属しています"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:118
+msgid "(1200px)"
+msgstr "(1200px)"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:118
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:117
+msgid "(768px)"
+msgstr "(768px)"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:117
+msgid "Tablet"
+msgstr "タブレット"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:116
+msgid "(320px)"
+msgstr "(320px)"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:116
+msgid "Mobile"
+msgstr "モバイル"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:112
+msgid "Preview"
+msgstr "プレビュー"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:83
+msgid "New images should continue to automatically get all active thumbnail sizes generated when they are uploaded."
+msgstr "新しい画像をアップロードすると、すべてのアクティブなサムネイルサイズを自動生成し続けるはずです。"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:83
+msgid "For larger sites, we recommend the %1$s or %2$s to generate missing thumbnail sizes in a batch process."
+msgstr "大規模なサイトの場合は、不足しているサムネイルサイズをバッチ処理で生成するために %1$s または %2$s を使用することをお勧めします。"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:83
+msgid "When enabled, missing thumbnail sizes will be  automatically generated on the fly. Doing this type of processing on the fly may not scale well for larger sites."
+msgstr "有効にすると、足りないサムネイルサイズがその場で自動生成します。このような処理をオンザフライで行うことは、大規模なサイトではうまくスケーリングできない場合があります。"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:83
+msgid "Generate missing thumbnail sizes: "
+msgstr "不足しているサムネイルサイズを生成: "
+
+#: classes/YARPP_Meta_Box_Display_Web.php:49
+msgid "Display on the front page, category and archive pages"
+msgstr "フロントページ、カテゴリーページ、アーカイブページへの表示"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:38 classes/YARPP_Meta_Box_Pool.php:52
+msgid "BuddyPress %s"
+msgstr "BuddyPress %s"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:34
+msgid "This combination will always result in no posts displaying on this post type. To enable, in The Pool either include this post type or do not limit results to the same post type."
+msgstr "この組み合わせでは、常にこの投稿タイプの投稿を表示しません。有効にするには、The Pool でこの投稿タイプを含めるか、同じ投稿タイプに結果を限定しないようにします。"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:34
+msgid "2. limits results to the same post type as the current post"
+msgstr "2. 結果を現在の投稿と同じ投稿タイプに制限する"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:34
+msgid "1. does not include this post type"
+msgstr "1. この投稿タイプを含まない"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:34
+msgid "This option is disabled because 'The Pool':"
+msgstr "「The Pool」のためこのオプションは無効:"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:21
+msgid "This option automatically displays YARPP right after the content on single entry pages. If this option is off, you will need to manually insert the <code>[yarpp]</code> shortcode, block or  <code>yarpp_related()</code> PHP function into your theme files."
+msgstr "このオプションは、単一エントリ ページのコンテンツの直後に YARPP を自動的に表示します。このオプションがオフの場合、テーマ ファイルに <code>[yarpp]</code> ショートコード、ブロック、または <code>yarpp_related()</code> PHP 関数を手動で挿入する必要があります。"
+
+#: classes/YARPP_Meta_Box_Display_Web.php:20
+msgid "Automatically display related content on: "
+msgstr "関連するコンテンツを自動的に表示: "
+
+#: classes/YARPP_Meta_Box_Display_Rest_Api.php:14
+msgid "YARPP REST API documentation →"
+msgstr "YARPP REST API ドキュメント →"
+
+#: classes/YARPP_Meta_Box_Display_Rest_Api.php:10
+msgid "Cache time (in minutes)"
+msgstr "キャッシュ時間 (分)"
+
+#: classes/YARPP_Meta_Box_Display_Rest_Api.php:8
+msgid "Web browsers will be instructed to cache YARPP REST API results. This can dramatically increase the speed of subsequent YARPP REST API requests, but it also means stale content might be served for the length of the cache time."
+msgstr "ウェブブラウザーは、YARPP REST API の結果をキャッシュするように指示されます。これにより、後続の YARPP REST API リクエストの速度が大幅に向上しますが、キャッシュの有効時間中は古いコンテンツが提供される可能性もあります。"
+
+#: classes/YARPP_Meta_Box_Display_Rest_Api.php:8
+msgid "Enable in-browser caching?"
+msgstr "ブラウザー内キャッシュを有効化"
+
+#: classes/YARPP_Meta_Box_Display_Rest_Api.php:6
+msgid "This option adds related posts to the REST API."
+msgstr "このオプションは、関連する投稿を REST API に追加します。"
+
+#: classes/YARPP_Meta_Box_Display_Rest_Api.php:6
+msgid "Display related posts in REST API?"
+msgstr "REST API で関連投稿を表示"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:65
+#: classes/YARPP_Meta_Box_Display_Web.php:107
+msgid "This option will add the code %s These links are greatly appreciated and keeps us motivated."
+msgstr "このオプションはコード %s を追加します。これらのリンクは非常に役立ち、私たちのモチベーションを高めてくれます。"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:65
+#: classes/YARPP_Meta_Box_Display_Web.php:107
+msgid "Link to YARPP?"
+msgstr "YARPP のリンク設置"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:39
+#: classes/YARPP_Meta_Box_Display_Web.php:70
+#: classes/YARPP_Meta_Box_Display_Web.php:80
+msgid "Thumbnail Size"
+msgstr "サムネイルサイズ"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:12
+#: classes/YARPP_Meta_Box_Display_Web.php:51
+msgid "Maximum number of posts:"
+msgstr "投稿の最大数:"
+
+#: classes/YARPP_Meta_Box_Contact.php:23
+msgid "YARPP User Group on Facebook"
+msgstr "Facebook の YARPP ユーザーグループ"
+
+#: classes/YARPP_DB_Options.php:161
+msgid "No error recorded."
+msgstr "エラーを記録していません。"
+
+#: classes/YARPP_Core.php:2221
+msgid "month(s)"
+msgstr "月間"
+
+#: classes/YARPP_Core.php:2220
+msgid "week(s)"
+msgstr "週間"
+
+#: classes/YARPP_Core.php:2219
+msgid "day(s)"
+msgstr "日間"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:65
+#: classes/YARPP_Meta_Box_Display_Web.php:107
+msgid "Powered by <a href='%s' title='WordPress Related Posts Plugin' target='_blank'>YARPP</a>."
+msgstr "Powered by <a href='%s' title='WordPress Related Posts Plugin' target='_blank'>YARPP</a>."
+
+#: classes/YARPP_Core.php:1684
+msgid "Powered by <a href='%s' title='WordPress Related Posts' target='_blank'>YARPP</a>."
+msgstr "Powered by <a href='%s' title='WordPress Related Posts' target='_blank'>YARPP</a>."
+
+#. translators: %s: yarpp template name
+#: classes/YARPP_Core.php:745
+msgid "Custom: %s"
+msgstr "カスタム: %s"
+
+#: classes/YARPP_Core.php:740
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: classes/YARPP_Core.php:739
+msgid "List"
+msgstr "リスト"
+
+#: classes/YARPP_Admin.php:1081
+msgid "If you would like to tell us more, please leave your email here. We will be in touch (only for product feedback, nothing else)."
+msgstr "もっと詳しくお聞きになりたい方は、ここにメールを残してください。折り返しご連絡いたします (製品に関するフィードバックのみで、それ以外の目的ではございません)。"
+
+#: classes/YARPP_Admin.php:1073
+msgid "Have you visited %1$sthe support forum%2$s and %3$sread the FAQs%2$s for help?"
+msgstr "%1$sサポートフォーラム%2$sや%3$sよくある質問%2$sはご覧になりましたか ?"
+
+#: classes/YARPP_Admin.php:1071
+msgid "Thank you!"
+msgstr "ありがとう !"
+
+#: classes/YARPP_Admin.php:1070
+msgid "Please wait..."
+msgstr "お待ちください..."
+
+#: classes/YARPP_Admin.php:1069
+msgid "Submit &amp; Deactivate"
+msgstr "送信して無効化"
+
+#: classes/YARPP_Admin.php:1068
+msgid "Skip &amp; Deactivate"
+msgstr "スキップして無効化"
+
+#: classes/YARPP_Admin.php:1067
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: classes/YARPP_Admin.php:1063
+msgid "Please share anything you think might be helpful. The more we know about your problem, the faster we'll be able to fix it."
+msgstr "お役に立ちそうなことがあれば、何でもお聞かせください。あなたの問題をより早く解決することができます。"
+
+#: classes/YARPP_Admin.php:1059
+msgid "If you would be kind enough, please tell us why you are deactivating the plugin:"
+msgstr "もしよろしければ、プラグインを無効化する理由を教えてください。"
+
+#: classes/YARPP_Admin.php:1058
+msgid "Quick Feedback"
+msgstr "クイックフィードバック"
+
+#: classes/YARPP_Admin.php:1049
+msgid "Other"
+msgstr "その他"
+
+#: classes/YARPP_Admin.php:1048
+msgid "Temporarily deactivating or troubleshooting"
+msgstr "一時停止またはトラブルシューティング"
+
+#: classes/YARPP_Admin.php:1047
+msgid "I don't want to signup"
+msgstr "サインアップしたくありません"
+
+#: classes/YARPP_Admin.php:1046
+msgid "It's too slow or inefficient"
+msgstr "遅すぎるか非効率的です"
+
+#: classes/YARPP_Admin.php:1045
+msgid "I couldn't figure out how to do something"
+msgstr "どうすればいいのかわかりませんでした"
+
+#: classes/YARPP_Admin.php:1044
+msgid "It's missing a feature I need"
+msgstr "必要な機能がありません"
+
+#: classes/YARPP_Admin.php:1043
+msgid "I think I found a bug"
+msgstr "バグを見つけたと思います"
+
+#: classes/YARPP_Admin.php:677
+msgid "Related posts will be displayed once you save this post"
+msgstr "この投稿を保存すると、関連投稿を表示します"
+
+#: classes/YARPP_Admin.php:672
+msgid "If this is unchecked, then YARPP will not automatically insert the related posts at the end of this post."
+msgstr "このチェックを外すと、YARPP はこの記事の最後に関連投稿を自動的に挿入しません。"
+
+#: classes/YARPP_Admin.php:670
+msgid "Automatically display related content on this post"
+msgstr "この投稿に関連するコンテンツを自動的に表示"
+
+#: classes/YARPP_Admin.php:594
+msgid "Hide Code"
+msgstr "コードを非表示"
+
+#: classes/YARPP_Admin.php:593 classes/YARPP_Meta_Box_Display_Web.php:126
+msgid "Show Code"
+msgstr "コードを表示"
+
+#: classes/YARPP_Admin.php:592
+msgid "There is some error. Please refresh the page and try again!"
+msgstr "エラーが発生しました。ページを更新してもう一度お試しください。"
+
+#: classes/YARPP_Admin.php:591
+msgid "You left this page open for too long. Please refresh the page and try again!"
+msgstr "このページを長い間開いたままにしていました。ページを更新して、やり直してください。"
+
+#: classes/YARPP_Admin.php:590
+msgid "You are not allowed to do this!"
+msgstr "それをする権利はありません。"
+
+#: classes/YARPP_Admin.php:587
+msgid "Cache cleared successfully!"
+msgstr "キャッシュを正常にクリアしました。"
+
+#: classes/YARPP_Admin.php:586
+msgid "YARPP Cache"
+msgstr "YARPP キャッシュ"
+
+#: classes/YARPP_Admin.php:585
+msgid "This will clear all of YARPP’s cached related results.<br> Are you sure?"
+msgstr "これで YARPP でキャッシュした関連結果をすべてクリアします。<br> よろしいですか ?"
+
+#: classes/YARPP_Admin.php:289
+msgid "YARPP: Related Posts"
+msgstr "YARPP: 関連投稿"
+
+#: classes/YARPP_Admin.php:244
+msgid "Dismiss"
+msgstr "非表示"
+
+#: classes/YARPP_Admin.php:243
+msgid "I already did"
+msgstr "すでに評価しました"
+
+#: classes/YARPP_Admin.php:242
+msgid "No, not good enough"
+msgstr "いいえ、まだまだです"
+
+#: classes/YARPP_Admin.php:241
+msgid "Ok, you deserve it"
+msgstr "はい、もちろんです"
+
+#: classes/YARPP_Admin.php:238
+msgid "Could you please do us a BIG favor and give us a quick 5-star rating on WordPress? It will boost our motivation and spread the word. We would really appreciate it 🤗 — Team YARPP"
+msgstr "を使って成功を収めていることに気づきました。WordPress で5つ星の評価をいただけますか？それが私たちのモチベーションを高め、口コミを広げることになります。本当にありがとうございます🤗 - Team YARPP"
+
+#: classes/YARPP_Admin.php:238
+msgid "Hey there! We noticed that you have had success using "
+msgstr "こんにちは！私たちは、あなたが "
+
+#. Author of the plugin
+#: yarpp.php classes/YARPP_Block.php:241
+msgid "YARPP"
+msgstr "YARPP"
+
+#. Description of the plugin
+#: yarpp.php
+msgid "Adds related posts to your site and in RSS feeds, based on a powerful, customizable algorithm."
+msgstr "強力でカスタマイズ可能なアルゴリズムに基づいて、関連する投稿をサイトおよび RSS フィードに追加します。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: yarpp.php
+msgid "https://yarpp.com/"
+msgstr "https://yarpp.com/"
+
+#. Plugin Name of the plugin
+#: yarpp.php
+msgid "Yet Another Related Posts Plugin (YARPP)"
+msgstr "Yet Another Related Posts Plugin (YARPP)"
+
+#: includes/yarpp_options.php:180
+msgid "Options saved!"
+msgstr "オプションを保存しました。"
+
+#: includes/yarpp_meta_boxes_hooks.php:48
+msgid "Contact YARPP"
+msgstr "YARPP に連絡"
+
+#: includes/yarpp_meta_boxes_hooks.php:15
+msgid "\"The Pool\""
+msgstr "フィルター設定"
+
+#: includes/template_metabox.php:29
+msgid "Whether all matches are actually displayed and how they are displayed depends on your YARPP display options."
+msgstr "すべての一致を実際に表示するかどうか、またどのように表示するかは、YARPP の表示オプションによって異なります。"
+
+#: includes/template_builtin.php:35
+msgid "%f is the YARPP match score between the current entry and this related entry. You are seeing this value because you are logged in to WordPress as an administrator. It is not shown to regular visitors."
+msgstr "%f は、現在の投稿とこの関連投稿の YARPP 一致スコアです。この値を表示しているのは、WordPress に管理者としてログインしているためです。一般の訪問者には表示しません。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:13
+msgid "Bodies: "
+msgstr "内容:"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:12
+msgid "Titles: "
+msgstr "タイトル: "
+
+#: classes/YARPP_Meta_Box_Relatedness.php:10
+msgid "Match threshold:"
+msgstr "一致しきい値:"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:7
+msgid "The higher the match threshold, the more restrictive, and you get less related posts overall. The default match threshold is 5. If you want to find an appropriate match threshold, take a look at some post's related posts display and their scores. You can see what kinds of related posts are being picked up and with what kind of match scores, and determine an appropriate threshold for your site."
+msgstr "一致しきい値が高いほど制限が厳しくなり、全体的に関連する投稿が少なくなります。デフォルトの一致しきい値は5です。適切な一致しきい値を見つけるには、いくつかの投稿の関連投稿の表示とそのスコアを確認します。どのような種類の関連投稿がどのような一致スコアでピックアップしているかを確認し、サイトの適切なしきい値を決定できます。"
+
+#: classes/YARPP_Meta_Box_Relatedness.php:7
+msgid "YARPP limits the related posts list by (1) a maximum number and (2) a <em>match threshold</em>."
+msgstr "YARPP は、(1) 最大数と ​​(2) <em>一致しきい値</em>によって関連投稿リストを制限します。"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:53
+#: classes/YARPP_Meta_Box_Display_Web.php:96
+msgid "Before / after (excerpt):"
+msgstr "変更前 / 変更後 (抜粋):"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:51
+#: classes/YARPP_Meta_Box_Display_Web.php:94
+msgid "Excerpt length (No. of words):"
+msgstr "抜粋の長さ (単語数):"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:50
+#: classes/YARPP_Meta_Box_Display_Web.php:93
+msgid "Show excerpt?"
+msgstr "抜粋を表示"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:48
+#: classes/YARPP_Meta_Box_Display_Web.php:91
+msgid "Before / after each related entry:"
+msgstr "各関連投稿の前 / 後:"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:47
+#: classes/YARPP_Meta_Box_Display_Feed.php:48
+#: classes/YARPP_Meta_Box_Display_Feed.php:53
+#: classes/YARPP_Meta_Box_Display_Web.php:90
+#: classes/YARPP_Meta_Box_Display_Web.php:91
+#: classes/YARPP_Meta_Box_Display_Web.php:96
+msgid " or "
+msgstr " または "
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:47
+#: classes/YARPP_Meta_Box_Display_Feed.php:48
+#: classes/YARPP_Meta_Box_Display_Feed.php:53
+#: classes/YARPP_Meta_Box_Display_Web.php:90
+#: classes/YARPP_Meta_Box_Display_Web.php:91
+#: classes/YARPP_Meta_Box_Display_Web.php:96
+msgid "For example:"
+msgstr "例:"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:47
+#: classes/YARPP_Meta_Box_Display_Web.php:90
+msgid "Before / after related entries:"
+msgstr "関連投稿の前 / 後:"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:57
+#: classes/YARPP_Meta_Box_Display_Web.php:100
+msgid "Default display if no results:"
+msgstr "結果がない場合のデフォルト表示:"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:37
+#: classes/YARPP_Meta_Box_Display_Web.php:79
+msgid "Default image (URL):"
+msgstr "デフォルト画像 (URL):"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:36
+#: classes/YARPP_Meta_Box_Display_Web.php:78
+msgid "Heading:"
+msgstr "ヘッダー:"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:10
+msgid "This option displays the related posts in the RSS description fields, not just the content. If your feeds are set up to only display excerpts, however, only the description field is used, so this option is required for any display at all."
+msgstr "このオプションにより、RSS の説明フィールドにコンテンツだけでなく、関連する投稿も表示します。ただし、フィードが抜粋のみを表示するよう設定している場合は、説明フィールドのみ使用するため、表示するにはこのオプションが必要です。"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:10
+msgid "Display related posts in the descriptions?"
+msgstr "説明に関連投稿を表示しますか ?"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:9
+msgid "This option displays related posts at the end of each item in your RSS and Atom feeds. No template changes are needed."
+msgstr "このオプションは、RSS と Atom フィードの各アイテムの最後に関連投稿を表示します。テンプレートの変更は必要ありません。"
+
+#: classes/YARPP_Meta_Box_Display_Feed.php:9
+msgid "Display related posts in feeds?"
+msgstr "フィードに関連投稿を表示"
+
+#: classes/YARPP_Meta_Box_Contact.php:28
+msgid "Review YARPP on WordPress.org"
+msgstr "WordPress.org で YARPP をレビュー"
+
+#: classes/YARPP_Meta_Box_Contact.php:18
+msgid "YARPP on Twitter"
+msgstr "YARPP on Twitter"
+
+#: classes/YARPP_Meta_Box_Contact.php:13
+msgid "YARPP Forum"
+msgstr "YARPP フォーラム"
+
+#: classes/YARPP_Meta_Box.php:113
+msgid "title (reverse alphabetical)"
+msgstr "タイトル (降順)"
+
+#: classes/YARPP_Meta_Box.php:112
+msgid "title (alphabetical)"
+msgstr "タイトル (昇順)"
+
+#: classes/YARPP_Meta_Box.php:111
+msgid "date (old to new)"
+msgstr "日付 (古い順)"
+
+#: classes/YARPP_Meta_Box.php:110
+msgid "date (new to old)"
+msgstr "日付 (新しい順)"
+
+#: classes/YARPP_Meta_Box.php:109
+msgid "score (low relevance to high)"
+msgstr "関連スコアの低い順"
+
+#: classes/YARPP_Meta_Box.php:108
+msgid "score (high relevance to low)"
+msgstr "関連スコアの高い順"
+
+#: classes/YARPP_Meta_Box.php:104
+msgid "Order results:"
+msgstr "結果の表示順:"
+
+#: classes/YARPP_Meta_Box.php:97
+msgid "consider with extra weight"
+msgstr "特別な重みを付けて考慮する"
+
+#: classes/YARPP_Meta_Box.php:96
+msgid "consider"
+msgstr "検討する"
+
+#: classes/YARPP_Meta_Box.php:95
+msgid "do not consider"
+msgstr "検討しない"
+
+#: classes/YARPP_Core.php:205 classes/YARPP_Core.php:215
+#: classes/YARPP_Core.php:838 classes/YARPP_Core.php:849
+#: includes/template_widget.php:13
+msgid "No related posts."
+msgstr "関連する投稿はありません。"
+
+#: classes/YARPP_Core.php:203 classes/YARPP_Core.php:213
+#: classes/YARPP_Core.php:243 classes/YARPP_Core.php:245
+#: classes/YARPP_Core.php:836 classes/YARPP_Core.php:847
+#: classes/YARPP_Core.php:1314
+msgid "Related posts:"
+msgstr "関連投稿:"
+
+#: classes/YARPP_Cache_Demo_Bypass.php:147
+msgid "Example post "
+msgstr "投稿例 "
+
+#: classes/YARPP_Admin.php:612
+msgid "Settings"
+msgstr "設定"
+
+#: classes/YARPP_Admin.php:501
+msgid "Thank you for installing <span>Yet Another Related Posts Plugin</span>!"
+msgstr "<span>Yet Another Related Posts Plugin</span> をインストールしていただきありがとうございます。"
+
+#: classes/YARPP_Admin.php:497
+msgid "%1$s updated successfully."
+msgstr "%1$s の更新に成功しました。"
+
+#: classes/YARPP_Admin.php:414
+msgid "In addition, YARPP also loads an invisible pixel image with your YARPP results to know how often YARPP is being used."
+msgstr "さらに、YARPP は、YARPP がどのくらいの頻度で使用されているかを知るために、YARPP の結果とともに目に見えないピクセル画像を読み込みます。"
+
+#: classes/YARPP_Admin.php:410
+msgid "The following information is sent back to YARPP:"
+msgstr "以下の情報を YARPP に送信します:"
+
+#: classes/YARPP_Admin.php:401
+msgid "Contributing this data will help make YARPP better for you and for other YARPP users."
+msgstr "このデータを提供することは、あなたと他の YARPP ユーザのために YARPP をより良くするのに役立ちます。"
+
+#: classes/YARPP_Admin.php:393
+msgid ""
+"This information will be used to improve YARPP in the future and help decide future development\n"
+"                decisions for YARPP."
+msgstr "この情報は、将来的に YARPP を改善するために使用され、YARPP の将来の開発決定に役立ちます。"
+
+#: classes/YARPP_Admin.php:382
+msgid ""
+"With your permission, YARPP will send information about YARPP's settings, usage, and environment\n"
+"                    back to a central server at "
+msgstr "許可をいただけた場合、YARPP は設定、利用状況、環境についての情報を以下の中央サーバーへ送信します "
+
+#: classes/YARPP_Admin.php:336
+msgid "Optional Data Collection"
+msgstr "オプションのデータ収集"
+
+#: classes/YARPP_Admin.php:328 classes/YARPP_Admin.php:373
+msgid "Developing with YARPP"
+msgstr "YARPP を使った開発"
+
+#: classes/YARPP_Admin.php:320 classes/YARPP_Admin.php:357
+msgid "Frequently Asked Questions"
+msgstr "よくある質問"

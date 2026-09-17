@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>有料老人ホーム・資料請求 | 株式会社スーパー・コート</title>
+  <meta name="keywords" content="有料,老人ホーム,大阪,介護付,兵庫,京都,奈良,資料請求" />
+  <meta name="description" content="有料老人ホームのスーパー・コートに関する資料請求はこちら。お気軽にお申込みください。" />
+  <meta name="robots" content="noindex">
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5Q4FCV8');</script>
+  <!-- End Google Tag Manager -->
+  <!-- InstanceEndEditable -->
+  <link href="/common/css/import.css" rel="stylesheet" type="text/css">
+  <link href="/common/css/slidebars.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="(min-width: 640px)" href="/common/css/pc.css">
+  <link rel="stylesheet" media="(max-width: 639px)" href="/common/css/sp.css">
+  <!--[if lte IE 8]>
+<link href="/common/css/pc.css?200120" rel="stylesheet" type="text/css">
+<![endif]-->
+  <script type="text/javascript" src="/common/js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="/common/js/modernizr.js"></script>
+  <script type="text/javascript" src="/common/js/rollover.js"></script>
+  <script type="text/javascript" src="/common/js/smoothScroll.js"></script>
+  <script type="text/javascript" src="/common/js/base.js"></script>
+  <script type="text/javascript" src="/common/js/facilityLIst.js"></script>
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+  <!-- InstanceParam name="bodyDataCurrent" type="text" value="default" -->
+  <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+</head>
+
+<body data-current="default" id="PAGETOP">
+  <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_header.php'); ?>
+  <div id="sb-site">
+    <!-- InstanceBeginEditable name="contents" -->
+	  <style>
+		  .lead_img img{width: 220px;}
+		  .lead_box{display: flex; justify-content: space-between;}
+		  .radiobtn_box li{padding: 2px 0 0 0 !important;}
+		  .radiobtn_box li label{border: 1px solid #767676; padding: 3px 5px 3px 5px !important; border-radius: 50px; margin: 0px 5px 10px 5px !important; display: block;}
+		  .radiobtn_box li label:hover{background: #f3f3f3; border-bottom: 1px solid #767676 !important;}
+		  .radiobtn_box .kikkake_box{display: inline; width: 155px;}
+		  .radioitems-100_2{display: flex !important; flex-direction: column;}
+		  .privacy_btn{margin: 0 0 5px 0;}
+		  .mailform .content .mailform__inner table td textarea{width: 97% !important;}
+		  .postcode_txt{width: 100px !important;}
+		  @media (max-width: 639px){
+			  .data_request_content dd{width: 90%; }
+			  .data_request_content dd input{width: 95% !important; margin: 10px 0;}
+			  .radiobtn_box li{width: 48% !important; padding: 0 2px !important;}
+			  .radiobtn_box li label{margin: 0 0 10px 0 !important;}
+			  .radiobtn_box input{margin: 0 5px 0 0;}
+			  .radiobtn_box li.radioitems-100_2{width:100% !important;}
+			  .mailform .content .mailform__inner table td textarea{width: 99% !important;}
+			  
+		  }
+	  </style>
+	  
+    <div class="mailform data_request">
+      <div class="pt">
+        <h1>資料請求</h1>
+      </div>
+      <div class="content data_request_content">
+        <div class="container">
+          <ol class="pankuzu">
+            <li><a href="/">ホーム&nbsp;</a></li>
+            <li>資料請求</li>
+          </ol>
+			<div class="lead_box">
+				<div class="lead">
+					<p>ご入居希望施設の設備や食事、費用、介護体制などがわかるパンフレットを<br>2～3日程度で郵送させていただきます。</p>
+				</div>
+				<div class="lead_img">
+					<img src="/img/common/lead_img.jpg" alt="">
+				</div>
+			</div>			
+          <div class="mailform__inner">
+            <h3>下記項目をご入力の上、ご送信ください。</h3>
+
+
+<form class="h-adr" id="mailform" method="post" action="/data_request/mailform/send.cgi" onSubmit="return sendmail(this);">
+
+<span class="p-country-name" style="display:none;">Japan</span>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+
+<tr>
+<th>お名前<span class="hissu">必須</span></th>
+<td><input type="text" id="namae" class="namebox" name="お名前(必須)" size="40" placeholder="例）山本太郎" /></td>
+</tr>
+
+<tr>
+<th>ふりがな<span class="hissu">必須</span></th>
+<td><input type="text" id="furigana" name="ふりがな(必須)" size="40" class="validate[optional,custom[onlyKana]] namebox" data-prompt-position="bottomLeft" pattern="[\u3041-\u3096]*"  placeholder="例）やまもとたろう"></td>
+</tr>
+	
+<tr class="radiobtn_box">
+<th>入居予定者様とのご関係<span class="nin-i">任意</span></th>
+<td>
+<ul class="radioitems clearfix">
+<li><label><input type="radio" name="ご関係" value="ご本人">ご本人</label></li>
+<li><label><input type="radio" name="ご関係" value="配偶者">配偶者</label></li>
+<li><label><input type="radio" name="ご関係" value="父">父</label></li>
+<li><label><input type="radio" name="ご関係" value="母">母</label></li>
+<li><label><input type="radio" name="ご関係" value="親族">親族</label></li>
+<li><label><input type="radio" name="ご関係" value="友人・知人">友人・知人</label></li>
+<li><label><input type="radio" name="ご関係" value="その他">その他</label></li>
+</ul>
+</td>
+</tr>
+
+<tr class="access_box">
+<th>ご住所<span class="hissu">必須</span></th>
+<td>
+<dl>
+<dt>郵便番号</dt>
+<dd><input type="text" name="郵便番号(必須)" size="14" class="validate[optional,custom[yubin]] p-postal-code postcode_txt" data-prompt-position="bottomLeft" pattern="\d{3}-?\d{4}" placeholder="例) 5500005">
+<input onclick="mfpc('mailform','郵便番号(必須)','都道府県・市区町村(必須)');" type="button" value="郵便番号から住所を自動入力" id="postinuput" style="cursor: pointer;"></dd>
+<dt>都道府県・市区町村</dt>
+<dd><input type="text" name="都道府県・市区町村(必須)" size="60" style="width: 70%;" placeholder="例）大阪市西区西本町" class="p-region p-locality p-street-address p-extended-address"></dd>
+<dt>番地・マンション名など</dt>
+<dd><input type="text" name="番地・マンション名など(必須)" size="60" style="width: 70%;" placeholder="例）1-7-7　CE西本町ビル" class=""></dd>
+</dl>
+</td>
+</tr>
+
+<tr>
+<th>電話番号<span class="hissu">必須</span></th>
+<td><input type="text" id="tel_id" name="電話番号(必須)" size="45" style="width: 60%;" class="validate[optional,custom[phone]]" data-prompt-position="bottomLeft" pattern="\d{10,11}" placeholder="例) 066543291 (ハイフン不要)">
+<span class="table-hosoku-01">※半角数字でご入力ください</span>
+</td>
+</tr>
+
+<tr>
+<th>メールアドレス<span class="nin-i">任意</span></th>
+<td><input type="text" id="mail_id" name="email" size="45" maxlength="50" style="width: 60%;" class="validate[optional,custom[email],custom[onlyLetterNumber]]" data-prompt-position="bottomLeft" placeholder="例) example@supercourt.jp"></td>
+</tr>
+	
+<tr>
+<th>希望ホーム<br class="pcbr"><span class="hissu">第1希望は必須</span></th>
+<td>
+<p class="datareq-homeselect-summary"><span>エリア</span>と<span>施設</span>をお選びください</p>
+<dl class="homelist">
+<dt class="homelist-p">第1希望<span class="hissu">必須</span></dt>
+<dd class="homelist-div"><?php include( $_SERVER['DOCUMENT_ROOT'] . '/240305_area1-data-request.php'); ?></dd>
+</dl>
+<dl class="homelist">
+<dt class="homelist-p">第2希望</dt>
+<dd class="homelist-div"><?php include( $_SERVER['DOCUMENT_ROOT'] . '/240305_area2.php'); ?></dd>
+</dl>
+<dl class="homelist">
+<dt class="homelist-p">第3希望</dt>
+<dd class="homelist-div"><?php include( $_SERVER['DOCUMENT_ROOT'] . '/240305_area3.php'); ?></dd>
+</dl>
+</td>
+</tr>
+	
+<tr class="radiobtn_box">
+<th>ご入居希望時期<span class="nin-i">任意</span></th>
+<td>
+<ul class="radioitems clearfix">
+<li><label><input type="radio" name="入居希望時期" value="できるだけ早く">できるだけ早く</label></li>
+<li><label><input type="radio" name="入居希望時期" value="1〜2ヶ月以内">1〜2ヶ月以内</label></li>
+<li><label><input type="radio" name="入居希望時期" value="2〜3ヶ月以内">2〜3ヶ月以内</label></li>
+<li><label><input type="radio" name="入居希望時期" value="3〜6ヶ月以内">3〜6ヶ月以内</label></li>
+<li><label><input type="radio" name="入居希望時期" value="未定">未定</label></li>
+</ul>
+</td>
+</tr>
+
+<tr class="radiobtn_box">
+<th>入居予定者様の介護認定<span class="nin-i">任意</span></th>
+<td>
+<ul class="radioitems clearfix">
+<li><label><input type="radio" name="介護認定" value="自立">自立</label></li>
+<li><label><input type="radio" name="介護認定" value="介護認定申請中">介護認定申請中</label></li>
+<li><label><input type="radio" name="介護認定" value="要支援1">要支援1</label></li>
+<li><label><input type="radio" name="介護認定" value="要支援2">要支援2</label></li>
+<li><label><input type="radio" name="介護認定" value="要介護1">要介護1</label></li>
+<li><label><input type="radio" name="介護認定" value="要介護2">要介護2</label></li>
+<li><label><input type="radio" name="介護認定" value="要介護3">要介護3</label></li>
+<li><label><input type="radio" name="介護認定" value="要介護4">要介護4</label></li>
+<li><label><input type="radio" name="介護認定" value="要介護5">要介護5</label></li>
+<li><label><input type="radio" name="介護認定" value="不明">不明</label></li>
+</ul>
+</td>
+</tr>
+
+<tr class="radiobtn_box">
+<th>スーパー・コートを<br class="br_sp">お知りになったきっかけ<br><span class="nin-i">任意</span></th>
+<td>
+<ul class="radioitems clearfix">
+<li><label><input type="radio" name="きっかけ" value="インターネット">インターネット</label></li>
+<li><label><input type="radio" name="きっかけ" value="広告・チラシ">広告・チラシ</label></li>
+<li><label><input type="radio" name="きっかけ" value="テレビCM">テレビCM</label></li>
+<li><label><input type="radio" name="きっかけ" value="役所のテレビ広告">役所のテレビ広告</label></li>
+<li><label><input type="radio" name="きっかけ" value="ラジオ">ラジオ</label></li>
+<li><label><input type="radio" name="きっかけ" value="介護事業所">介護事業所</label></li>
+<li><label><input type="radio" name="きっかけ" value="病院">病院</label></li>
+<li class="radioitems-100 radioitems-100_2"><label class="kikkake_box"><input type="radio" name="きっかけ" id="kikkake_sonota_id" value="その他">その他</label><span class="hissusonota dispnone">必須</span><input type="text" name="その他内容" id="kikkake_sonotanaiyou_id" size="35" style="width: 50%;" /></li>
+</ul>
+</td>
+</tr>
+
+<tr class="radiobtn_box">
+<th>スーパー・コートのテレビCMをご覧になられたことはありますか<br><span class="nin-i">任意</span></th>
+<td>
+<ul class="radioitems clearfix">
+<li><label><input type="radio" name="テレビCM" value="ある">ある</li>
+<li><label><input type="radio" name="テレビCM" value="ない">ない</li>
+</ul>
+</td>
+</tr>
+
+<tr class="qa_box">
+<th>ご質問・ご意見<span class="nin-i">任意</span></th>
+<td><textarea class="shitsumonbox" name="ご質問・ご意見" rows="10" cols="45" style="height: 120px; width: 80%;"></textarea></td>
+</tr>
+
+<tr class="btn__submit">
+<td colspan="2" style="text-align:center;">
+	<p class="privacy_btn"><a href="https://www.supercourt.jp/privacy/">個人情報保護法</a>に</p>
+	<input type="submit" value="同意して送信" />
+	</td>
+</tr>
+
+</tbody>
+</table>
+</form>
+
+<!--<p class="privacy-link"><a href="https://www.supercourt.jp/privacy/" target="blank">プライバシーポリシーのご確認はこちら<br>※別のページで表示します</a></p>-->
+
+    <!--希望連絡先切り替え-->   
+    <style>
+      .dispnone,.dispnone2,.dispnone3 {
+        display: none;
+        text-align: center;
+      }
+    </style>
+
+    <script>
+      $(function(){
+        var tel_or_mail_radio = $( 'input[name="希望連絡先(必須)"]:radio' );
+        var tel_input = $('#tel_id');
+        var mail_input = $('#mail_id');
+        var tel_hissyu_label = $('.hissutel');
+        var mail_hissu_label = $('.hissumail');
+
+        tel_or_mail_radio.change( function() {
+          var radioval = $(this).val();
+            if(radioval == 'メール'){
+              tel_input.removeAttr('name');
+              mail_input.attr('name','email(必須)');
+              mail_hissu_label.removeClass('dispnone');
+              tel_hissyu_label.addClass('dispnone');
+            } else {
+              tel_input.attr('name','電話番号(必須)');
+              mail_input.removeAttr('name');
+              mail_hissu_label.addClass('dispnone');
+              tel_hissyu_label.removeClass('dispnone');
+            }
+        });
+      });
+    </script>
+
+    <script>
+      $(function () {
+        var sonota_radio = $('input[name="きっかけ(必須)"]:radio');
+        var sonota_input = $('#kikkake_sonota_id');
+        var sonotanaiyou_input = $('#kikkake_sonotanaiyou_id');
+        var sonotanaiyou_hissyu_label = $('.hissusonota');
+
+        sonota_radio.change(function () {
+          var radioval = $(this).val();
+          if (radioval == 'その他') {
+            sonotanaiyou_input.attr('name', 'その他内容(必須)');
+            sonotanaiyou_hissyu_label.removeClass('dispnone');
+          } else {
+            sonotanaiyou_input.removeAttr('name');
+            sonotanaiyou_hissyu_label.addClass('dispnone');
+          }
+        });
+      });
+    </script>
+    
+    <!--フォームのバリデーション-->
+    <link rel="stylesheet" href="/common/js/validationEngine/validationEngine.jquery.css" type="text/css" />
+    <script src="/common/js/validationEngine/jquery.validationEngine-ja.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/common/js/validationEngine/jquery.validationEngine.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        jQuery("#mailform").validationEngine();
+      });
+    </script>
+    <script type="text/javascript" src="/data_request/mailform/mailform.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+    <!-- ふりがな自動入力 -->
+    <script type="text/javascript" src="/inquirys/jquery.autoKana.js" charset="utf-8"></script> 
+    <script>
+      jQuery(function(){
+        jQuery.fn.autoKana('#namae','#furigana',{katakana:false});
+      });
+    </script>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- InstanceEndEditable -->
+    <?php include( $_SERVER['DOCUMENT_ROOT'] . '/_footer.php'); ?>
+  </div>
+</body>
+<!-- InstanceEnd -->
+
+</html>

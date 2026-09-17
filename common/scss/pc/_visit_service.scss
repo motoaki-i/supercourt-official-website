@@ -1,0 +1,228 @@
+//* ========================================================================== */
+//* visit_service
+//* 定期訪問
+//* ========================================================================== */
+.visit_service {
+	margin-bottom: 40px;
+	.title {
+		margin-bottom: 40px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background: #aad59c url(../../images/visit_service/title_bg.gif) no-repeat right top;
+		-webkit-background-size: contain;
+		background-size: contain;
+		h2 {
+			margin-left: 30px;
+			width: 69%;
+		}
+	}
+	.lead {
+		margin-bottom: 40px;
+		overflow: hidden;
+		.left {
+			width: 41%;
+			float: left;
+		}
+		.right {
+			width: 57%;
+			float: right;
+			h3 {
+				margin-bottom: 5px;
+				width: 62.5%;
+			}
+			p {
+				margin-bottom: 5px;
+				font-size: 16px;
+				line-height: 1.4;
+			}
+			.btn {
+				width: 54%;
+			}
+		}
+	}
+	.feature {
+		margin-bottom: 40px;
+		.row {
+			margin-bottom: 40px;
+			overflow: hidden;
+			position: relative;
+			display: table;
+			width: 100%;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+			-o-border-radius: 10px;
+			border-radius: 10px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			h3 {
+				padding: 0 20px;
+				display: table-cell;
+				width: 25%;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				text-indent: -300%;
+			}
+			.right {
+				padding: 20px 20px 10px 0;
+				display: table-cell;
+				width: 75%;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				.text {
+					margin-bottom: 10px;
+					float: right;
+					display: table;
+					width: 100%;
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					-ms-border-radius: 5px;
+					-o-border-radius: 5px;
+					border-radius: 5px;
+					overflow: hidden;
+					p {
+						padding-left: 20px;
+						padding-right: 25%;
+						display: table-cell;
+						height: 90px;
+						vertical-align: middle;
+						background: #fff;
+						strong {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+			.img {
+				position: absolute;
+			}
+		}
+		.row__day {
+			background: #fdcbb9;
+			h3 {
+				background: url(../../images/visit_service/feature_day_title.gif) no-repeat center center;
+				background-size: contain;
+			}
+			.text {
+				strong {
+					color: #d95249;
+				}
+			}
+			.img {
+				margin-top: -11%;
+				width: 19%;
+				top: 50%;
+				right: 6px;
+			}
+		}
+		.row__night {
+			background: #b3deac;
+			h3 {
+				background: url(../../images/visit_service/feature_night_title.gif) no-repeat center center;
+				background-size: contain;
+			}
+			.text {
+				strong {
+					color: #38973d;
+				}
+			}
+			.img {
+				margin-top: -11%;
+				width: 22%;
+				top: 50%;
+				right: 10px;
+			}
+		}
+		.row__nightColumn {
+			padding: 0 20px;
+			border: 3px solid  #02af79;
+			background: #ecfae9;
+			overflow: visible;
+			p {
+				margin: -30px auto 0;
+				padding: 10px 0;
+				max-width: 660px;
+			}
+		}
+		.row__teigaku {
+			background: #a3d2f4;
+			h3 {
+				background: url(../../images/visit_service/feature_teigaku_title.gif) no-repeat center center;
+				background-size: contain;
+			}
+			.text {
+				strong {
+					color: #0f8bc4;
+				}
+			}
+			.img {
+				margin-top: -6%;
+				width: 17%;
+				top: 50%;
+				right: 10px;
+			}
+		}
+		.row__teigakuColumn {
+			padding: 20px 20px 10px 20px;
+			border: 3px solid  #217fc4;
+			background: #dcf0ff;
+			overflow: visible;
+			h4 {
+				font-size: 16px;
+				color: #0f8bc4;
+				font-weight: bold;
+			}
+			p {
+				margin-bottom: 10px;
+				font-size: 12px;
+			}
+			.graf {
+				margin: 0 auto 10px;
+				max-width: 655px;
+			}
+		}
+	}
+	.houmon {
+		background: #d5f6cb;
+		h3 {
+			background: #33b371;
+			color: #fff;
+			font-size: 18px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 35px;
+		}
+		.houmon__inner {
+			padding: 10px;
+			ul {
+				padding: 20px 0;
+				background: #fff;
+				text-align: center;
+				li {
+					margin: 0 10px;
+					display: inline-block;
+					font-size: 16px;
+					strong {
+						color: #33b371;
+					}
+				}
+			}
+		}
+	}
+}
+.visit_service_column {
+	padding: 20px;
+	width: 640px;
+	min-height: 700px;
+	background: #feeec0;
+	.lead {
+		margin-bottom: 10px;
+		h2 {
+			margin: 0 auto 10px;
+			width: 75%;
+		}
+	}
+}

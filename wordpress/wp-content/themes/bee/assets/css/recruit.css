@@ -1,0 +1,2494 @@
+@charset "utf-8";
+
+body {
+  background: #fff;
+}
+
+@media (min-width: 768px) {
+    .not-pc {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .not-sp {
+        display: none;
+    }
+}
+
+
+/* =======================================
+// スクロールに応じたフェードイン効果 //
+// ======================================= */
+
+/* アニメーションさせたい要素の初期状態 */
+.fade-in {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+/* 画面に表示されたときに付与するクラス */
+.fade-in.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* カードの基本スタイル */
+.card {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* --- 親要素が画面に入ったら、カードをアニメーションさせる --- */
+.card-container.is-in-view .card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+/* リンク効果 */
+
+
+/* リンク①　リンク全体を中央に配置するためのコンテナ */
+.link-container {
+  text-align: left;
+  /*display: flex;*/
+}
+
+/* リンクの基本スタイル */
+.cta-link {
+  display: inline-flex;
+  align-items: center;
+  color: #FF5F00;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative; /* アンダーラインの基点にするため */
+  padding-bottom: 5px; /* アンダーラインとテキストの間隔 */
+  transition: color 0.3s ease; /* ホバー時のテキスト色変化用 */
+  margin: 10px auto 10px;
+}
+
+/* テキストのアンダーライン */
+.cta-link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0; /* 最初は幅0 */
+  height: 1px; /* アンダーラインの太さ */
+  background-color: #FF5F00; /* アンダーラインの色 */
+  transition: width 0.3s ease-out; /* 幅の変化をアニメーション */
+}
+
+/* マウスオーバー時のテキスト色とアンダーライン */
+.cta-link:hover {
+  color: #FF5F00; /* ホバー時のテキスト色（変わらない場合は同じ色を明示） */
+}
+.cta-link:hover::before {
+  width: 100%; /* アンダーラインの幅を100%にする */
+}
+
+/* 丸いアイコンと矢印をまとめるラッパー */
+.circle-arrow-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px; /* ラッパーの幅 */
+  height: 26px; /* ラッパーの高さ */
+  margin-left: 8px; /* テキストとの間のスペース */
+  position: relative; /* 矢印アイコンの配置基点 */
+  border-radius: 50%; /* ホバー時の背景色を円にする */
+  transition: background-color 0.3s ease; /* 背景色の変化を滑らかに */
+}
+
+/* SVG（円の輪郭線アニメーション用） */
+.circle-svg {
+  position: absolute; /* ラッパーの中央に配置 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg); /* 描画開始位置を上にする */
+}
+
+.circle-svg circle {
+  stroke-dasharray: 75.36; /* 円周の長さ（2 * PI * r = 2 * 3.14 * 12 = 75.36） */
+  stroke-dashoffset: 75.36; /* 最初は線全体が見えない状態 */
+  transition: stroke-dashoffset 0.6s ease-out, stroke 0.3s ease; /* アニメーションと色の変化 */
+  fill: transparent; /* 円の内部は透明 */
+}
+
+/* 矢印アイコンのスタイル */
+.arrow-icon {
+  font-size: 14px;
+  line-height: 1;
+  color: #FF5F00; /* 通常時の矢印の色 */
+  position: relative; /* SVGの上に重なるように */
+  z-index: 1; /* SVGより手前に表示 */
+  transform: translateX(-6px); /* 矢印を右に動かす */
+  transition: color 0.3s ease, transform 0.3s ease; /* 色と動きのアニメーション */
+}
+
+/* マウスオーバー時のエフェクト */
+.cta-link:hover .circle-arrow-wrapper {
+  
+}
+
+.cta-link:hover .circle-svg circle {
+  stroke-dashoffset: 0; /* 線が完全に描画される */
+  stroke: #FF5F00; /* 輪郭線の色を白に */
+}
+
+.cta-link:hover .arrow-icon {
+  color: #FF5F00; /* ホバー時、矢印の色を白に */
+  transform: translateX(0px); /* 矢印を右に動かす */
+}
+
+
+
+/* リンク②　ボタンを中央に配置するためのコンテナ（任意） */
+.link-button-container {
+  text-align: center;
+}
+
+/* ボタン本体のスタイル */
+.gradient-button {
+  /* displayと配置 */
+  display: inline-block; /* ボタンとしての領域を確保 */
+  position: relative;    /* SVGアイコンを配置する際の基準点 */
+  
+  /* サイズと余白 */
+  padding: 16px 60px 16px 60px; /* 上下 左右 の余白 */
+  
+  /* 見た目 */
+  background: linear-gradient(to right, rgb(255, 139, 13) 0%, rgb(255, 95, 0) 100%);
+  border-radius: 9999px; /* 左右を完全に丸くする */
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); /* 立体感を出す影（任意）*/
+
+  /* テキストのスタイル */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  
+  /* アニメーション */
+  transition: transform 0.2s ease-in-out;
+}
+
+/* SVGアイコンのスタイル */
+.arrow-svg {
+  /* 配置 */
+  position: absolute; /* ボタン（親要素）を基準に絶対配置 */
+  top: 50%;           /* 上から50%の位置 */
+  right: 20px;        /* 右から20pxの位置 */
+  transform: translateY(-50%); /* 垂直方向中央に補正 */
+
+  /* サイズ */
+  width: 9px;
+  height: 14px;
+  
+  /* アニメーション */
+  transition: transform 0.3s ease;
+}
+
+/* マウスオーバー時のエフェクト */
+.gradient-button:hover {
+  transform: translateY(0px); /* ボタンが少し浮き上がる（任意） */
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.15);
+}
+
+.gradient-button:hover .arrow-svg {
+  /* Y軸方向の位置は維持しつつ、X軸方向に6px移動 */
+  transform: translateY(-50%) translateX(6px);
+}
+
+
+
+
+
+
+
+
+/* メインビジュアル全体のコンテナ */
+.main-visual {
+    width: 100%;
+    overflow: hidden;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9vh;
+    position: relative; /* 子要素を絶対配置するための基準点にする */
+}
+
+/* 半透明のオーバーレイ */
+.main-visual::before {
+    content: ''; /* 疑似要素には必須 */
+    position: absolute; /* 親要素を基準に配置 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* #F5F0E6 をRGBAに変換し、透明度を0.7に設定 */
+    background-color: rgba(255, 95, 0, 0.8);
+    z-index: 1; /* カルーセル画像より手前に表示 */
+}
+
+/* テキストコンテンツのコンテナ */
+.main-visual-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 要素自体の大きさ分を補正して中央に */
+    color: white; /* 文字色を白に */
+    z-index: 2; /* オーバーレイよりさらに手前に表示 */
+    text-align: center;
+}
+
+/* 各行のスタイル */
+.carousel-row {
+    display: flex;
+    flex: 1; /* 高さを均等に3分割する */
+    min-height: 0; /* flexアイテムの縮小に関するバグを防ぐ */
+}
+
+/* 画像を運ぶトラックのスタイル */
+.carousel-track {
+    display: flex;
+    flex-shrink: 0;
+    
+    /* アニメーションの描画を最適化する（パフォーマンス向上） */
+    will-change: transform;
+
+    /* アニメーションの設定 */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* 画像アイテムのスタイル */
+.carousel-item {
+    /* width: 25vw; を削除またはコメントアウト */
+    height: 100%; /* 親要素（行）の高さに合わせる */
+    flex-shrink: 0;
+    aspect-ratio: 16 / 10.5; /* アスペクト比を16:9に固定 */
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* 画像自体のスタイル */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* アスペクト比を保ったままボックス全体を埋める */
+    border-radius: 0; /* 画像の角を少し丸くする */
+}
+
+/* --- アニメーションの定義 --- */
+
+/* 左から右へのスライドアニメーション */
+@keyframes slide-ltr {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%); /* 複製した分だけ移動して元に戻る */
+    }
+}
+
+/* 右から左へのスライドアニメーション */
+@keyframes slide-rtl {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+/* 各行へのアニメーション適用 */
+.row-1 .carousel-track,
+.row-3 .carousel-track {
+    animation-name: slide-ltr;
+    animation-duration: 90s; /* スピード調整 */
+}
+
+.row-2 .carousel-track {
+    animation-name: slide-rtl;
+    animation-duration: 90s; /* スピード調整 */
+}
+
+/* マウスホバーでアニメーションを一時停止 */
+.carousel-row:hover .carousel-track {
+    
+}
+
+
+@media (max-width: 767px){
+
+.main-visual {
+    height: 60vh;
+}
+.main-visual-content {
+    width: 85%;
+}
+
+
+}
+
+
+
+h2 span.txt-en-2l {
+    display: block;
+    font-size: 3.5rem; /* 文字を大きく */
+    font-weight: 800;  /* 太字よりもさらに太く */
+    letter-spacing: 2px;
+    line-height: 1.0;
+}
+
+
+
+section.top-leadtext {
+  width: 90%;
+  margin: 80px auto;
+}
+
+@media (max-width: 767px){
+
+section.top-leadtext {
+  margin: 40px auto;
+}
+
+h2 span.txt-en-2l {
+    display: block;
+    font-size: 2.5rem; /* 文字を大きく */
+    font-weight: 800;  /* 太字よりもさらに太く */
+    letter-spacing: 2px;
+    line-height: 1.0;
+}
+
+}
+
+
+/* セクション全体のスタイル */
+.top-interview {
+    background: linear-gradient(to bottom, #F5F0E6 50%, transparent 50%);
+    padding: 140px 80px 80px;
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 0 100px auto;
+}
+
+/* ヘッダー部分（見出しと説明文）のレイアウト */
+.interview-header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* 左の列は自動幅、右の列は残り全部 */
+    align-items: center;              /* 要素を上揃えに */
+    gap: 100px;                       /* 見出しと説明文の間隔 */
+    margin-bottom: 80px;
+}
+
+/* 見出し全体のスタイル */
+.top-interview h2 {
+    margin: 0;
+    line-height: 1.0;
+    font-size: 1.1rem; /* 「社員インタビュー」の文字サイズ */
+    font-weight: bold;
+    color: #333;
+}
+
+/* ヘッダーの説明文のスタイル */
+.interview-header > p {
+    margin: 0;
+    padding-top: 10px; /* 見出しとの微細な位置調整 */
+}
+
+
+.interview-wrapper {
+    /* Gridレイアウトを適用 */
+    display: grid;
+    /* 4つの均等な列を作成 */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 50px;
+    transform: none !important;
+    width: 95%;
+    margin: 0 auto 60px;
+}
+
+.interview-wrapper li {
+    margin: 0;
+}
+
+.interview-wrapper li:nth-child(even) {
+    margin-top: 60px;
+}
+
+.interview-wrapper li figure {
+    margin: 0 0 15px 0;
+}
+
+.interview-wrapper li figure img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* リスト内のテキスト共通スタイル */
+.interview-wrapper li p {
+    margin: 5px 0;
+}
+
+/* 職種などのテキストスタイル */
+.interview-wrapper li .txt-jp-s {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+/* 日本語の名前のスタイル */
+.interview-wrapper li .ttl-jp-m {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 0.5em; /* 英語名との間隔 */
+}
+
+/* 英語の名前のスタイル */
+.interview-wrapper li .txt-en-s {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.interview-wrapper li .interview-name {
+  display: flex; /* 子要素を横並びにする */
+  justify-content: space-between; /* 子要素を両端に配置する */
+  align-items: center; /* 垂直方向の中央揃え */
+}
+
+.interview-wrapper li .interview-name-en {
+  text-align: right; /* 右寄せにする */
+}
+
+
+@media (max-width: 767px) {
+
+.top-interview {
+    background: #F5F0E6;
+    padding: 50px 0 50px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto 0;
+}
+/* ヘッダー部分（見出しと説明文）のレイアウト */
+.interview-header {
+    display: grid;
+    grid-template-columns: 1fr; /* 左の列は自動幅、右の列は残り全部 */
+    align-items: center;              /* 要素を上揃えに */
+    gap: 20px;                       /* 見出しと説明文の間隔 */
+    margin: 0 auto 40px;
+    width: 90%;
+}
+
+/* 見出し全体のスタイル */
+.top-interview h2 {
+    margin: 0;
+    line-height: 1.0;
+    font-size: 1.1rem; /* 「社員インタビュー」の文字サイズ */
+    font-weight: bold;
+    color: #333;
+}
+
+/* ヘッダーの説明文のスタイル */
+.interview-header > p {
+    margin: 0;
+    padding-top: 10px; /* 見出しとの微細な位置調整 */
+}
+
+.top-interview-swiper {
+    width: 100%;
+    margin: 40px auto 0;
+}
+.top-interview-swiper .swiper-wrapper {
+    display: ;
+    width: 100%;
+    margin: 0 auto 60px;
+}
+.swiper-slide {
+    width: 60%;
+    flex-shrink: 0;
+    opacity: 1 !important; 
+}
+.swiper-slide:nth-child(even) {
+    margin-top: 40px;
+}
+.swiper-slide figure {
+    margin: 0 0 15px 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* リスト内のテキスト共通スタイル */
+.swiper-slide p {
+    margin: 5px 0;
+}
+
+/* 職種などのテキストスタイル */
+.swiper-slide .txt-jp-s {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+/* 日本語の名前のスタイル */
+.swiper-slide .ttl-jp-m {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 0.5em; /* 英語名との間隔 */
+}
+
+/* 英語の名前のスタイル */
+.swiper-slide .txt-en-s {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.interview-name {
+  display: flex; /* 子要素を横並びにする */
+  justify-content: space-between; /* 子要素を両端に配置する */
+  align-items: center; /* 垂直方向の中央揃え */
+}
+
+.interview-name-en {
+  text-align: right; /* 右寄せにする */
+}
+
+}
+
+
+
+
+.top-intro {
+  width: 100%;
+  background: #FF5F00;
+  padding: 100px 0;
+  margin: 0 auto 100px;
+}
+.top-intro-inner {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+}
+.top-intro h2 {
+  line-height: 1.0;
+  margin: 0 auto 60px;
+}
+/* カード全体のコンテナ設定 */
+.top-intro ul {
+    display: grid; /* liをグリッドレイアウトで配置 */
+    grid-template-columns: repeat(2, 1fr); /* 4つのカラムを等間隔で作成 */
+    gap: 40px; /* カード間の余白 */
+    list-style: none; /* ulのデフォルトの点を削除 */
+    padding: 0; /* ulのデフォルトのpaddingを削除 */
+    margin: 0;
+}
+
+/* カード（li）の基本スタイル */
+.top-intro ul li {
+    background-color: #fff; /* 背景色を白に */
+    padding: 20px; /* 内側に20pxの余白 */
+    box-sizing: border-box; /* paddingを含めて幅を計算 */
+    border-radius: 8px; /* カードの角を少し丸くする */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* カードに影を付けて立体感を出す */
+}
+
+/* カード内のリンク（a）のスタイル */
+.top-intro ul li a {
+    position: relative; /* p要素を絶対配置するための基準点 */
+    display: block; /* リンクをブロック要素にする */
+    text-decoration: none; /* リンクの下線を削除 */
+}
+
+/* 画像（figure, img）のスタイル */
+.top-intro ul li figure {
+    margin: 0; /* figureのデフォルトのmarginを削除 */
+}
+
+.top-intro ul li figure img {
+    width: 100%; /* 画像の幅をカードに合わせる */
+    display: block; /* 画像の下にできる余分な隙間を削除 */
+    aspect-ratio: 1 / 1; /* 画像を正方形に保つ */
+    object-fit: cover; /* 比率を維持したまま領域を埋める */
+}
+
+/* テキスト（p）のスタイル */
+.top-intro ul li p {
+    /* --- テキストを画像に重ねるための設定 --- */
+    position: absolute; /* 親要素(a)を基準に絶対配置 */
+    
+    /* --- 位置の指定 --- */
+    bottom: 20px; /* 下から20pxの位置に配置 */
+    left: 50%; /* 親要素の左から50%の位置に移動 */
+    transform: translateX(-50%); /* 要素自身の幅の半分だけ左に戻して中央揃え */
+    
+    /* --- 見た目の調整 --- */
+    margin: 0;
+    padding: 8px 20px; /* テキストの周りの余白 */
+    background-color: rgba(0, 0, 0, 0.9); /* 背景を半透明の黒にして文字を読みやすくする */
+    color: #fff; /* 文字色を白に */
+    border-radius: 9999px; /* 角を丸くする */
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap; /* テキストが改行しないようにする */
+}
+
+.youtube-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9のアスペクト比 */
+  overflow: hidden;
+}
+
+.youtube-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 767px) {
+
+.top-intro {
+    padding: 70px 0;
+}
+.top-intro-inner {
+  width: 85%;
+}
+.top-intro ul {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.top-intro ul li {
+    padding: 10px;
+}
+.top-intro ul li figure img {
+    border-radius: 8px;
+}
+/* テキスト（p）のスタイル */
+.top-intro ul li p {
+    bottom: 10px;
+    font-size: 14px;
+}
+
+}
+
+
+
+.top-jobtype {
+  width: 100%;
+  background: #F6AA00;
+  padding: 100px 0;
+  margin: 0 auto 0;
+}
+.top-jobtype-inner {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+}
+.top-jobtype h2 {
+  line-height: 1.0;
+  margin: 0 auto 60px;
+}
+/* カード全体のコンテナ設定 */
+.top-jobtype ul {
+    display: grid; /* liをグリッドレイアウトで配置 */
+    grid-template-columns: repeat(3, 1fr); /* 4つのカラムを等間隔で作成 */
+    gap: 30px; /* カード間の余白 */
+    list-style: none; /* ulのデフォルトの点を削除 */
+    padding: 0; /* ulのデフォルトのpaddingを削除 */
+    margin: 0;
+}
+
+/* カード（li）の基本スタイル */
+.top-jobtype ul li {
+    background-color: #fff; /* 背景色を白に */
+    padding: 20px; /* 内側に20pxの余白 */
+    box-sizing: border-box; /* paddingを含めて幅を計算 */
+    border-radius: 8px; /* カードの角を少し丸くする */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* カードに影を付けて立体感を出す */
+}
+
+/* カード内のリンク（a）のスタイル */
+.top-jobtype ul li a {
+    position: relative; /* p要素を絶対配置するための基準点 */
+    display: block; /* リンクをブロック要素にする */
+    text-decoration: none; /* リンクの下線を削除 */
+}
+
+/* 画像（figure, img）のスタイル */
+.top-jobtype ul li figure {
+    margin: 0; /* figureのデフォルトのmarginを削除 */
+}
+
+.top-jobtype ul li figure img {
+    width: 100%; /* 画像の幅をカードに合わせる */
+    display: block; /* 画像の下にできる余分な隙間を削除 */
+    aspect-ratio: 1 / 1; /* 画像を正方形に保つ */
+    object-fit: cover; /* 比率を維持したまま領域を埋める */
+}
+
+/* テキスト（p）のスタイル */
+.top-jobtype ul li p {
+    /* --- テキストを画像に重ねるための設定 --- */
+    position: absolute; /* 親要素(a)を基準に絶対配置 */
+    
+    /* --- 位置の指定 --- */
+    bottom: 20px; /* 下から20pxの位置に配置 */
+    left: 50%; /* 親要素の左から50%の位置に移動 */
+    transform: translateX(-50%); /* 要素自身の幅の半分だけ左に戻して中央揃え */
+    
+    /* --- 見た目の調整 --- */
+    margin: 0;
+    padding: 8px 20px; /* テキストの周りの余白 */
+    background-color: rgba(0, 0, 0, 0.9); /* 背景を半透明の黒にして文字を読みやすくする */
+    color: #fff; /* 文字色を白に */
+    border-radius: 9999px; /* 角を丸くする */
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap; /* テキストが改行しないようにする */
+}
+
+.youtube-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9のアスペクト比 */
+  overflow: hidden;
+}
+
+.youtube-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 767px) {
+
+.top-jobtype {
+    padding: 70px 0;
+}
+.top-jobtype-inner {
+  width: 85%;
+}
+.top-jobtype ul {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.top-jobtype ul li {
+    padding: 10px;
+}
+.top-jobtype ul li figure img {
+    border-radius: 8px;
+}
+/* テキスト（p）のスタイル */
+.top-jobtype ul li p {
+    bottom: 10px;
+    font-size: 14px;
+}
+
+}
+
+
+
+
+
+/* セクション全体(.top-aboutus)のスタイル */
+.top-aboutus {
+    width: 90%;
+    max-width: 1300px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+/* 左側の画像(figure)のスタイル */
+.top-aboutus > figure {
+    width: 40%; /* 幅を40%に設定 */
+    aspect-ratio: 9 / 11; /* 縦横比を9:16の縦長に */
+    margin: 0; /* figureが持つデフォルトの余白をリセット */
+    flex-shrink: 0; /* コンテンツが縮まないように設定 */
+    order: 1;
+}
+/* figure内のimg要素のスタイル */
+.top-aboutus > figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 親要素(figure)の比率に合わせて画像をトリミング */
+    display: block;
+}
+/* 右側のテキスト(.interview-header)のスタイル */
+.top-aboutus > .aboutus-header {
+    width: 40%; /* 幅を40%に設定 */
+    margin-left: 10%; /* figureとの間に10%の余白を作成 */
+    flex-shrink: 0;
+    order: 2;
+}
+
+
+@media (max-width: 767px) {
+
+.top-aboutus {
+    display: grid;
+    margin: 50px auto;
+}
+.top-aboutus > figure {
+    width: 90%;
+    margin: 0 auto 30px;
+    aspect-ratio: 10 / 7; /* 縦横比を9:16の縦長に */
+}
+.top-aboutus > .aboutus-header {
+    width: 90%;
+    margin: 0 auto 0;
+}
+
+}
+
+
+
+
+/* セクション全体(.top-ourmind)のスタイル */
+.top-ourmind {
+    position: relative; /* ::before疑似要素を配置する基準 */
+    width: 100%;
+    margin: 0 auto 100px;
+    background-color: #F5F0E6; /* 右70%で見える背景色 */
+    
+    /* コンテンツ(.top-ourmind-inner)を天地左右中央に配置 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* コンテンツの量に応じて高さが変わるように、paddingで上下の余白を確保 */
+    padding: 160px 0;
+}
+
+/* ::before疑似要素: 左30%の「背景画像」として機能 */
+.top-ourmind::before {
+    content: ''; /* 疑似要素には必須 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0; /* コンテンツの背面に配置 */
+    width: 30%;
+    height: 100%;
+    background-image: url(https://www.supercourt.jp/wordpress/wp-content/themes/bee/assets/image/recruit/okura2.jpg);
+    background-size: cover;      /* 縦横比を維持しつつエリアを埋める */
+    background-position: center; /* 画像の中央を基準に表示 */
+    background-repeat: no-repeat;
+}
+.top-ourmind-inner {
+    /* --- 幅と配置の指定 --- */
+    position: relative;
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto; /* 上下にも余白を持たせ、左右autoで中央揃え */
+
+    /* --- 子要素を横並びにするためのFlexbox設定 --- */
+    display: flex;
+    align-items: center; /* 子要素を垂直方向に中央揃え */
+}
+/* 左側の画像(figure)のスタイル */
+.top-ourmind-inner > ul {
+    width: 40%; /* 幅を40%に設定 */
+    margin: 0; /* figureが持つデフォルトの余白をリセット */
+    flex-shrink: 0; /* コンテンツが縮まないように設定 */
+    order: 2;
+}
+/* 右側のテキスト(.interview-header)のスタイル */
+.top-ourmind-inner > .ourmind-header {
+    width: 40%; /* 幅を40%に設定 */
+    margin-right: 10%; /* figureとの間に10%の余白を作成 */
+    flex-shrink: 0;
+    order: 1;
+}
+
+
+.top-ourmind-inner > ul li a {
+    margin: 0 0 20px 0;
+}
+/* li a をボタンのように装飾 */
+.top-ourmind-inner > ul li a {
+    /* 1. テキストとSVGを左右に配置 */
+    display: flex;
+    justify-content: space-between; /* 両端に寄せる */
+    align-items: center;           /* 上下中央に揃える */
+
+    /* 2. ボタンのデザイン */
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 16px 24px; /* 内側の余白（上下16px、左右24px） */
+    
+    /* テキストやリンクの基本スタイル */
+    color: #333; /* テキストの色 */
+    font-weight: bold;
+    text-decoration: none; /* リンクの下線を消す */
+    transition: background-color 0.3s ease; /* 背景色の変化を滑らかに */
+    transition: padding-left 0.3s ease; /* 背景色の変化を滑らかに */
+}
+
+/* ボタンにマウスオーバーした時のスタイル（任意） */
+.top-ourmind-inner > ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* 少し色を変える */
+    padding-left: 30px;
+}
+
+/* SVGアイコンの基本スタイル */
+.top-ourmind-inner > ul li svg {
+    width: 9px;  /* SVGの幅を指定 */
+    stroke: #FF5F00; /* SVGの線の色を指定（HTMLの"white"を上書き）*/
+    
+    /* 3. マウスオーバー時の動きを滑らかにする */
+    transition: transform 0.3s ease;
+}
+
+/* ボタンにマウスオーバーした時に、中のSVGを動かす */
+.top-ourmind-inner > ul li a:hover svg {
+    transform: translateX(6px); /* 右へ6px移動 */
+}
+
+
+
+@media (max-width: 767px) {
+
+.top-ourmind {
+    width: 100%;
+    margin: 0 auto 50px;
+    background-color: #F5F0E6;
+    display: grid;
+    position: relative;
+    padding: 50px 0 60px;
+}
+.top-ourmind::before {
+    content: ''; /* 疑似要素には必須 */
+    position: absolute;
+    top: inherit;
+    bottom: 0; /* 親要素の下端を基準に配置 */
+    left: 0;   /* 親要素の左端を基準に配置 */
+    z-index: 0;
+    width: 100%;  /* 横幅を100%に */
+    height: 300px; /* 高さを200pxに */
+    background-image: url(https://www.supercourt.jp/wordpress/wp-content/themes/bee/assets/image/recruit/okura2.jpg);
+    background-size: cover;       /* 縦横比を維持しつつエリアを埋める */
+    background-position: center bottom; /* 画像の下部中央を基準に表示 */
+    background-repeat: no-repeat;
+}
+.top-ourmind-inner {
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+}
+.top-ourmind-inner > ul {
+    width: 100%; /* 幅を40%に設定 */
+    margin: 0 auto;
+}
+/* 右側のテキスト(.interview-header)のスタイル */
+.top-ourmind-inner > .ourmind-header {
+    width: 100%; /* 幅を40%に設定 */
+    margin: 0 auto 30px; /* figureとの間に10%の余白を作成 */
+}
+
+}
+
+
+
+
+
+/* 親要素のラッパー */
+.entrybanner-wrapper {
+    width: 100%;
+    padding: 40px 0; /* 上下の余白 */
+    margin: 0 auto calc(100px + 5%);
+}
+
+/* ボタン本体 */
+.entrybanner-simple {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #FF5F00;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.15); /* 影を追加 */
+    border-radius: 8px;
+    margin: 0 auto 30px;
+}
+
+/* ボタン本体 */
+.entrybanner-simple.newgraduate {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #F6AA00;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.15); /* 影を追加 */
+    border-radius: 8px;
+    margin: 0 auto 0;
+}
+
+/* リンクエリア */
+.entry-link {
+    display: flex;
+    justify-content: space-between; /* 両端に配置 */
+    align-items: center;
+    padding: 100px 80px 100px 60px;
+    color: #fff;
+    text-decoration: none;
+    position: relative; /* アイコンの位置の基準にする */
+    overflow: hidden; /* はみ出した要素を隠す */
+}
+
+/* 左側のテキスト */
+.entry-link p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+/* 右側の「ENTRY」テキスト */
+.entry-link .txt-en-l {
+    font-weight: bold;
+    margin-right: 40px; /* 矢印アイコンとの間に余白 */
+    font-size: 1.6rem;
+}
+
+/* アイコンの共通設定 */
+.entry-link svg {
+    stroke: #fff;
+    stroke-width: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* 上下中央揃え */
+}
+
+/* 円アイコンの設定 ★★★ここを変更★★★ */
+.entry-link .circle-icon {
+    width: 96px;   /* 2倍に */
+    height: 96px;  /* 2倍に */
+    stroke-dasharray: 251.2; /* 円周の長さを2倍に */
+    stroke-dashoffset: 251.2; /* 最初は非表示 */
+    transition: stroke-dashoffset 1.2s ease;
+    transform-origin: center;
+    /* 位置を再調整 */
+    right: 48px; 
+    transform: translateY(-50%);
+    stroke-width: 1px;
+    stroke: rgba(255, 255, 255, 0.55);
+}
+
+/* 矢印アイコンの設定 */
+.entry-link .arrow-icon2 {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+    right: 84px; 
+}
+
+/* ホバー時のエフェクト */
+.entry-link:hover .circle-icon {
+    stroke-dashoffset: 0; /* 円を描画 */
+}
+
+.entry-link:hover .arrow-icon {
+    transform: translateY(-50%) translateX(5px); /* 少し右に動かす */
+}
+
+/* スマートフォン向けの調整 */
+@media (max-width: 768px) {
+
+.entrybanner-wrapper {
+    width: 100%;
+    padding: 0; /* 上下の余白 */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto calc(50px + 10%);
+}
+.entrybanner-simple {
+    width: 85%;
+    margin: 0 auto;
+}
+.entry-link {
+    flex-direction: column; /* 縦並びに変更 */
+    padding: 40px 10px;
+    text-align: center;
+}
+.entry-link p {
+    margin-bottom: 15px; /* テキスト間の余白 */
+    font-size: 14px;
+}
+.entry-link .txt-en-2l {
+    margin-right: 0; /* 余白をリセット */
+    margin-bottom: 10px;
+}
+.entry-link svg {
+    position: static; /* 絶対配置を解除 */
+    transform: none; /* 中央揃えをリセット */
+    margin-top: 5px;
+}
+.circle-icon {
+  display: none; /* スマホでは円のアニメーションを非表示 */
+}
+}
+
+
+
+
+
+
+/*　下層ページ　*/
+
+
+/* トップビジュアル全体のコンテナ */
+.top-visual {
+    width: 100%;
+    overflow: hidden;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9vh;
+    position: relative;
+}
+.top-visual figure {
+    /* figureのサイズを親要素いっぱいに広げる設定を追加すると、より確実です */
+    width: 100%;
+    height: 100%;
+    margin: 0; /* figureのデフォルトマージンをリセット */
+    z-index: 1;
+}
+.top-visual figure img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* この行を追加 */
+}
+.top-visual::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 95, 0, 0.7);
+    z-index: 2;
+}
+.top-visual-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: 3;
+    text-align: left;
+}
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+
+.top-visual {
+    height: 20vh;
+}
+
+}
+
+
+
+/* インタビュー個別ページトップビジュアル全体のコンテナ */
+.top-visual-mini {
+    width: 100%;
+    overflow: hidden;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9vh;
+    position: relative;
+    margin-bottom: 0;
+}
+.top-visual figure {
+    z-index: 1;
+}
+.top-visual-mini::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 95, 0, 0.8);
+    z-index: 2;
+}
+.top-visual-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #fff;
+    z-index: 3;
+    text-align: left;
+}
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+
+.top-visual-mini {
+    height: 20vh;
+}
+
+}
+
+
+
+
+/* philosophy-leadの基本設定 */
+.philosophy-lead {
+    width: 90%; /* 画面幅の90% */
+    max-width: 1200px; /* 最大幅1200px */
+    margin: 120px auto; /* 中央揃え */
+    display: flex; /* 横並びのレイアウトを有効にする */
+    justify-content: space-between; /* 要素間のスペースを均等に配置 */
+    gap: 8%; /* content-block-01と02の間の間隔を8%に設定 */
+    align-items: center;
+}
+
+/* content-blockの共通設定 */
+.content-block-01,
+.content-block-02 {
+    display: flex; /* 子要素の配置をflexboxで制御 */
+    flex-direction: column; /* 中身の要素を縦に並べる */
+}
+
+.philosophy-lead .content-block-01 {
+    width: 46%; /* 親要素の幅に対して46%（合計92% + gap8% = 100%）*/
+}
+
+.philosophy-lead .content-block-02 {
+    width: 46%; /* 親要素の幅に対して46% */
+}
+
+.philosophy-lead .card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 画像の基本設定 */
+.philosophy-lead img {
+    max-width: 100%; /* 親要素の幅に合わせて画像サイズを調整 */
+    height: auto; /* 高さを自動調整 */
+}
+
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .philosophy-lead {
+        width: 85%; /* 画面幅の85%に変更 */
+        flex-direction: column; /* 要素を縦に並べる */
+        gap: 40px; /* 縦に並んだ際のブロック間の間隔 */
+        margin: 60px auto;
+    }
+
+    .philosophy-lead .content-block-01,
+    .philosophy-lead .content-block-02 {
+        width: 100%; /* 横幅を100%にする */
+    }
+}
+
+
+
+/* ----------------------------------------------
+  基本設定
+----------------------------------------------- */
+
+/* ラッパー：画面幅100% */
+.philosophy-content-wrapper {
+  width: 100%;
+  padding: 120px 0; /* 上下の余白（任意） */
+}
+
+/* 背景色を交互に変える場合（任意） */
+.philosophy-content-wrapper:nth-of-type(even) {
+  background-color: #F5F0E6;
+}
+
+/* コンテンツエリア：画面幅90% / 最大幅1300px */
+.philosophy-content {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto; /* 中央揃え */
+  display: flex;
+  align-items: center; /* コンテンツの縦方向を中央揃え */
+  gap: 5%; /* 左右ブロック間の間隔を5%に */
+}
+
+/* 左右のコンテンツブロック */
+.philosophy-content .content-block-01,
+.philosophy-content .content-block-02 {
+  display: flex;
+  flex-direction: column; /* 中の要素を縦に並べる */
+}
+.philosophy-content .content-block-01 {
+  width: 55%; /* (100% - 5% gap) / 2 */
+}
+.philosophy-content .content-block-02 {
+  width: 40%; /* (100% - 5% gap) / 2 */
+}
+
+.philosophy-content figure {
+    width: 100%;
+    aspect-ratio: 16 / 11;
+    flex-shrink: 0;
+}
+.philosophy-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 親要素(figure)の比率に合わせて画像をトリミング */
+    display: block;
+}
+
+/* ----------------------------------------------
+  偶数・奇数で左右を反転
+----------------------------------------------- */
+
+/* 奇数番目のセクション（デフォルトの並び） */
+/* CSSの指定は不要です。HTMLの記述順に表示されます。 */
+
+/* 偶数番目のセクションの並びを反転 */
+.philosophy-content-wrapper:nth-of-type(odd) .philosophy-content {
+  flex-direction: row-reverse;
+}
+
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+
+    .philosophy-content-wrapper {
+        padding: 60px 0; /* 上下の余白（任意） */
+    }
+
+  /* ユーザー要件：philosophy-leadは画面幅の85%
+     HTML構造から .philosophy-content の誤記と判断し、こちらに適用します */
+  .philosophy-content {
+    width: 85%;
+    flex-direction: column; /* 縦並びに変更 */
+    gap: 40px; /* 上下の間隔 */
+  }
+
+  /* 左右ブロックの幅を100%に */
+  .philosophy-content .content-block-01,
+  .philosophy-content .content-block-02 {
+    width: 100%;
+  }
+
+  /* スマホ表示では左右の反転をリセット（特に不要だが明示的に記述） */
+  .philosophy-content-wrapper:nth-of-type(odd) .philosophy-content {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------
+  全体・ラッパー
+----------------------------------------------- */
+.training-content-wrapper {
+  width: 100%;
+  background-color: #F5F0E6;
+  padding: 0 0 140px; /* training-contentの下に余白を持たせるため */
+  position: relative;
+  margin: 100px auto 60px;
+}
+
+/* ----------------------------------------------
+  タイトルブロック
+----------------------------------------------- */
+.training-title-block {
+  width: 100%;
+  background-color: #F6AA00;
+  padding: 45px 0 100px; /* タイトルの上下に余白を設ける */
+  margin-bottom: 40px; /* タイトルとコンテンツの間の余白 */
+}
+
+.training-title-block h2 {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto; /* 中央揃え */
+  color: white; /* 文字色（任意） */
+}
+
+/* ----------------------------------------------
+  コンテンツブロック
+----------------------------------------------- */
+.training-content {
+  width: 85%;
+  max-width: 1200px;
+  margin: -90px auto;
+  background-color: #fff;
+  padding: 80px;
+  box-sizing: border-box; /* paddingを含めて幅を計算する */
+  position: relative;
+  border-radius: 20px;
+}
+
+.training-content .content-block {
+  display: flex;
+  justify-content: space-between; /* 両端揃えで配置 */
+  align-items: center; /* 垂直方向中央揃え */
+}
+
+/* 最後の要素以外に下マージンを設定 */
+.training-content .content-block:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.training-content .content-block figure {
+  width: 25%;
+  margin: 0; /* figureのデフォルトマージンをリセット */
+}
+
+.training-content .content-block .content-block-txtbox {
+  width: 70%;
+}
+
+/* 画像のレスポンシブ対応 */
+.training-content .content-block img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 9999px;
+}
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+
+.training-content-wrapper {
+    margin: 50px auto 60px;
+}
+.training-content {
+    padding: 40px 20px; /* スマホ用にpaddingを調整 */
+}
+.training-content .content-block {
+    flex-direction: column; /* 縦並びに変更 */
+    gap: 30px; /* 要素間の隙間 */
+}
+.training-content .content-block figure {
+    width: 50%; /* 幅を50%に変更 */
+    /* 横位置はflex-direction: column;の親要素(.content-block)では
+    align-items: center; で中央揃えになるため、特別な指定は不要 */
+}
+.training-content .content-block .content-block-txtbox {
+    width: 100%; /* 幅を100%に変更 */
+}
+
+}
+
+
+
+
+
+
+
+.interview-lists {
+    /* Gridレイアウトを適用 */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 60px;
+    transform: none !important;
+    width: 90%;
+    max-width: 1100px;
+    margin: 120px auto 120px;
+}
+
+.interview-lists li {
+    margin: 0;
+    position: relative;
+}
+.interview-lists li:nth-child(3n + 2) {
+  margin-top: 50px;
+}
+.interview-lists li:nth-child(3n) {
+  margin-top: 100px;
+}
+
+.interview-lists li figure {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    flex-shrink: 0;
+    margin: 0 0 15px 0;
+    overflow: hidden; /* はみ出した画像を隠す */
+}
+
+.interview-lists li figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    /* transformプロパティを滑らかに変化させる */
+    transition: transform 0.3s ease; 
+}
+
+/* li要素にマウスオーバーした時にimgを拡大 */
+.interview-lists li:hover figure img {
+    transform: scale(1.1); /* 1.1倍に拡大 */
+}
+
+
+/* リスト内のテキスト共通スタイル */
+.interview-lists li p {
+    margin: 5px 0;
+}
+
+/* 職種などのテキストスタイル */
+.interview-lists li .txt-jp-s {
+    font-size: 0.8rem;
+}
+
+/* 日本語の名前のスタイル */
+.interview-lists li .ttl-jp-m {
+    font-size: 1rem;
+    margin-right: 0.5em; /* 英語名との間隔 */
+}
+.interview-lists li .ttl-jp-l {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* 英語の名前のスタイル */
+.interview-lists li .txt-en-s {
+    font-size: 0.75rem;
+}
+
+.interview-lists li .vertidcal-ruby {
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+.interview-lists li .interview-name {
+  display: flex; /* 子要素を横並びにする */
+  justify-content: flex-start; /* 子要素を両端に配置する */
+  align-items: center; /* 垂直方向の中央揃え */
+}
+
+.interview-lists li .interview-name-en {
+  text-align: left; /* 右寄せにする */
+}
+.interview-lists li .namebox-wrapper {
+    position: relative;
+}
+.interview-lists li .namebox {
+    position: absolute;
+    left: -20px;
+    bottom: -50px;
+    padding: 15px;
+    background: #fff;
+    width: 90%;
+    border-top-right-radius: 5px;
+}
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+.interview-lists {
+    /* 3カラムから1カラム表示に変更 */
+    grid-template-columns: 1fr;
+    /* 上下のマージンと左右の隙間を調整 */
+    gap: 40px;
+    margin: 60px auto 60px;
+    width: 70%;
+}
+.interview-lists li {
+    margin-bottom: 70px;
+}
+.interview-lists li:nth-child(3n + 2) {
+    margin-top: 0px;
+}
+.interview-lists li:nth-child(3n) {
+    margin-top: 0px;
+}
+.interview-lists li .namebox {
+    bottom: -60px;
+}
+}
+
+
+
+.core-message {
+    margin: 30px auto 100px;
+}
+
+
+.interview-lead-wrapper {
+    width: 100%;
+    background: #F5F0E6;
+    margin: 0 0 100px;
+    padding: 70px 0 5px;
+}
+
+.interview-lead {
+    width: 90%; /* 画面幅の90% */
+    max-width: 1000px; /* 最大幅1200px */
+    margin: 0 auto 100px; /* 上下のマージンを調整 */
+    display: flex; /* 横並びのレイアウトを有効にする */
+    align-items: center; /* 中央揃え（垂直方向）*/
+    justify-content: center; /* 中央揃え（水平方向）*/
+}
+
+/* content-blockの共通設定 */
+.interview-lead .content-block-01,
+.interview-lead .content-block-02 {
+    display: flex; /* 子要素の配置をflexboxで制御 */
+    flex-direction: column; /* 中身の要素を縦に並べる */
+}
+
+.interview-lead .content-block-01 {
+    width: 55%; /* 親要素の幅に対して46% */
+    /* z-indexが効くように念のため指定 */
+    position: relative;
+    z-index: 0;
+}
+
+.interview-lead .content-block-02 {
+    width: 45%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    margin-top: 160px;
+    margin-left: -80px;
+    margin-bottom: 0;
+}
+
+.interview-lead .content-block-02 h2 {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.interview-lead .card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 画像の基本設定 */
+.interview-lead img {
+    max-width: 100%; /* 親要素の幅に合わせて画像サイズを調整 */
+    height: auto; /* 高さを自動調整 */
+    display: block; /* 余白をなくす */
+}
+
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+
+.interview-lead-wrapper {
+    width: 100%;
+    margin: 0 0 50px;
+    padding: 60px 0 10px;
+}
+.interview-lead {
+    width: 90%; /* 画面幅の85%に変更 */
+    flex-direction: column; /* 要素を縦に並べる */
+    gap: 0; /* 縦に並んだ際のブロック間の間隔 */
+    margin: 0 auto 40px;
+    padding: 0 0 0;
+}
+
+.interview-lead .content-block-01 {
+    width: 90%; /* 横幅を100%にする */
+    margin: 0 auto;
+}
+.interview-lead .content-block-02 {
+    width: 85%; /* 横幅を100%にする */
+    margin-top: -30px;
+    margin-left: 15%;
+    padding: 30px;
+}
+.core-message {
+    margin: 0 auto 40px;
+}
+}
+
+
+/* ----------------------------------------------
+  基本設定
+----------------------------------------------- */
+
+/* ラッパー：画面幅100% */
+.interview-content-wrapper {
+  width: 100%;
+  margin: 0 auto 100px; /* 上下の余白（任意） */
+}
+
+/* コンテンツエリア：画面幅90% / 最大幅1300px */
+.interview-content {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; /* 中央揃え */
+  display: flex;
+  align-items: center; /* コンテンツの縦方向を中央揃え */
+  gap: 5%; /* 左右ブロック間の間隔を5%に */
+}
+
+/* 左右のコンテンツブロック */
+.interview-content .content-block-01,
+.interview-content .content-block-02 {
+  display: flex;
+  flex-direction: column; /* 中の要素を縦に並べる */
+}
+.interview-content .content-block-01 {
+  width: 55%; /* (100% - 5% gap) / 2 */
+}
+.interview-content .content-block-02 {
+  width: 40%; /* (100% - 5% gap) / 2 */
+}
+
+.interview-content figure {
+    width: 100%;
+    aspect-ratio: 16 / 11;
+    flex-shrink: 0;
+}
+.interview-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 親要素(figure)の比率に合わせて画像をトリミング */
+    display: block;
+}
+
+/* ----------------------------------------------
+  偶数・奇数で左右を反転
+----------------------------------------------- */
+
+/* 奇数番目のセクション（デフォルトの並び） */
+/* CSSの指定は不要です。HTMLの記述順に表示されます。 */
+
+/* 偶数番目のセクションの並びを反転 */
+.interview-content-wrapper:nth-of-type(odd) .interview-content {
+  flex-direction: row-reverse;
+}
+
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+
+.interview-content-wrapper {
+    margin: 0 auto 60px;
+}
+.interview-content {
+    width: 85%;
+    flex-direction: column;
+    gap: 40px;
+}
+.interview-content .content-block-01,
+.interview-content .content-block-02 {
+    width: 100%;
+}
+.interview-content-wrapper:nth-of-type(odd) .interview-content {
+    flex-direction: column;
+}
+
+}
+
+
+
+/* philosophy-leadの基本設定 */
+.interview-profile {
+    width: 90%; /* 画面幅の90% */
+    max-width: 900px; /* 最大幅1200px */
+    margin: 120px auto; /* 中央揃え */
+    display: flex; /* 横並びのレイアウトを有効にする */
+    justify-content: space-between; /* 要素間のスペースを均等に配置 */
+    gap: 5%; /* content-block-01と02の間の間隔を8%に設定 */
+    align-items: top;
+}
+
+/* content-blockの共通設定 */
+.interview-profile .content-block-01,
+.interview-profile .content-block-02 {
+    display: flex; /* 子要素の配置をflexboxで制御 */
+    flex-direction: column; /* 中身の要素を縦に並べる */
+}
+
+.interview-profile .content-block-01 {
+    width: 30%; /* 親要素の幅に対して46%（合計92% + gap8% = 100%）*/
+    order: 2;
+}
+
+.interview-profile .content-block-02 {
+    width: 65%; /* 親要素の幅に対して46% */
+    order: 1;
+}
+
+.interview-profile .card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 画像の基本設定 */
+.interview-profile img {
+    max-width: 100%; /* 親要素の幅に合わせて画像サイズを調整 */
+    height: auto; /* 高さを自動調整 */
+}
+
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .interview-profile {
+        width: 85%; /* 画面幅の85%に変更 */
+        flex-direction: column; /* 要素を縦に並べる */
+        gap: 40px; /* 縦に並んだ際のブロック間の間隔 */
+        margin: 60px auto;
+    }
+
+    .interview-profile .content-block-01 {
+        width: 60%; /* 横幅を100%にする */
+        margin: 0 auto 0;
+        order: 1;
+    }
+    .interview-profile .content-block-02 {
+        width: 100%; /* 横幅を100%にする */
+        order: 2;
+    }
+}
+
+
+
+
+/* interview-message全体 */
+.interview-message {
+  display: flex; /* 子要素を横並びにする */
+  align-items: center; /* 子要素を垂直方向に中央揃え */
+  gap: 40px; /* 画像とテキストの間の余白 */
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;   /* 中央揃え */
+  margin-right: auto; /* 中央揃え */
+  padding: 40px;
+  background-color: orange;
+  border-radius: 15px;
+  box-sizing: border-box; /* paddingを含めて幅を計算する */
+}
+
+/* 画像を囲むボックス */
+.interview-message-imgbox {
+  width: 25%;
+  flex-shrink: 0; /* ボックスが縮まないようにする */
+}
+
+/* 画像を円形にする */
+.interview-message-imgbox img {
+  width: 100%;
+  border-radius: 50%; /* 正円にする */
+  aspect-ratio: 1 / 1; /* 縦横比を1:1に保つ */
+  object-fit: cover; /* 比率を維持したままトリミング */
+  display: block; /* 画像下の余白をなくす */
+}
+
+/* テキストボックス */
+.interview-message-txtbox {
+  color: white;
+}
+
+/* h2とpのデフォルトマージンをリセット（任意） */
+.interview-message-txtbox h2,
+.interview-message-txtbox p {
+  margin: 0;
+}
+
+.interview-message-txtbox h2 {
+    margin-bottom: 1em; /* 見出しと本文の間に余白を設ける */
+}
+
+/* ------------------------------------- */
+/* スマートフォン表示用のスタイル（例: 画面幅768px以下） */
+/* ------------------------------------- */
+@media (max-width: 768px) {
+  .interview-message {
+    flex-direction: column; /* 子要素を縦並びにする */
+    gap: 30px; /* 上下配置になった際の余白を調整 */
+    padding: 30px 20px; /* スマホでのpaddingを調整 */
+  }
+
+  .interview-message-imgbox {
+    width: 50%; /* スマホでの画像の幅 */
+    margin-left: auto; /* 中央寄せ */
+    margin-right: auto; /* 中央寄せ */
+  }
+
+  /* テキストボックスの幅は、interview-messageの90%幅に合わせる */
+  .interview-message-txtbox {
+    width: 100%; /* 親要素の幅いっぱいに広げる */
+    text-align: center; /* テキストを中央寄せにする場合 */
+  }
+  .interview-message-txtbox p {
+    width: 100%; /* 親要素の幅いっぱいに広げる */
+    text-align: left; /* テキストを中央寄せにする場合 */
+  }
+
+  /* テキストを左寄せにしたい場合は、上記の text-align: center; を削除するか、
+     text-align: left; を指定してください。 */
+}
+
+
+
+
+/* ----------------------------------------------
+  セクション全体
+----------------------------------------------- */
+.interview-shcedule {
+  width: 90%;
+  max-width: 1000px;
+  margin: 60px auto; /* 上下左右の余白 */
+  background-color: #F5F0E6;
+  padding: 50px;
+  box-sizing: border-box; /* paddingを含めて幅を計算 */
+  border-radius: 20px;
+}
+
+/* ----------------------------------------------
+  dl, dt, dd のレイアウト
+----------------------------------------------- */
+.interview-shcedule dl {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+  /* Gridレイアウトを適用 */
+  display: grid;
+  /* 列の定義：15%幅、5%の隙間、80%幅 */
+  grid-template-columns: 15% 80%;
+  column-gap: 5%;
+  /* 各行の隙間 */
+  row-gap: 20px;
+  /* 垂直方向の中央揃え */
+  align-items: center; 
+}
+
+.interview-shcedule dt {
+  width: 100%; /* 親のGridエリアに対して100% */
+  background-color: #F6AA00;
+  border-radius: 9999px; /* 角を完全に丸くしてカプセル状に */
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.interview-shcedule dd {
+  width: 100%; /* 親のGridエリアに対して100% */
+  margin: 0 0 20px; /* ddが持つデフォルトのmarginをリセット */
+}
+
+
+
+/* ----------------------------------------------
+  スマートフォン向けの表示（768px以下）
+----------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .interview-shcedule {
+    padding: 30px 20px; /* スマートフォン用に余白を調整 */
+  }
+
+  .interview-shcedule dl {
+    display: block; /* gridレイアウトを解除して縦並びに */
+    padding: 0;
+    background: none;
+  }
+
+  .interview-shcedule dt {
+    /* 横幅いっぱいに広げ、テキストを左揃えに */
+    width: 100%;
+    text-align: left;
+    
+    /* 角丸を左側だけに調整 */
+    border-radius: 10px 10px 0 0;
+    
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+  }
+  
+  .interview-shcedule dd {
+    width: 100%;
+    margin: 0 0 25px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    background: #fff;
+  }
+}
+
+
+
+
+
+
+/*  採用情報の会社概要　*/
+
+.recruit-company-wrapper {
+    width: 100%;
+    padding: 120px 0 100px;
+    margin: 0 auto 60px;
+    background: #F5F0E6;
+}
+.company-overview {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 60px;
+    background-color: #fff;
+    padding: 60px 60px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.company-overview dl {
+    margin-top: 60px;
+}
+.company-overview-row {
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    column-gap: 0;
+    align-items: center; 
+}
+.company-overview dt {
+    width: 90%;
+    margin-right: 10%;
+}
+.company-overview dd {
+    width: 90%;
+    margin-left: 10%;
+}
+.company-overview-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+.recruit-company-wrapper {
+    padding: 50px 0;
+}
+.company-overview {
+    width: 90%;
+    padding: 40px 30px;
+}
+.company-overview dl {
+    margin-top: 40px;
+}
+.company-overview-row {
+    grid-template-columns: 1fr; 
+    row-gap: 10px; 
+}
+
+}
+
+
+
+
+
+
+/*　数字で見るスーパー・コート　*/
+
+
+/* =========================================================
+   基本レイアウト & 汎用スタイル
+   ========================================================= */
+.dashboard-wrapper {
+    width: 90%;
+    max-width: 1300px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    column-gap: 2%;
+    align-items: top;
+    margin: 70px auto 60px;
+}
+
+.dashboard-box {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 25px;
+}
+.dashboard-titlebox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dashboard-box h3 {
+    display: inline-block;
+    background: #F5F0E6;
+    border-radius: 9999px;
+    padding: 10px 30px;
+}
+
+/* JSで付与されるクラス */
+.dashboard-box.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.dashboard-titlebox {
+    margin-bottom: 24px;
+}
+
+/* 汎用テキストスタイル */
+.txt-bold { font-weight: bold; }
+.txt-center { text-align: center; }
+.txt-jp-s { font-size: 0.9em; }
+.ttl-jp-m { font-size: 1.2rem; }
+.mb1 { margin-bottom: 1rem; }
+
+
+/* =========================================================
+   円グラフ (Pie Chart) 共通スタイル
+   ========================================================= */
+/* conic-gradientアニメーション用 */
+@property --p {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 0%;
+}
+
+.pie-chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pie-chart-css {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: --p 1.5s ease-in-out;
+}
+
+.pie-chart-legend {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 280px;
+    font-size: 14px;
+}
+
+.pie-chart-legend li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.pie-chart-legend span:first-child {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.pie-chart-value {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+/* =========================================================
+   各円グラフの個別スタイル
+   ========================================================= */
+
+/* --- 男女比 --- */
+#genderGraph .pie-chart-css {
+    background: conic-gradient(#F6AA00 var(--p), #FF5F00 0%);
+}
+#genderGraph.is-visible .pie-chart-css {
+    --p: var(--male-ratio, 23.7%); /* HTMLから値を受け取る */
+}
+
+/* --- 役職割合 --- */
+.pie-chart-css.multi-segment {
+    background: conic-gradient(
+      #D95300 0% 49.7%,    /* 1. 介護職 (49.7%) */
+      #FF5F00 49.7% 80.9%, /* 2. 看護師 (31.2%) */
+      #F88A00 80.9% 90.1%, /* 3. 副主任 (9.2%) */
+      #F6AA00 90.1% 94.8%, /* 4. 主任 (4.7%) */
+      #FBC745 94.8% 99.2%, /* 5. その他 (4.4%) */
+      #FDE68A 99.2% 100%   /* 6. エリアマネージャー (0.8%) */
+    );
+    mask: conic-gradient(#000 var(--p), transparent 0%);
+}
+#rolePieChart.is-visible .pie-chart-css {
+    --p: 100%;
+}
+
+/* --- 単一数値 (有給・産休) --- */
+.pie-chart-container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+.pie-chart-css.single-value {
+    /* アニメーションの初期値を0%に設定 */
+    --p: 0%; 
+    background: conic-gradient(#F6AA00 var(--p), #e0e0e0 0%);
+}
+
+/* is-visibleクラスが付いたら、HTMLで指定した --target-p の値まで --p を変化させる */
+.is-visible .pie-chart-css.single-value {
+    --p: var(--target-p, 0%); /* var()で目標値を取得 */
+}
+
+.pie-chart-container::before {
+    content: attr(data-value); /* data属性からテキスト取得 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    opacity: 0;
+    transition: opacity 0.5s ease 1s;
+}
+.is-visible .pie-chart-container::before {
+    opacity: 1;
+}
+
+/* 産休・育休グラフの色を上書き */
+#maternityLeavePieChart .pie-chart-css.single-value {
+    background: conic-gradient(#F6AA00 var(--p), #e0e0e0 0%);
+}
+
+
+/* =========================================================
+   棒グラフ (Bar Chart) 共通スタイル
+   ========================================================= */
+.bar-chart-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.bar-chart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.bar-chart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.bar-chart-label {
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    flex-shrink: 0;
+}
+.bar-wrapper {
+    flex: 1;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.bar {
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 0; /* 初期幅 */
+    transition: width 1.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* JSでis-visibleが付与されたら幅を適用 */
+.is-visible .bar {
+    width: var(--bar-width);
+}
+
+/* 縦並びの棒グラフ用スタイル */
+.bar-chart-container.vertical .bar-chart-item {
+    display: block;
+    margin-bottom: 20px;
+}
+.bar-chart-container.vertical .bar-chart-label {
+    width: auto;
+    margin-bottom: 8px;
+}
+.bar-chart-container.vertical .bar {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+/* =========================================================
+   各棒グラフの個別スタイル (色など)
+   ========================================================= */
+.bar.bronze { background-color: #cd7f32; }
+.bar.silver { background-color: #c0c0c0; }
+.bar.gold { background-color: #ffd700; color: #333; }
+.bar.platinum { background-color: #e5e4e2; color: #333; }
+.bar.meister { background-color: #6a0dad; }
+.bar.thanks { background-color: #FF5F00; }
+
+
+/* =========================================================
+   縦棒グラフ用の追加スタイル (.vertical-chart)
+   ========================================================= */
+
+/* グラフ全体のレイアウトを調整 */
+.vertical-chart .bar-chart-list {
+    display: flex;
+    justify-content: space-around; /* グラフを均等に配置 */
+    align-items: flex-end;         /* グラフを下揃えにする（重要）*/
+    height: 300px;                 /* グラフエリアの最大の高さを指定 */
+    padding: 0 20px;
+}
+
+/* 各グラフ項目（ラベルとバー）のレイアウト */
+.vertical-chart .bar-chart-item {
+    display: flex;
+    flex-direction: column-reverse; /* ラベルが下に、バーが上にくるように順序を逆転 */
+    align-items: center;
+    width: 15%; /* 各グラフの横幅 */
+    height: 100%;
+}
+
+/* ラベルのスタイル調整 */
+.vertical-chart .bar-chart-label {
+    margin-top: 8px; /* バーとの間隔 */
+    width: 100%;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* バーのコンテナのスタイル調整 */
+.vertical-chart .bar-wrapper {
+    width: 100%;
+    max-width: 100px; /* バーの最大幅 */
+    height: 100%;
+    background-color: transparent; /* 背景は不要なので透明に */
+    display: flex;
+    align-items: flex-end; /* バーを下に詰める */
+}
+
+/* バー本体のスタイルを縦向きに変更 */
+.vertical-chart .bar {
+    width: 100%; /* 横幅を100%に */
+    height: 0;   /* ★初期の高さを0に */
+    
+    /* アニメーションの対象を height に変更 */
+    transition: height 1.5s cubic-bezier(0.2, 0.8, 0.2, 1); 
+
+    /* テキストの表示位置を調整 */
+    line-height: initial;
+    writing-mode: horizontal-tb;
+    text-align: center;
+    padding: 8px 0 0 0; /* バーの上部に余白を持たせテキストを見やすくする */
+    overflow: hidden;
+}
+
+/* is-visibleになったら高さを変更してアニメーションさせる */
+.is-visible .vertical-chart .bar {
+    /* HTMLの--bar-widthを高さ(height)として使用 */
+    height: var(--bar-width);
+}
+
+
+/* =========================================================
+   バーの上の人数表示用のスタイル
+   ========================================================= */
+.bar-value {
+    color: black; /* 文字色を黒に */
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px; /* バーとの間隔 */
+    
+    /* アニメーションの準備 */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    transition-delay: 1.5s; /* バーが伸び終わってから表示 */
+}
+
+/* is-visibleになったらフワッと表示させる */
+.is-visible .bar-value {
+    opacity: 1;
+}
+
+/* ラベルは一番下に配置 */
+.vertical-chart .bar-chart-label {
+    order: 3; /* 表示順を一番最後にする */
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.dashboard-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    margin: 40px auto 100px;
+}
+.dashboard-box {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 30px 20px;
+}
+
+}
+

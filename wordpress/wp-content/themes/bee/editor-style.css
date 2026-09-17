@@ -1,0 +1,118 @@
+* {
+  font-family: Noto Sans JP, メイリオ, Meiryo, serif;
+}
+
+p {
+	font-size: 16px;
+	line-height: 2;
+	margin: 1em 0;
+}
+
+a {
+	color: #9F8039;
+	text-decoration: underline;
+}
+
+strong {
+	color: #9F8039;
+	font-weight: 700;
+}
+
+em {
+	font-style: italic;
+}
+
+h2 {
+	padding-left: 15px;
+	font-size: 28px;
+	background: #9F8039;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-weight: 500;
+	color: #fff;
+	position: relative;
+	padding: 2px 20px;
+	margin-bottom: 30px;
+	clear: both;
+}
+
+h2::before {
+	content: '';
+	position: absolute;
+	top: 8px;
+	left: 5px;
+	bottom: 8px;
+	width: 5px;
+	background: #fff;
+}
+
+h3 {
+	clear: both;
+	border-bottom: solid 1px #CCCCCC;
+	margin-bottom: 30px;
+	font-size: 26px;
+	padding: 55px 0 10px;
+	position: relative;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+h3::after {
+	content: '';
+	position: absolute;
+	bottom: -1px;
+	width: 100px;
+	height: 1px;
+	left: 0;
+	background: #9F8039;
+}
+
+h4 {
+	clear: both;
+	font-size: 24px;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	font-weight: 500;
+	border-bottom-color: #9F8039;
+	padding-top: 65px;
+}
+
+blockquote {
+	clear: both;
+	background: #FAF6F0;
+	border-left: solid 5px #9F8039;
+	margin: 60px 0;
+	padding: 60px 35px;
+	color: #666;
+	position: relative;
+}
+
+blockquote::before {
+	content: '';
+	position: absolute;
+	width: 28px;
+	height: 24px;
+	background: url('images/topics/icon-quote1.png') center / contain no-repeat;
+	top: 28px;
+}
+
+blockquote::after {
+	content: '';
+	position: absolute;
+	width: 28px;
+	height: 24px;
+	background: url('images/topics/icon-quote2.png') center / contain no-repeat;
+	bottom: 28px;
+	right: 40px;
+}
+
+img.alignright {
+	float: right;
+	width: auto;
+	height: auto;
+	margin-left: 40px;
+}
+
+img.alignleft {
+	float: left;
+	width: auto;
+	height: auto;
+	margin-right: 40px;
+}

@@ -1,0 +1,57 @@
+//* ========================================================================== */
+//* process
+//* 入居の流れ
+//* ========================================================================== */
+.process {
+	.content {
+		margin-bottom: 80px;
+		padding-top: 40px;
+		.flow {
+			padding: 20px;
+			border: 1px dotted  #ccc;
+			table {
+				margin-bottom: 20px;
+				th {
+					width: 100px;
+					height: 100px;
+					background: #f1d35c;
+					font-size: 20px;
+					font-weight: bold;
+					color: #fff;
+				}
+				td {
+					padding: 0 20px;
+					h3 {
+						margin-bottom: 5px;
+						font-size: 28px;
+						font-family: $mincho;
+						color: $cl-green;
+					}
+					p {
+						font-size: 16px;
+					}
+				}
+			}
+			.res {
+				padding: 20px;
+				background: #d6e8f2;
+				font-size: 16px;
+				text-align: center;
+			}
+		}
+		.arrow {
+				text-align: center;
+				font-size: 50px;
+				line-height: 1.0;
+		}
+		.end {
+			padding: 20px;
+			background: #B53B41;
+			font-family: $mincho;
+			font-weight: bold;
+			font-size: 24px;
+			color: #fff;
+			text-align: center;
+		}
+	}
+}

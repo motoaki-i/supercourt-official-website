@@ -1,0 +1,30 @@
+.contact-option__text--not-active {
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  #wrap .falcility-contact * {
+    box-sizing: content-box;
+  }
+
+  #wrap .falcility-contact .contact-option__check-wrap {
+    box-sizing: border-box;
+  }
+
+  #wrap .falcility-contact .mailform .content .mailform__inner table td input {
+    box-sizing: border-box;
+  }
+
+  .contact-option__item {
+    height: calc(341px - 50px);
+  }
+}
+
+a.facility-premium__price-btn {
+  color: #fff;
+}
+
+.facility-premium__pdf-img {
+  width: 230px;
+  margin: 0 auto;
+}
